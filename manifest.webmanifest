@@ -1,0 +1,10 @@
+{
+  "name": "ANIME LOG. 2026 動漫新番檢核平台",
+  "short_name": "ANIME LOG.",
+  "description": "2026 春・夏・秋三季新番檢核清單與 AI 推薦提示包工具",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "icons": []
+}
