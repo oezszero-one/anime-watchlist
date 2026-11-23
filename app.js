@@ -2,13 +2,28 @@
   "use strict";
 
   const STORAGE_KEY = "anime_log_watchlist_v1";
-  const COVER_CACHE_KEY = "anime_log_covers_v1";
+  const COVER_CACHE_KEY = "anime_log_covers_v2";
+  const THEME_KEY = "anime_log_theme_v1";
+  const PAGE_SIZE = 40;
+
   const STATUS_LABELS = {
     unwatched: "沒看過",
     watched: "看過",
     liked: "喜歡",
     disliked: "不喜歡"
   };
+
+  const SEASON_META = {
+    "2026-winter": { year: 2026, part: "winter", label: "2026 冬季", shortLabel: "2026 冬" },
+    "2026-spring": { year: 2026, part: "spring", label: "2026 春季", shortLabel: "2026 春" },
+    "2026-summer": { year: 2026, part: "summer", label: "2026 夏季", shortLabel: "2026 夏" },
+    "2026-fall":   { year: 2026, part: "fall",   label: "2026 秋季", shortLabel: "2026 秋" },
+    "2025-winter": { year: 2025, part: "winter", label: "2025 冬季", shortLabel: "2025 冬" },
+    "2025-spring": { year: 2025, part: "spring", label: "2025 春季", shortLabel: "2025 春" },
+    "2025-summer": { year: 2025, part: "summer", label: "2025 夏季", shortLabel: "2025 夏" },
+    "2025-fall":   { year: 2025, part: "fall",   label: "2025 秋季", shortLabel: "2025 秋" }
+  };
+
   const WEEKDAY_ORDER = {
     "星期一": 1,
     "星期二": 2,
@@ -45,7 +60,42 @@
     }
   };
 
-  // 自動偵測是否為手機裝置
+  // 淺色／深色主題管理
+  const ThemeManager = {
+    current: "dark",
+    init() {
+      let saved = null;
+      try {
+        saved = window.localStorage.getItem(THEME_KEY);
+      } catch (e) {
+        saved = null;
+      }
+      this.apply(saved === "light" ? "light" : "dark", false);
+    },
+    apply(theme, persist) {
+      this.current = theme;
+      const html = document.documentElement;
+      html.classList.remove("dark", "light");
+      html.classList.add(theme);
+      const sun = document.getElementById("icon-sun");
+      const moon = document.getElementById("icon-moon");
+      if (sun && moon) {
+        sun.classList.toggle("hidden", theme !== "dark");
+        moon.classList.toggle("hidden", theme !== "light");
+      }
+      if (persist) {
+        try {
+          window.localStorage.setItem(THEME_KEY, theme);
+        } catch (e) {
+          // 忽略儲存錯誤
+        }
+      }
+    },
+    toggle() {
+      this.apply(this.current === "dark" ? "light" : "dark", true);
+    }
+  };
+
   function detectMobileDevice() {
     const uaMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
       navigator.userAgent || ""
@@ -57,25 +107,76 @@
     return uaMobile || narrowScreen || coarsePointer;
   }
 
-  // 動漫縮圖快取與非同步載入器（透過公開 CORS 支援的 AniList GraphQL API）
+  function cleanJpTitle(title) {
+    return String(title || "")
+      .replace(/[～〜~].*?[～〜~]/g, " ")
+      .replace(/[（(].*?[）)]/g, " ")
+      .replace(
+        /(第\d+期|第\d+クール|Season\s*\d+|2nd\s*Season|3rd\s*Season|4th\s*Season|FINAL\s*SEASON|Part\s*\d+|後編|前編|前半|後半|最終章)/gi,
+        " "
+      )
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  // 升級版封面管理：優先用預寫 coverUrl，否則透過 IntersectionObserver 依可視區域抓取（AniList + Jikan 雙來源備援）
   const CoverArtManager = {
     cache: {},
     pending: new Set(),
     failed: new Set(),
     queue: [],
     running: false,
+    observer: null,
 
     init() {
       try {
         const raw = window.localStorage.getItem(COVER_CACHE_KEY);
         if (raw) {
           const parsed = JSON.parse(raw);
-          if (parsed && typeof parsed === "object") {
-            this.cache = parsed;
-          }
+          if (parsed && typeof parsed === "object") this.cache = parsed;
         }
       } catch (e) {
         this.cache = {};
+      }
+
+      if (typeof IntersectionObserver !== "undefined") {
+        this.observer = new IntersectionObserver(
+          (entries) => {
+            const visibleBatch = [];
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const el = entry.target;
+              this.observer.unobserve(el);
+              const animeId = el.dataset.posterId;
+              const anime = animeMap.get(animeId);
+              if (anime && !this.getUrl(anime)) {
+                visibleBatch.push(anime);
+              }
+            });
+            if (visibleBatch.length > 0) this.enqueue(visibleBatch);
+          },
+          { rootMargin: "240px 0px" }
+        );
+      }
+    },
+
+    observeRenderedPosters(rootEl) {
+      if (!rootEl) return;
+      const boxes = rootEl.querySelectorAll("[data-poster-id]");
+      if (this.observer) {
+        boxes.forEach((box) => {
+          const anime = animeMap.get(box.dataset.posterId);
+          if (anime && !this.getUrl(anime)) {
+            this.observer.observe(box);
+          }
+        });
+      } else {
+        const fallbackBatch = [];
+        boxes.forEach((box) => {
+          const anime = animeMap.get(box.dataset.posterId);
+          if (anime && !this.getUrl(anime)) fallbackBatch.push(anime);
+        });
+        this.enqueue(fallbackBatch.slice(0, 15));
       }
     },
 
@@ -83,26 +184,26 @@
       try {
         window.localStorage.setItem(COVER_CACHE_KEY, JSON.stringify(this.cache));
       } catch (e) {
-        // 忽略儲存空間限制
+        // 忽略配額限制
       }
     },
 
-    getUrl(animeId) {
-      return this.cache[animeId] || null;
+    getUrl(anime) {
+      if (!anime) return null;
+      if (anime.coverUrl) return anime.coverUrl;
+      return this.cache[anime.id] || null;
     },
 
-    enqueue(animeListToFetch) {
+    enqueue(items) {
       let added = false;
-      animeListToFetch.forEach((a) => {
+      items.forEach((a) => {
         if (!a || !a.id) return;
-        if (this.cache[a.id] || this.pending.has(a.id) || this.failed.has(a.id)) return;
+        if (this.getUrl(a) || this.pending.has(a.id) || this.failed.has(a.id)) return;
         this.pending.add(a.id);
         this.queue.push(a);
         added = true;
       });
-      if (added && !this.running) {
-        this.processQueue();
-      }
+      if (added && !this.running) this.processQueue();
     },
 
     async processQueue() {
@@ -111,42 +212,72 @@
       while (this.queue.length > 0) {
         const anime = this.queue.shift();
         await this.fetchOne(anime);
-        // 禮貌性間隔，避免觸發 API 速率限制
-        await new Promise((r) => setTimeout(r, 220));
+        await new Promise((r) => setTimeout(r, 260));
       }
       this.running = false;
     },
 
-    async fetchOne(anime) {
-      const searchTitle = anime.titleJp || anime.titleZh;
+    async fetchAniList(searchTitle) {
       const query = `
         query ($search: String) {
           Media(search: $search, type: ANIME, sort: SEARCH_MATCH) {
-            coverImage {
-              large
-              medium
-            }
+            coverImage { large medium }
           }
         }
       `;
       try {
         const res = await fetch("https://graphql.anilist.co", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json"
-          },
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify({ query, variables: { search: searchTitle } })
         });
-        if (!res.ok) {
-          this.failed.add(anime.id);
-          return;
-        }
+        if (!res.ok) return null;
         const json = await res.json();
-        const imgUrl =
+        return (
           json?.data?.Media?.coverImage?.large ||
           json?.data?.Media?.coverImage?.medium ||
-          null;
+          null
+        );
+      } catch (e) {
+        return null;
+      }
+    },
+
+    async fetchJikan(searchTitle) {
+      try {
+        const url = `https://api.jikan.moe/v4/anime?q=${encodeURIComponent(searchTitle)}&limit=1`;
+        const res = await fetch(url, { headers: { Accept: "application/json" } });
+        if (!res.ok) return null;
+        const json = await res.json();
+        const first = json?.data?.[0];
+        return (
+          first?.images?.jpg?.large_image_url ||
+          first?.images?.jpg?.image_url ||
+          null
+        );
+      } catch (e) {
+        return null;
+      }
+    },
+
+    async fetchOne(anime) {
+      try {
+        const rawJp = (anime.titleJp || anime.titleZh || "").trim();
+        const cleaned = cleanJpTitle(rawJp);
+        const candidates = cleaned && cleaned !== rawJp ? [rawJp, cleaned] : [rawJp];
+
+        let imgUrl = null;
+        for (const q of candidates) {
+          imgUrl = await this.fetchAniList(q);
+          if (imgUrl) break;
+        }
+        if (!imgUrl) {
+          for (const q of candidates) {
+            imgUrl = await this.fetchJikan(q);
+            if (imgUrl) break;
+          }
+        }
+
         if (imgUrl) {
           this.cache[anime.id] = imgUrl;
           this.saveCache();
@@ -154,8 +285,6 @@
         } else {
           this.failed.add(anime.id);
         }
-      } catch (e) {
-        this.failed.add(anime.id);
       } finally {
         this.pending.delete(anime.id);
       }
@@ -176,11 +305,10 @@
     }
   };
 
-  CoverArtManager.init();
-
-  const animeList = Array.isArray(window.ANIME_DATA) ? window.ANIME_DATA : [];
-  const seasonMeta = window.ANIME_SEASON_META || {};
-  const animeMap = new Map(animeList.map((item) => [item.id, item]));
+  let animeList = [];
+  let animeMap = new Map();
+  let genreCountsAll = {};
+  let allGenres = [];
 
   let store = StorageAdapter.load();
   let lastSnapshot = null;
@@ -189,32 +317,80 @@
 
   const state = {
     view: "home",
-    catalogSeason: "all",
+    homeYear: "2026",
+    catalogYear: "2026",
+    catalogSeasonPart: "all",
     catalogSearch: "",
     catalogStatus: "all",
     catalogWeekday: "all",
     catalogGenre: "all",
     catalogDisplayMode: isInitialMobile ? "card" : "list",
+    catalogLimit: PAGE_SIZE,
     singleIndex: 0,
     singleAutoNext: true,
     mylistSearch: "",
-    mylistSeason: "all",
+    mylistYear: "all",
     mylistStatus: "all",
     mylistSort: "updated",
     aiSeasonScope: "all",
-    aiExcludeShorts: true
+    aiExcludeShorts: true,
+    aiHideR18: true
   };
 
-  // 收集並排序所有類型標籤（依出現頻率由高到低）
-  const genreCountsAll = {};
-  animeList.forEach((a) => {
-    (a.genres || []).forEach((g) => {
-      genreCountsAll[g] = (genreCountsAll[g] || 0) + 1;
+  function isR18Anime(anime) {
+    return Array.isArray(anime.genres) && anime.genres.includes("R18");
+  }
+
+  function rebuildIndexes() {
+    animeMap = new Map(animeList.map((item) => [item.id, item]));
+    genreCountsAll = {};
+    animeList.forEach((a) => {
+      (a.genres || []).forEach((g) => {
+        genreCountsAll[g] = (genreCountsAll[g] || 0) + 1;
+      });
     });
-  });
-  const allGenres = Object.keys(genreCountsAll).sort(
-    (a, b) => genreCountsAll[b] - genreCountsAll[a]
-  );
+    allGenres = Object.keys(genreCountsAll).sort((a, b) => {
+      if (a === "R18") return 1;
+      if (b === "R18") return -1;
+      return genreCountsAll[b] - genreCountsAll[a];
+    });
+
+    const sub = document.getElementById("header-subtitle");
+    if (sub) {
+      sub.textContent = `Watch. Rate. Discover. · 共 ${animeList.length} 部新番`;
+    }
+    const allTotalEl = document.getElementById("stat-all-total");
+    if (allTotalEl) {
+      allTotalEl.textContent = `/ ${animeList.length} 部`;
+    }
+  }
+
+  async function loadAllYearDatasets() {
+    // 優先讀取單檔預覽模式內嵌資料；部署於 GitHub Pages 時動態 fetch 分年 JSON
+    if (window.ANIME_DATA_BY_YEAR && typeof window.ANIME_DATA_BY_YEAR === "object") {
+      const y2026 = Array.isArray(window.ANIME_DATA_BY_YEAR[2026]) ? window.ANIME_DATA_BY_YEAR[2026] : [];
+      const y2025 = Array.isArray(window.ANIME_DATA_BY_YEAR[2025]) ? window.ANIME_DATA_BY_YEAR[2025] : [];
+      animeList = [...y2026, ...y2025];
+      rebuildIndexes();
+      return;
+    }
+
+    const years = [2026, 2025];
+    const results = await Promise.all(
+      years.map(async (y) => {
+        try {
+          const res = await fetch(`./data-${y}.json`);
+          if (!res.ok) return [];
+          const json = await res.json();
+          return Array.isArray(json) ? json : [];
+        } catch (e) {
+          return [];
+        }
+      })
+    );
+    animeList = results.flat();
+    rebuildIndexes();
+  }
 
   function getStatus(animeId) {
     const entry = store.items[animeId];
@@ -253,7 +429,6 @@
     const title = anime ? anime.titleZh : "作品";
     showToast(`「${title}」已標記為「${STATUS_LABELS[nextStatus]}」`, !skipUndo);
 
-    // 若在單張模式且開啟自動下一部，且目前狀態篩選為 all（不會自動從清單消失）時，順暢切到下一部
     const shouldAdvance =
       !skipUndo &&
       state.view === "catalog" &&
@@ -282,17 +457,11 @@
     if (!toast || !msgEl || !undoBtn) return;
 
     msgEl.textContent = message;
-    if (canUndo && lastSnapshot) {
-      undoBtn.classList.remove("hidden");
-    } else {
-      undoBtn.classList.add("hidden");
-    }
+    undoBtn.classList.toggle("hidden", !(canUndo && lastSnapshot));
 
     toast.classList.remove("hidden");
     if (toastTimer) clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => {
-      toast.classList.add("hidden");
-    }, 3600);
+    toastTimer = setTimeout(() => toast.classList.add("hidden"), 3600);
   }
 
   function openConfirm(title, body, onConfirm) {
@@ -340,15 +509,19 @@
     document.querySelectorAll(".nav-btn").forEach((btn) => {
       const active = btn.dataset.nav === nextView;
       btn.className = active
-        ? "nav-btn px-3.5 py-1.5 rounded-lg text-sm font-semibold bg-violet-600 text-white shadow transition"
-        : "nav-btn px-3.5 py-1.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/70 transition";
+        ? "nav-btn px-3 py-1.5 rounded-lg text-sm font-semibold bg-violet-600 text-white shadow transition"
+        : "nav-btn px-3 py-1.5 rounded-lg text-sm font-medium text-sub hover:text-main transition";
     });
 
     document.querySelectorAll(".mobile-nav-btn").forEach((btn) => {
       const active = btn.dataset.nav === nextView;
       btn.className = active
-        ? "mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-semibold text-violet-400"
-        : "mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-slate-400";
+        ? "mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-semibold text-violet-500"
+        : "mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-dim";
+    });
+
+    document.querySelectorAll(".mobile-top-about").forEach((btn) => {
+      btn.classList.toggle("pill-active", nextView === "about");
     });
 
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -389,37 +562,47 @@
     if (rateEl) rateEl.textContent = overall.likeRate !== null ? `${overall.likeRate}%` : "—";
     if (dislikedHintEl) dislikedHintEl.textContent = `${overall.disliked} 部不喜歡`;
 
+    document.querySelectorAll(".home-year-btn").forEach((btn) => {
+      const active = btn.dataset.homeYear === state.homeYear;
+      btn.className = active
+        ? "home-year-btn px-2.5 py-1 rounded-md font-semibold bg-violet-600 text-white transition"
+        : "home-year-btn px-2.5 py-1 rounded-md font-medium text-dim hover:text-main transition";
+    });
+
     const seasonContainer = document.getElementById("home-season-cards");
     if (seasonContainer) {
-      const keys = ["2026-spring", "2026-summer", "2026-fall"];
+      const y = state.homeYear;
+      const keys = [`${y}-winter`, `${y}-spring`, `${y}-summer`, `${y}-fall`];
       seasonContainer.innerHTML = keys
         .map((key) => {
-          const meta = seasonMeta[key] || { label: key, shortLabel: "" };
+          const meta = SEASON_META[key] || { label: key, part: "all" };
           const subset = animeList.filter((a) => a.season === key);
           const s = computeStats(subset);
           const pct = s.total > 0 ? Math.round((s.ratedTotal / s.total) * 100) : 0;
           return `
-            <button type="button" data-jump-season="${key}" class="text-left rounded-2xl p-4 bg-[#121826] hover:bg-[#171f31] border border-slate-800/80 hover:border-violet-500/40 transition space-y-2.5">
+            <button type="button" data-jump-year="${y}" data-jump-part="${meta.part}" class="text-left rounded-2xl p-4 surface-card hover:border-violet-500/45 transition space-y-2.5">
               <div class="flex items-center justify-between">
-                <span class="text-sm font-bold text-white">${escapeHtml(meta.label)}</span>
-                <span class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300">${s.total} 部</span>
+                <span class="text-sm font-bold text-main">${escapeHtml(meta.label)}</span>
+                <span class="text-xs px-2 py-0.5 rounded-full surface-chip">${s.total} 部</span>
               </div>
-              <div class="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+              <div class="w-full h-1.5 rounded-full bg-slate-500/20 overflow-hidden">
                 <div class="h-full bg-gradient-to-r from-violet-500 to-indigo-500 rounded-full" style="width:${pct}%"></div>
               </div>
-              <div class="flex items-center justify-between text-xs text-slate-400">
+              <div class="flex items-center justify-between text-xs text-dim">
                 <span>已標記 ${s.ratedTotal} 部（${pct}%）</span>
-                <span class="text-rose-300">喜歡 ${s.liked}</span>
+                <span class="text-rose-500 font-medium">喜歡 ${s.liked}</span>
               </div>
             </button>
           `;
         })
         .join("");
 
-      seasonContainer.querySelectorAll("[data-jump-season]").forEach((btn) => {
+      seasonContainer.querySelectorAll("[data-jump-year]").forEach((btn) => {
         btn.addEventListener("click", () => {
-          state.catalogSeason = btn.dataset.jumpSeason;
+          state.catalogYear = btn.dataset.jumpYear;
+          state.catalogSeasonPart = btn.dataset.jumpPart;
           state.singleIndex = 0;
+          state.catalogLimit = PAGE_SIZE;
           switchView("catalog");
         });
       });
@@ -430,7 +613,7 @@
       const likedAnime = animeList.filter((a) => getStatus(a.id) === "liked");
       if (likedAnime.length === 0) {
         genreBars.innerHTML = `
-          <div class="rounded-xl bg-slate-900/60 border border-dashed border-slate-700 p-4 text-center text-xs sm:text-sm text-slate-400">
+          <div class="rounded-xl surface-stat border-dashed p-4 text-center text-xs sm:text-sm text-dim">
             你尚未標記任何「喜歡」的作品。前往「新番檢核」標記幾部喜歡的作品，這裡就會自動分析你的偏好類型！
           </div>
         `;
@@ -452,10 +635,10 @@
             return `
               <div class="space-y-1">
                 <div class="flex items-center justify-between text-xs">
-                  <span class="font-medium text-slate-200">${escapeHtml(genre)}</span>
-                  <span class="text-slate-400">${count} 部喜歡</span>
+                  <span class="font-medium text-main">${escapeHtml(genre)}</span>
+                  <span class="text-dim">${count} 部喜歡</span>
                 </div>
-                <div class="w-full h-2 rounded-full bg-slate-800/90 overflow-hidden">
+                <div class="w-full h-2 rounded-full bg-slate-500/20 overflow-hidden">
                   <div class="h-full rounded-full bg-gradient-to-r from-rose-500 to-violet-500" style="width:${widthPct}%"></div>
                 </div>
               </div>
@@ -467,8 +650,8 @@
   }
 
   function renderPosterHtml(anime, sizeClasses, isLarge) {
-    const coverUrl = CoverArtManager.getUrl(anime.id);
-    const meta = seasonMeta[anime.season] || { shortLabel: anime.season };
+    const coverUrl = CoverArtManager.getUrl(anime);
+    const meta = SEASON_META[anime.season] || { shortLabel: anime.season };
     const mainGenre = (anime.genres && anime.genres[0]) || "動畫";
     const imgHidden = coverUrl ? "" : "hidden";
     const fallbackHidden = coverUrl ? "hidden" : "";
@@ -476,32 +659,40 @@
 
     return `
       <div data-poster-id="${escapeHtml(anime.id)}" class="poster-box ${sizeClasses} rounded-xl shrink-0">
-        <img ${srcAttr} alt="${escapeHtml(anime.titleZh)}" loading="lazy" class="${imgHidden}" onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden');" />
+        <img ${srcAttr} alt="${escapeHtml(anime.titleZh)}" loading="lazy" referrerpolicy="no-referrer" class="${imgHidden}" onerror="this.classList.add('hidden'); if(this.nextElementSibling) this.nextElementSibling.classList.remove('hidden');" />
         <div data-poster-fallback class="${fallbackHidden} w-full h-full flex flex-col items-center justify-center p-2 text-center select-none bg-gradient-to-br from-violet-950/90 via-slate-900 to-indigo-950/90">
-          <svg class="${isLarge ? "w-9 h-9 mb-2" : "w-5 h-5 mb-1"} text-violet-400/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <svg class="${isLarge ? "w-9 h-9 mb-2" : "w-5 h-5 mb-1"} text-violet-400/75" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
           </svg>
-          <span class="${isLarge ? "text-xs px-2 py-0.5" : "text-[9px] px-1.5 py-0.5"} rounded bg-violet-500/20 text-violet-200 font-semibold mb-1">${escapeHtml(mainGenre)}</span>
-          <span class="${isLarge ? "text-xs line-clamp-3 px-2" : "text-[10px] line-clamp-2"} text-slate-300/90 font-medium leading-tight">${escapeHtml(anime.titleZh)}</span>
-          ${isLarge ? `<span class="text-[10px] text-slate-500 mt-1">${escapeHtml(meta.shortLabel || "")}</span>` : ""}
+          <span class="${isLarge ? "text-xs px-2 py-0.5" : "text-[9px] px-1.5 py-0.5"} rounded bg-violet-500/25 text-violet-200 font-semibold mb-1">${escapeHtml(mainGenre)}</span>
+          <span class="${isLarge ? "text-xs line-clamp-3 px-2" : "text-[10px] line-clamp-2"} text-slate-200 font-medium leading-tight">${escapeHtml(anime.titleZh)}</span>
+          ${isLarge ? `<span class="text-[10px] text-slate-400 mt-1">${escapeHtml(meta.shortLabel || "")}</span>` : ""}
         </div>
       </div>
     `;
   }
 
+  function renderGenreBadges(genres, isLarge) {
+    return (genres || [])
+      .map((g) => {
+        const cls =
+          g === "R18"
+            ? "badge-r18"
+            : "surface-chip";
+        const pad = isLarge ? "text-xs px-2.5 py-1 rounded-lg" : "text-[11px] px-2 py-0.5 rounded-md";
+        return `<span class="inline-block ${pad} ${cls}">${escapeHtml(g)}</span>`;
+      })
+      .join("");
+  }
+
   function renderAnimeCard(anime) {
     const status = getStatus(anime.id);
-    const meta = seasonMeta[anime.season] || { shortLabel: anime.season };
+    const meta = SEASON_META[anime.season] || { shortLabel: anime.season };
     const weekdayText = anime.weekdayNote
       ? `${anime.weekday}（${anime.weekdayNote}）`
       : anime.weekday;
 
-    const genreHtml = (anime.genres || [])
-      .map(
-        (g) =>
-          `<span class="inline-block text-[11px] px-2 py-0.5 rounded-md bg-slate-800/90 text-slate-300 border border-slate-700/70">${escapeHtml(g)}</span>`
-      )
-      .join("");
+    const genreHtml = renderGenreBadges(anime.genres, false);
 
     const buttons = [
       { key: "unwatched", label: "沒看過" },
@@ -523,13 +714,13 @@
         <div class="flex gap-3 min-w-0">
           ${posterHtml}
           <div class="flex-1 min-w-0 space-y-1.5">
-            <div class="flex items-center justify-between gap-2 text-[11px] text-slate-400">
-              <span class="px-2 py-0.5 rounded-md bg-violet-500/15 text-violet-300 border border-violet-500/25 font-medium shrink-0">${escapeHtml(meta.shortLabel || anime.season)}</span>
+            <div class="flex items-center justify-between gap-2 text-[11px] text-dim">
+              <span class="px-2 py-0.5 rounded-md bg-violet-500/15 text-violet-600 dark:text-violet-300 border border-violet-500/25 font-medium shrink-0">${escapeHtml(meta.shortLabel || anime.season)}</span>
               <span class="truncate">${escapeHtml(weekdayText)}</span>
             </div>
             <div>
-              <h3 class="text-sm sm:text-base font-bold text-white leading-snug line-clamp-2">${escapeHtml(anime.titleZh)}</h3>
-              <p class="text-xs text-slate-400 mt-0.5 truncate">${escapeHtml(anime.titleJp)}</p>
+              <h3 class="text-sm sm:text-base font-bold text-main leading-snug line-clamp-2">${escapeHtml(anime.titleZh)}</h3>
+              <p class="text-xs text-dim mt-0.5 truncate">${escapeHtml(anime.titleJp)}</p>
             </div>
             <div class="flex flex-wrap gap-1 pt-0.5">${genreHtml}</div>
           </div>
@@ -541,17 +732,12 @@
 
   function renderSingleAnimeCard(anime) {
     const status = getStatus(anime.id);
-    const meta = seasonMeta[anime.season] || { shortLabel: anime.season };
+    const meta = SEASON_META[anime.season] || { label: anime.season };
     const weekdayText = anime.weekdayNote
       ? `${anime.weekday}（${anime.weekdayNote}）`
       : anime.weekday;
 
-    const genreHtml = (anime.genres || [])
-      .map(
-        (g) =>
-          `<span class="inline-block text-xs px-2.5 py-1 rounded-lg bg-slate-800/90 text-slate-200 border border-slate-700/80">${escapeHtml(g)}</span>`
-      )
-      .join("");
+    const genreHtml = renderGenreBadges(anime.genres, true);
 
     const buttons = [
       { key: "unwatched", label: "沒看過" },
@@ -566,26 +752,26 @@
       })
       .join("");
 
-    const posterHtml = renderPosterHtml(anime, "w-44 h-64 sm:w-52 sm:h-72 mx-auto shadow-2xl", true);
+    const posterHtml = renderPosterHtml(anime, "w-44 h-64 sm:w-52 sm:h-72 mx-auto shadow-xl", true);
 
     return `
       <article class="anime-card rounded-3xl p-5 flex flex-col items-center text-center gap-4" data-status="${status}">
-        <div class="w-full flex items-center justify-between text-xs text-slate-400">
-          <span class="px-2.5 py-1 rounded-lg bg-violet-500/15 text-violet-300 border border-violet-500/25 font-semibold">${escapeHtml(meta.label || anime.season)}</span>
+        <div class="w-full flex items-center justify-between text-xs text-dim">
+          <span class="px-2.5 py-1 rounded-lg bg-violet-500/15 text-violet-600 dark:text-violet-300 border border-violet-500/25 font-semibold">${escapeHtml(meta.label || anime.season)}</span>
           <span>${escapeHtml(weekdayText)}</span>
         </div>
 
         ${posterHtml}
 
         <div class="space-y-1.5 w-full">
-          <h3 class="text-lg sm:text-xl font-bold text-white leading-snug">${escapeHtml(anime.titleZh)}</h3>
-          <p class="text-xs sm:text-sm text-slate-400">${escapeHtml(anime.titleJp)}</p>
+          <h3 class="text-lg sm:text-xl font-bold text-main leading-snug">${escapeHtml(anime.titleZh)}</h3>
+          <p class="text-xs sm:text-sm text-dim">${escapeHtml(anime.titleJp)}</p>
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-1.5">${genreHtml}</div>
 
         <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">${buttons}</div>
-        <p class="text-[11px] text-slate-500">提示：可左右滑動卡片或使用下方按鈕切換作品</p>
+        <p class="text-[11px] text-dim">提示：可左右滑動卡片或使用下方按鈕切換作品</p>
       </article>
     `;
   }
@@ -593,7 +779,11 @@
   function getFilteredCatalog() {
     const kw = state.catalogSearch.trim().toLowerCase();
     return animeList.filter((a) => {
-      if (state.catalogSeason !== "all" && a.season !== state.catalogSeason) return false;
+      if (state.catalogYear !== "all" && String(a.year) !== state.catalogYear) return false;
+      if (state.catalogSeasonPart !== "all") {
+        const meta = SEASON_META[a.season];
+        if (!meta || meta.part !== state.catalogSeasonPart) return false;
+      }
       if (state.catalogStatus !== "all" && getStatus(a.id) !== state.catalogStatus) return false;
       if (state.catalogWeekday !== "all" && a.weekday !== state.catalogWeekday) return false;
       if (state.catalogGenre !== "all" && !(a.genres || []).includes(state.catalogGenre)) return false;
@@ -607,12 +797,19 @@
   }
 
   function renderCatalog() {
-    // 顯示模式按鈕高亮
+    document.querySelectorAll(".year-tab").forEach((btn) => {
+      btn.classList.toggle("pill-active", btn.dataset.year === state.catalogYear);
+    });
+
+    document.querySelectorAll(".season-tab").forEach((btn) => {
+      btn.classList.toggle("pill-active", btn.dataset.seasonPart === state.catalogSeasonPart);
+    });
+
     document.querySelectorAll(".display-mode-btn").forEach((btn) => {
       const active = btn.dataset.displayMode === state.catalogDisplayMode;
       btn.className = active
         ? "display-mode-btn px-2.5 py-1.5 rounded-lg text-xs font-semibold bg-violet-600 text-white shadow transition flex items-center gap-1"
-        : "display-mode-btn px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition flex items-center gap-1";
+        : "display-mode-btn px-2.5 py-1.5 rounded-lg text-xs font-medium text-dim hover:text-main transition flex items-center gap-1";
     });
 
     const hintEl = document.getElementById("device-mode-hint");
@@ -622,32 +819,18 @@
         : "點擊按鈕即自動存檔";
     }
 
-    // 季度 Tabs 高亮
-    document.querySelectorAll(".season-tab").forEach((btn) => {
-      const active = btn.dataset.season === state.catalogSeason;
-      btn.className = active
-        ? "season-tab pill-active px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition"
-        : "season-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-700/80 bg-slate-900 text-slate-300 hover:bg-slate-800 transition";
-    });
-
-    // 狀態 Tabs 高亮
     document.querySelectorAll(".status-filter-tab").forEach((btn) => {
-      const active = btn.dataset.status === state.catalogStatus;
-      btn.className = active
-        ? "status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold bg-violet-600 text-white border border-violet-500 transition"
-        : "status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300 hover:bg-slate-800 transition";
+      btn.classList.toggle("pill-active", btn.dataset.status === state.catalogStatus);
     });
 
-    // 類型 Chips
     const genreWrap = document.getElementById("catalog-genre-chips");
     if (genreWrap) {
       const chips = ["all", ...allGenres]
         .map((g) => {
           const active = state.catalogGenre === g;
           const label = g === "all" ? "全部類型" : `${g} (${genreCountsAll[g]})`;
-          const cls = active
-            ? "genre-chip-active"
-            : "bg-slate-900 text-slate-300 border-slate-700/80 hover:bg-slate-800";
+          let cls = active ? "genre-chip-active" : "surface-pill";
+          if (!active && g === "R18") cls = "badge-r18";
           return `<button type="button" data-genre="${escapeHtml(g)}" class="genre-chip shrink-0 px-2.5 py-1 rounded-lg text-xs border transition ${cls}">${escapeHtml(label)}</button>`;
         })
         .join("");
@@ -656,6 +839,7 @@
         btn.addEventListener("click", () => {
           state.catalogGenre = btn.dataset.genre;
           state.singleIndex = 0;
+          state.catalogLimit = PAGE_SIZE;
           renderCatalog();
         });
       });
@@ -671,14 +855,17 @@
 
     const filtered = getFilteredCatalog();
     const countEl = document.getElementById("catalog-result-count");
-    if (countEl) countEl.textContent = `顯示 ${filtered.length} 部作品`;
+    if (countEl) countEl.textContent = `符合條件共 ${filtered.length} 部作品`;
 
     const listEl = document.getElementById("catalog-list");
+    const loadMoreWrap = document.getElementById("catalog-load-more-wrap");
+    const loadMoreBtn = document.getElementById("btn-load-more");
     const singleWrap = document.getElementById("catalog-single-wrap");
     if (!listEl || !singleWrap) return;
 
     if (state.catalogDisplayMode === "card") {
       listEl.classList.add("hidden");
+      if (loadMoreWrap) loadMoreWrap.classList.add("hidden");
       singleWrap.classList.remove("hidden");
 
       const stage = document.getElementById("single-card-stage");
@@ -694,7 +881,7 @@
         if (nextBtn) nextBtn.disabled = true;
         if (stage) {
           stage.innerHTML = `
-            <div class="rounded-2xl bg-[#121826] border border-dashed border-slate-700 p-8 text-center text-sm text-slate-400">
+            <div class="rounded-2xl surface-card border-dashed p-8 text-center text-sm text-dim">
               找不到符合目前條件的作品，試著清除部分篩選條件吧。
             </div>
           `;
@@ -713,7 +900,7 @@
         if (nextBtn) nextBtn.disabled = state.singleIndex >= total - 1;
         if (stage) stage.innerHTML = renderSingleAnimeCard(currentAnime);
 
-        // 預載目前與接下來 3 部的縮圖
+        // 預載目前與接下來 3 部封面
         CoverArtManager.enqueue(filtered.slice(state.singleIndex, state.singleIndex + 4));
       }
     } else {
@@ -722,14 +909,25 @@
 
       if (filtered.length === 0) {
         listEl.innerHTML = `
-          <div class="col-span-full rounded-2xl bg-[#121826] border border-dashed border-slate-700 p-8 text-center text-sm text-slate-400">
+          <div class="col-span-full rounded-2xl surface-card border-dashed p-8 text-center text-sm text-dim">
             找不到符合目前條件的作品，試著清除部分篩選條件吧。
           </div>
         `;
+        if (loadMoreWrap) loadMoreWrap.classList.add("hidden");
       } else {
-        listEl.innerHTML = filtered.map(renderAnimeCard).join("");
-        // 優先載入前 20 部縮圖
-        CoverArtManager.enqueue(filtered.slice(0, 20));
+        const visibleItems = filtered.slice(0, state.catalogLimit);
+        listEl.innerHTML = visibleItems.map(renderAnimeCard).join("");
+        CoverArtManager.observeRenderedPosters(listEl);
+
+        const remaining = filtered.length - visibleItems.length;
+        if (loadMoreWrap && loadMoreBtn) {
+          if (remaining > 0) {
+            loadMoreWrap.classList.remove("hidden");
+            loadMoreBtn.textContent = `載入更多作品（還有 ${remaining} 部）`;
+          } else {
+            loadMoreWrap.classList.add("hidden");
+          }
+        }
       }
     }
   }
@@ -739,7 +937,7 @@
     let items = animeList.filter((a) => getStatus(a.id) !== "unwatched");
 
     items = items.filter((a) => {
-      if (state.mylistSeason !== "all" && a.season !== state.mylistSeason) return false;
+      if (state.mylistYear !== "all" && String(a.year) !== state.mylistYear) return false;
       if (state.mylistStatus !== "all" && getStatus(a.id) !== state.mylistStatus) return false;
       if (kw) {
         const zh = (a.titleZh || "").toLowerCase();
@@ -766,27 +964,33 @@
     if (container) {
       if (items.length === 0) {
         container.innerHTML = `
-          <div class="col-span-full rounded-2xl bg-[#121826] border border-dashed border-slate-700 p-8 text-center space-y-2">
-            <p class="text-sm text-slate-300 font-medium">目前沒有符合條件的追番紀錄</p>
-            <p class="text-xs text-slate-400">你可以前往「新番檢核」頁，將看過或喜歡的作品標記起來。</p>
+          <div class="col-span-full rounded-2xl surface-card border-dashed p-8 text-center space-y-2">
+            <p class="text-sm text-main font-medium">目前沒有符合條件的追番紀錄</p>
+            <p class="text-xs text-dim">你可以前往「新番檢核」頁，將看過或喜歡的作品標記起來。</p>
           </div>
         `;
       } else {
         container.innerHTML = items.map(renderAnimeCard).join("");
-        CoverArtManager.enqueue(items.slice(0, 20));
+        CoverArtManager.observeRenderedPosters(container);
       }
     }
   }
 
-  function buildAiPrompt() {
+  function buildAiAndShareData() {
     const scope = state.aiSeasonScope;
     const excludeShorts = state.aiExcludeShorts;
+    const hideR18 = state.aiHideR18;
 
-    const likedList = animeList.filter((a) => getStatus(a.id) === "liked");
-    const dislikedList = animeList.filter((a) => getStatus(a.id) === "disliked");
+    const r18Pass = (a) => !(hideR18 && isR18Anime(a));
 
-    let unwatchedCandidates = animeList.filter((a) => getStatus(a.id) === "unwatched");
-    if (scope !== "all") {
+    const likedList = animeList.filter((a) => getStatus(a.id) === "liked" && r18Pass(a));
+    const watchedList = animeList.filter((a) => getStatus(a.id) === "watched" && r18Pass(a));
+    const dislikedList = animeList.filter((a) => getStatus(a.id) === "disliked" && r18Pass(a));
+
+    let unwatchedCandidates = animeList.filter((a) => getStatus(a.id) === "unwatched" && r18Pass(a));
+    if (scope === "2026" || scope === "2025") {
+      unwatchedCandidates = unwatchedCandidates.filter((a) => String(a.year) === scope);
+    } else if (scope !== "all") {
       unwatchedCandidates = unwatchedCandidates.filter((a) => a.season === scope);
     }
     if (excludeShorts) {
@@ -798,6 +1002,7 @@
     const likedGenreCounts = {};
     likedList.forEach((a) => {
       (a.genres || []).forEach((g) => {
+        if (hideR18 && g === "R18") return;
         likedGenreCounts[g] = (likedGenreCounts[g] || 0) + 1;
       });
     });
@@ -809,7 +1014,11 @@
         .join("、") || "尚無足夠喜歡紀錄";
 
     const scopeLabel =
-      scope === "all" ? "2026 春・夏・秋三季" : (seasonMeta[scope]?.label || scope);
+      scope === "all"
+        ? "2025–2026 全部"
+        : scope === "2026" || scope === "2025"
+        ? `${scope} 全年`
+        : SEASON_META[scope]?.label || scope;
 
     const likedLines =
       likedList.length > 0
@@ -826,12 +1035,14 @@
         ? unwatchedCandidates
             .map(
               (a) =>
-                `- [${seasonMeta[a.season]?.shortLabel || a.season}] ${a.titleZh}（${a.titleJp}）| 類型：${(a.genres || []).join("、")}`
+                `- [${SEASON_META[a.season]?.shortLabel || a.season}] ${a.titleZh}（${a.titleJp}）| 類型：${(a.genres || []).join("、")}`
             )
             .join("\n")
         : "（此範圍內沒有沒看過的作品）";
 
-    const promptText = `請擔任我的專屬動漫推薦顧問！以下是我從「ANIME LOG. 2026 新番檢核表」匯出的個人觀影偏好與未看片單：
+    const r18Note = hideR18 ? "（已隱藏 R18 作品）" : "（含 R18 作品）";
+
+    const promptText = `請擔任我的專屬動漫推薦顧問！以下是我從「ANIME LOG. 2025–2026 新番檢核表」匯出的個人觀影偏好與未看片單${r18Note}：
 
 【1. 我的偏好類型統計】
 最常喜歡的類型：${topGenresText}
@@ -851,16 +1062,29 @@ ${candidateLines}
 1. 為什麼符合我的口味（對應到我喜歡的哪幾部或哪種元素）
 2. 是否有任何可能踩雷的風險點`;
 
+    const shareText = `📺 我的 ANIME LOG. 2025–2026 追番片單分享${r18Note}
+偏好類型：${topGenresText}
+
+❤️ 喜歡（${likedList.length} 部）：
+${likedLines}
+
+👀 看過（${watchedList.length} 部）：
+${watchedList.length > 0 ? watchedList.map((a) => `- ${a.titleZh}`).join("\n") : "（無）"}
+
+⚠️ 不喜歡（${dislikedList.length} 部）：
+${dislikedLines}`;
+
     return {
       likedCount: likedList.length,
       dislikedCount: dislikedList.length,
       unwatchedCount: unwatchedCandidates.length,
-      promptText
+      promptText,
+      shareText
     };
   }
 
   function renderAiView() {
-    const res = buildAiPrompt();
+    const res = buildAiAndShareData();
     const likedEl = document.getElementById("ai-liked-count");
     const dislikedEl = document.getElementById("ai-disliked-count");
     const unwatchedEl = document.getElementById("ai-unwatched-count");
@@ -891,58 +1115,121 @@ ${candidateLines}
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
-  function copyText(text) {
+  function copyText(text, successMsg) {
+    const msg = successMsg || "已複製到剪貼簿！";
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
         .writeText(text)
-        .then(() => showToast("已複製 AI 推薦提示詞到剪貼簿！", false))
-        .catch(() => fallbackCopy(text));
+        .then(() => showToast(msg, false))
+        .catch(() => fallbackCopy(text, msg));
     } else {
-      fallbackCopy(text);
+      fallbackCopy(text, msg);
     }
   }
 
-  function fallbackCopy(text) {
-    const previewEl = document.getElementById("ai-prompt-preview");
-    if (previewEl) {
-      previewEl.select();
-      previewEl.setSelectionRange(0, text.length);
-      try {
-        document.execCommand("copy");
-        showToast("已複製 AI 推薦提示詞到剪貼簿！", false);
-        return;
-      } catch (e) {
-        // 忽略失敗
-      }
+  function fallbackCopy(text, msg) {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand("copy");
+      showToast(msg, false);
+    } catch (e) {
+      showToast("請手動全選文字框內容並複製", false);
     }
-    showToast("請手動全選文字框內容並複製", false);
+    document.body.removeChild(ta);
   }
 
-  // 事件委派：處理所有作品卡片狀態按鈕點擊
+  // 事件委派：處理作品狀態點擊
   document.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-set-status]");
     if (!btn) return;
     const animeId = btn.dataset.animeId;
     const nextStatus = btn.dataset.setStatus;
-    if (animeId && nextStatus) {
-      setStatus(animeId, nextStatus, false);
-    }
+    if (animeId && nextStatus) setStatus(animeId, nextStatus, false);
   });
 
-  // 導覽列綁定
+  // 導覽與主題按鈕
   document.querySelectorAll("[data-nav]").forEach((btn) => {
     btn.addEventListener("click", () => switchView(btn.dataset.nav));
   });
+  document.getElementById("btn-theme-toggle")?.addEventListener("click", () => ThemeManager.toggle());
 
-  // 顯示模式切換綁定
+  // 首頁年度切換與快捷按鈕
+  document.querySelectorAll(".home-year-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.homeYear = btn.dataset.homeYear;
+      renderHome();
+    });
+  });
+  document.getElementById("home-goto-catalog")?.addEventListener("click", () => switchView("catalog"));
+  document.getElementById("home-goto-ai")?.addEventListener("click", () => switchView("ai"));
+
+  // 新番頁控制項
+  document.querySelectorAll(".year-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.catalogYear = btn.dataset.year;
+      state.singleIndex = 0;
+      state.catalogLimit = PAGE_SIZE;
+      renderCatalog();
+    });
+  });
+  document.querySelectorAll(".season-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.catalogSeasonPart = btn.dataset.seasonPart;
+      state.singleIndex = 0;
+      state.catalogLimit = PAGE_SIZE;
+      renderCatalog();
+    });
+  });
   document.querySelectorAll(".display-mode-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.catalogDisplayMode = btn.dataset.displayMode;
       renderCatalog();
     });
   });
+  document.querySelectorAll(".status-filter-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.catalogStatus = btn.dataset.status;
+      state.singleIndex = 0;
+      state.catalogLimit = PAGE_SIZE;
+      renderCatalog();
+    });
+  });
+  document.getElementById("catalog-search")?.addEventListener("input", (e) => {
+    state.catalogSearch = e.target.value;
+    state.singleIndex = 0;
+    state.catalogLimit = PAGE_SIZE;
+    renderCatalog();
+  });
+  document.getElementById("catalog-weekday")?.addEventListener("change", (e) => {
+    state.catalogWeekday = e.target.value;
+    state.singleIndex = 0;
+    state.catalogLimit = PAGE_SIZE;
+    renderCatalog();
+  });
+  document.getElementById("catalog-clear-filters")?.addEventListener("click", () => {
+    state.catalogSearch = "";
+    state.catalogStatus = "all";
+    state.catalogWeekday = "all";
+    state.catalogGenre = "all";
+    state.singleIndex = 0;
+    state.catalogLimit = PAGE_SIZE;
+    const sEl = document.getElementById("catalog-search");
+    const wEl = document.getElementById("catalog-weekday");
+    if (sEl) sEl.value = "";
+    if (wEl) wEl.value = "all";
+    renderCatalog();
+  });
+  document.getElementById("btn-load-more")?.addEventListener("click", () => {
+    state.catalogLimit += PAGE_SIZE;
+    renderCatalog();
+  });
 
-  // 單張模式：上一部 / 下一部 / 自動下一部 / 觸控左右滑動
+  // 單張模式控制
   document.getElementById("single-prev-btn")?.addEventListener("click", () => {
     if (state.singleIndex > 0) {
       state.singleIndex -= 1;
@@ -995,11 +1282,7 @@ ${candidateLines}
     );
   }
 
-  // 首頁快捷按鈕
-  document.getElementById("home-goto-catalog")?.addEventListener("click", () => switchView("catalog"));
-  document.getElementById("home-goto-ai")?.addEventListener("click", () => switchView("ai"));
-
-  // 復原按鈕
+  // Toast 復原
   document.getElementById("toast-undo")?.addEventListener("click", () => {
     if (!lastSnapshot) return;
     const { animeId, prevStatus } = lastSnapshot;
@@ -1007,55 +1290,13 @@ ${candidateLines}
     setStatus(animeId, prevStatus, true);
   });
 
-  // 新番頁篩選控制項
-  document.querySelectorAll(".season-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      state.catalogSeason = btn.dataset.season;
-      state.singleIndex = 0;
-      renderCatalog();
-    });
-  });
-
-  document.querySelectorAll(".status-filter-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      state.catalogStatus = btn.dataset.status;
-      state.singleIndex = 0;
-      renderCatalog();
-    });
-  });
-
-  document.getElementById("catalog-search")?.addEventListener("input", (e) => {
-    state.catalogSearch = e.target.value;
-    state.singleIndex = 0;
-    renderCatalog();
-  });
-
-  document.getElementById("catalog-weekday")?.addEventListener("change", (e) => {
-    state.catalogWeekday = e.target.value;
-    state.singleIndex = 0;
-    renderCatalog();
-  });
-
-  document.getElementById("catalog-clear-filters")?.addEventListener("click", () => {
-    state.catalogSearch = "";
-    state.catalogStatus = "all";
-    state.catalogWeekday = "all";
-    state.catalogGenre = "all";
-    state.singleIndex = 0;
-    const sEl = document.getElementById("catalog-search");
-    const wEl = document.getElementById("catalog-weekday");
-    if (sEl) sEl.value = "";
-    if (wEl) wEl.value = "all";
-    renderCatalog();
-  });
-
   // 我的清單控制項
   document.getElementById("mylist-search")?.addEventListener("input", (e) => {
     state.mylistSearch = e.target.value;
     renderMyList();
   });
-  document.getElementById("mylist-season")?.addEventListener("change", (e) => {
-    state.mylistSeason = e.target.value;
+  document.getElementById("mylist-year")?.addEventListener("change", (e) => {
+    state.mylistYear = e.target.value;
     renderMyList();
   });
   document.getElementById("mylist-status")?.addEventListener("change", (e) => {
@@ -1067,14 +1308,14 @@ ${candidateLines}
     renderMyList();
   });
 
-  // 匯出 CSV
   document.getElementById("btn-export-csv")?.addEventListener("click", () => {
-    const header = ["ID", "季度", "繁體中文名稱", "日文原名", "開播星期", "動畫類型", "觀看狀態", "更新時間"];
+    const header = ["ID", "年份", "季度", "繁體中文名稱", "日文原名", "開播星期", "動畫類型", "觀看狀態", "更新時間"];
     const rows = animeList
       .filter((a) => getStatus(a.id) !== "unwatched")
       .map((a) => [
         a.id,
-        seasonMeta[a.season]?.label || a.season,
+        a.year,
+        SEASON_META[a.season]?.label || a.season,
         a.titleZh,
         a.titleJp,
         a.weekday,
@@ -1087,21 +1328,19 @@ ${candidateLines}
       [header, ...rows]
         .map((r) => r.map((cell) => `"${String(cell || "").replace(/"/g, '""')}"`).join(","))
         .join("\n");
-    downloadFile("anime-log-2026.csv", csvContent, "text/csv;charset=utf-8;");
+    downloadFile("anime-log-2025-2026.csv", csvContent, "text/csv;charset=utf-8;");
     showToast(`已匯出 ${rows.length} 筆 CSV 紀錄`, false);
   });
 
-  // 備份 JSON
   document.getElementById("btn-export-json")?.addEventListener("click", () => {
     downloadFile(
-      "anime-log-2026-backup.json",
+      "anime-log-backup.json",
       JSON.stringify(store, null, 2),
       "application/json;charset=utf-8;"
     );
     showToast("已下載 JSON 備份檔", false);
   });
 
-  // 還原 JSON
   document.getElementById("input-import-json")?.addEventListener("change", (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -1125,7 +1364,6 @@ ${candidateLines}
     reader.readAsText(file);
   });
 
-  // 重設全部紀錄
   document.getElementById("btn-clear-all")?.addEventListener("click", () => {
     openConfirm(
       "重設全部追番紀錄",
@@ -1140,7 +1378,7 @@ ${candidateLines}
     );
   });
 
-  // AI 推薦頁控制項
+  // AI 推薦與分享控制項
   document.getElementById("ai-season-scope")?.addEventListener("change", (e) => {
     state.aiSeasonScope = e.target.value;
     renderAiView();
@@ -1149,16 +1387,28 @@ ${candidateLines}
     state.aiExcludeShorts = e.target.checked;
     renderAiView();
   });
+  document.getElementById("ai-hide-r18")?.addEventListener("change", (e) => {
+    state.aiHideR18 = e.target.checked;
+    renderAiView();
+  });
   document.getElementById("btn-copy-ai-prompt")?.addEventListener("click", () => {
-    const { promptText } = buildAiPrompt();
-    copyText(promptText);
+    const { promptText } = buildAiAndShareData();
+    copyText(promptText, "已複製 AI 推薦提示詞到剪貼簿！");
+  });
+  document.getElementById("btn-copy-share-list")?.addEventListener("click", () => {
+    const { shareText } = buildAiAndShareData();
+    copyText(shareText, "已複製純文字分享清單到剪貼簿！");
   });
   document.getElementById("btn-download-ai-txt")?.addEventListener("click", () => {
-    const { promptText } = buildAiPrompt();
+    const { promptText } = buildAiAndShareData();
     downloadFile("anime-log-ai-prompt.txt", promptText, "text/plain;charset=utf-8;");
     showToast("已下載 AI 推薦提示詞 .txt", false);
   });
 
-  // 初始化
-  switchView("home");
+  // 啟動初始化
+  ThemeManager.init();
+  CoverArtManager.init();
+  loadAllYearDatasets().then(() => {
+    switchView("home");
+  });
 })();

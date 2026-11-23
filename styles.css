@@ -1,11 +1,42 @@
-/* ANIME LOG. 深色動漫資料庫風格樣式 */
+/* ANIME LOG. 深色與淺色雙主題樣式 */
 :root {
   --bg-base: #090d16;
   --bg-card: #121826;
   --bg-elevated: #1a2235;
-  --border-subtle: rgba(148, 163, 184, 0.14);
+  --bg-input: rgba(15, 23, 42, 0.9);
+  --bg-pill: #0f172a;
+  --bg-chip: rgba(30, 41, 59, 0.9);
+  --bg-hero: linear-gradient(135deg, #0f172a 0%, #151c2f 55%, rgba(49, 46, 129, 0.55) 100%);
+  --bg-ai-hero: linear-gradient(135deg, #141a2e 0%, #1a1630 100%);
+  --bg-stat-tile: rgba(2, 6, 23, 0.6);
+  --border-subtle: rgba(148, 163, 184, 0.16);
+  --border-strong: rgba(148, 163, 184, 0.28);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --glass-header: rgba(9, 13, 22, 0.86);
+  --glass-nav: rgba(12, 17, 29, 0.94);
   --accent-primary: #8b5cf6;
   --accent-secondary: #6366f1;
+}
+
+html.light {
+  --bg-base: #f4f6fb;
+  --bg-card: #ffffff;
+  --bg-elevated: #f1f5f9;
+  --bg-input: #ffffff;
+  --bg-pill: #ffffff;
+  --bg-chip: #f1f5f9;
+  --bg-hero: linear-gradient(135deg, #ffffff 0%, #f5f3ff 55%, #eef2ff 100%);
+  --bg-ai-hero: linear-gradient(135deg, #f5f3ff 0%, #eef2ff 100%);
+  --bg-stat-tile: #f8fafc;
+  --border-subtle: rgba(15, 23, 42, 0.1);
+  --border-strong: rgba(15, 23, 42, 0.18);
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --glass-header: rgba(255, 255, 255, 0.88);
+  --glass-nav: rgba(255, 255, 255, 0.94);
 }
 
 * {
@@ -17,12 +48,12 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: var(--bg-base);
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-family: 'Inter', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   overflow-x: hidden;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* 隱藏水平篩選列捲軸但保留滑動 */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -32,17 +63,71 @@ html, body {
 }
 
 .glass-header {
-  background: rgba(9, 13, 22, 0.85);
+  background: var(--glass-header);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border-subtle);
 }
 
 .glass-nav {
-  background: rgba(12, 17, 29, 0.92);
+  background: var(--glass-nav);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-top: 1px solid var(--border-subtle);
+}
+
+.surface-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+}
+
+.surface-hero {
+  background: var(--bg-hero);
+  border: 1px solid var(--border-subtle);
+}
+
+.surface-ai-hero {
+  background: var(--bg-ai-hero);
+  border: 1px solid rgba(139, 92, 246, 0.28);
+}
+
+.surface-stat {
+  background: var(--bg-stat-tile);
+  border: 1px solid var(--border-subtle);
+}
+
+.surface-input {
+  background: var(--bg-input);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+}
+
+.surface-input::placeholder {
+  color: var(--text-muted);
+}
+
+.surface-pill {
+  background: var(--bg-pill);
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+}
+
+.surface-chip {
+  background: var(--bg-chip);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+}
+
+.text-main {
+  color: var(--text-primary);
+}
+
+.text-sub {
+  color: var(--text-secondary);
+}
+
+.text-dim {
+  color: var(--text-muted);
 }
 
 .anime-card {
@@ -52,70 +137,92 @@ html, body {
 }
 
 .anime-card:hover {
-  border-color: rgba(139, 92, 246, 0.35);
+  border-color: rgba(139, 92, 246, 0.42);
 }
 
 .anime-card[data-status="liked"] {
-  border-color: rgba(244, 63, 94, 0.45);
-  background: linear-gradient(180deg, rgba(244, 63, 94, 0.06) 0%, var(--bg-card) 100%);
+  border-color: rgba(244, 63, 94, 0.48);
+  background: linear-gradient(180deg, rgba(244, 63, 94, 0.07) 0%, var(--bg-card) 100%);
 }
 
 .anime-card[data-status="watched"] {
-  border-color: rgba(56, 189, 248, 0.4);
-  background: linear-gradient(180deg, rgba(56, 189, 248, 0.05) 0%, var(--bg-card) 100%);
+  border-color: rgba(14, 165, 233, 0.45);
+  background: linear-gradient(180deg, rgba(14, 165, 233, 0.06) 0%, var(--bg-card) 100%);
 }
 
 .anime-card[data-status="disliked"] {
-  border-color: rgba(245, 158, 11, 0.4);
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.05) 0%, var(--bg-card) 100%);
+  border-color: rgba(245, 158, 11, 0.45);
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.06) 0%, var(--bg-card) 100%);
 }
 
 .status-btn {
   transition: all 0.14s ease;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  background: rgba(15, 23, 42, 0.6);
-  color: #94a3b8;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--text-muted);
 }
 
 .status-btn:hover {
-  border-color: rgba(148, 163, 184, 0.4);
-  color: #e2e8f0;
+  border-color: rgba(139, 92, 246, 0.45);
+  color: var(--text-primary);
 }
 
 .status-btn.active-unwatched {
-  background: rgba(100, 116, 139, 0.28);
-  border-color: #94a3b8;
-  color: #f8fafc;
+  background: rgba(100, 116, 139, 0.22);
+  border-color: #64748b;
+  color: var(--text-primary);
 }
 
 .status-btn.active-watched {
-  background: rgba(14, 165, 233, 0.22);
-  border-color: #38bdf8;
+  background: rgba(14, 165, 233, 0.18);
+  border-color: #0ea5e9;
+  color: #0284c7;
+}
+html.dark .status-btn.active-watched {
   color: #7dd3fc;
 }
 
 .status-btn.active-liked {
-  background: rgba(244, 63, 94, 0.22);
-  border-color: #fb7185;
+  background: rgba(244, 63, 94, 0.18);
+  border-color: #f43f5e;
+  color: #e11d48;
+}
+html.dark .status-btn.active-liked {
   color: #fda4af;
 }
 
 .status-btn.active-disliked {
-  background: rgba(245, 158, 11, 0.22);
-  border-color: #fbbf24;
+  background: rgba(245, 158, 11, 0.18);
+  border-color: #f59e0b;
+  color: #b45309;
+}
+html.dark .status-btn.active-disliked {
   color: #fcd34d;
 }
 
 .pill-active {
-  background: linear-gradient(135deg, #7c3aed, #4f46e5);
-  color: #ffffff;
-  border-color: transparent;
+  background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
 }
 
 .genre-chip-active {
-  background: rgba(139, 92, 246, 0.25);
-  border-color: #a78bfa;
-  color: #ddd6fe;
+  background: rgba(139, 92, 246, 0.2) !important;
+  border-color: #8b5cf6 !important;
+  color: #6d28d9 !important;
+}
+html.dark .genre-chip-active {
+  color: #ddd6fe !important;
+}
+
+.badge-r18 {
+  background: rgba(225, 29, 72, 0.15);
+  border: 1px solid rgba(225, 29, 72, 0.45);
+  color: #e11d48;
+  font-weight: 700;
+}
+html.dark .badge-r18 {
+  color: #fda4af;
 }
 
 /* 動漫縮圖容器與無圖時的預設視覺海報 */
@@ -123,7 +230,7 @@ html, body {
   position: relative;
   overflow: hidden;
   background: linear-gradient(145deg, #1e1b4b 0%, #0f172a 55%, #1e293b 100%);
-  border: 1px solid rgba(148, 163, 184, 0.16);
+  border: 1px solid var(--border-subtle);
 }
 
 .poster-box img {
@@ -133,7 +240,6 @@ html, body {
   display: block;
 }
 
-/* 底部安全間距避免被手機導覽列遮擋 */
 .main-content-pad {
   padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>ANIME LOG. | 2026 春・夏・秋新番檢核與 AI 推薦打包</title>
+  <title>ANIME LOG. | 2025–2026 新番檢核與 AI 推薦打包</title>
   <meta name="theme-color" content="#090d16" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,11 +12,11 @@
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="min-h-screen antialiased selection:bg-violet-500/30 selection:text-violet-200">
+<body class="min-h-screen antialiased selection:bg-violet-500/30">
 
   <!-- 頂部導覽列 -->
   <header class="glass-header sticky top-0 z-30">
-    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
       <div class="flex items-center gap-2.5 min-w-0">
         <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 flex items-center justify-center shadow-lg shadow-violet-500/20 shrink-0">
           <svg class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
@@ -25,20 +25,38 @@
         </div>
         <div class="min-w-0">
           <div class="flex items-center gap-2">
-            <span class="font-extrabold tracking-tight text-base sm:text-lg text-white">ANIME LOG.</span>
-            <span class="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-violet-500/20 text-violet-300 border border-violet-500/30">2026</span>
+            <span class="font-extrabold tracking-tight text-base sm:text-lg text-main">ANIME LOG.</span>
+            <span class="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-violet-500/15 text-violet-500 dark:text-violet-300 border border-violet-500/30">2025–2026</span>
           </div>
-          <p class="text-[11px] text-slate-400 truncate">Watch. Rate. Discover. · 三季 247 部新番</p>
+          <p id="header-subtitle" class="text-[11px] text-dim truncate">Watch. Rate. Discover. · 載入中...</p>
         </div>
       </div>
 
-      <!-- 桌面版頂部導覽 -->
-      <nav class="hidden md:flex items-center gap-1.5 bg-slate-900/80 p-1 rounded-xl border border-slate-800" aria-label="主導覽">
-        <button type="button" data-nav="home" class="nav-btn px-3.5 py-1.5 rounded-lg text-sm font-medium transition">首頁總覽</button>
-        <button type="button" data-nav="catalog" class="nav-btn px-3.5 py-1.5 rounded-lg text-sm font-medium transition">新番檢核</button>
-        <button type="button" data-nav="mylist" class="nav-btn px-3.5 py-1.5 rounded-lg text-sm font-medium transition">我的清單</button>
-        <button type="button" data-nav="ai" class="nav-btn px-3.5 py-1.5 rounded-lg text-sm font-medium transition">AI 推薦包</button>
-      </nav>
+      <!-- 右側：桌面主導覽 + 手機關於 + 深淺色切換 -->
+      <div class="flex items-center gap-2 shrink-0">
+        <nav class="hidden md:flex items-center gap-1 surface-pill p-1 rounded-xl" aria-label="主導覽">
+          <button type="button" data-nav="home" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">首頁總覽</button>
+          <button type="button" data-nav="catalog" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">新番檢核</button>
+          <button type="button" data-nav="mylist" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">我的清單</button>
+          <button type="button" data-nav="ai" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">AI 推薦包</button>
+          <button type="button" data-nav="about" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">關於</button>
+        </nav>
+
+        <!-- 手機版上方「關於」連結 -->
+        <button type="button" data-nav="about" class="mobile-top-about md:hidden px-2.5 py-1.5 rounded-xl surface-pill text-xs font-semibold transition">
+          關於
+        </button>
+
+        <!-- 淺色／深色模式切換按鈕 -->
+        <button type="button" id="btn-theme-toggle" aria-label="切換淺色或深色模式" title="切換淺色／深色模式" class="p-2 rounded-xl surface-pill hover:border-violet-500/50 transition flex items-center justify-center">
+          <svg id="icon-sun" class="w-4 h-4 text-amber-400 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="icon-moon" class="w-4 h-4 text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -47,73 +65,75 @@
 
     <!-- ==================== 1. 首頁總覽 ==================== -->
     <section id="view-home" class="view-section space-y-5">
-      <!-- 總覽橫幅卡片 -->
-      <div class="rounded-2xl p-5 bg-gradient-to-br from-slate-900 via-[#151c2f] to-indigo-950/60 border border-slate-800/80 shadow-xl">
+      <div class="rounded-2xl p-5 surface-hero shadow-sm">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
-            <span class="inline-flex items-center gap-1.5 text-xs font-medium text-violet-300 bg-violet-500/15 border border-violet-500/25 px-2.5 py-1 rounded-full mb-2">
-              <span class="w-1.5 h-1.5 rounded-full bg-violet-400"></span>
-              第一階段 · 本機即時紀錄（已預留雲端擴充）
+            <span class="inline-flex items-center gap-1.5 text-xs font-medium text-violet-600 dark:text-violet-300 bg-violet-500/15 border border-violet-500/25 px-2.5 py-1 rounded-full mb-2">
+              <span class="w-1.5 h-1.5 rounded-full bg-violet-500"></span>
+              v1.1 · 2025–2026 兩年八季完整片單
             </span>
-            <h1 class="text-xl sm:text-2xl font-bold text-white tracking-tight">2026 春・夏・秋 新番追番儀表板</h1>
-            <p class="text-sm text-slate-400 mt-1">標記看過與喜好，一鍵打包給 AI 幫你從未看清單挖掘遺珠。</p>
+            <h1 class="text-xl sm:text-2xl font-bold text-main tracking-tight">2025–2026 新番追番儀表板</h1>
+            <p class="text-sm text-dim mt-1">標記看過與喜好，一鍵打包給 AI 幫你從未看清單挖掘遺珠。</p>
           </div>
           <div class="flex flex-wrap gap-2 shrink-0">
-            <button type="button" id="home-goto-catalog" class="px-4 py-2.5 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition shadow-lg shadow-violet-600/25">
+            <button type="button" id="home-goto-catalog" class="px-4 py-2.5 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition shadow-lg shadow-violet-600/20">
               開始檢核新番
             </button>
-            <button type="button" id="home-goto-ai" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 text-sm font-semibold border border-slate-700 transition">
+            <button type="button" id="home-goto-ai" class="px-4 py-2.5 rounded-xl surface-pill hover:border-violet-500/50 text-sm font-semibold transition">
               打包給 AI 找片
             </button>
           </div>
         </div>
 
-        <!-- 整體四格數據 -->
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
-          <div class="rounded-xl bg-slate-950/60 border border-slate-800/80 p-3.5">
-            <div class="text-xs text-slate-400">已標記進度</div>
+          <div class="rounded-xl surface-stat p-3.5">
+            <div class="text-xs text-dim">已標記進度</div>
             <div class="mt-1 flex items-baseline gap-1.5">
-              <span id="stat-rated-total" class="text-2xl font-bold text-white">0</span>
-              <span class="text-xs text-slate-500">/ 247 部</span>
+              <span id="stat-rated-total" class="text-2xl font-bold text-main">0</span>
+              <span id="stat-all-total" class="text-xs text-dim">/ 0 部</span>
             </div>
           </div>
-          <div class="rounded-xl bg-slate-950/60 border border-rose-500/20 p-3.5">
-            <div class="text-xs text-rose-300/90">喜歡</div>
+          <div class="rounded-xl surface-stat border-rose-500/25 p-3.5">
+            <div class="text-xs text-rose-500">喜歡</div>
             <div class="mt-1 flex items-baseline gap-1.5">
-              <span id="stat-liked" class="text-2xl font-bold text-rose-400">0</span>
-              <span class="text-xs text-slate-500">部</span>
+              <span id="stat-liked" class="text-2xl font-bold text-rose-500">0</span>
+              <span class="text-xs text-dim">部</span>
             </div>
           </div>
-          <div class="rounded-xl bg-slate-950/60 border border-sky-500/20 p-3.5">
-            <div class="text-xs text-sky-300/90">看過（普通）</div>
+          <div class="rounded-xl surface-stat border-sky-500/25 p-3.5">
+            <div class="text-xs text-sky-500">看過（普通）</div>
             <div class="mt-1 flex items-baseline gap-1.5">
-              <span id="stat-watched" class="text-2xl font-bold text-sky-400">0</span>
-              <span class="text-xs text-slate-500">部</span>
+              <span id="stat-watched" class="text-2xl font-bold text-sky-500">0</span>
+              <span class="text-xs text-dim">部</span>
             </div>
           </div>
-          <div class="rounded-xl bg-slate-950/60 border border-amber-500/20 p-3.5">
-            <div class="text-xs text-amber-300/90">評價喜歡率</div>
+          <div class="rounded-xl surface-stat border-amber-500/25 p-3.5">
+            <div class="text-xs text-amber-500">評價喜歡率</div>
             <div class="mt-1 flex items-baseline gap-1.5">
-              <span id="stat-like-rate" class="text-2xl font-bold text-amber-300">—</span>
-              <span class="text-xs text-slate-500" id="stat-disliked-hint">0 部不喜歡</span>
+              <span id="stat-like-rate" class="text-2xl font-bold text-amber-500">—</span>
+              <span class="text-xs text-dim" id="stat-disliked-hint">0 部不喜歡</span>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- 三季進度卡片 -->
-      <div>
-        <h2 class="text-sm font-semibold text-slate-300 mb-3">各季度片單進度</h2>
-        <div id="home-season-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+      <!-- 年度季度進度卡片 -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-sm font-semibold text-sub">各年度與季度片單進度</h2>
+          <div class="inline-flex items-center gap-1 surface-pill p-0.5 rounded-lg text-xs">
+            <button type="button" data-home-year="2026" class="home-year-btn px-2.5 py-1 rounded-md font-semibold transition">2026 年</button>
+            <button type="button" data-home-year="2025" class="home-year-btn px-2.5 py-1 rounded-md font-semibold transition">2025 年</button>
+          </div>
+        </div>
+        <div id="home-season-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3"></div>
       </div>
 
       <!-- 個人喜好類型分布 -->
-      <div class="rounded-2xl p-5 bg-[#121826] border border-slate-800/80">
-        <div class="flex items-center justify-between gap-2 mb-3">
-          <div>
-            <h2 class="text-base font-bold text-white">你的偏好類型分布（依「喜歡」作品統計）</h2>
-            <p class="text-xs text-slate-400 mt-0.5">標記越多喜歡的作品，這份類型口味分析與 AI 推薦包會越精準。</p>
-          </div>
+      <div class="rounded-2xl p-5 surface-card">
+        <div class="mb-3">
+          <h2 class="text-base font-bold text-main">你的偏好類型分布（依「喜歡」作品統計）</h2>
+          <p class="text-xs text-dim mt-0.5">標記越多喜歡的作品，這份類型口味分析與 AI 推薦包會越精準。</p>
         </div>
         <div id="home-genre-bars" class="space-y-2.5"></div>
       </div>
@@ -121,17 +141,16 @@
 
     <!-- ==================== 2. 新番檢核清單 ==================== -->
     <section id="view-catalog" class="view-section hidden space-y-4">
-      <!-- 季度選擇 Pills + 顯示模式切換 -->
+      <!-- 年份切換 + 顯示模式切換 -->
       <div class="flex flex-wrap items-center justify-between gap-2.5">
-        <div class="flex flex-wrap items-center gap-2" id="catalog-season-tabs">
-          <button type="button" data-season="all" class="season-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-700/80 bg-slate-900 text-slate-300 transition">全部三季 (247)</button>
-          <button type="button" data-season="2026-spring" class="season-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-700/80 bg-slate-900 text-slate-300 transition">2026 春季 (80)</button>
-          <button type="button" data-season="2026-summer" class="season-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-700/80 bg-slate-900 text-slate-300 transition">2026 夏季 (80)</button>
-          <button type="button" data-season="2026-fall" class="season-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-700/80 bg-slate-900 text-slate-300 transition">2026 秋季 (87)</button>
+        <div class="flex flex-wrap items-center gap-1.5" id="catalog-year-tabs">
+          <button type="button" data-year="2026" class="year-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold surface-pill transition">2026 年</button>
+          <button type="button" data-year="2025" class="year-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold surface-pill transition">2025 年</button>
+          <button type="button" data-year="all" class="year-tab px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold surface-pill transition">全部年份</button>
         </div>
 
         <!-- 顯示模式切換：一頁一部（手機模式） / 列表模式 -->
-        <div class="inline-flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-700/80 shrink-0" role="group" aria-label="顯示模式切換">
+        <div class="inline-flex items-center gap-1 surface-pill p-1 rounded-xl shrink-0" role="group" aria-label="顯示模式切換">
           <button type="button" data-display-mode="card" class="display-mode-btn px-2.5 py-1.5 rounded-lg text-xs font-semibold transition flex items-center gap-1">
             <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>
             <span>一頁一部</span>
@@ -143,16 +162,25 @@
         </div>
       </div>
 
+      <!-- 季度選擇 Pills -->
+      <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1" id="catalog-season-tabs">
+        <button type="button" data-season-part="all" class="season-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold surface-pill transition">全部季度</button>
+        <button type="button" data-season-part="winter" class="season-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold surface-pill transition">冬季 1月</button>
+        <button type="button" data-season-part="spring" class="season-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold surface-pill transition">春季 4月</button>
+        <button type="button" data-season-part="summer" class="season-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold surface-pill transition">夏季 7月</button>
+        <button type="button" data-season-part="fall" class="season-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold surface-pill transition">秋季 10月</button>
+      </div>
+
       <!-- 搜尋與星期選單 -->
       <div class="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
         <div class="sm:col-span-8 relative">
-          <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <svg class="w-4 h-4 text-dim absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
-          <input id="catalog-search" type="search" placeholder="搜尋繁體中文或日文原名..." class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-violet-500 transition" />
+          <input id="catalog-search" type="search" placeholder="搜尋繁體中文或日文原名..." class="w-full pl-10 pr-4 py-2.5 rounded-xl surface-input text-sm focus:outline-none focus:border-violet-500 transition" />
         </div>
         <div class="sm:col-span-4">
-          <select id="catalog-weekday" aria-label="開播星期篩選" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-slate-200 focus:outline-none focus:border-violet-500">
+          <select id="catalog-weekday" aria-label="開播星期篩選" class="w-full px-3.5 py-2.5 rounded-xl surface-input text-sm focus:outline-none focus:border-violet-500">
             <option value="all">全部開播星期</option>
             <option value="星期一">星期一</option>
             <option value="星期二">星期二</option>
@@ -168,52 +196,54 @@
 
       <!-- 狀態篩選列 -->
       <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1" id="catalog-status-tabs">
-        <button type="button" data-status="all" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300">全部狀態</button>
-        <button type="button" data-status="unwatched" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300">沒看過</button>
-        <button type="button" data-status="watched" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300">看過</button>
-        <button type="button" data-status="liked" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300">喜歡</button>
-        <button type="button" data-status="disliked" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border border-slate-700/80 bg-slate-900 text-slate-300">不喜歡</button>
+        <button type="button" data-status="all" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium surface-pill">全部狀態</button>
+        <button type="button" data-status="unwatched" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium surface-pill">沒看過</button>
+        <button type="button" data-status="watched" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium surface-pill">看過</button>
+        <button type="button" data-status="liked" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium surface-pill">喜歡</button>
+        <button type="button" data-status="disliked" class="status-filter-tab shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium surface-pill">不喜歡</button>
       </div>
 
       <!-- 類型標籤篩選列 -->
       <div class="space-y-1.5">
-        <div class="flex items-center justify-between text-xs text-slate-400">
-          <span>動畫類型篩選（可單選快速找片）</span>
-          <button type="button" id="catalog-clear-filters" class="text-violet-400 hover:text-violet-300 hidden">清除篩選</button>
+        <div class="flex items-center justify-between text-xs text-dim">
+          <span>動畫類型篩選（含 R18 分類）</span>
+          <button type="button" id="catalog-clear-filters" class="text-violet-500 hover:underline hidden">清除篩選</button>
         </div>
         <div id="catalog-genre-chips" class="flex items-center gap-1.5 overflow-x-auto no-scrollbar pb-1"></div>
       </div>
 
       <!-- 結果筆數列 + 裝置偵測提示 -->
-      <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400 pt-1">
+      <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-dim pt-1">
         <span id="catalog-result-count">顯示 0 部作品</span>
-        <span id="device-mode-hint" class="text-slate-500">點擊按鈕即自動存檔</span>
+        <span id="device-mode-hint">點擊按鈕即自動存檔</span>
       </div>
 
       <!-- 列表模式容器 -->
       <div id="catalog-list" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+      <div id="catalog-load-more-wrap" class="hidden pt-2 text-center">
+        <button type="button" id="btn-load-more" class="px-5 py-2.5 rounded-xl surface-pill hover:border-violet-500/50 text-sm font-semibold transition">
+          載入更多作品
+        </button>
+      </div>
 
       <!-- 手機專用「一頁一部」單張滑動模式容器 -->
       <div id="catalog-single-wrap" class="hidden space-y-3">
-        <div class="flex items-center justify-between gap-2 text-xs text-slate-400">
-          <span id="single-page-indicator" class="font-semibold text-violet-300">第 1 / 1 部</span>
-          <label class="inline-flex items-center gap-1.5 cursor-pointer select-none text-slate-300">
-            <input id="single-auto-next" type="checkbox" checked class="rounded text-violet-500 focus:ring-violet-500 bg-slate-800 border-slate-600" />
+        <div class="flex items-center justify-between gap-2 text-xs text-dim">
+          <span id="single-page-indicator" class="font-semibold text-violet-500">第 1 / 1 部</span>
+          <label class="inline-flex items-center gap-1.5 cursor-pointer select-none text-sub">
+            <input id="single-auto-next" type="checkbox" checked class="rounded text-violet-600 focus:ring-violet-500" />
             <span>標記後自動下一部</span>
           </label>
         </div>
 
-        <!-- 進度條 -->
-        <div class="w-full h-1.5 rounded-full bg-slate-800 overflow-hidden">
+        <div class="w-full h-1.5 rounded-full bg-slate-500/20 overflow-hidden">
           <div id="single-progress-bar" class="h-full bg-gradient-to-r from-violet-500 to-indigo-500 transition-all duration-200" style="width: 0%"></div>
         </div>
 
-        <!-- 單張作品主卡片（支援左右滑動） -->
         <div id="single-card-stage" class="touch-pan-y"></div>
 
-        <!-- 上一部 / 下一部導覽按鈕 -->
         <div class="flex items-center justify-between gap-3 pt-1">
-          <button type="button" id="single-prev-btn" class="flex-1 py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 disabled:opacity-40 disabled:pointer-events-none border border-slate-700/80 text-sm font-semibold text-slate-200 transition flex items-center justify-center gap-1.5">
+          <button type="button" id="single-prev-btn" class="flex-1 py-3 px-4 rounded-xl surface-pill disabled:opacity-40 disabled:pointer-events-none text-sm font-semibold transition flex items-center justify-center gap-1.5">
             <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
             <span>上一部</span>
           </button>
@@ -227,43 +257,41 @@
 
     <!-- ==================== 3. 我的清單 ==================== -->
     <section id="view-mylist" class="view-section hidden space-y-4">
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 bg-[#121826] border border-slate-800/80 rounded-2xl p-4">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 surface-card rounded-2xl p-4">
         <div>
-          <h2 class="text-lg font-bold text-white">我的追番紀錄清單</h2>
-          <p class="text-xs text-slate-400 mt-0.5">管理所有已標記為「看過、喜歡、不喜歡」的作品，支援匯出 CSV 與 JSON 備份。</p>
+          <h2 class="text-lg font-bold text-main">我的追番紀錄清單</h2>
+          <p class="text-xs text-dim mt-0.5">管理所有已標記為「看過、喜歡、不喜歡」的作品，支援匯出 CSV 與 JSON 備份。</p>
         </div>
         <div class="flex flex-wrap gap-2">
-          <button type="button" id="btn-export-csv" class="px-3 py-2 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 text-xs font-semibold transition">
+          <button type="button" id="btn-export-csv" class="px-3 py-2 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-600 dark:text-emerald-300 border border-emerald-500/30 text-xs font-semibold transition">
             匯出 CSV
           </button>
-          <button type="button" id="btn-export-json" class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition">
+          <button type="button" id="btn-export-json" class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition">
             備份 JSON
           </button>
-          <label class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition cursor-pointer">
+          <label class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition cursor-pointer">
             還原 JSON
             <input id="input-import-json" type="file" accept=".json,application/json" class="hidden" />
           </label>
-          <button type="button" id="btn-clear-all" class="px-3 py-2 rounded-xl bg-rose-500/15 hover:bg-rose-500/25 text-rose-300 border border-rose-500/30 text-xs font-semibold transition">
+          <button type="button" id="btn-clear-all" class="px-3 py-2 rounded-xl bg-rose-500/15 hover:bg-rose-500/25 text-rose-600 dark:text-rose-300 border border-rose-500/30 text-xs font-semibold transition">
             重設全部
           </button>
         </div>
       </div>
 
-      <!-- 我的清單篩選與排序 -->
       <div class="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
-        <div class="sm:col-span-5 relative">
-          <input id="mylist-search" type="search" placeholder="在我的清單中搜尋中／日文..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-violet-500" />
+        <div class="sm:col-span-5">
+          <input id="mylist-search" type="search" placeholder="在我的清單中搜尋中／日文..." class="w-full px-3.5 py-2.5 rounded-xl surface-input text-sm focus:outline-none focus:border-violet-500" />
         </div>
         <div class="sm:col-span-2">
-          <select id="mylist-season" aria-label="季度篩選" class="w-full px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-slate-200">
-            <option value="all">全部季度</option>
-            <option value="2026-spring">2026 春</option>
-            <option value="2026-summer">2026 夏</option>
-            <option value="2026-fall">2026 秋</option>
+          <select id="mylist-year" aria-label="年份篩選" class="w-full px-3 py-2.5 rounded-xl surface-input text-sm">
+            <option value="all">全部年份</option>
+            <option value="2026">2026 年</option>
+            <option value="2025">2025 年</option>
           </select>
         </div>
         <div class="sm:col-span-2">
-          <select id="mylist-status" aria-label="狀態篩選" class="w-full px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-slate-200">
+          <select id="mylist-status" aria-label="狀態篩選" class="w-full px-3 py-2.5 rounded-xl surface-input text-sm">
             <option value="all">全部已標記</option>
             <option value="liked">喜歡</option>
             <option value="watched">看過</option>
@@ -271,69 +299,94 @@
           </select>
         </div>
         <div class="sm:col-span-3">
-          <select id="mylist-sort" aria-label="排序方式" class="w-full px-3 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm text-slate-200">
+          <select id="mylist-sort" aria-label="排序方式" class="w-full px-3 py-2.5 rounded-xl surface-input text-sm">
             <option value="updated">最新標記優先</option>
-            <option value="id">依季度與片單順序</option>
+            <option value="id">依年份與季度順序</option>
             <option value="weekday">依開播星期</option>
           </select>
         </div>
       </div>
 
-      <div id="mylist-count" class="text-xs text-slate-400">共 0 筆紀錄</div>
+      <div id="mylist-count" class="text-xs text-dim">共 0 筆紀錄</div>
       <div id="mylist-cards" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
     </section>
 
-    <!-- ==================== 4. AI 推薦打包 ==================== -->
+    <!-- ==================== 4. AI 推薦打包與分享 ==================== -->
     <section id="view-ai" class="view-section hidden space-y-4">
-      <div class="rounded-2xl p-5 bg-gradient-to-br from-[#141a2e] to-[#1a1630] border border-violet-500/30">
-        <h2 class="text-lg font-bold text-white">打包喜好清單給 AI 找「沒看過的遺珠」</h2>
-        <p class="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
-          系統會自動把你標記為「喜歡」的口味特徵、「不喜歡」的避雷類型，以及目前「沒看過」的候選片單打包成結構化提示詞。複製後直接貼給任何 AI 對話，就能幫你精準挑出還沒看但可能合胃口的新番。
+      <div class="rounded-2xl p-5 surface-ai-hero">
+        <h2 class="text-lg font-bold text-main">打包喜好清單給 AI 找「沒看過的遺珠」與分享</h2>
+        <p class="text-xs sm:text-sm text-sub mt-1 leading-relaxed">
+          自動彙整你「喜歡」的口味特徵、「不喜歡」的避雷清單，以及目前「沒看過」的候選片單。支援一鍵複製給 AI 推薦，或複製純文字分享清單給朋友。
         </p>
 
-        <div class="mt-4 flex flex-wrap items-center gap-3">
-          <select id="ai-season-scope" aria-label="AI 推薦季度範圍" class="px-3.5 py-2 rounded-xl bg-slate-900/90 border border-slate-700 text-sm text-slate-100 focus:outline-none focus:border-violet-500">
-            <option value="all">候選範圍：全部三季（春夏秋）</option>
+        <div class="mt-4 flex flex-wrap items-center gap-2.5">
+          <select id="ai-season-scope" aria-label="AI 推薦範圍" class="px-3.5 py-2 rounded-xl surface-input text-sm focus:outline-none focus:border-violet-500">
+            <option value="all">候選範圍：2025–2026 全部</option>
+            <option value="2026">候選範圍：2026 全年</option>
+            <option value="2026-winter">候選範圍：2026 冬季</option>
             <option value="2026-spring">候選範圍：2026 春季</option>
             <option value="2026-summer">候選範圍：2026 夏季</option>
             <option value="2026-fall">候選範圍：2026 秋季</option>
+            <option value="2025">候選範圍：2025 全年</option>
+            <option value="2025-winter">候選範圍：2025 冬季</option>
+            <option value="2025-spring">候選範圍：2025 春季</option>
+            <option value="2025-summer">候選範圍：2025 夏季</option>
+            <option value="2025-fall">候選範圍：2025 秋季</option>
           </select>
 
-          <label class="inline-flex items-center gap-2 text-xs sm:text-sm text-slate-300 cursor-pointer select-none bg-slate-900/70 px-3 py-2 rounded-xl border border-slate-700/80">
-            <input id="ai-exclude-shorts" type="checkbox" checked class="rounded text-violet-500 focus:ring-violet-500 bg-slate-800 border-slate-600" />
-            候選清單排除「短篇／泡麵番」
+          <label class="inline-flex items-center gap-2 text-xs sm:text-sm text-sub cursor-pointer select-none surface-pill px-3 py-2 rounded-xl">
+            <input id="ai-exclude-shorts" type="checkbox" checked class="rounded text-violet-600 focus:ring-violet-500" />
+            排除短篇／泡麵番
+          </label>
+
+          <label class="inline-flex items-center gap-2 text-xs sm:text-sm text-rose-600 dark:text-rose-300 font-medium cursor-pointer select-none surface-pill border-rose-500/35 px-3 py-2 rounded-xl">
+            <input id="ai-hide-r18" type="checkbox" checked class="rounded text-rose-600 focus:ring-rose-500" />
+            隱藏 R18 作品
           </label>
         </div>
 
         <div class="grid grid-cols-3 gap-2.5 mt-4">
-          <div class="rounded-xl bg-slate-950/60 border border-rose-500/20 p-3 text-center">
-            <div class="text-[11px] text-rose-300">喜歡清單</div>
-            <div id="ai-liked-count" class="text-lg font-bold text-white mt-0.5">0</div>
+          <div class="rounded-xl surface-stat border-rose-500/20 p-3 text-center">
+            <div class="text-[11px] text-rose-500">喜歡清單</div>
+            <div id="ai-liked-count" class="text-lg font-bold text-main mt-0.5">0</div>
           </div>
-          <div class="rounded-xl bg-slate-950/60 border border-amber-500/20 p-3 text-center">
-            <div class="text-[11px] text-amber-300">不喜歡避雷</div>
-            <div id="ai-disliked-count" class="text-lg font-bold text-white mt-0.5">0</div>
+          <div class="rounded-xl surface-stat border-amber-500/20 p-3 text-center">
+            <div class="text-[11px] text-amber-500">不喜歡避雷</div>
+            <div id="ai-disliked-count" class="text-lg font-bold text-main mt-0.5">0</div>
           </div>
-          <div class="rounded-xl bg-slate-950/60 border border-violet-500/25 p-3 text-center">
-            <div class="text-[11px] text-violet-300">沒看過候選</div>
-            <div id="ai-unwatched-count" class="text-lg font-bold text-white mt-0.5">0</div>
+          <div class="rounded-xl surface-stat border-violet-500/25 p-3 text-center">
+            <div class="text-[11px] text-violet-500">沒看過候選</div>
+            <div id="ai-unwatched-count" class="text-lg font-bold text-main mt-0.5">0</div>
           </div>
         </div>
       </div>
 
-      <div class="rounded-2xl bg-[#121826] border border-slate-800 p-4 space-y-3">
+      <div class="rounded-2xl surface-card p-4 space-y-3">
         <div class="flex flex-wrap items-center justify-between gap-2">
-          <span class="text-xs font-semibold text-slate-300">產生的 AI 推薦提示詞預覽</span>
-          <div class="flex items-center gap-2">
-            <button type="button" id="btn-download-ai-txt" class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-700 transition">
+          <span class="text-xs font-semibold text-sub">產生的 AI 推薦提示詞預覽</span>
+          <div class="flex flex-wrap items-center gap-2">
+            <button type="button" id="btn-copy-share-list" class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition">
+              複製純文字分享
+            </button>
+            <button type="button" id="btn-download-ai-txt" class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition">
               下載 .txt
             </button>
-            <button type="button" id="btn-copy-ai-prompt" class="px-4 py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-xs sm:text-sm font-semibold transition shadow-lg shadow-violet-600/25">
+            <button type="button" id="btn-copy-ai-prompt" class="px-4 py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-xs sm:text-sm font-semibold transition shadow-lg shadow-violet-600/20">
               一鍵複製給 AI
             </button>
           </div>
         </div>
-        <textarea id="ai-prompt-preview" readonly rows="14" class="w-full rounded-xl bg-slate-950/80 border border-slate-800 p-3.5 text-xs sm:text-sm text-slate-200 font-mono leading-relaxed focus:outline-none"></textarea>
+        <textarea id="ai-prompt-preview" readonly rows="14" class="w-full rounded-xl surface-input p-3.5 text-xs sm:text-sm font-mono leading-relaxed focus:outline-none"></textarea>
+      </div>
+    </section>
+
+    <!-- ==================== 5. 關於頁面 ==================== -->
+    <section id="view-about" class="view-section hidden">
+      <div class="max-w-lg mx-auto mt-10 rounded-2xl surface-card p-8 text-center">
+        <p class="text-base sm:text-lg font-medium text-main">
+          網站製作及維護
+          <a href="https://oezszero-one.github.io/" target="_blank" rel="noopener noreferrer" class="text-violet-500 hover:text-violet-400 underline underline-offset-4 font-bold ml-1">OEZS STUDIO</a>
+        </p>
       </div>
     </section>
 
@@ -342,19 +395,19 @@
   <!-- 手機版底部導覽列 -->
   <nav class="glass-nav md:hidden fixed bottom-0 inset-x-0 z-30 pb-[env(safe-area-inset-bottom,0px)]" aria-label="手機底部導覽">
     <div class="grid grid-cols-4 h-16 max-w-md mx-auto">
-      <button type="button" data-nav="home" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-slate-400">
+      <button type="button" data-nav="home" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-dim">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
         <span>首頁</span>
       </button>
-      <button type="button" data-nav="catalog" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-slate-400">
+      <button type="button" data-nav="catalog" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-dim">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>
         <span>新番</span>
       </button>
-      <button type="button" data-nav="mylist" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-slate-400">
+      <button type="button" data-nav="mylist" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-dim">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" /></svg>
         <span>我的</span>
       </button>
-      <button type="button" data-nav="ai" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-slate-400">
+      <button type="button" data-nav="ai" class="mobile-nav-btn flex flex-col items-center justify-center gap-1 text-[11px] font-medium text-dim">
         <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
         <span>AI 找片</span>
       </button>
@@ -363,25 +416,24 @@
 
   <!-- Toast 提示（含復原按鈕） -->
   <div id="toast" class="fixed bottom-20 md:bottom-6 left-1/2 -translate-x-1/2 z-50 hidden">
-    <div class="flex items-center gap-3 px-4 py-2.5 rounded-xl bg-slate-800/95 border border-slate-700 text-sm text-white shadow-2xl">
+    <div class="flex items-center gap-3 px-4 py-2.5 rounded-xl bg-slate-900/95 border border-slate-700 text-sm text-white shadow-2xl">
       <span id="toast-message">已儲存</span>
       <button type="button" id="toast-undo" class="hidden text-violet-300 hover:text-violet-200 font-semibold text-xs underline underline-offset-2">復原</button>
     </div>
   </div>
 
-  <!-- 站內確認彈窗（取代 confirm()） -->
+  <!-- 站內確認彈窗 -->
   <div id="confirm-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
-    <div class="w-full max-w-sm rounded-2xl bg-[#131a2a] border border-slate-700 p-5 shadow-2xl space-y-4">
-      <h3 id="confirm-title" class="text-base font-bold text-white">確認操作</h3>
-      <p id="confirm-body" class="text-sm text-slate-300"></p>
+    <div class="w-full max-w-sm rounded-2xl surface-card p-5 shadow-2xl space-y-4">
+      <h3 id="confirm-title" class="text-base font-bold text-main">確認操作</h3>
+      <p id="confirm-body" class="text-sm text-sub"></p>
       <div class="flex justify-end gap-2">
-        <button type="button" id="confirm-cancel" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-sm font-medium">取消</button>
+        <button type="button" id="confirm-cancel" class="px-3.5 py-2 rounded-xl surface-pill text-sm font-medium">取消</button>
         <button type="button" id="confirm-ok" class="px-3.5 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-sm font-semibold">確定</button>
       </div>
     </div>
   </div>
 
-  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

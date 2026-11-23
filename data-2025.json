@@ -1,0 +1,4728 @@
+[
+  {
+    "id": "2025-winter-001",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "魔法使的約定",
+    "titleJp": "魔法使いの約束",
+    "weekday": "星期一",
+    "weekdayNote": "1/6",
+    "genres": [
+      "奇幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-002",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "我的幸福婚約 第二季",
+    "titleJp": "わたしの幸せな結婚 第二期",
+    "weekday": "星期一",
+    "weekdayNote": "1/6",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-003",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "這公司有我喜歡的人",
+    "titleJp": "この会社に好きな人がいます",
+    "weekday": "星期一",
+    "weekdayNote": "1/6",
+    "genres": [
+      "戀愛",
+      "職場",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-004",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "平凡上班族到異世界當上了四天王的故事",
+    "titleJp": "サラリーマンが異世界に行ったら四天王になった話",
+    "weekday": "星期一",
+    "weekdayNote": "1/6",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "職場",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-005",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "黑岩目高不把我的可愛放在眼裡",
+    "titleJp": "黒岩メダカに私の可愛いが通じない",
+    "weekday": "星期一",
+    "weekdayNote": "1/6 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-006",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "雖然我是注定沒落的貴族 閒來無事只好來深究魔法",
+    "titleJp": "没落予定の貴族だけど、暇だったから魔法を極めてみた",
+    "weekday": "星期一",
+    "weekdayNote": "1/6 深夜",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-007",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "你好！我是脈脈",
+    "titleJp": "はーい！ミャクミャクです",
+    "weekday": "星期一",
+    "weekdayNote": "3/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-008",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "Unnamed Memory 無名記憶 Act.2",
+    "titleJp": "Unnamed Memory Act.2",
+    "weekday": "星期二",
+    "weekdayNote": "1/7",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-009",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "最弱技能《果實大師》～關於能無限食用技能果實（吃了就會死）這件事～",
+    "titleJp": "外れスキル《木の実マスター》 ～スキルの実（食べたら死ぬ）を無限に食べられるようになった件について～",
+    "weekday": "星期二",
+    "weekdayNote": "1/7",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-010",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "群花綻放、彷如修羅",
+    "titleJp": "花は咲く、修羅の如く",
+    "weekday": "星期二",
+    "weekdayNote": "1/7 深夜",
+    "genres": [
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-011",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "天久鷹央的推理病歷表",
+    "titleJp": "天久鷹央の推理カルテ",
+    "weekday": "星期三",
+    "weekdayNote": "1/1 深夜",
+    "genres": [
+      "懸疑",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-012",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "灰色：幻影扳機",
+    "titleJp": "グリザイア：ファントムトリガー",
+    "weekday": "星期三",
+    "weekdayNote": "1/1 深夜",
+    "genres": [
+      "戰鬥",
+      "校園",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-013",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "遲早是最強的鍊金術師？",
+    "titleJp": "いずれ最強の錬金術師？",
+    "weekday": "星期三",
+    "weekdayNote": "1/8",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-014",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "黃昏旅店",
+    "titleJp": "誰ソ彼ホテル",
+    "weekday": "星期三",
+    "weekdayNote": "1/8",
+    "genres": [
+      "懸疑",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-015",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "異修羅 第2季",
+    "titleJp": "異修羅 第2期",
+    "weekday": "星期三",
+    "weekdayNote": "1/8",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-016",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "魔法製造者～異世界魔法的製作方法～",
+    "titleJp": "マジック・メイカー ～異世界魔法の作り方～",
+    "weekday": "星期三",
+    "weekdayNote": "1/8 深夜",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-017",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "青春特調蜂蜜檸檬蘇打",
+    "titleJp": "ハニーレモンソーダ",
+    "weekday": "星期三",
+    "weekdayNote": "1/8 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-018",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "Re:從零開始的異世界生活 第3季 反擊篇",
+    "titleJp": "Re:ゼロから始める異世界生活 3rd season 反撃編",
+    "weekday": "星期三",
+    "weekdayNote": "2/5",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "戰鬥",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-019",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "夢寶可",
+    "titleJp": "モンポケ",
+    "weekday": "星期三",
+    "weekdayNote": "串流短篇",
+    "genres": [
+      "日常",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-020",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "變形金剛 WILD KING",
+    "titleJp": "トランスフォーマー ワイルドキング",
+    "weekday": "星期三",
+    "weekdayNote": "串流短篇",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-021",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "BanG Dream! Ave Mujica",
+    "titleJp": "BanG Dream! Ave Mujica",
+    "weekday": "星期四",
+    "weekdayNote": "1/2",
+    "genres": [
+      "音樂",
+      "懸疑",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-022",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "MOMENTARY LILY 剎那之花",
+    "titleJp": "もめんたりー・リリィ",
+    "weekday": "星期四",
+    "weekdayNote": "1/2",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-023",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "Dr.STONE 新石紀 SCIENCE FUTURE（第4季 第1部分）",
+    "titleJp": "Dr.STONE SCIENCE FUTURE",
+    "weekday": "星期四",
+    "weekdayNote": "1/9",
+    "genres": [
+      "科幻",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-024",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "中年男的異世界網購生活",
+    "titleJp": "アラフォー男の異世界通販",
+    "weekday": "星期四",
+    "weekdayNote": "1/9",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-025",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "不幸職業【鑑定士】其實是最強的",
+    "titleJp": "不遇職【鑑定士】が実は最強だった",
+    "weekday": "星期四",
+    "weekdayNote": "1/9",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-026",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "中年大叔轉生反派千金",
+    "titleJp": "悪役令嬢転生おじさん",
+    "weekday": "星期四",
+    "weekdayNote": "1/9 深夜",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-027",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "想星的亞庫艾里翁 Myth of Emotions",
+    "titleJp": "想星のアクエリオン Myth of Emotions",
+    "weekday": "星期四",
+    "weekdayNote": "1/9 深夜",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-028",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "終究，與你相戀。",
+    "titleJp": "どうせ、恋してしまうんだ。",
+    "weekday": "星期四",
+    "weekdayNote": "1/9 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-029",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "快龍與郵差",
+    "titleJp": "カイリューとゆうびんやさん",
+    "weekday": "一次上架",
+    "weekdayNote": "2/27 串流",
+    "genres": [
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-030",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "我和班上最討厭的女生結婚了。",
+    "titleJp": "クラスの大嫌いな女子と結婚することになった。",
+    "weekday": "星期五",
+    "weekdayNote": "1/3",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-031",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "一桿青空（空色Utility）",
+    "titleJp": "空色ユーティリティ",
+    "weekday": "星期五",
+    "weekdayNote": "1/3 深夜",
+    "genres": [
+      "運動",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-032",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "歡迎來到日本，妖精小姐。",
+    "titleJp": "日本へようこそエルフさん。",
+    "weekday": "星期五",
+    "weekdayNote": "1/10",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "戀愛",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-033",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "FARMAGIA 魔農傳記",
+    "titleJp": "FARMAGIA",
+    "weekday": "星期五",
+    "weekdayNote": "1/10",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-034",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "藥師少女的獨語 第2季",
+    "titleJp": "薬屋のひとりごと 第2期",
+    "weekday": "星期五",
+    "weekdayNote": "1/10",
+    "genres": [
+      "歷史",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-035",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "雖然是公會的櫃檯小姐，但因為不想加班所以打算獨自討伐迷宮頭目",
+    "titleJp": "ギルドの受付嬢ですが、残業は嫌なのでボスをソロ討伐しようと思います",
+    "weekday": "星期五",
+    "weekdayNote": "1/10 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "職場",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-036",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "魔域英雄傳說",
+    "titleJp": "Übel Blatt ～ユーベルブラット～",
+    "weekday": "星期五",
+    "weekdayNote": "1/10 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-037",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "身為聖女卻被趕出國家，所以我來到瀕臨崩壞的鄰國",
+    "titleJp": "聖女なのに国を追い出されたので、崩壊寸前の隣国へ来ました",
+    "weekday": "星期五",
+    "weekdayNote": "1/10 深夜",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-038",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "監禁區域Level X 第2季",
+    "titleJp": "監禁区域レベルX 第2期",
+    "weekday": "星期五",
+    "weekdayNote": "2/21",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-039",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "迷你迷你 minini",
+    "titleJp": "ミニミニ minini",
+    "weekday": "星期六",
+    "weekdayNote": "1/4",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-040",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "S級怪獸《貝希摩斯》被誤認成小貓，成為精靈女孩的騎士（寵物）一起生活",
+    "titleJp": "Sランクモンスターの《ベヒーモス》だけど、猫と間違われてエルフ娘の騎士（ペット）として暮らしてます",
+    "weekday": "星期六",
+    "weekdayNote": "1/4",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-041",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "我獨自升級 第二季 -起於闇影-",
+    "titleJp": "俺だけレベルアップな件 Season 2 -Arise from the Shadow-",
+    "weekday": "星期六",
+    "weekdayNote": "1/4 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-042",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "青之驅魔師 終夜篇",
+    "titleJp": "青の祓魔師 終夜篇",
+    "weekday": "星期六",
+    "weekdayNote": "1/4 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-043",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "在沖繩喜歡上的女孩方言講得太過令人困擾",
+    "titleJp": "沖縄で好きになった子が方言すぎてツラすぎる",
+    "weekday": "星期六",
+    "weekdayNote": "1/4 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-044",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "我與尼特女忍者的莫名同居生活",
+    "titleJp": "ニートくノ一となぜか同棲はじめました",
+    "weekday": "星期六",
+    "weekdayNote": "1/4 深夜",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-045",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "金牌得主",
+    "titleJp": "メダリスト",
+    "weekday": "星期六",
+    "weekdayNote": "1/4 深夜",
+    "genres": [
+      "運動",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-046",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "卡片戰鬥!! 先導者 Divinez DELUXE篇",
+    "titleJp": "カードファイト!! ヴァンガード Divinez デラックス編",
+    "weekday": "星期六",
+    "weekdayNote": "1/11",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-047",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "SAKAMOTO DAYS 坂本日常",
+    "titleJp": "SAKAMOTO DAYS",
+    "weekday": "星期六",
+    "weekdayNote": "1/11",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-048",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "UniteUp! 眾星齊聚 -Uni:Birth-",
+    "titleJp": "UniteUp! -Uni:Birth-",
+    "weekday": "星期六",
+    "weekdayNote": "1/11",
+    "genres": [
+      "音樂",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-049",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "吸吸吸吸吸血鬼",
+    "titleJp": "ババンババンバンバンパイア",
+    "weekday": "星期六",
+    "weekdayNote": "1/11",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-050",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "離開A級隊伍的我，和從前的弟子往迷宮深處邁進",
+    "titleJp": "Aランクパーティを離脱した俺は、元教え子たちと迷宮深部を目指す。",
+    "weekday": "星期六",
+    "weekdayNote": "1/11 深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-051",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "魔法使光之美少女！！～MIRAI DAYS～",
+    "titleJp": "魔法つかいプリキュア！！～MIRAI DAYS～",
+    "weekday": "星期六",
+    "weekdayNote": "1/11 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-052",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "Twins Hina Hima",
+    "titleJp": "ツインズひなひま",
+    "weekday": "星期六",
+    "weekdayNote": "3/29",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-053",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "0歲幼兒全力衝刺開展第二人生 第2季",
+    "titleJp": "0歳児スタートダッシュ物語 シーズン2",
+    "weekday": "星期日",
+    "weekdayNote": "1/5",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-054",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "我想蹺掉太子妃培訓",
+    "titleJp": "妃教育から逃げたい私",
+    "weekday": "星期日",
+    "weekdayNote": "1/5",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-055",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "全修。",
+    "titleJp": "全修。",
+    "weekday": "星期日",
+    "weekdayNote": "1/5",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-056",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "「只讓你摸1分鐘哦…」分租雅房不能說的祕密規定。",
+    "titleJp": "「1分間だけ触れてもいいよ…」シェアハウスの秘密ルール。",
+    "weekday": "星期日",
+    "weekdayNote": "1/5 深夜",
+    "genres": [
+      "戀愛",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-057",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "闇芝居 第14季",
+    "titleJp": "闇芝居 十四期",
+    "weekday": "星期日",
+    "weekdayNote": "1/5 深夜",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-058",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "地縛少年花子君2（第2季 上半）",
+    "titleJp": "地縛少年花子くん2",
+    "weekday": "星期日",
+    "weekdayNote": "1/12",
+    "genres": [
+      "奇幻",
+      "校園",
+      "懸疑",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-059",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "魔神創造傳",
+    "titleJp": "魔神創造伝ワタル",
+    "weekday": "星期日",
+    "weekdayNote": "1/12",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-060",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "超超超超超喜歡你的100個女朋友 第2季",
+    "titleJp": "君のことが大大大大大好きな100人の彼女 第2期",
+    "weekday": "星期日",
+    "weekdayNote": "1/12",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-061",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "金肉人 完美超人始祖篇 第2季",
+    "titleJp": "「キン肉マン」完璧超人始祖編 Season 2",
+    "weekday": "星期日",
+    "weekdayNote": "1/12",
+    "genres": [
+      "戰鬥",
+      "運動",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-062",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "紅戰士在異世界成了冒險者",
+    "titleJp": "戦隊レッド 異世界で冒険者になる",
+    "weekday": "星期日",
+    "weekdayNote": "1/12",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "戰鬥",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-winter-063",
+    "year": 2025,
+    "season": "2025-winter",
+    "titleZh": "Idol光之美少女你與我（你和偶像光之美少女）",
+    "titleJp": "キミとアイドルプリキュア♪",
+    "weekday": "星期日",
+    "weekdayNote": "2/2",
+    "genres": [
+      "奇幻",
+      "音樂",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202501/"
+  },
+  {
+    "id": "2025-spring-001",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "隨興旅－That's Journey－",
+    "titleJp": "ざつ旅-That's Journey-",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-002",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "不會拿捏距離的阿波連同學 第二季",
+    "titleJp": "阿波連さんははかれない season2",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-003",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Summer Pockets",
+    "titleJp": "Summer Pockets",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "日常",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-004",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "正義使者－我的英雄學院之非法英雄－",
+    "titleJp": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS-",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-005",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "中禪寺老師妖怪講義錄 解謎就交給老師。",
+    "titleJp": "中禅寺先生物怪講義録 先生が謎を解いてしまうから。",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "懸疑",
+      "奇幻",
+      "校園",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-006",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "搞笑漫畫日和GO",
+    "titleJp": "増田こうすけ劇場 ギャグマンガ日和GO",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-007",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "快藏好！瑪琪娜同學！！",
+    "titleJp": "かくして！マキナさん!!",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "科幻",
+      "校園",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-008",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "愛有點沉重的暗黑精靈從異世界緊追不放",
+    "titleJp": "ちょっとだけ愛が重いダークエルフが異世界から追いかけてきた",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戀愛",
+      "喜劇",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-009",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "過分色氣的深見君",
+    "titleJp": "やたらやらしい深見くん",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "職場",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-010",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Yu-Gi-Oh! CARD GAME THE CHRONICLES",
+    "titleJp": "Yu-Gi-Oh! CARD GAME THE CHRONICLES",
+    "weekday": "星期一",
+    "weekdayNote": "每月更新",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-011",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "紫雲寺家的兄弟姊妹",
+    "titleJp": "紫雲寺家の子供たち",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-012",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "直至魔女消逝",
+    "titleJp": "ある魔女が死ぬまで",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "日常",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-013",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "鬼人幻燈抄",
+    "titleJp": "鬼人幻燈抄",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-014",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "#空帕斯2.0",
+    "titleJp": "#コンパス2.0 戦闘摂理解析システム",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-015",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "航海王談戀愛",
+    "titleJp": "恋するワンピース",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-016",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "竹輪戰記～用我的可愛侵略地球～",
+    "titleJp": "ちくわ戦記～おれのカワイイで地球侵略～",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "科幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-017",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "機動戰士Gundam GQuuuuuuX",
+    "titleJp": "機動戦士Gundam GQuuuuuuX",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-018",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "末日後酒店",
+    "titleJp": "アポカリプスホテル",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-019",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "記憶縫線 YOUR FORMA",
+    "titleJp": "ユア・フォルマ",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-020",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "終末起點",
+    "titleJp": "最強の王様、二度目の人生は何をする？",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-021",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "陽光馬達棒球場！",
+    "titleJp": "ボールパークでつかまえて！",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "日常",
+      "運動",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-022",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "拜託請穿上，鷹峰同學",
+    "titleJp": "履いてください、鷹峰さん",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-023",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "華Doll* -Reinterpretation of Flowering-",
+    "titleJp": "華Doll* -Reinterpretation of Flowering-",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "懸疑",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-024",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "全力兔 第二季",
+    "titleJp": "全力ウサギ シーズン2",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-025",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Lycoris Recoil 莉可麗絲：友誼是時間的竊賊",
+    "titleJp": "リコリス・リコイル Friends are thieves of time.",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-026",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "MUZIK TIGER In the Forest",
+    "titleJp": "MUZIK TIGER In the Forest",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-027",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "朗萌綺盟",
+    "titleJp": "なんでもいきもの",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-028",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "悠哉賽馬娘 Pretty Gray",
+    "titleJp": "うまゆる ぷりてぃ～ぐれい",
+    "weekday": "星期三",
+    "weekdayNote": "隔日更新",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-029",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "搖滾樂是淑女的嗜好",
+    "titleJp": "ロックは淑女の嗜みでして",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-030",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "忍者與殺手的兩人生活",
+    "titleJp": "忍者と殺し屋のふたりぐらし",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "日常",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-031",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "瞬間治癒卻被當成廢物踢出隊伍的天才治療師，改當無照治療師快樂過活",
+    "titleJp": "一瞬で治療していたのに役立たずと追放された天才治癒師、闇ヒーラーとして楽しく生きる",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-032",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "完美到難以接近的聖女遭到解除婚約後被賣到鄰國",
+    "titleJp": "完璧すぎて可愛げがないと婚約破棄された聖女は隣国に売られる",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-033",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "外星人姆姆",
+    "titleJp": "宇宙人ムームー",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-034",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Miru 我的未來",
+    "titleJp": "未ル わたしのみらい",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-035",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "這是妳與我的最後戰場，或是開創世界的聖戰 第二季",
+    "titleJp": "キミと僕の最後の戦場、あるいは世界が始まる聖戦 Season Ⅱ",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "戀愛",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-036",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "迷你光之美少女～Precure Fairies～",
+    "titleJp": "ぷちきゅあ～Precure Fairies～",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-037",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "WIND BREAKER—防風少年— 第二季",
+    "titleJp": "WIND BREAKER Season 2",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-038",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "男女之間存在純友情嗎？（不，不存在！）",
+    "titleJp": "男女の友情は成立する？（いや、しないっ!!）",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-039",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "再見，地球 第二季",
+    "titleJp": "ばいばい、アース 第2シーズン",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-040",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "推理要在晚餐後",
+    "titleJp": "謎解きはディナーのあとで",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "懸疑",
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-041",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "小浣熊卡爾卡爾團",
+    "titleJp": "あらいぐま カルカル団",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-042",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "嗚莓貓貓",
+    "titleJp": "ンめねこ",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-043",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "歡迎來到魔法少女村（非法佔據）",
+    "titleJp": "おいでよ魔法少女村（不法占拠）",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-044",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "角落小夥伴 這裡讓人安心",
+    "titleJp": "すみっコぐらし ここがおちつくんです",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-045",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "炎炎消防隊 參之章",
+    "titleJp": "炎炎ノ消防隊 参ノ章",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-046",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "九龍大眾浪漫",
+    "titleJp": "九龍ジェネリックロマンス",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "懸疑",
+      "科幻",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-047",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "鄉下大叔成為劍聖",
+    "titleJp": "片田舎のおっさん、剣聖になる",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-048",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "持續狩獵史萊姆三百年，不知不覺就練到LV MAX 第二季",
+    "titleJp": "スライム倒して300年、知らないうちにレベルMAXになってました ～そのに～",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-049",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "神統記",
+    "titleJp": "神統記（テオゴニア）",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-050",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "黑執事 綠之魔女篇",
+    "titleJp": "黒執事 -緑の魔女編-",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "懸疑",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-051",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "安妮・雪莉",
+    "titleJp": "アン・シャーリー",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-052",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "聖騎士之戰 奮戰：DUAL RULERS",
+    "titleJp": "GUILTY GEAR STRIVE: DUAL RULERS",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-053",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "EVERYDAY HOST CLUB 男公關俱樂部的歡樂日常",
+    "titleJp": "えぶりでいホスト",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-054",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "真・武士傳 YAIBA",
+    "titleJp": "真・侍伝 YAIBA",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-055",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "怪獸世界征服",
+    "titleJp": "かいじゅうせかいせいふく",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-056",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "SHIBUYA♡HACHI 第三季度",
+    "titleJp": "SHIBUYA♡HACHI 第3クール",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-057",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "LAZARUS 拉撒路",
+    "titleJp": "LAZARUS ラザロ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-058",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "mono 女孩",
+    "titleJp": "mono",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-059",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "賽馬娘 灰髮灰姑娘（Cinderella Gray）",
+    "titleJp": "ウマ娘 シンデレラグレイ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-060",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "我是星際國家的惡德領主！",
+    "titleJp": "俺は星間国家の悪徳領主！",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "異世界",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-061",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "WITCH WATCH 魔女守護者",
+    "titleJp": "ウィッチウォッチ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "校園",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-062",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "歲月流逝飯菜依舊美味",
+    "titleJp": "日々は過ぎれど飯うまし",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-063",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "受到猩猩之神庇佑的大小姐受到王立騎士團寵愛",
+    "titleJp": "ゴリラの神から加護された令嬢は王立騎士団で可愛がられる",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-064",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "使人誤解的工房主～關於原英雄隊伍的雜役人員，實際上除了戰鬥能力外全是SSS的故事～",
+    "titleJp": "勘違いの工房主～英雄パーティの元雑用係が、実は戦闘以外がSSSランクだったというよくある話～",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-065",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Princess-session Orchestra（歌姬奏章：皇家少女樂團）",
+    "titleJp": "プリンセッション・オーケストラ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "音樂"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-066",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "前橋魔女",
+    "titleJp": "前橋ウィッチーズ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "音樂",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-067",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "戰隊大失格 第二季",
+    "titleJp": "戦隊大失格 2nd season",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-068",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "小市民系列 第二期",
+    "titleJp": "小市民シリーズ 第2期",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "懸疑",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-069",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "凸變英雄X",
+    "titleJp": "TO BE HERO X",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-070",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Classic★Stars – 古典樂★之星",
+    "titleJp": "クラシック★スターズ",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-071",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "秘密的偶像公主 戒指篇（第二季）",
+    "titleJp": "ひみつのアイプリ リング編",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-072",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "正能量企鵝",
+    "titleJp": "コウペンちゃん",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-073",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "最強王圖鑑～The Ultimate Tournament～",
+    "titleJp": "最強王図鑑 ～The Ultimate Tournament～",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-074",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "轉生為白豬貴族的我，運用前世記憶養育雛鳥般的弟弟",
+    "titleJp": "白豚貴族ですが前世の記憶が生えたのでひよこな弟育てます",
+    "weekday": "星期日",
+    "weekdayNote": "4月搶先獨播",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-spring-075",
+    "year": 2025,
+    "season": "2025-spring",
+    "titleZh": "Moonrise 月出之戰",
+    "titleJp": "ムーンライズ",
+    "weekday": "一次上架",
+    "weekdayNote": "4/10 Netflix",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202504/"
+  },
+  {
+    "id": "2025-summer-001",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "明天，美食廣場見。",
+    "titleJp": "フードコートで、また明日。",
+    "weekday": "星期一",
+    "weekdayNote": "7/7",
+    "genres": [
+      "日常",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-002",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Crypto Ninja 咲耶 參之卷（第3季）",
+    "titleJp": "忍ばない！クリプトニンジャ咲耶 参ノ巻",
+    "weekday": "星期一",
+    "weekdayNote": "7/7",
+    "genres": [
+      "奇幻",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-003",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "出入禁止的鼴鼠",
+    "titleJp": "出禁のモグラ",
+    "weekday": "星期一",
+    "weekdayNote": "7/7",
+    "genres": [
+      "奇幻",
+      "懸疑",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-004",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "美男高校地球防衛部HAIKARA！",
+    "titleJp": "美男高校地球防衛部ハイカラ！",
+    "weekday": "星期一",
+    "weekdayNote": "7/7",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "校園",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-005",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "GRAND BLUE 碧藍之海 第2季",
+    "titleJp": "ぐらんぶる Season 2",
+    "weekday": "星期一",
+    "weekdayNote": "7/7 深夜",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-006",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "我們不可能成為戀人！絕對不行。（※似乎可行？）",
+    "titleJp": "わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった!?）",
+    "weekday": "星期一",
+    "weekdayNote": "7/7 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-007",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "NYAIGHT OF THE LIVING CAT 活屍貓之夜",
+    "titleJp": "ニャイト・オブ・ザ・リビングキャット",
+    "weekday": "星期一",
+    "weekdayNote": "7/7 深夜",
+    "genres": [
+      "恐怖",
+      "喜劇",
+      "科幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-008",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "SAKAMOTO DAYS 坂本日常 第2季度",
+    "titleJp": "SAKAMOTO DAYS 第2クール",
+    "weekday": "星期一",
+    "weekdayNote": "7/14 深夜",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-009",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "涅庫羅諾美子的宇宙恐怖秀",
+    "titleJp": "ネクロノミ子のコズミックホラーショウ",
+    "weekday": "星期二",
+    "weekdayNote": "7/1",
+    "genres": [
+      "懸疑",
+      "科幻",
+      "恐怖",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-010",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "最近的偵探真沒用",
+    "titleJp": "まったく最近の探偵ときたら",
+    "weekday": "星期二",
+    "weekdayNote": "7/1",
+    "genres": [
+      "喜劇",
+      "懸疑",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-011",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "人妻的嘴唇嚐起來有罐裝沙瓦的味道",
+    "titleJp": "人妻の唇は缶チューハイの味がして",
+    "weekday": "星期二",
+    "weekdayNote": "7/1 深夜",
+    "genres": [
+      "戀愛",
+      "日常",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-012",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "杜鵑婚約 第2季",
+    "titleJp": "カッコウの許嫁 Season2",
+    "weekday": "星期二",
+    "weekdayNote": "7/8",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-013",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "阿松 第4季",
+    "titleJp": "おそ松さん 第4期",
+    "weekday": "星期二",
+    "weekdayNote": "7/8 深夜",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-014",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "保齡球少女！",
+    "titleJp": "Turkey!",
+    "weekday": "星期二",
+    "weekdayNote": "7/8 深夜",
+    "genres": [
+      "運動",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-015",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "小小哥吉拉的逆襲（第3季）",
+    "titleJp": "ちびゴジラの逆襲",
+    "weekday": "星期三",
+    "weekdayNote": "7/2",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-016",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Clevatess -魔獸之王與嬰兒與屍之勇者-",
+    "titleJp": "クレバテス-魔獣の王と赤子と屍の勇者-",
+    "weekday": "星期三",
+    "weekdayNote": "7/2",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-017",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "轉生成自動販賣機的我今天也在迷宮徘徊 第2季",
+    "titleJp": "自動販売機に生まれ変わった俺は迷宮を彷徨う 2nd season",
+    "weekday": "星期三",
+    "weekdayNote": "7/2",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "喜劇",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-018",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "靈異教師神眉（上半）",
+    "titleJp": "地獄先生ぬ～べ～",
+    "weekday": "星期三",
+    "weekdayNote": "7/2",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "恐怖",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-019",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "陰陽迴天 Re:Birth Verse",
+    "titleJp": "陰陽廻天 Re:バース",
+    "weekday": "星期三",
+    "weekdayNote": "7/2 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "科幻",
+      "異世界"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-020",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "強者的新傳說",
+    "titleJp": "強くてニューサーガ",
+    "weekday": "星期三",
+    "weekdayNote": "7/2 深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-021",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "盾之勇者成名錄 Season 4",
+    "titleJp": "盾の勇者の成り上がり Season 4",
+    "weekday": "星期三",
+    "weekdayNote": "7/9",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-022",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "轉生為第七王子，隨心所欲的魔法學習之路 第2季",
+    "titleJp": "転生したら第七王子だったので、気ままに魔術を極めます 第2期",
+    "weekday": "星期三",
+    "weekdayNote": "7/9 深夜",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-023",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "帝乃三姊妹意外地容易相處。",
+    "titleJp": "帝乃三姉妹は案外、チョロい。",
+    "weekday": "星期三",
+    "weekdayNote": "7/9 深夜",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-024",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "黑化吧！聖女大人",
+    "titleJp": "傷だらけ聖女より報復をこめて",
+    "weekday": "星期三",
+    "weekdayNote": "7/9 深夜",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-025",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "新吊帶襪天使",
+    "titleJp": "New PANTY&STOCKING with GARTERBELT",
+    "weekday": "星期三",
+    "weekdayNote": "7/9 深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-026",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "銀河特急 Milky☆Subway",
+    "titleJp": "銀河特急 ミルキー☆サブウェイ",
+    "weekday": "星期四",
+    "weekdayNote": "7/3",
+    "genres": [
+      "科幻",
+      "喜劇",
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-027",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "歡迎光臨流放者食堂！",
+    "titleJp": "追放者食堂へようこそ！",
+    "weekday": "星期四",
+    "weekdayNote": "7/3",
+    "genres": [
+      "奇幻",
+      "日常",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-028",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "神椿市建設中。",
+    "titleJp": "神椿市建設中。",
+    "weekday": "星期四",
+    "weekdayNote": "7/3",
+    "genres": [
+      "奇幻",
+      "懸疑",
+      "音樂",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-029",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "膽大黨 第2季",
+    "titleJp": "ダンダダン 第2期",
+    "weekday": "星期四",
+    "weekdayNote": "7/3 深夜",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "科幻",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-030",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "水屬性的魔法師",
+    "titleJp": "水属性の魔法使い",
+    "weekday": "星期四",
+    "weekdayNote": "7/3 深夜",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-031",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Dr.STONE 新石紀 SCIENCE FUTURE 第2季度",
+    "titleJp": "Dr.STONE SCIENCE FUTURE 第2クール",
+    "weekday": "星期四",
+    "weekdayNote": "7/10",
+    "genres": [
+      "科幻",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-032",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "雙人單身露營",
+    "titleJp": "ふたりソロキャンプ",
+    "weekday": "星期四",
+    "weekdayNote": "7/10 深夜",
+    "genres": [
+      "日常",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-033",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "被驅逐出勇者隊伍的白魔導師，被S級冒險者撿到",
+    "titleJp": "勇者パーティーを追放された白魔導師、Sランク冒険者に拾われる ～この白魔導師が規格外すぎる～",
+    "weekday": "星期四",
+    "weekdayNote": "7/10 深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-034",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "歌聲是法式千層酥",
+    "titleJp": "うたごえはミルフィーユ",
+    "weekday": "星期四",
+    "weekdayNote": "7/17",
+    "genres": [
+      "音樂",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-035",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "去唱卡拉OK吧！",
+    "titleJp": "カラオケ行こ！",
+    "weekday": "星期四",
+    "weekdayNote": "7/24",
+    "genres": [
+      "喜劇",
+      "日常",
+      "音樂",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-036",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "為你著迷",
+    "titleJp": "夢中さ、きみに。",
+    "weekday": "星期四",
+    "weekdayNote": "8/21",
+    "genres": [
+      "日常",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-037",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "為丑女獻上花束",
+    "titleJp": "ブスに花束を。",
+    "weekday": "星期五",
+    "weekdayNote": "7/4",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-038",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "明日方舟 焰燼曙明（第3季）",
+    "titleJp": "アークナイツ【焔燼曙明/RISE FROM EMBER】",
+    "weekday": "星期五",
+    "weekdayNote": "7/4",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-039",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "徹夜之歌 第2季",
+    "titleJp": "よふかしのうた Season2",
+    "weekday": "星期五",
+    "weekdayNote": "7/4",
+    "genres": [
+      "戀愛",
+      "奇幻",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-040",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Silent Witch 沉默魔女的祕密",
+    "titleJp": "サイレント・ウィッチ 沈黙の魔女の隠しごと",
+    "weekday": "星期五",
+    "weekdayNote": "7/4 深夜",
+    "genres": [
+      "奇幻",
+      "校園",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-041",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "渡同學的××瀕臨崩壞",
+    "titleJp": "渡くんの××が崩壊寸前",
+    "weekday": "星期五",
+    "weekdayNote": "7/4 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-042",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "破爛千金被姊姊的原婚約者溺愛著",
+    "titleJp": "ずたぼろ令嬢は姉の元婚約者に溺愛される",
+    "weekday": "星期五",
+    "weekdayNote": "7/4 深夜",
+    "genres": [
+      "戀愛",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-043",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "出租女友 第4季",
+    "titleJp": "彼女、お借りします 第4期",
+    "weekday": "星期五",
+    "weekdayNote": "7/4 深夜",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-044",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "桃源暗鬼",
+    "titleJp": "桃源暗鬼",
+    "weekday": "星期五",
+    "weekdayNote": "7/11",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-045",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "NUKITASHI 住在拔作島上的我該如何是好？",
+    "titleJp": "ぬきたし THE ANIMATION",
+    "weekday": "星期五",
+    "weekdayNote": "7/18 深夜",
+    "genres": [
+      "喜劇",
+      "校園",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-046",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "地球拉泰爾",
+    "titleJp": "地球のラテール",
+    "weekday": "星期五",
+    "weekdayNote": "9/5",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-047",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "章魚嗶的原罪",
+    "titleJp": "タコピーの原罪",
+    "weekday": "星期六",
+    "weekdayNote": "6/28 串流",
+    "genres": [
+      "懸疑",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-048",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "學校沒教的重要事情",
+    "titleJp": "学校では教えてくれない大切なこと",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-049",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "卡片戰鬥!! 先導者 Divinez DELUXE決勝篇（第4季）",
+    "titleJp": "カードファイト!! ヴァンガード Divinez デラックス決勝編",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-050",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "軟軟噗尼寵物小精靈 噗尼3（第3季）",
+    "titleJp": "ぷにるんず ぷに3",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "日常",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-051",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "9-nine- 支配者的王冠",
+    "titleJp": "9-nine- Ruler's Crown",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "懸疑",
+      "奇幻",
+      "校園",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-052",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "青春豬頭少年不會夢到聖誕服女郎",
+    "titleJp": "青春ブタ野郎はサンタクロースの夢を見ない",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戀愛",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-053",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "費馬的料理",
+    "titleJp": "フェルマーの料理",
+    "weekday": "星期六",
+    "weekdayNote": "7/5",
+    "genres": [
+      "職場",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-054",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "戀上換裝娃娃 第2季",
+    "titleJp": "その着せ替え人形は恋をする Season 2",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-055",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "薰香花朵凛然綻放",
+    "titleJp": "薫る花は凛と咲く",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "戀愛",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-056",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "光逝去的夏天",
+    "titleJp": "光が死んだ夏",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-057",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Bad Girl 不良少女",
+    "titleJp": "ばっどがーる",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "喜劇",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-058",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "和雨·和你",
+    "titleJp": "雨と君と",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-059",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "公爵千金的家庭教師",
+    "titleJp": "公女殿下の家庭教師",
+    "weekday": "星期六",
+    "weekdayNote": "7/5 深夜",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-060",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "氣絕勇者與暗殺公主",
+    "titleJp": "気絶勇者と暗殺姫",
+    "weekday": "星期六",
+    "weekdayNote": "7/12",
+    "genres": [
+      "奇幻",
+      "喜劇",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-061",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "週刊輕小說動畫",
+    "titleJp": "週刊ラノべアニメ",
+    "weekday": "星期六",
+    "weekdayNote": "7/12 深夜",
+    "genres": [
+      "奇幻",
+      "喜劇",
+      "戀愛",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-062",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "怪獸8號 第2季",
+    "titleJp": "怪獣8号 第2期",
+    "weekday": "星期六",
+    "weekdayNote": "7/19",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "奇幻",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-063",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "Fate/Grand Order 搞不懂的藤丸立香 第3季",
+    "titleJp": "Fate/Grand Order 藤丸立香はわからない Season3",
+    "weekday": "星期六",
+    "weekdayNote": "8/2 串流",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-064",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "特裝合體機器人 Jobraver",
+    "titleJp": "特装合体ロボ ジョブレイバー",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-065",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "地縛少年花子君2（後篇）",
+    "titleJp": "地縛少年花子くん2",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "奇幻",
+      "校園",
+      "懸疑",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-066",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "噗妮露是可愛史萊姆 第2季",
+    "titleJp": "ぷにるはかわいいスライム 第2期",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "喜劇",
+      "日常",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-067",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "琉璃的寶石",
+    "titleJp": "瑠璃の宝石",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "日常",
+      "校園",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-068",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "異世界默示錄麥諾格拉～從毀滅文明開始征服世界～",
+    "titleJp": "異世界黙示録マイノグーラ～破滅の文明で始める世界征服～",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-069",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "醜男真戰士",
+    "titleJp": "ブサメンガチファイター",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "冒險",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-070",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "遊樂場少女的異文化交流",
+    "titleJp": "ゲーセン少女と異文化交流",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-071",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "GACHIAKUTA",
+    "titleJp": "ガチアクタ",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-072",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "殺手旅店",
+    "titleJp": "ホテル・インヒューマンズ",
+    "weekday": "星期日",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-073",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "CITY THE ANIMATION",
+    "titleJp": "CITY THE ANIMATION",
+    "weekday": "星期日",
+    "weekdayNote": "7/6 深夜",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-074",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "做到懷孕為止的婚姻（奉子成婚）",
+    "titleJp": "デキちゃうまで婚",
+    "weekday": "星期日",
+    "weekdayNote": "7/6 深夜",
+    "genres": [
+      "戀愛",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-075",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "闇芝居 第15季",
+    "titleJp": "闇芝居 十五期",
+    "weekday": "星期日",
+    "weekdayNote": "7/13 深夜",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-076",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "利維坦號戰記",
+    "titleJp": "リヴァイアサン",
+    "weekday": "一次上架",
+    "weekdayNote": "7/10 Netflix",
+    "genres": [
+      "科幻",
+      "歷史",
+      "冒險",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-077",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "BULLET/BULLET",
+    "titleJp": "BULLET/BULLET",
+    "weekday": "一次上架",
+    "weekdayNote": "Disney+",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "冒險",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-summer-078",
+    "year": 2025,
+    "season": "2025-summer",
+    "titleZh": "美樂蒂 & 酷洛米",
+    "titleJp": "My Melody & Kuromi",
+    "weekday": "一次上架",
+    "weekdayNote": "7/24 Netflix",
+    "genres": [
+      "奇幻",
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202507/"
+  },
+  {
+    "id": "2025-fall-001",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "這裡是充滿笑容的職場。",
+    "titleJp": "笑顔のたえない職場です。",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-002",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "異世界四重奏3",
+    "titleJp": "異世界かるてっと3",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "異世界",
+      "奇幻",
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-003",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "胖子與愛情以及過錯！",
+    "titleJp": "デブとラブと過ちと！",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "職場",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-004",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "嘆氣的亡靈想隱退 第2季度",
+    "titleJp": "嘆きの亡霊は引退したい 第2クール",
+    "weekday": "星期一",
+    "weekdayNote": "串流週六先行",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-005",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "罪惡黃窟",
+    "titleJp": "ギルティホール",
+    "weekday": "星期一",
+    "weekdayNote": "週日深夜",
+    "genres": [
+      "戀愛",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-006",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "小手指同學，請別亂摸",
+    "titleJp": "さわらないで小手指くん",
+    "weekday": "星期一",
+    "weekdayNote": "週日深夜",
+    "genres": [
+      "校園",
+      "喜劇",
+      "戀愛",
+      "運動",
+      "短篇",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-007",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "魔法公主的小煩惱",
+    "titleJp": "ある日、お姫様になってしまった件について",
+    "weekday": "星期一",
+    "weekdayNote": "週日深夜",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-008",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "銀魂 3年Z班銀八老師",
+    "titleJp": "3年Z組銀八先生",
+    "weekday": "星期二",
+    "weekdayNote": "週一深夜",
+    "genres": [
+      "校園",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-009",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "素材採集家的異世界旅行記",
+    "titleJp": "素材採取家の異世界旅行記",
+    "weekday": "星期二",
+    "weekdayNote": "週一深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "異世界"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-010",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "身為暗殺者的我明顯比勇者還強",
+    "titleJp": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが",
+    "weekday": "星期二",
+    "weekdayNote": "週一深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險",
+      "異世界"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-011",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "陛下，請忘了我吧",
+    "titleJp": "陛下わたしを忘れてください",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-012",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "彈珠汽水瓶裡的千歲同學",
+    "titleJp": "千歳くんはラムネ瓶のなか",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "校園",
+      "戀愛",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-013",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "怪物彈珠 Deadverse Reloaded",
+    "titleJp": "モンスターストライク デッドバースリローデッド",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-014",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "跨越種族與你相戀",
+    "titleJp": "キミと越えて恋になる",
+    "weekday": "星期二",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-015",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "擁有超常技能的異世界流浪美食家 第二季",
+    "titleJp": "とんでもスキルで異世界放浪メシ2",
+    "weekday": "星期三",
+    "weekdayNote": "週二深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "異世界",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-016",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "矢野同學的普通日常",
+    "titleJp": "矢野くんの普通の日々",
+    "weekday": "星期三",
+    "weekdayNote": "週二深夜",
+    "genres": [
+      "校園",
+      "戀愛",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-017",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "忍者和極道",
+    "titleJp": "忍者と極道",
+    "weekday": "星期三",
+    "weekdayNote": "週二深夜",
+    "genres": [
+      "戰鬥",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-018",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "MUZIK TIGER In the Forest 第二季",
+    "titleJp": "MUZIK TIGER In the Forest 第2期",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-019",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "無職英雄：技能什麼的毫無用處",
+    "titleJp": "無職の英雄 ～別にスキルなんか要らなかったんだが～",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-020",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "WONDANCE—熱舞青春—",
+    "titleJp": "ワンダンス",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "校園",
+      "運動",
+      "音樂"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-021",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "從前從前有隻貓！世界喵童話",
+    "titleJp": "うごく！ねこむかしばなし",
+    "weekday": "星期三",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-022",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "妖怪旅館營業中 貳",
+    "titleJp": "かくりよの宿飯 弐",
+    "weekday": "星期四",
+    "weekdayNote": "週三深夜",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戀愛",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-023",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "轉生惡女的黑歷史",
+    "titleJp": "転生悪女の黒歴史",
+    "weekday": "星期四",
+    "weekdayNote": "週三深夜",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "戀愛",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-024",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "Let's Play 充滿挑戰的人生",
+    "titleJp": "Let's Play クエストだらけのマイライフ",
+    "weekday": "星期四",
+    "weekdayNote": "週三深夜",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-025",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "#住在神奈川的精靈",
+    "titleJp": "#神奈川に住んでるエルフ",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-026",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "森林家族 芙蕾雅的奇幻之日",
+    "titleJp": "シルバニアファミリー フレアのワンダーデイズ",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-027",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "無尾熊繪日記",
+    "titleJp": "コアラ絵日記",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-028",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "小泉八雲的KWAIDAN的世界",
+    "titleJp": "小泉八雲のKWAIDANの世界",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "恐怖",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-029",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "不中用的前輩。",
+    "titleJp": "不器用な先輩。",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-030",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "元祖！BanG Dream Chan",
+    "titleJp": "元祖！バンドリちゃん",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-031",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "對我垂涎欲滴的非人少女",
+    "titleJp": "私を喰べたい、ひとでなし",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "懸疑",
+      "恐怖",
+      "校園",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-032",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "星辰光輝更勝太陽",
+    "titleJp": "太陽よりも眩しい星",
+    "weekday": "星期四",
+    "weekdayNote": "",
+    "genres": [
+      "校園",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-033",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "永遠的黃昏",
+    "titleJp": "永久のユウグレ",
+    "weekday": "星期五",
+    "weekdayNote": "週四深夜",
+    "genres": [
+      "科幻",
+      "戀愛",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-034",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "魔法藥水救救我",
+    "titleJp": "ポーション、わが身を助ける",
+    "weekday": "星期五",
+    "weekdayNote": "週四深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "異世界",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-035",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "惡食千金與狂血公爵～那個魔物我就美美地享用了！～",
+    "titleJp": "悪食令嬢と狂血公爵",
+    "weekday": "星期五",
+    "weekdayNote": "週四深夜",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-036",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "地球的拉提爾",
+    "titleJp": "地球のラテール",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-037",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "GANGLION",
+    "titleJp": "ガングリオン",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-038",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "百姓貴族 第三季",
+    "titleJp": "百姓貴族 3rd Season",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-039",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "野原廣志 午餐的流派",
+    "titleJp": "野原ひろし 昼メシの流儀",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-040",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "娑婆氣",
+    "titleJp": "しゃばけ",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "懸疑",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-041",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "差點在迷宮深處被信任的夥伴殺掉，但靠著天賜技能「無限扭蛋」獲得等級9999的夥伴，我要向前隊友和世界展開復仇&「給他們好看！」",
+    "titleJp": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！",
+    "weekday": "星期五",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-042",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "最後可以再拜託您一件事嗎？",
+    "titleJp": "最後にひとつだけお願いしてもよろしいでしょうか",
+    "weekday": "星期六",
+    "weekdayNote": "週五深夜",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "喜劇",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-043",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "SANDA 變身聖誕老人",
+    "titleJp": "SANDA",
+    "weekday": "星期六",
+    "weekdayNote": "週五深夜",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-044",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "JOCHUM 第二季",
+    "titleJp": "JOCHUM シーズン2",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-045",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "SHIBUYA♡HACHI 第四季度",
+    "titleJp": "SHIBUYA♡HACHI 第4クール",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-046",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "屁屁偵探 第九季下半",
+    "titleJp": "おしりたんてい 第9シリーズ 新しいお話",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "懸疑",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-047",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "我的英雄學院 FINAL SEASON",
+    "titleJp": "僕のヒーローアカデミア FINAL SEASON",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "校園",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-048",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "科學×冒險生存！第二季",
+    "titleJp": "科学×冒険サバイバル！ 第2シリーズ",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "冒險",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-049",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "不動聲色的柏田與喜形於色的太田",
+    "titleJp": "顔に出ない柏田さんと顔に出る太田君",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "校園",
+      "戀愛",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-050",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "婚戒物語 第二季",
+    "titleJp": "結婚指輪物語Ⅱ",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "異世界",
+      "戀愛",
+      "R18"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-051",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "野生的大魔王出現了！",
+    "titleJp": "野生のラスボスが現れた！",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險",
+      "異世界"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-052",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "SPY×FAMILY 間諜家家酒 Season 3",
+    "titleJp": "SPY×FAMILY Season 3",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-053",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "末世二輪之旅",
+    "titleJp": "終末ツーリング",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "冒險",
+      "日常",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-054",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "貫徹輔助魔法支援弱小隊友的宮廷魔法師，慘遭驅逐後目標成為最強冒險者",
+    "titleJp": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-055",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "給不滅的你 Season 3",
+    "titleJp": "不滅のあなたへ Season 3",
+    "weekday": "星期六",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-056",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "GNOSIA",
+    "titleJp": "グノーシア",
+    "weekday": "星期日",
+    "weekdayNote": "週六深夜",
+    "genres": [
+      "科幻",
+      "懸疑"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-057",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "王者天下 第六季",
+    "titleJp": "キングダム 第6シリーズ",
+    "weekday": "星期日",
+    "weekdayNote": "週六深夜",
+    "genres": [
+      "歷史",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-058",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "東島丹三郎想成為假面騎士",
+    "titleJp": "東島丹三郎は仮面ライダーになりたい",
+    "weekday": "星期日",
+    "weekdayNote": "週六深夜",
+    "genres": [
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-059",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "亂馬1/2 第二季",
+    "titleJp": "らんま1/2 第2期",
+    "weekday": "星期日",
+    "weekdayNote": "週六深夜",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-060",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "朋友的妹妹只纏著我",
+    "titleJp": "友達の妹が俺にだけウザい",
+    "weekday": "星期日",
+    "weekdayNote": "週六深夜",
+    "genres": [
+      "校園",
+      "戀愛",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-061",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "數碼寶貝 BEATBREAK",
+    "titleJp": "DIGIMON BEATBREAK",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "戰鬥",
+      "冒險",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-062",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "SI-VIS：英雄之聲",
+    "titleJp": "SI-VIS: The Sound of Heroes",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-063",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "賽馬娘：蘆毛灰姑娘 第2季度",
+    "titleJp": "ウマ娘 シンデレラグレイ 第2クール",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-064",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "藍色管弦樂 第二季",
+    "titleJp": "青のオーケストラ Season 2",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "音樂",
+      "校園",
+      "日常"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-065",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "機械女僕‧瑪麗",
+    "titleJp": "機械じかけのマリー",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "戀愛",
+      "喜劇",
+      "戰鬥"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-066",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "不擅吸血的吸血鬼",
+    "titleJp": "ちゃんと吸えない吸血鬼ちゃん",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "校園",
+      "喜劇",
+      "日常",
+      "奇幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-067",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "阿爾瑪醬想成為家人",
+    "titleJp": "アルマちゃんは家族になりたい",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "科幻",
+      "日常",
+      "喜劇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-068",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "轉生後的我成了英雄爸爸和精靈媽媽的女兒",
+    "titleJp": "父は英雄、母は精霊、娘の私は転生者。",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "奇幻",
+      "冒險",
+      "異世界"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-069",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "一拳超人 第三季",
+    "titleJp": "ワンパンマン 第3期",
+    "weekday": "星期日",
+    "weekdayNote": "",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-070",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "寶可夢禮賓部 新集數（第5–8集）",
+    "titleJp": "ポケモンコンシェルジュ 新エピソード",
+    "weekday": "一次上架",
+    "weekdayNote": "9/4 Netflix",
+    "genres": [
+      "日常",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-071",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "CAT'S EYE – 貓眼 前篇",
+    "titleJp": "キャッツ♥アイ 前編",
+    "weekday": "一次上架",
+    "weekdayNote": "9/26 Disney+",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "戀愛"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-072",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "星際大戰：視界 第三季",
+    "titleJp": "スター・ウォーズ：ビジョンズ Volume 3",
+    "weekday": "一次上架",
+    "weekdayNote": "10/29 Disney+",
+    "genres": [
+      "科幻",
+      "戰鬥",
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-073",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "迪士尼扭曲仙境：動畫版－紅心宿舍篇",
+    "titleJp": "ディズニー ツイステッドワンダーランド ザ アニメーション「エピソード オブ ハーツラビュル」",
+    "weekday": "一次上架",
+    "weekdayNote": "10/29 Disney+",
+    "genres": [
+      "奇幻",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-074",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "藤本樹 17-26",
+    "titleJp": "藤本タツキ 17-26",
+    "weekday": "一次上架",
+    "weekdayNote": "11/8 Prime Video",
+    "genres": [
+      "奇幻",
+      "科幻",
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  },
+  {
+    "id": "2025-fall-075",
+    "year": 2025,
+    "season": "2025-fall",
+    "titleZh": "終末的女武神 第三季",
+    "titleJp": "終末のワルキューレⅢ",
+    "weekday": "一次上架",
+    "weekdayNote": "12/10 Netflix",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "",
+    "sourceUrl": "https://acgsecrets.hk/bangumi/202510/"
+  }
+]
