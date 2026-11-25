@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-25T19:40:53Z",
+  "updatedAt": "2026-11-25T20:01:18Z",
   "years": [
     {
       "year": 2026,
@@ -26,6 +26,16 @@
       "year": 2022,
       "file": "data-2022.json",
       "count": 493
+    },
+    {
+      "year": 2021,
+      "file": "data-2021.json",
+      "count": 541
+    },
+    {
+      "year": 2020,
+      "file": "data-2020.json",
+      "count": 430
     }
   ]
 }
