@@ -1,0 +1,34 @@
+name: 自動補齊封面與英文片名 (Fetch Covers & EN Titles)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-covers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch missing cover URLs and English titles
+        run: python3 scripts/fetch_covers.py
+
+      - name: Commit updated JSON files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data-*.json
+          if git diff --cached --quiet; then
+            echo "No updates to commit."
+          else
+            git commit -m "chore: update anime covers and English titles"
+            git push
+          fi
