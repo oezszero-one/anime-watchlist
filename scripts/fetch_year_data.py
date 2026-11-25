@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-ANIME LOG. 歷史年份新番自動抓取腳本 (支援 2008–2024 任意年份)
+ANIME LOG. 歷史年份新番自動抓取腳本 (支援 2008–2024 任意年份 · 自動簡轉繁)
 從 AniList 季度 API 抓取指定年份的四季 TV/TV_SHORT/ONA 動畫（含日文名、英文名、封面、類型與 R18 標註），
-再透過 Bangumi.tv 補齊繁體中文譯名，輸出 data-YYYY.json 並自動更新 years-manifest.json。
+透過 Bangumi.tv 補齊中文譯名後，使用 OpenCC (s2twp) 轉為繁體中文（台灣慣用詞），
+輸出 data-YYYY.json 並自動更新 years-manifest.json。
 """
 
 import argparse
@@ -16,9 +17,15 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+try:
+    from opencc import OpenCC
+    _cc = OpenCC("s2twp")
+except ImportError:
+    _cc = None
+
 ANILIST_URL = "https://graphql.anilist.co"
 BGM_SEARCH_URL = "https://api.bgm.tv/search/subject/"
-USER_AGENT = "AnimeLogYearFetcher/1.2 (+https://oezszero-one.github.io/)"
+USER_AGENT = "AnimeLogYearFetcher/1.3 (+https://oezszero-one.github.io/)"
 
 SEASONS = [
     ("winter", "WINTER"),
@@ -52,6 +59,14 @@ GENRE_MAP = {
 WEEKDAY_NAMES = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
 
 
+def to_trad_zh(text: str) -> str:
+    if not text:
+        return ""
+    if _cc is not None:
+        return _cc.convert(text)
+    return text
+
+
 def http_json(url: str, data=None, headers=None, timeout=20):
     req_headers = {"Accept": "application/json", "User-Agent": USER_AGENT}
     if headers:
@@ -78,7 +93,7 @@ def fetch_zh_name_from_bangumi(title_jp: str) -> str:
         for item in items:
             cn = (item.get("name_cn") or "").strip()
             if cn:
-                return cn
+                return to_trad_zh(cn)
     except Exception:
         pass
     return ""
@@ -197,6 +212,31 @@ def fetch_season_from_anilist(year: int, part: str, season_enum: str, with_zh: b
     return collected
 
 
+def convert_existing_historical_files(lo: int, hi: int):
+    """將已存在的歷史年份檔案（2024 年及以前）標題直接簡轉繁，不需重新抓取"""
+    if _cc is None:
+        return
+    for year in range(hi, lo - 1, -1):
+        if year >= 2025:
+            continue
+        path = f"data-{year}.json"
+        if not os.path.exists(path):
+            continue
+        with open(path, "r", encoding="utf-8") as fp:
+            items = json.load(fp)
+        changed = 0
+        for item in items:
+            old_zh = item.get("titleZh") or ""
+            new_zh = to_trad_zh(old_zh)
+            if new_zh != old_zh:
+                item["titleZh"] = new_zh
+                changed += 1
+        if changed > 0:
+            with open(path, "w", encoding="utf-8") as fp:
+                json.dump(items, fp, ensure_ascii=False, indent=2)
+            print(f"已將 {path} 內 {changed} 筆標題轉換為繁體中文。")
+
+
 def rebuild_manifest():
     files = sorted(glob.glob("data-*.json"), reverse=True)
     years_info = []
@@ -226,12 +266,20 @@ def main():
     parser.add_argument("--no-zh", action="store_true", help="跳過 Bangumi 中文譯名查詢以加快速度")
     args = parser.parse_args()
 
+    if _cc is None:
+        print("[警告] 未安裝 opencc-python-reimplemented，中文標題將維持原始字體。")
+
     lo = min(args.start_year, args.end_year)
     hi = max(args.start_year, args.end_year)
+
+    # 先將範圍內已存在的歷史檔案轉成繁體中文
+    if not args.overwrite:
+        convert_existing_historical_files(lo, hi)
+
     for year in range(hi, lo - 1, -1):
         out_file = f"data-{year}.json"
         if os.path.exists(out_file) and not args.overwrite:
-            print(f"略過已存在的 {out_file}（若需重抓請勾選覆蓋）")
+            print(f"略過重新抓取 {out_file}（已完成繁體檢查）")
             continue
         year_items = []
         for part, season_enum in SEASONS:
