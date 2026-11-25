@@ -31,6 +31,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install OpenCC for Traditional Chinese conversion
+        run: pip install opencc-python-reimplemented
+
       - name: Fetch anime catalog for selected years
         run: |
           OVERWRITE_FLAG=""
