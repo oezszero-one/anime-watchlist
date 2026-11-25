@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "updatedAt": "2026-11-26T00:00:00Z",
+  "years": [
+    { "year": 2026, "file": "data-2026.json", "count": 319 },
+    { "year": 2025, "file": "data-2025.json", "count": 291 }
+  ]
+}

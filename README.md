@@ -1,17 +1,16 @@
-# ANIME LOG. (2025–2026 Watchlist · v1.1)
+# ANIME LOG. (v1.2 · Multi-Year & Tri-Lingual)
 
-> Watch. Rate. Discover. — 2025～2026 新番動漫手機版檢核平台（第一階段 1.1）
+> Watch. Rate. Discover. — 多年度新番動漫手機版檢核平台（繁體中文／日本語／English）
 
-## v1.1 功能亮點
-- **兩年八季 610 部完整片單**：按年份拆分為 `data-2025.json`（291 部）與 `data-2026.json`（319 部），涵蓋冬、春、夏、秋四季新番，支援年份切換與列表分頁。
-- **封面網址預先寫入＋雙來源自動補圖**：內建 `.github/workflows/fetch-covers.yml` 與 `scripts/fetch_covers.py`，上傳 GitHub 後可一鍵將 AniList／MyAnimeList 封面網址寫回片單 JSON；前端同時改用 `IntersectionObserver` 滑到哪抓到哪並具備破圖保護。
-- **手機專用「一頁一部」模式**：自動偵測手機裝置預設進入單張滑動模式（含左右滑動、進度條與標記後自動下一部），並可隨時切回列表模式。
-- **R18 分類與隱藏開關**：支援 `R18` 類型標籤篩選，並在「AI 推薦包／純文字分享」提供「隱藏 R18 作品」開關（預設勾選）。
-- **淺色／深色雙主題切換**：頂部一鍵切換淺色／深色模式並自動記憶偏好。
-- **關於頁**：頂部選單提供「關於」頁面（OEZS STUDIO）。
+## v1.2 亮點功能
+- **繁中／日文／英文三語自動偵測與切換**：依瀏覽器語言自動切換介面、類型標籤、Google 搜尋關鍵字與 AI 推薦提示包，頂部可隨時切換 `繁／日／EN`。
+- **任意年份按需載入架構（`years-manifest.json`）**：預設內建 2025（291 部）與 2026（319 部），並附帶一鍵擴充 **2008–2024 歷史年份**的 GitHub Actions 工作流，新增年份後網站自動出現該年份選單且按需載入不卡頓。
+- **作品快速 Google 搜尋按鈕**：每部作品標題旁附帶搜尋按鈕，點擊即複製片名並另開 Google 搜尋視窗。
+- **電腦版橫向篩選優化**：年份、季度、狀態與動畫類型篩選列均支援左右箭頭按鈕點擊捲動與滑鼠滾輪橫向滑動。
+- **R18 分類與隱藏開關**：支援 `R18` 標籤篩選，AI 推薦包與純文字分享預設勾選「隱藏 R18 作品」。
+- **隱藏本機偵錯面板（`?debug=1`）**：網址後方加上 `?debug=1` 即可開啟破圖／缺圖掃描與資料異常健檢工具。
+- **淺色／深色雙主題切換**與**關於頁（含返回按鈕）**：由 OEZS STUDIO 製作及維護。
 
-## 部署至 GitHub Pages 與一鍵預先寫入封面網址
-1. 在 GitHub 建立名為 `anime-watchlist` 的公開 Repository。
-2. 將本資料夾內的所有檔案（包含隱藏資料夾 `.github/workflows/fetch-covers.yml`、`scripts/fetch_covers.py`、`data-2025.json`、`data-2026.json`、`index.html`、`styles.css`、`app.js`、`manifest.webmanifest`）上傳至 `main` 分支根目錄。
-3. 前往 **Settings → Pages**，選擇 `Deploy from a branch` → `main` / `/ (root)` 並儲存。
-4. **一鍵預先寫入所有封面網址**：前往儲存庫的 **Actions** 分頁，點選左側 **「自動補齊動漫封面網址 (Fetch Covers)」**，點擊右上角 **Run workflow**。執行完成後 GitHub 會自動將所有抓到的封面圖網址寫入 `data-2025.json` 與 `data-2026.json` 並自動更新網站！
+## GitHub Actions 自動化操作指南
+1. **補齊 2025–2026 封面網址與英文片名**：前往 **Actions → 自動補齊封面與英文片名 → Run workflow**。
+2. **一鍵擴充 2008–2024 歷史片單**：前往 **Actions → 自動擴充歷史年份片單 → Run workflow**，輸入起始與結束年份（建議每次跑 3～5 年，例如 `2020`～`2024`、`2015`～`2019`、`2008`～`2014`），完成後會自動建立 `data-YYYY.json` 並更新 `years-manifest.json`。

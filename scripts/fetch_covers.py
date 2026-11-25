@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-ANIME LOG. 封面網址自動補齊腳本 (v1.2 強化版)
-採用四層策略補齊 data-2025.json 與 data-2026.json 中尚未填寫 coverUrl 的作品：
-1. AniList 季度整批抓取 + 本地正規化／模糊比對（大幅減少單筆請求並避免漏抓）
-2. 強化標題清理（處理 16期、十四期、続編、副標等）+ AniList 單筆搜尋
-3. Jikan (MyAnimeList) 公開 API 搜尋（含 429 重試）
-4. Bangumi.tv 公開 API 搜尋（同時支援日文原名與中文名，對短篇／R18／冷門作命中率極高）
+ANIME LOG. 封面網址與英文片名自動補齊腳本 (v1.3)
+自動掃描根目錄所有 data-YYYY.json，補齊缺少的 coverUrl 與 titleEn：
+1. AniList 季度整批索引比對（同時取 coverImage 與 english/romaji 英文名）
+2. 強化標題清理 + AniList 單筆搜尋
+3. Jikan (MyAnimeList) 公開 API 搜尋
+4. Bangumi.tv 公開 API 搜尋（中／日文高命中備援）
 """
 
+import glob
 import json
 import os
 import re
@@ -17,11 +18,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-DATA_FILES = ["data-2025.json", "data-2026.json"]
 ANILIST_URL = "https://graphql.anilist.co"
 JIKAN_URL = "https://api.jikan.moe/v4/anime"
 BGM_SEARCH_URL = "https://api.bgm.tv/search/subject/"
-USER_AGENT = "AnimeLogCoverFetcher/1.2 (+https://oezszero-one.github.io/)"
+USER_AGENT = "AnimeLogCoverFetcher/1.3 (+https://oezszero-one.github.io/)"
 
 SEASON_MAP = {
     "winter": "WINTER",
@@ -32,14 +32,12 @@ SEASON_MAP = {
 
 
 def normalize_key(text: str) -> str:
-    """移除空白與標點符號並轉小寫，用於比對日文／中文標題"""
     s = unicodedata.normalize("NFKC", text or "").lower()
     s = re.sub(r"[\s\-_~～〜!！?？。、,.・:：;；「」『』()（）\[\]【】\"'♥★☆♪#]+", "", s)
     return s
 
 
 def clean_jp_title(title: str) -> str:
-    """移除常見續季、期數、副標字樣，提高搜尋命中率"""
     s = unicodedata.normalize("NFKC", title or "")
     s = re.sub(r"[～〜~].*?[～〜~]", " ", s)
     s = re.sub(r"[（(].*?[）)]", " ", s)
@@ -55,7 +53,6 @@ def clean_jp_title(title: str) -> str:
 
 
 def first_segment(title: str) -> str:
-    """若標題含副標或空白分隔，擷取主標題前半段"""
     s = clean_jp_title(title)
     parts = re.split(r"[\s\-－—:：～〜~、,]", s)
     parts = [p.strip() for p in parts if p.strip()]
@@ -79,9 +76,7 @@ def http_json(url: str, data=None, headers=None, timeout=18):
         return json.loads(resp.read().decode("utf-8"))
 
 
-# ==================== 1. AniList 季度整批抓取 ====================
-def fetch_anilist_season_index() -> list:
-    """抓取 2025 與 2026 四季所有動畫，建立本地標題→封面索引"""
+def fetch_anilist_season_index(years: list) -> list:
     gql = """
     query ($page: Int, $season: MediaSeason, $seasonYear: Int) {
       Page(page: $page, perPage: 50) {
@@ -95,7 +90,7 @@ def fetch_anilist_season_index() -> list:
     }
     """
     records = []
-    for year in (2025, 2026):
+    for year in years:
         for part, season_enum in SEASON_MAP.items():
             page = 1
             while page <= 4:
@@ -109,18 +104,18 @@ def fetch_anilist_season_index() -> list:
                     media_list = page_data.get("media") or []
                     for m in media_list:
                         cover = (m.get("coverImage") or {}).get("large") or (m.get("coverImage") or {}).get("medium") or ""
-                        if not cover:
-                            continue
-                        titles = []
                         t = m.get("title") or {}
-                        for k in ("native", "romaji", "english"):
-                            if t.get(k):
-                                titles.append(t[k])
-                        for syn in (m.get("synonyms") or []):
-                            if syn:
-                                titles.append(syn)
+                        title_en = t.get("english") or t.get("romaji") or ""
+                        titles = [t.get(k) for k in ("native", "romaji", "english") if t.get(k)]
+                        titles.extend([s for s in (m.get("synonyms") or []) if s])
                         norm_titles = [normalize_key(x) for x in titles if normalize_key(x)]
-                        records.append({"year": year, "season": f"{year}-{part}", "norms": norm_titles, "cover": cover})
+                        records.append({
+                            "year": year,
+                            "season": f"{year}-{part}",
+                            "norms": norm_titles,
+                            "cover": cover,
+                            "titleEn": title_en,
+                        })
                     if not (page_data.get("pageInfo") or {}).get("hasNextPage"):
                         break
                     page += 1
@@ -134,19 +129,17 @@ def fetch_anilist_season_index() -> list:
                     break
                 except Exception:
                     break
-    print(f"已從 AniList 季度索引載入 {len(records)} 筆動畫封面資料。")
+    print(f"已從 AniList 季度索引載入 {len(records)} 筆資料。")
     return records
 
 
-def match_from_season_index(anime: dict, index_records: list) -> str:
+def match_from_season_index(anime: dict, index_records: list) -> tuple:
     raw_jp = anime.get("titleJp") or ""
     cleaned_jp = clean_jp_title(raw_jp)
-    targets = [normalize_key(raw_jp), normalize_key(cleaned_jp)]
-    targets = [t for t in dict.fromkeys(targets) if len(t) >= 3]
+    targets = [t for t in dict.fromkeys([normalize_key(raw_jp), normalize_key(cleaned_jp)]) if len(t) >= 3]
     if not targets:
-        return ""
+        return "", ""
 
-    # 先比對同季，再放寬至全部索引
     ordered = [r for r in index_records if r["season"] == anime.get("season")] + [
         r for r in index_records if r["season"] != anime.get("season")
     ]
@@ -154,15 +147,15 @@ def match_from_season_index(anime: dict, index_records: list) -> str:
         for t in targets:
             for nt in r["norms"]:
                 if t == nt or (len(t) >= 5 and (t in nt or nt in t)):
-                    return r["cover"]
-    return ""
+                    return r["cover"], r["titleEn"]
+    return "", ""
 
 
-# ==================== 2. AniList 單筆搜尋 ====================
-def fetch_anilist(query_text: str) -> str:
+def fetch_anilist(query_text: str) -> tuple:
     gql = """
     query ($search: String) {
       Media(search: $search, type: ANIME, sort: SEARCH_MATCH) {
+        title { english romaji }
         coverImage { large medium }
       }
     }
@@ -174,21 +167,22 @@ def fetch_anilist(query_text: str) -> str:
             headers={"Content-Type": "application/json"},
         )
         media = (res.get("data") or {}).get("Media") or {}
-        cover = media.get("coverImage") or {}
-        return cover.get("large") or cover.get("medium") or ""
+        cover = (media.get("coverImage") or {}).get("large") or (media.get("coverImage") or {}).get("medium") or ""
+        t = media.get("title") or {}
+        title_en = t.get("english") or t.get("romaji") or ""
+        return cover, title_en
     except urllib.error.HTTPError as e:
         if e.code == 429:
             wait_s = min(int(e.headers.get("Retry-After", "60")) + 2, 70)
             print(f"[AniList 429] 等待 {wait_s} 秒...")
             time.sleep(wait_s)
             return fetch_anilist(query_text)
-        return ""
+        return "", ""
     except Exception:
-        return ""
+        return "", ""
 
 
-# ==================== 3. Jikan (MyAnimeList) 搜尋 ====================
-def fetch_jikan(query_text: str) -> str:
+def fetch_jikan(query_text: str) -> tuple:
     qs = urllib.parse.urlencode({"q": query_text, "limit": 3})
     try:
         res = http_json(f"{JIKAN_URL}?{qs}")
@@ -196,19 +190,19 @@ def fetch_jikan(query_text: str) -> str:
         for item in items:
             images = (item.get("images") or {}).get("jpg") or {}
             url = images.get("large_image_url") or images.get("image_url") or ""
-            if url:
-                return url
-        return ""
+            title_en = item.get("title_english") or item.get("title") or ""
+            if url or title_en:
+                return url, title_en
+        return "", ""
     except urllib.error.HTTPError as e:
         if e.code == 429:
             time.sleep(3)
             return fetch_jikan(query_text)
-        return ""
+        return "", ""
     except Exception:
-        return ""
+        return "", ""
 
 
-# ==================== 4. Bangumi.tv 搜尋（中／日文高命中備援） ====================
 def fetch_bangumi(query_text: str) -> str:
     encoded = urllib.parse.quote(query_text, safe="")
     url = f"{BGM_SEARCH_URL}{encoded}?type=2&responseGroup=small&max_results=5"
@@ -219,19 +213,26 @@ def fetch_bangumi(query_text: str) -> str:
             images = item.get("images") or {}
             img = images.get("large") or images.get("common") or images.get("medium") or ""
             if img:
-                if img.startswith("http://"):
-                    img = "https://" + img[len("http://"):]
-                return img
+                return "https://" + img[len("http://"):] if img.startswith("http://") else img
         return ""
     except Exception:
         return ""
 
 
-def resolve_cover(anime: dict, season_index: list) -> str:
-    # 1. 先從季度整批索引比對（0 API 請求）
-    url = match_from_season_index(anime, season_index)
-    if url:
-        return url
+def resolve_meta(anime: dict, season_index: list) -> tuple:
+    need_cover = not anime.get("coverUrl")
+    need_en = not anime.get("titleEn")
+
+    found_cover = anime.get("coverUrl") or ""
+    found_en = anime.get("titleEn") or ""
+
+    c, en = match_from_season_index(anime, season_index)
+    if need_cover and c:
+        found_cover = c
+    if need_en and en:
+        found_en = en
+    if found_cover and found_en:
+        return found_cover, found_en
 
     raw_jp = (anime.get("titleJp") or "").strip()
     cleaned_jp = clean_jp_title(raw_jp)
@@ -239,36 +240,41 @@ def resolve_cover(anime: dict, season_index: list) -> str:
     raw_zh = (anime.get("titleZh") or "").strip()
     cleaned_zh = clean_jp_title(raw_zh)
 
-    jp_candidates = [c for c in dict.fromkeys([raw_jp, cleaned_jp, seg_jp]) if len(c) >= 2]
-    all_candidates = [c for c in dict.fromkeys([raw_jp, cleaned_jp, raw_zh, cleaned_zh, seg_jp]) if len(c) >= 2]
+    jp_candidates = [x for x in dict.fromkeys([raw_jp, cleaned_jp, seg_jp]) if len(x) >= 2]
+    all_candidates = [x for x in dict.fromkeys([raw_jp, cleaned_jp, raw_zh, cleaned_zh, seg_jp]) if len(x) >= 2]
 
-    # 2. AniList 單筆搜尋
     for q in jp_candidates:
-        url = fetch_anilist(q)
+        c, en = fetch_anilist(q)
         time.sleep(0.85)
-        if url:
-            return url
+        if not found_cover and c:
+            found_cover = c
+        if not found_en and en:
+            found_en = en
+        if found_cover and found_en:
+            return found_cover, found_en
 
-    # 3. Jikan (MyAnimeList) 搜尋
     for q in jp_candidates:
-        url = fetch_jikan(q)
+        c, en = fetch_jikan(q)
         time.sleep(0.6)
-        if url:
-            return url
+        if not found_cover and c:
+            found_cover = c
+        if not found_en and en:
+            found_en = en
+        if found_cover and found_en:
+            return found_cover, found_en
 
-    # 4. Bangumi.tv 搜尋（支援日文與中文）
-    for q in all_candidates:
-        url = fetch_bangumi(q)
-        time.sleep(0.45)
-        if url:
-            return url
+    if not found_cover:
+        for q in all_candidates:
+            c = fetch_bangumi(q)
+            time.sleep(0.45)
+            if c:
+                found_cover = c
+                break
 
-    return ""
+    return found_cover, found_en
 
 
 def process_file(filepath: str, season_index: list) -> tuple:
-    if not os.path.exists(filepath):
-        return 0, []
     with open(filepath, "r", encoding="utf-8") as f:
         items = json.load(f)
 
@@ -276,16 +282,22 @@ def process_file(filepath: str, season_index: list) -> tuple:
     missed = []
     total = len(items)
     for idx, item in enumerate(items, 1):
-        if item.get("coverUrl"):
+        if item.get("coverUrl") and item.get("titleEn"):
             continue
-        url = resolve_cover(item, season_index)
-        if url:
-            item["coverUrl"] = url
+        prev_c, prev_en = item.get("coverUrl") or "", item.get("titleEn") or ""
+        new_c, new_en = resolve_meta(item, season_index)
+        changed = False
+        if new_c and new_c != prev_c:
+            item["coverUrl"] = new_c
+            changed = True
+        if new_en and new_en != prev_en:
+            item["titleEn"] = new_en
+            changed = True
+        if changed:
             updated += 1
-            print(f"[{filepath} {idx}/{total}] OK: {item.get('titleZh')} -> {url}")
-        else:
+            print(f"[{filepath} {idx}/{total}] OK: {item.get('titleZh')}")
+        if not item.get("coverUrl"):
             missed.append(f"{item.get('id')} {item.get('titleZh')} ({item.get('titleJp')})")
-            print(f"[{filepath} {idx}/{total}] MISS: {item.get('titleZh')}")
         if idx % 20 == 0 and updated > 0:
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(items, f, ensure_ascii=False, indent=2)
@@ -293,20 +305,25 @@ def process_file(filepath: str, season_index: list) -> tuple:
     if updated > 0:
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(items, f, ensure_ascii=False, indent=2)
-    print(f"完成 {filepath}：本次補齊 {updated} 張，仍缺 {len(missed)} 張")
+    print(f"完成 {filepath}：更新 {updated} 筆，仍缺封面 {len(missed)} 筆")
     return updated, missed
 
 
 if __name__ == "__main__":
-    season_index = fetch_anilist_season_index()
+    files = sorted(glob.glob("data-*.json"), reverse=True)
+    years = []
+    for f in files:
+        m = re.match(r"data-(\d{4})\.json$", os.path.basename(f))
+        if m:
+            years.append(int(m.group(1)))
+    season_index = fetch_anilist_season_index(years)
     total_updated = 0
     all_missed = []
-    for fn in DATA_FILES:
+    for fn in files:
         u, m = process_file(fn, season_index)
         total_updated += u
         all_missed.extend(m)
-    print(f"\n=== 全部完成：本次補齊 {total_updated} 張，剩餘未命中 {len(all_missed)} 張 ===")
+    print(f"\n=== 全部完成：更新 {total_updated} 筆，仍缺封面 {len(all_missed)} 筆 ===")
     if all_missed:
-        print("仍未命中的作品清單：")
         for line in all_missed:
             print(" -", line)
