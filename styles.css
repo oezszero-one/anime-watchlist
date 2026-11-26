@@ -273,3 +273,34 @@ html.dark .badge-r18 { color: #fda4af; }
     padding-bottom: 3rem;
   }
 }
+
+/* ==================== 聚光燈動畫功能導覽 (Spotlight Tour) ==================== */
+#tour-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: auto;
+}
+
+#tour-spotlight {
+  position: fixed;
+  z-index: 61;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 9999px rgba(2, 6, 23, 0.78), 0 0 0 3px rgba(139, 92, 246, 0.9), 0 0 28px rgba(139, 92, 246, 0.55);
+  pointer-events: none;
+  transition: top 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              left 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              width 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              height 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.25s ease;
+}
+
+#tour-tooltip {
+  position: fixed;
+  z-index: 62;
+  width: min(360px, calc(100vw - 24px));
+  transition: top 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              left 0.36s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.25s ease,
+              transform 0.25s ease;
+}
