@@ -1,0 +1,6679 @@
+[
+  {
+    "id": "2016-winter-001",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "只有我不存在的城市",
+    "titleJp": "僕だけがいない街",
+    "titleEn": "ERASED",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "劇情",
+      "懸疑",
+      "心理",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21234-XmqW39aQ9o7O.jpg",
+    "sourceUrl": "https://anilist.co/anime/21234"
+  },
+  {
+    "id": "2016-winter-002",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "為美好的世界獻上祝福！",
+    "titleJp": "この素晴らしい世界に祝福を！",
+    "titleEn": "KONOSUBA -God's blessing on this wonderful world!",
+    "weekday": "星期四",
+    "weekdayNote": "1/14",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21202-mPOr80AEjUcZ.png",
+    "sourceUrl": "https://anilist.co/anime/21202"
+  },
+  {
+    "id": "2016-winter-003",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "暗殺教室 第二季",
+    "titleJp": "暗殺教室 第２期",
+    "titleEn": "Assassination Classroom Second Season",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21170-kbcfTTZGSaFt.jpg",
+    "sourceUrl": "https://anilist.co/anime/21170"
+  },
+  {
+    "id": "2016-winter-004",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "灰與幻想的格林姆迦爾",
+    "titleJp": "灰と幻想のグリムガル",
+    "titleEn": "Grimgar of Fantasy and Ash",
+    "weekday": "星期一",
+    "weekdayNote": "1/11",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情",
+      "奇幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21428-dFVIHeZ8McBe.jpg",
+    "sourceUrl": "https://anilist.co/anime/21428"
+  },
+  {
+    "id": "2016-winter-005",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "無彩限的怪靈世界",
+    "titleJp": "無彩限のファントム・ワールド",
+    "titleEn": "Myriad Colors Phantom World",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "日常",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21306-nXw2pY43S2ox.png",
+    "sourceUrl": "https://anilist.co/anime/21306"
+  },
+  {
+    "id": "2016-winter-006",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "GATE 奇幻自衛隊 炎龍篇",
+    "titleJp": "GATE 自衛隊 彼の地にて、斯く戦えり 第2クール",
+    "titleEn": "Gate 2",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21364-6ikYd5J46dt0.jpg",
+    "sourceUrl": "https://anilist.co/anime/21364"
+  },
+  {
+    "id": "2016-winter-007",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "亞人",
+    "titleJp": "亜人",
+    "titleEn": "AJIN: Demi-Human",
+    "weekday": "星期六",
+    "weekdayNote": "1/16",
+    "genres": [
+      "戰鬥",
+      "恐怖",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21341-Pyc7SkMEuGsl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21341"
+  },
+  {
+    "id": "2016-winter-008",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "粗點心戰爭",
+    "titleJp": "だがしかし",
+    "titleEn": "Dagashi Kashi",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21365-FRalqWQn0lf9.jpg",
+    "sourceUrl": "https://anilist.co/anime/21365"
+  },
+  {
+    "id": "2016-winter-009",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "最弱無敗神裝機龍",
+    "titleJp": "最弱無敗の神装機竜《バハムート》",
+    "titleEn": "Undefeated Bahamut Chronicle",
+    "weekday": "星期一",
+    "weekdayNote": "1/11",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "機甲",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21188-VFUo0sASxOfO.jpg",
+    "sourceUrl": "https://anilist.co/anime/21188"
+  },
+  {
+    "id": "2016-winter-010",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "赤髪の白雪姫 2ndシーズン",
+    "titleJp": "赤髪の白雪姫 2ndシーズン",
+    "titleEn": "Snow White with the Red Hair Season 2",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "劇情",
+      "奇幻",
+      "戀愛",
+      "歷史",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21258-6UnmYMTMH0f7.jpg",
+    "sourceUrl": "https://anilist.co/anime/21258"
+  },
+  {
+    "id": "2016-winter-011",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "歷物語",
+    "titleJp": "暦物語",
+    "titleEn": "Koyomimonogatari",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "懸疑",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21520-nZKCr7PZrv7e.png",
+    "sourceUrl": "https://anilist.co/anime/21520"
+  },
+  {
+    "id": "2016-winter-012",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "昭和元祿落語心中 OAD",
+    "titleJp": "昭和元禄落語心中",
+    "titleEn": "Showa Genroku Rakugo Shinju",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "劇情",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20972-95dyLz6lkCZ8.jpg",
+    "sourceUrl": "https://anilist.co/anime/20972"
+  },
+  {
+    "id": "2016-winter-013",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "デュラララ!!×２ 結",
+    "titleJp": "デュラララ!!×２ 結",
+    "titleEn": "Durarara!! X2 The Third Arc",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20880-WsvmgSdL8lhP.png",
+    "sourceUrl": "https://anilist.co/anime/20880"
+  },
+  {
+    "id": "2016-winter-014",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "維度戰記",
+    "titleJp": "ディメンション ダブリュー",
+    "titleEn": "Dimension W",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21256-ErFGk90Kr5Ab.jpg",
+    "sourceUrl": "https://anilist.co/anime/21256"
+  },
+  {
+    "id": "2016-winter-015",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "虹色時光",
+    "titleJp": "虹色デイズ",
+    "titleEn": "Rainbow Days",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21292-qvGXSWLB5HAd.jpg",
+    "sourceUrl": "https://anilist.co/anime/21292"
+  },
+  {
+    "id": "2016-winter-016",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "告訴我！辣妹子醬",
+    "titleJp": "おしえて！ ギャル子ちゃん",
+    "titleEn": "Please tell me! Galko-chan",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21472-D65q8PNXVgiw.jpg",
+    "sourceUrl": "https://anilist.co/anime/21472"
+  },
+  {
+    "id": "2016-winter-017",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "彼女と彼女の猫 -Everything Flows-",
+    "titleJp": "彼女と彼女の猫 -Everything Flows-",
+    "titleEn": "She and Her Cat -Everything Flows-",
+    "weekday": "星期五",
+    "weekdayNote": "3/4",
+    "genres": [
+      "劇情",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21577-yHXqitJ8v3Vq.jpg",
+    "sourceUrl": "https://anilist.co/anime/21577"
+  },
+  {
+    "id": "2016-winter-018",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "疾走王子 Alternative",
+    "titleJp": "プリンス・オブ・ストライド オルタナティブ",
+    "titleEn": "Prince of Stride: Alternative",
+    "weekday": "星期二",
+    "weekdayNote": "1/5",
+    "genres": [
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21330-2PhigzTo5dTm.png",
+    "sourceUrl": "https://anilist.co/anime/21330"
+  },
+  {
+    "id": "2016-winter-019",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "神聖之門",
+    "titleJp": "ディバインゲート",
+    "titleEn": "Divine Gate",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "科幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21380-U2PS8WAY1IxN.jpg",
+    "sourceUrl": "https://anilist.co/anime/21380"
+  },
+  {
+    "id": "2016-winter-020",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "蒼之彼方的四重奏",
+    "titleJp": "蒼の彼方のフォーリズム",
+    "titleEn": "AOKANA: Four Rhythm Across the Blue",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "劇情",
+      "科幻",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21319-U2RmvTzscBT3.jpg",
+    "sourceUrl": "https://anilist.co/anime/21319"
+  },
+  {
+    "id": "2016-winter-021",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "小桃小慄 Love Love物語",
+    "titleJp": "ももくり",
+    "titleEn": "Momokuri",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21050-jGDgfWrFdCIJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21050"
+  },
+  {
+    "id": "2016-winter-022",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "大貴族：回醒",
+    "titleJp": "NOBLESSE:Awakening",
+    "titleEn": "Noblesse: Awakening",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21629-1TAaEMqxkGC8.jpg",
+    "sourceUrl": "https://anilist.co/anime/21629"
+  },
+  {
+    "id": "2016-winter-023",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "少女們向荒野進發 OVA",
+    "titleJp": "少女たちは荒野を目指す",
+    "titleEn": "Girls Beyond the Wasteland",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21444-kxk0XqUb5CgX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21444"
+  },
+  {
+    "id": "2016-winter-024",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "愛神巧克力 第二季",
+    "titleJp": "爱神巧克力ING...",
+    "titleEn": "Aishen Qiaokeli-ING...",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21818-19F99CzDm0Vw.jpg",
+    "sourceUrl": "https://anilist.co/anime/21818"
+  },
+  {
+    "id": "2016-winter-025",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "黑之宣告",
+    "titleJp": "シュヴァルツェスマーケン",
+    "titleEn": "Schwarzes Marken",
+    "weekday": "星期一",
+    "weekdayNote": "1/11",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "心理",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21201-eQx9w8LLNVrx.png",
+    "sourceUrl": "https://anilist.co/anime/21201"
+  },
+  {
+    "id": "2016-winter-026",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "幸運邏輯",
+    "titleJp": "ラクエンロジック",
+    "titleEn": "Luck & Logic",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21482-xpAwuOe35KQn.png",
+    "sourceUrl": "https://anilist.co/anime/21482"
+  },
+  {
+    "id": "2016-winter-027",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "春&amp;夏推理事件簿～春太與千夏的青春～",
+    "titleJp": "ハルチカ～ハルタとチカは青春する～",
+    "titleEn": "Haruchika - Haruta & Chika",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "音樂",
+      "懸疑",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21213-9TdiQ4jB6Jiv.jpg",
+    "sourceUrl": "https://anilist.co/anime/21213"
+  },
+  {
+    "id": "2016-winter-028",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "機動戰士高達 雷霆宙域 DECEMBER SKY",
+    "titleJp": "機動戦士ガンダム サンダーボルト",
+    "titleEn": "Mobile Suit Gundam Thunderbolt",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21458-ZsdVYYdDiGAF.jpg",
+    "sourceUrl": "https://anilist.co/anime/21458"
+  },
+  {
+    "id": "2016-winter-029",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "命運九重奏",
+    "titleJp": "NORN9 ノルン+ノネット",
+    "titleEn": "Norn9",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "科幻",
+      "異世界",
+      "校園",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20643-mIbbYI7Cx7Ye.jpg",
+    "sourceUrl": "https://anilist.co/anime/20643"
+  },
+  {
+    "id": "2016-winter-030",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "從前有座靈劍山",
+    "titleJp": "霊剣山　星屑たちの宴",
+    "titleEn": "Reikenzan: Hoshikuzu-tachi no Utage",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21497-CwWo5NRxjxRN.jpg",
+    "sourceUrl": "https://anilist.co/anime/21497"
+  },
+  {
+    "id": "2016-winter-031",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "大叔與棉花糖",
+    "titleJp": "おじさんとマシュマロ",
+    "titleEn": "Ojisan and Marshmallow",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21239-WzeZCXopvf54.jpg",
+    "sourceUrl": "https://anilist.co/anime/21239"
+  },
+  {
+    "id": "2016-winter-032",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "動畫行紀 馬可·波羅的冒險",
+    "titleJp": "ファンタシースターオンライン２ ジ アニメーション",
+    "titleEn": "Phantasy Star Online 2 The Animation",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21264-vn4ZxC67Fb4A.jpg",
+    "sourceUrl": "https://anilist.co/anime/21264"
+  },
+  {
+    "id": "2016-winter-033",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "舞兵器舞亂伎 星之巨人",
+    "titleJp": "ブブキ・ブランキ",
+    "titleEn": "BBK/BRNK",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21471-cG8JwPn9v1d3.png",
+    "sourceUrl": "https://anilist.co/anime/21471"
+  },
+  {
+    "id": "2016-winter-034",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "石膏男孩",
+    "titleJp": "石膏ボーイズ",
+    "titleEn": "Sekko Boys",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21329-P6qOpf3Khb6y.png",
+    "sourceUrl": "https://anilist.co/anime/21329"
+  },
+  {
+    "id": "2016-winter-035",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "房東妹子青春期",
+    "titleJp": "大家さんは思春期！",
+    "titleEn": "Ooya-san wa Shishunki!",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21359-wk6MaXTaWCUw.png",
+    "sourceUrl": "https://anilist.co/anime/21359"
+  },
+  {
+    "id": "2016-winter-036",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "アクティヴレイド -機動強襲室第八係-",
+    "titleJp": "アクティヴレイド -機動強襲室第八係-",
+    "titleEn": "Active Raid",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21417-WSWqRZuv8uDC.png",
+    "sourceUrl": "https://anilist.co/anime/21417"
+  },
+  {
+    "id": "2016-winter-037",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "紅殼的潘多拉",
+    "titleJp": "紅殻のパンドラ",
+    "titleEn": "Pandora in the Crimson Shell Ghost Urn",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21511-D0tPX9spNPQW.png",
+    "sourceUrl": "https://anilist.co/anime/21511"
+  },
+  {
+    "id": "2016-winter-038",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "暗芝居 第七季",
+    "titleJp": "闇芝居 3",
+    "titleEn": "Theatre of Darkness: Yamishibai 3",
+    "weekday": "星期一",
+    "weekdayNote": "1/11",
+    "genres": [
+      "恐怖",
+      "超自然",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21473-A7nx5Cd7wW3J.jpg",
+    "sourceUrl": "https://anilist.co/anime/21473"
+  },
+  {
+    "id": "2016-winter-039",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "魔法少女什麼的已經夠了啦。",
+    "titleJp": "魔法少女なんてもういいですから。",
+    "titleEn": "Mahou Shoujo Nante Mouiidesukara",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "喜劇",
+      "魔法少女",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21422-jbHQOtmJKft5.jpg",
+    "sourceUrl": "https://anilist.co/anime/21422"
+  },
+  {
+    "id": "2016-winter-040",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "魔法使光之美少女！！～未來之日～",
+    "titleJp": "魔法つかいプリキュア！",
+    "titleEn": "Witchy Precure!",
+    "weekday": "星期日",
+    "weekdayNote": "2/7",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "魔法少女",
+      "日常",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21506-hcLdwWKY4uyt.jpg",
+    "sourceUrl": "https://anilist.co/anime/21506"
+  },
+  {
+    "id": "2016-winter-041",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "網球並不可笑嘛",
+    "titleJp": "てーきゅう7",
+    "titleEn": "Teekyuu 7",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "喜劇",
+      "運動",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21513-QrofOTgTEK0b.png",
+    "sourceUrl": "https://anilist.co/anime/21513"
+  },
+  {
+    "id": "2016-winter-042",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "這個男人、工作是魔法",
+    "titleJp": "この男子、魔法がお仕事です。",
+    "titleEn": "This Boy is a Professional Wizard",
+    "weekday": "星期五",
+    "weekdayNote": "2/5",
+    "genres": [
+      "奇幻",
+      "戀愛",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21435-iCFsQrnF0sHj.jpg",
+    "sourceUrl": "https://anilist.co/anime/21435"
+  },
+  {
+    "id": "2016-winter-043",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "魔法護士小麥R",
+    "titleJp": "ナースウィッチ小麦ちゃんＲ",
+    "titleEn": "Nurse Witch KOMUGI R",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "喜劇",
+      "魔法少女",
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21440-CmsSHryWcxip.jpg",
+    "sourceUrl": "https://anilist.co/anime/21440"
+  },
+  {
+    "id": "2016-winter-044",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "壽司警察",
+    "titleJp": "SUSHI POLICE",
+    "titleEn": "Sushi Police",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21502-lpAf89ZR1CGF.jpg",
+    "sourceUrl": "https://anilist.co/anime/21502"
+  },
+  {
+    "id": "2016-winter-045",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "旅街晚間秀",
+    "titleJp": "旅街レイトショー",
+    "titleEn": "Tabimachi Lateshow",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "劇情",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21544-qFG8EqG95Kue.jpg",
+    "sourceUrl": "https://anilist.co/anime/21544"
+  },
+  {
+    "id": "2016-winter-046",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "狐妖小紅娘2 王權篇",
+    "titleJp": "狐妖小红娘 王权",
+    "titleEn": "Huyao Xiao Hongniang: Wangquan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "戀愛",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102599-A6ArOiKcFYrx.jpg",
+    "sourceUrl": "https://anilist.co/anime/102599"
+  },
+  {
+    "id": "2016-winter-047",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "逆轉裁判6 序幕",
+    "titleJp": "逆転裁判6 プロローグ",
+    "titleEn": "Phoenix Wright: Ace Attorney − Spirit of Justice Prologue",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "懸疑",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97966-CXQAWexm5ppv.png",
+    "sourceUrl": "https://anilist.co/anime/97966"
+  },
+  {
+    "id": "2016-winter-048",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "阿拉丁",
+    "titleJp": "Love Bites",
+    "titleEn": "Love Bites",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "恐怖",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102597-wJyJUe7JW0Bh.jpg",
+    "sourceUrl": "https://anilist.co/anime/102597"
+  },
+  {
+    "id": "2016-winter-049",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "Flowering Heart",
+    "titleJp": "플라워링하트",
+    "titleEn": "Flowering Heart",
+    "weekday": "星期一",
+    "weekdayNote": "2/29",
+    "genres": [
+      "奇幻",
+      "魔法少女",
+      "戀愛",
+      "校園",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99657-K0256X8I8W1W.jpg",
+    "sourceUrl": "https://anilist.co/anime/99657"
+  },
+  {
+    "id": "2016-winter-050",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "日本麥當勞「未來的我」篇",
+    "titleJp": "未来のワタシ",
+    "titleEn": "Mirai no Watashi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98089-2LJhhz1WWDG9.jpg",
+    "sourceUrl": "https://anilist.co/anime/98089"
+  },
+  {
+    "id": "2016-winter-051",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "私たち, らくろじ部!",
+    "titleJp": "私たち, らくろじ部!",
+    "titleEn": "Watashitachi, Luck Logic-bu!",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21598-8HT0558OSNSv.jpg",
+    "sourceUrl": "https://anilist.co/anime/21598"
+  },
+  {
+    "id": "2016-winter-052",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "莉露莉露妖精莉露～妖精之門～",
+    "titleJp": "リルリルフェアリル～妖精のドア～",
+    "titleEn": "Rilu Rilu Fairilu: Yousei no Door",
+    "weekday": "星期六",
+    "weekdayNote": "2/6",
+    "genres": [
+      "奇幻",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21553-cEvmv0Rcqlv9.jpg",
+    "sourceUrl": "https://anilist.co/anime/21553"
+  },
+  {
+    "id": "2016-winter-053",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "血型君4",
+    "titleJp": "血液型くん！4",
+    "titleEn": "Ketsuekigata-kun! 4",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21528-A1a7cQdidg5o.jpg",
+    "sourceUrl": "https://anilist.co/anime/21528"
+  },
+  {
+    "id": "2016-winter-054",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "KoChinPa!",
+    "titleJp": "コチンPa！",
+    "titleEn": "KochinPa!",
+    "weekday": "星期二",
+    "weekdayNote": "12/22",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21530-h0ycBEoWHFBA.png",
+    "sourceUrl": "https://anilist.co/anime/21530"
+  },
+  {
+    "id": "2016-winter-055",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "Wake Up, Girls! 讓我宣傳宮城縣吧！",
+    "titleJp": "Wake Up, Girls！の宮城PRやらせてください！",
+    "titleEn": "Wake Up, Girls! no Miyagi PR Yarasete Kudasai!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21849-enq5ppqJOyFK.jpg",
+    "sourceUrl": "https://anilist.co/anime/21849"
+  },
+  {
+    "id": "2016-winter-056",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "超普通都市柏傳說",
+    "titleJp": "超普通都市カシワ伝説",
+    "titleEn": "Chou Futsuu Toshi Kashiwa Densetsu",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx119402-ESRc362fCt2o.jpg",
+    "sourceUrl": "https://anilist.co/anime/119402"
+  },
+  {
+    "id": "2016-winter-057",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "靈域 第二季",
+    "titleJp": "灵域 第二季",
+    "titleEn": "Ling Yu 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/101877-mfurRpqDUIcn.jpg",
+    "sourceUrl": "https://anilist.co/anime/101877"
+  },
+  {
+    "id": "2016-winter-058",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "通職者",
+    "titleJp": "通职者",
+    "titleEn": "Tong Zhi Zhe",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "恐怖"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/99843-T4rxvZxiJuAb.jpg",
+    "sourceUrl": "https://anilist.co/anime/99843"
+  },
+  {
+    "id": "2016-winter-059",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "京都アニメーション公式Twitter いつも ありがとう",
+    "titleJp": "京都アニメーション公式Twitter いつも ありがとう",
+    "titleEn": "Kyoto Animation Koushiki Twitter: Itsumo Arigatou",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102596-gsWyk6748uoc.jpg",
+    "sourceUrl": "https://anilist.co/anime/102596"
+  },
+  {
+    "id": "2016-winter-060",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "花仙子 你好！櫻花盛開的國度",
+    "titleJp": "こんにちは おなら吾郎",
+    "titleEn": "Konnichiwa Onara Gorou",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21811-z6FmKjtLHDdg.jpg",
+    "sourceUrl": "https://anilist.co/anime/21811"
+  },
+  {
+    "id": "2016-winter-061",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "時光詭域",
+    "titleJp": "时光诡域",
+    "titleEn": "Shiguang Guiyu",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99706-mDDlQhHoXXBe.jpg",
+    "sourceUrl": "https://anilist.co/anime/99706"
+  },
+  {
+    "id": "2016-winter-062",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "寶石寵物 劇場版 甜蜜舞蹈公主",
+    "titleJp": "ジュエルペット あたっくちゃんす!?",
+    "titleEn": "Jewelpet: Attack Chance!?",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116150-0yU19Ho8Y1FO.png",
+    "sourceUrl": "https://anilist.co/anime/116150"
+  },
+  {
+    "id": "2016-winter-063",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "扭矩大師 第二季",
+    "titleJp": "マスター・オブ・トルク 3",
+    "titleEn": "Master of Torque 3",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b102101-WwLirjf8KkzY.jpg",
+    "sourceUrl": "https://anilist.co/anime/102101"
+  },
+  {
+    "id": "2016-winter-064",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "神明之胄",
+    "titleJp": "神明之胄",
+    "titleEn": "Shenming Zhi Zhou",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102381-vd5roJNJPLjg.jpg",
+    "sourceUrl": "https://anilist.co/anime/102381"
+  },
+  {
+    "id": "2016-winter-065",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "歷史之眼",
+    "titleJp": "ヒストリカル",
+    "titleEn": "Historical",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108997-7VH33TXNR6er.jpg",
+    "sourceUrl": "https://anilist.co/anime/108997"
+  },
+  {
+    "id": "2016-winter-066",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "說了不打算愛我的公爵繼承人，不知為何對我寵愛有加",
+    "titleJp": "なぜなに!?アスタリスク",
+    "titleEn": "Naze Nani!? Asterisk",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b175048-FE07sGJVnQVk.jpg",
+    "sourceUrl": "https://anilist.co/anime/175048"
+  },
+  {
+    "id": "2016-winter-067",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "バリィさんの諸国漫遊記",
+    "titleJp": "バリィさんの諸国漫遊記",
+    "titleEn": "Bary-san no Shokoku Manyuuki",
+    "weekday": "星期三",
+    "weekdayNote": "2/3",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx115200-NzkPNp02rMKY.png",
+    "sourceUrl": "https://anilist.co/anime/115200"
+  },
+  {
+    "id": "2016-winter-068",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "十萬個冷笑話 第一季",
+    "titleJp": "十万个冷笑话 第3季",
+    "titleEn": "Shiwan Ge Leng Xiaohua 3",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/103361-JxSK2K2eoQaY.jpg",
+    "sourceUrl": "https://anilist.co/anime/103361"
+  },
+  {
+    "id": "2016-winter-069",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "雄獅少年2",
+    "titleJp": "纳米核心 - 2016新年特别版",
+    "titleEn": "Nami Hexin - 2016 Xinnian Tebie Ban",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102780-28iw0X7kjKzP.jpg",
+    "sourceUrl": "https://anilist.co/anime/102780"
+  },
+  {
+    "id": "2016-winter-070",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "加油！露露落落 第3期",
+    "titleJp": "がんばれ！ルルロロ　第３シリーズ",
+    "titleEn": "Ganbare! Lulu Lolo 3rd Season",
+    "weekday": "星期四",
+    "weekdayNote": "1/21",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21418-TZYwdItidowx.jpg",
+    "sourceUrl": "https://anilist.co/anime/21418"
+  },
+  {
+    "id": "2016-winter-071",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "【動畫】【百萬現場！】動畫序章印象MV「セブンカウント」【偶像大師】",
+    "titleJp": "ミムマムミント",
+    "titleEn": "Mim Mam Mint",
+    "weekday": "星期四",
+    "weekdayNote": "12/24",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21571-csGMZxwNJnIe.jpg",
+    "sourceUrl": "https://anilist.co/anime/21571"
+  },
+  {
+    "id": "2016-winter-072",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "おにくだいすき! ゼウシくん（3期）「すてきなハンバーグ」",
+    "titleJp": "おにくだいすき! ゼウシくん（3期）「すてきなハンバーグ」",
+    "titleEn": "Oniku Daisuki! Zeushi-kun (3-ki): Suteki na Hamburger",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b135460-kH22u2JY44hQ.png",
+    "sourceUrl": "https://anilist.co/anime/135460"
+  },
+  {
+    "id": "2016-winter-073",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "ハルの虹の葬式",
+    "titleJp": "ハルの虹の葬式",
+    "titleEn": "Haru no Niji no Soushiki",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "劇情",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b148642-HmQlOb2Uq0Ej.jpg",
+    "sourceUrl": "https://anilist.co/anime/148642"
+  },
+  {
+    "id": "2016-winter-074",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "京劇貓",
+    "titleJp": "京剧猫",
+    "titleEn": "Jing-Ju Cats Part 1",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121197-z5o0xnsg5y99.jpg",
+    "sourceUrl": "https://anilist.co/anime/121197"
+  },
+  {
+    "id": "2016-winter-075",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "豬迪克之古怪島大冒險 第1季",
+    "titleJp": "熊出没之夏日连连看",
+    "titleEn": "Xiong Chumo: Xiari Lianlian Kan",
+    "weekday": "星期六",
+    "weekdayNote": "2/13",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b148978-pLHBtskHyuoe.jpg",
+    "sourceUrl": "https://anilist.co/anime/148978"
+  },
+  {
+    "id": "2016-winter-076",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "金光御九界之墨邪錄",
+    "titleJp": "金光御九界之墨邪錄",
+    "titleEn": "Jin Guang Yu Jiu Jie: Mo Xie Lu",
+    "weekday": "星期三",
+    "weekdayNote": "12/16",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131860-7DFAtSBu12nN.jpg",
+    "sourceUrl": "https://anilist.co/anime/131860"
+  },
+  {
+    "id": "2016-winter-077",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "喜羊羊與灰太狼之奇幻天空島",
+    "titleJp": "喜羊羊与灰太狼之嘻哈闯世界",
+    "titleEn": "Pleasant Goat and Big Big Wolf: Marching to the New Wonderland",
+    "weekday": "星期五",
+    "weekdayNote": "1/15",
+    "genres": [
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131604-5NBApMOebnJf.png",
+    "sourceUrl": "https://anilist.co/anime/131604"
+  },
+  {
+    "id": "2016-winter-078",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "別惹流氓兔馬修 第2季",
+    "titleJp": "一起来看流星雨",
+    "titleEn": "Yiqi Lai Kan Liuxing Yu",
+    "weekday": "星期一",
+    "weekdayNote": "2/8",
+    "genres": [
+      "戀愛",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b169933-R3yFaikaxsmd.jpg",
+    "sourceUrl": "https://anilist.co/anime/169933"
+  },
+  {
+    "id": "2016-winter-079",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "みらいへの手紙~この道の途中から~",
+    "titleJp": "みらいへの手紙~この道の途中から~",
+    "titleEn": "Mirai e no Tegami: Kono Michi no Tochuu kara",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b179759-vQis3W6cfB0G.png",
+    "sourceUrl": "https://anilist.co/anime/179759"
+  },
+  {
+    "id": "2016-winter-080",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "ポンコツクエスト〜魔王と派遣の魔物たち〜 シーズン3",
+    "titleJp": "ポンコツクエスト〜魔王と派遣の魔物たち〜 シーズン3",
+    "titleEn": "Ponkotsu Quest: Maou to Haken no Mamono-tachi Season 3",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177226-GRt8mCDz5YJ3.png",
+    "sourceUrl": "https://anilist.co/anime/177226"
+  },
+  {
+    "id": "2016-winter-081",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "全職法師 第六季",
+    "titleJp": "赛尔号 第六季",
+    "titleEn": "Sai Er Hao 6",
+    "weekday": "星期五",
+    "weekdayNote": "1/1",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "科幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b129594-NRb4Fgdrmmtc.jpg",
+    "sourceUrl": "https://anilist.co/anime/129594"
+  },
+  {
+    "id": "2016-winter-082",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "超能汽車大冒險",
+    "titleJp": "텔레몬스터",
+    "titleEn": "Telemonster",
+    "weekday": "星期日",
+    "weekdayNote": "2/28",
+    "genres": [
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188078-eDK1IFrFCaCc.png",
+    "sourceUrl": "https://anilist.co/anime/188078"
+  },
+  {
+    "id": "2016-winter-083",
+    "year": 2016,
+    "season": "2016-winter",
+    "titleZh": "스푸키즈 시즌2",
+    "titleJp": "스푸키즈 시즌2",
+    "titleEn": "Spookiz Season 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b188051-hs5Tpar7NcCc.png",
+    "sourceUrl": "https://anilist.co/anime/188051"
+  },
+  {
+    "id": "2016-spring-001",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "『我的英雄學院』No.170＋1『More』",
+    "titleJp": "僕のヒーローアカデミア",
+    "titleEn": "My Hero Academia",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21459-nYh85uj2Fuwr.jpg",
+    "sourceUrl": "https://anilist.co/anime/21459"
+  },
+  {
+    "id": "2016-spring-002",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Re：從零開始的異世界生活 新編集版",
+    "titleJp": "Re:ゼロから始める異世界生活",
+    "titleEn": "Re:ZERO -Starting Life in Another World-",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情",
+      "奇幻",
+      "心理",
+      "戀愛",
+      "懸疑",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21355-wRVUrGxpvIQQ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21355"
+  },
+  {
+    "id": "2016-spring-003",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "文豪野犬 汪！第二季",
+    "titleJp": "文豪ストレイドッグス",
+    "titleEn": "Bungo Stray Dogs",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "懸疑",
+      "超自然",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21311-hAXyT8Yoh6G9.jpg",
+    "sourceUrl": "https://anilist.co/anime/21311"
+  },
+  {
+    "id": "2016-spring-004",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "JOJO的奇妙冒險 不滅鑽石",
+    "titleJp": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+    "titleEn": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情",
+      "懸疑",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21450-D7XFwEQjZ5GA.jpg",
+    "sourceUrl": "https://anilist.co/anime/21450"
+  },
+  {
+    "id": "2016-spring-005",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "羈絆者",
+    "titleJp": "キズナイーバー",
+    "titleEn": "Kiznaiver",
+    "weekday": "星期六",
+    "weekdayNote": "4/9",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21421-5y8ryXsMB7aJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21421"
+  },
+  {
+    "id": "2016-spring-006",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "甲鐵城的卡巴內利 總集篇 前篇 聚光",
+    "titleJp": "甲鉄城のカバネリ",
+    "titleEn": "Kabaneri of the Iron Fortress",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "奇幻",
+      "恐怖",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21196-2PfPfIDrxKki.jpg",
+    "sourceUrl": "https://anilist.co/anime/21196"
+  },
+  {
+    "id": "2016-spring-007",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "在下坂本，有何貴幹？",
+    "titleJp": "坂本ですが?",
+    "titleEn": "Haven't You Heard? I'm Sakamoto",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21595-vQ658r2Roe1g.jpg",
+    "sourceUrl": "https://anilist.co/anime/21595"
+  },
+  {
+    "id": "2016-spring-008",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "線上遊戲的老婆不可能是女生？",
+    "titleJp": "ネトゲの嫁は女の子じゃないと思った?",
+    "titleEn": "And you thought there is never a girl online?",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21290-R6qYWnylwpbL.png",
+    "sourceUrl": "https://anilist.co/anime/21290"
+  },
+  {
+    "id": "2016-spring-009",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "田中君總是如此慵懶",
+    "titleJp": "田中くんはいつもけだるげ",
+    "titleEn": "Tanaka-kun is Always Listless",
+    "weekday": "星期六",
+    "weekdayNote": "4/9",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21495-I6p0OKzKBFjw.png",
+    "sourceUrl": "https://anilist.co/anime/21495"
+  },
+  {
+    "id": "2016-spring-010",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "雙星之陰陽師",
+    "titleJp": "双星の陰陽師",
+    "titleEn": "Twin Star Exorcists",
+    "weekday": "星期三",
+    "weekdayNote": "4/6",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "劇情",
+      "奇幻",
+      "戀愛",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21499-JCxvIXc27mVT.jpg",
+    "sourceUrl": "https://anilist.co/anime/21499"
+  },
+  {
+    "id": "2016-spring-011",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "天方魔譚MAGI 辛巴達的冒險",
+    "titleJp": "マギ シンドバッドの冒険",
+    "titleEn": "Magi: Adventure of Sinbad",
+    "weekday": "星期六",
+    "weekdayNote": "4/16",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21394-yauvzIHGAoZv.jpg",
+    "sourceUrl": "https://anilist.co/anime/21394"
+  },
+  {
+    "id": "2016-spring-012",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "學戰都市 六芒星 第二季",
+    "titleJp": "学戦都市アスタリスク 2",
+    "titleEn": "The Asterisk War 2",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "戀愛",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21390-5MedgrU15Twy.jpg",
+    "sourceUrl": "https://anilist.co/anime/21390"
+  },
+  {
+    "id": "2016-spring-013",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "百武裝戰記",
+    "titleJp": "ハンドレッド",
+    "titleEn": "Hundred",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "機甲",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21362-7YZq4TZ112Il.png",
+    "sourceUrl": "https://anilist.co/anime/21362"
+  },
+  {
+    "id": "2016-spring-014",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "飛翔的魔女",
+    "titleJp": "ふらいんぐうぃっち",
+    "titleEn": "Flying Witch",
+    "weekday": "星期日",
+    "weekdayNote": "4/10",
+    "genres": [
+      "日常",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21284-vQcCLIWt1o5O.png",
+    "sourceUrl": "https://anilist.co/anime/21284"
+  },
+  {
+    "id": "2016-spring-015",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "至高指令",
+    "titleJp": "ビッグオーダー",
+    "titleEn": "Big Order",
+    "weekday": "星期六",
+    "weekdayNote": "4/16",
+    "genres": [
+      "戰鬥",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21445-zXBAdDpNylRR.jpg",
+    "sourceUrl": "https://anilist.co/anime/21445"
+  },
+  {
+    "id": "2016-spring-016",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "宇宙巡警露露子",
+    "titleJp": "宇宙パトロールルル子",
+    "titleEn": "Space Patrol Luluco",
+    "weekday": "星期五",
+    "weekdayNote": "4/1",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "戀愛",
+      "科幻",
+      "校園",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21637-6SulVMOqv77m.jpg",
+    "sourceUrl": "https://anilist.co/anime/21637"
+  },
+  {
+    "id": "2016-spring-017",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "迷家",
+    "titleJp": "迷家-マヨイガ-",
+    "titleEn": "The Lost Village",
+    "weekday": "星期五",
+    "weekdayNote": "4/1",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "恐怖",
+      "懸疑",
+      "超自然",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21567-G0fAjdtoCsZz.jpg",
+    "sourceUrl": "https://anilist.co/anime/21567"
+  },
+  {
+    "id": "2016-spring-018",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "鬼牌遊戲",
+    "titleJp": "ジョーカー・ゲーム",
+    "titleEn": "Joker Game",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "懸疑",
+      "心理",
+      "歷史",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21291-WJ1GwBQ1eHM5.jpg",
+    "sourceUrl": "https://anilist.co/anime/21291"
+  },
+  {
+    "id": "2016-spring-019",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "逆轉裁判 第二季",
+    "titleJp": "逆転裁判 その『真実』、異議あり！",
+    "titleEn": "Ace Attorney",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "懸疑",
+      "超自然",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21360-H6yRBVYEEodS.png",
+    "sourceUrl": "https://anilist.co/anime/21360"
+  },
+  {
+    "id": "2016-spring-020",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "黑色殘骸",
+    "titleJp": "クロムクロ",
+    "titleEn": "Kuromukuro",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21516-F3sOzoi6aHsZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21516"
+  },
+  {
+    "id": "2016-spring-021",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "高校艦隊",
+    "titleJp": "ハイスクール・フリート",
+    "titleEn": "High School Fleet",
+    "weekday": "星期日",
+    "weekdayNote": "4/10",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21316-pqjWmGuDRxwL.jpg",
+    "sourceUrl": "https://anilist.co/anime/21316"
+  },
+  {
+    "id": "2016-spring-022",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "紫羅蘭永恆花園 外傳 - 永遠與自動手記人偶 -",
+    "titleJp": "スーパーラヴァーズ",
+    "titleEn": "SUPER LOVERS",
+    "weekday": "星期三",
+    "weekdayNote": "4/6",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "戀愛",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21177-WCEfrZj2L7Of.jpg",
+    "sourceUrl": "https://anilist.co/anime/21177"
+  },
+  {
+    "id": "2016-spring-023",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "潮與虎",
+    "titleJp": "うしおととら 2 (TV)",
+    "titleEn": "Ushio and Tora 2 (TV)",
+    "weekday": "星期五",
+    "weekdayNote": "4/1",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21241-Avzz7tcb0yTy.jpg",
+    "sourceUrl": "https://anilist.co/anime/21241"
+  },
+  {
+    "id": "2016-spring-024",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "暖心日記",
+    "titleJp": "ほのぼのログ",
+    "titleEn": "Honobono Log",
+    "weekday": "星期二",
+    "weekdayNote": "6/7",
+    "genres": [
+      "戀愛",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21795-Vk9JaAovj9Xa.png",
+    "sourceUrl": "https://anilist.co/anime/21795"
+  },
+  {
+    "id": "2016-spring-025",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "超時空要塞Δ",
+    "titleJp": "マクロスΔ",
+    "titleEn": "Macross Delta",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "音樂",
+      "戀愛",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20680-IVFFnv8oXahy.jpg",
+    "sourceUrl": "https://anilist.co/anime/20680"
+  },
+  {
+    "id": "2016-spring-026",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Re：從零開始的休息時間",
+    "titleJp": "Re:ゼロから始める休憩時間(ブレイクタイム)",
+    "titleEn": "Re:ZERO ~Starting Break Time From Zero~",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "異世界",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21780-xCJk0z5vpn57.jpg",
+    "sourceUrl": "https://anilist.co/anime/21780"
+  },
+  {
+    "id": "2016-spring-027",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "龍心戰紀",
+    "titleJp": "聖戦ケルベロス 竜刻のファタリテ",
+    "titleEn": "Cerberus",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21608-GLCcfAMg1nv4.jpg",
+    "sourceUrl": "https://anilist.co/anime/21608"
+  },
+  {
+    "id": "2016-spring-028",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Anne Happy♪",
+    "titleJp": "あんハピ♪",
+    "titleEn": "Anne-Happy",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21238-FDqKbjcdtWzx.jpg",
+    "sourceUrl": "https://anilist.co/anime/21238"
+  },
+  {
+    "id": "2016-spring-029",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "熊巫女",
+    "titleJp": "くまみこ",
+    "titleEn": "Kumamiko -Girl Meets Bear",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21423-vQsDNNIfRLS6.jpg",
+    "sourceUrl": "https://anilist.co/anime/21423"
+  },
+  {
+    "id": "2016-spring-030",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "少年女僕",
+    "titleJp": "少年メイド",
+    "titleEn": "Shonen Maid",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21321-1WCJBmHhPqf3.jpg",
+    "sourceUrl": "https://anilist.co/anime/21321"
+  },
+  {
+    "id": "2016-spring-031",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "最終幻想15 兄弟情",
+    "titleJp": "BROTHERHOOD FINAL FANTASY XV",
+    "titleEn": "Brotherhood Final Fantasy XV",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21728-gCMH8hDEqzmx.png",
+    "sourceUrl": "https://anilist.co/anime/21728"
+  },
+  {
+    "id": "2016-spring-032",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "ばくおん!!",
+    "titleJp": "ばくおん!!",
+    "titleEn": "Bakuon!!",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "日常",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21197-YGAjxjksSJBT.png",
+    "sourceUrl": "https://anilist.co/anime/21197"
+  },
+  {
+    "id": "2016-spring-033",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "三者三葉",
+    "titleJp": "三者三葉",
+    "titleEn": "Three Leaves, Three Colors",
+    "weekday": "星期一",
+    "weekdayNote": "4/11",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21334-cPGktW4PmpBH.jpg",
+    "sourceUrl": "https://anilist.co/anime/21334"
+  },
+  {
+    "id": "2016-spring-034",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "火星異種 REVENGE",
+    "titleJp": "テラフォーマーズ リベンジ",
+    "titleEn": "Terra Formars: Revenge",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "戰鬥",
+      "恐怖",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21300-zetpWksKrHJv.png",
+    "sourceUrl": "https://anilist.co/anime/21300"
+  },
+  {
+    "id": "2016-spring-035",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "職場小烈 第四季",
+    "titleJp": "アグレッシブ烈子",
+    "titleEn": "Aggressive Retsuko",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "日常",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21726-46yeIDun7oQg.jpg",
+    "sourceUrl": "https://anilist.co/anime/21726"
+  },
+  {
+    "id": "2016-spring-036",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "暗殺教室 第二季 課外授課篇",
+    "titleJp": "暗殺教室 2 課外授業編",
+    "titleEn": "Ansatsu Kyoushitsu 2: Kagaijugyou-hen",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21678-wD5U0J6wHyJX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21678"
+  },
+  {
+    "id": "2016-spring-037",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "美少女戰士Crystal 第三季",
+    "titleJp": "美少女戦士セーラームーン Crystal デス・バスターズ編",
+    "titleEn": "Pretty Guardian Sailor Moon Crystal: Season 3",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "奇幻",
+      "魔法少女",
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21462-bRbgZYf4Sgxj.jpg",
+    "sourceUrl": "https://anilist.co/anime/21462"
+  },
+  {
+    "id": "2016-spring-038",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "鎮魂街",
+    "titleJp": "镇魂街",
+    "titleEn": "Rakshasa Street",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99707-VpuVWgyNltUV.png",
+    "sourceUrl": "https://anilist.co/anime/99707"
+  },
+  {
+    "id": "2016-spring-039",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "ENDRIDE",
+    "titleJp": "エンドライド",
+    "titleEn": "Endride",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21611-J75lzaBJAJun.png",
+    "sourceUrl": "https://anilist.co/anime/21611"
+  },
+  {
+    "id": "2016-spring-040",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "田中君今天也是如此慵懶",
+    "titleJp": "田中くんは今日もけだるげ",
+    "titleEn": "Tanaka-kun wa Kyou mo Kedaruge",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21800-0vXIUrT4m1hl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21800"
+  },
+  {
+    "id": "2016-spring-041",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "霸旋陀螺 爆刃對決",
+    "titleJp": "ベイブレードバースト",
+    "titleEn": "Beyblade Burst",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21236-8B4fORbuUp6v.jpg",
+    "sourceUrl": "https://anilist.co/anime/21236"
+  },
+  {
+    "id": "2016-spring-042",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "機動戰士高達獨角獸 RE:0096",
+    "titleJp": "機動戦士ガンダムユニコーン RE:0096",
+    "titleEn": "MOBILE SUIT GUNDAM UNICORN RE:0096",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21658-pOcvE4BrcofO.jpg",
+    "sourceUrl": "https://anilist.co/anime/21658"
+  },
+  {
+    "id": "2016-spring-043",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Concrete Revolutio 超人幻想 THE LAST SONG",
+    "titleJp": "コンクリート・レボルティオ～超人幻想～ THE LAST SONG",
+    "titleEn": "Concrete Revolutio: THE LAST SONG",
+    "weekday": "星期日",
+    "weekdayNote": "4/10",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21540-k5bSyi43BJ38.jpg",
+    "sourceUrl": "https://anilist.co/anime/21540"
+  },
+  {
+    "id": "2016-spring-044",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "麵包帶來和平！",
+    "titleJp": "パンでPeace！",
+    "titleEn": "Pan de Peace!",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21315-3Q5gRBKza9Hs.jpg",
+    "sourceUrl": "https://anilist.co/anime/21315"
+  },
+  {
+    "id": "2016-spring-045",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "任性HighSpec",
+    "titleJp": "ワガママハイスペック",
+    "titleEn": "Wagamama High Spec",
+    "weekday": "星期二",
+    "weekdayNote": "4/12",
+    "genres": [
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21302-xKQKvqQdOoMF.jpg",
+    "sourceUrl": "https://anilist.co/anime/21302"
+  },
+  {
+    "id": "2016-spring-046",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "鬼斬",
+    "titleJp": "鬼斬",
+    "titleEn": "Onigiri",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21612-d5zrx9CWkxNl.png",
+    "sourceUrl": "https://anilist.co/anime/21612"
+  },
+  {
+    "id": "2016-spring-047",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "12歲。小小的胸口心跳加速 第二季",
+    "titleJp": "12歳。～ちっちゃなムネのトキメキ～",
+    "titleEn": "12-sai.: Chiccha na Mune no Tokimeki",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21609-syaj6oFS52xC.jpg",
+    "sourceUrl": "https://anilist.co/anime/21609"
+  },
+  {
+    "id": "2016-spring-048",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "境界的輪迴 第二季",
+    "titleJp": "境界のRinne ２",
+    "titleEn": "Rin-ne 2",
+    "weekday": "星期六",
+    "weekdayNote": "4/9",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21357-kMdMWARChk7Z.jpg",
+    "sourceUrl": "https://anilist.co/anime/21357"
+  },
+  {
+    "id": "2016-spring-049",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "偶像活動Stars! 第二年",
+    "titleJp": "アイカツスターズ！",
+    "titleEn": "Aikatsu Stars!",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21648-n3I3CuDNiCXr.png",
+    "sourceUrl": "https://anilist.co/anime/21648"
+  },
+  {
+    "id": "2016-spring-050",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "兔龜",
+    "titleJp": "うさかめ",
+    "titleEn": "Usakame",
+    "weekday": "星期二",
+    "weekdayNote": "4/12",
+    "genres": [
+      "喜劇",
+      "運動",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21570-zzAl1zWpP9v3.jpg",
+    "sourceUrl": "https://anilist.co/anime/21570"
+  },
+  {
+    "id": "2016-spring-051",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "炸豬排DJ揚太郎",
+    "titleJp": "とんかつＤＪアゲ太郎",
+    "titleEn": "Tonkatsu DJ Agetaro",
+    "weekday": "星期日",
+    "weekdayNote": "4/10",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21297-Q1bE9nf22rmD.jpg",
+    "sourceUrl": "https://anilist.co/anime/21297"
+  },
+  {
+    "id": "2016-spring-052",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "小飛翔魔女",
+    "titleJp": "ふらいんぐうぃっち ぷち",
+    "titleEn": "Flying Witch Petit",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21721-FXrVfwXEgHDd.jpg",
+    "sourceUrl": "https://anilist.co/anime/21721"
+  },
+  {
+    "id": "2016-spring-053",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "影鱷 承",
+    "titleJp": "影鰐-承-",
+    "titleEn": "Kagewani ~II~",
+    "weekday": "星期五",
+    "weekdayNote": "4/1",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "超自然",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21636-9iIglokvMTu2.jpg",
+    "sourceUrl": "https://anilist.co/anime/21636"
+  },
+  {
+    "id": "2016-spring-054",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Ragnastrike Angels",
+    "titleJp": "ラグナストライクエンジェルズ",
+    "titleEn": "Ragnastrike Angels",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21743-gThrLE20P7MZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21743"
+  },
+  {
+    "id": "2016-spring-055",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "カードファイト!! ヴァンガードG ストライドゲート編",
+    "titleJp": "カードファイト!! ヴァンガードG ストライドゲート編",
+    "titleEn": "Cardfight!! Vanguard G: Stride Gate-hen",
+    "weekday": "星期日",
+    "weekdayNote": "4/17",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21664-wbR7PrRmIipt.png",
+    "sourceUrl": "https://anilist.co/anime/21664"
+  },
+  {
+    "id": "2016-spring-056",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "賭博默示錄 破戒錄篇",
+    "titleJp": "戒魔人",
+    "titleEn": "Jie Moren",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99710-Va1fSBte7GAr.jpg",
+    "sourceUrl": "https://anilist.co/anime/99710"
+  },
+  {
+    "id": "2016-spring-057",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Crane Game Girls",
+    "titleJp": "美少女遊戯ユニットクレーンゲール",
+    "titleEn": "Crane Game Girls",
+    "weekday": "星期三",
+    "weekdayNote": "4/6",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21694-bqpL6xjM13DH.jpg",
+    "sourceUrl": "https://anilist.co/anime/21694"
+  },
+  {
+    "id": "2016-spring-058",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "魯邦三世 樣片",
+    "titleJp": "プリパラ 3rdシーズン",
+    "titleEn": "PriPara 3rd Season",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "日常",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21559-1A1cjJKggEVz.jpg",
+    "sourceUrl": "https://anilist.co/anime/21559"
+  },
+  {
+    "id": "2016-spring-059",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "靈魂武器",
+    "titleJp": "ソウルワーカー",
+    "titleEn": "Soul Worker: Your Destiny Awaits",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b97819-fHy7ijlT9DAG.jpg",
+    "sourceUrl": "https://anilist.co/anime/97819"
+  },
+  {
+    "id": "2016-spring-060",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "未來卡搭檔對戰DDD",
+    "titleJp": "フューチャーカード バディファイトDDD",
+    "titleEn": "Future Card Buddyfight Triple D",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21652-Jxm7reuu76I8.jpg",
+    "sourceUrl": "https://anilist.co/anime/21652"
+  },
+  {
+    "id": "2016-spring-061",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "怪盜Joker3",
+    "titleJp": "怪盗ジョーカー 3",
+    "titleEn": "Mysterious Joker Season 3",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21427-Cp70Jla7JfmJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21427"
+  },
+  {
+    "id": "2016-spring-062",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "星際火狐：零 戰鬥開始",
+    "titleJp": "スターフォックス ゼロ ザ・バトル・ビギンズ",
+    "titleEn": "Star Fox Zero: The Battle Begins",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21783-zAuJSaTDifC4.jpg",
+    "sourceUrl": "https://anilist.co/anime/21783"
+  },
+  {
+    "id": "2016-spring-063",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "薄桜鬼 ~御伽草紙~",
+    "titleJp": "薄桜鬼 ~御伽草紙~",
+    "titleEn": "Hakuouki: Otogisoushi",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "日常",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21474-NsEIe2v5tukv.jpg",
+    "sourceUrl": "https://anilist.co/anime/21474"
+  },
+  {
+    "id": "2016-spring-064",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "貓貓日本史 第五季",
+    "titleJp": "ねこねこ日本史",
+    "titleEn": "Meow Meow Japanese History",
+    "weekday": "星期三",
+    "weekdayNote": "4/6",
+    "genres": [
+      "喜劇",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21600-I9uNvjRBlrLB.jpg",
+    "sourceUrl": "https://anilist.co/anime/21600"
+  },
+  {
+    "id": "2016-spring-065",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "戰國鳥獸戲畫～甲～",
+    "titleJp": "鳥獣戯画",
+    "titleEn": "Choujuu Giga",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/99214-F7OGw74shnKz.jpg",
+    "sourceUrl": "https://anilist.co/anime/99214"
+  },
+  {
+    "id": "2016-spring-066",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "舞動不止",
+    "titleJp": "正宗ダテニクル",
+    "titleEn": "Masamune Datenicle",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101911-me0f21hsv1rA.jpg",
+    "sourceUrl": "https://anilist.co/anime/101911"
+  },
+  {
+    "id": "2016-spring-067",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "少年阿貝 GO!GO!小芝麻",
+    "titleJp": "少年アシベ GO！GO！ゴマちゃん",
+    "titleEn": "Shonen Ashibe GO! GO! Goma-chan",
+    "weekday": "星期二",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21601-95XxzQYEHZS5.jpg",
+    "sourceUrl": "https://anilist.co/anime/21601"
+  },
+  {
+    "id": "2016-spring-068",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "女媧成長日記",
+    "titleJp": "女娲成长日记",
+    "titleEn": "Nüwa Chengzhang Riji",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99653-W2s06yGutY8K.png",
+    "sourceUrl": "https://anilist.co/anime/99653"
+  },
+  {
+    "id": "2016-spring-069",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "暖暖日記",
+    "titleJp": "ぼのぼの (2016)",
+    "titleEn": "Bono Bono (2016)",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21552-MKlX4WRvlfjp.png",
+    "sourceUrl": "https://anilist.co/anime/21552"
+  },
+  {
+    "id": "2016-spring-070",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "決鬥大師VSRF",
+    "titleJp": "デュエル・マスターズVSRF",
+    "titleEn": "Duel Masters VSRF",
+    "weekday": "星期日",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21603-s6kbi2Vka82A.jpg",
+    "sourceUrl": "https://anilist.co/anime/21603"
+  },
+  {
+    "id": "2016-spring-071",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "戰鬥之魂 雙重驅動",
+    "titleJp": "バトルスピリッツ ダブルドライブ",
+    "titleEn": "Battle Spirits: Double Drive",
+    "weekday": "星期三",
+    "weekdayNote": "4/6",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21635-aZCTEl0HhzUZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21635"
+  },
+  {
+    "id": "2016-spring-072",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "應許之鄉",
+    "titleJp": "Promised Town",
+    "titleEn": "Promised Town",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102644-jdKZXCQYQRJA.jpg",
+    "sourceUrl": "https://anilist.co/anime/102644"
+  },
+  {
+    "id": "2016-spring-073",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "1/100建築模型用添景セット",
+    "titleJp": "1/100建築模型用添景セット",
+    "titleEn": "1/100 Rice Planting",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102528-mFvLocozw8kY.jpg",
+    "sourceUrl": "https://anilist.co/anime/102528"
+  },
+  {
+    "id": "2016-spring-074",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "做得很好！名作君 第三季",
+    "titleJp": "あはれ！名作くん",
+    "titleEn": "Aware! Meisaku-kun",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21727-kJN6hKKfcUHa.jpg",
+    "sourceUrl": "https://anilist.co/anime/21727"
+  },
+  {
+    "id": "2016-spring-075",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "神技汪達",
+    "titleJp": "カミワザ・ワンダ",
+    "titleEn": "Kamiwaza Wanda",
+    "weekday": "星期六",
+    "weekdayNote": "4/23",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21602-TbXhvhIgSVmx.jpg",
+    "sourceUrl": "https://anilist.co/anime/21602"
+  },
+  {
+    "id": "2016-spring-076",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "小小獨角獸 黑雲與白羽毛",
+    "titleJp": "ココとニコ",
+    "titleEn": "CoCO & NiCO",
+    "weekday": "星期五",
+    "weekdayNote": "4/8",
+    "genres": [
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21706-hZkEHLv538dy.jpg",
+    "sourceUrl": "https://anilist.co/anime/21706"
+  },
+  {
+    "id": "2016-spring-077",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "Robot Town Sagami 2028",
+    "titleJp": "Robot Town Sagami 2028",
+    "titleEn": "Robot Town Sagami 2028",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97958-YoVJJdESu2o7.jpg",
+    "sourceUrl": "https://anilist.co/anime/97958"
+  },
+  {
+    "id": "2016-spring-078",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "터닝메카드 W",
+    "titleJp": "터닝메카드 W",
+    "titleEn": "Turning Mecard W",
+    "weekday": "星期四",
+    "weekdayNote": "5/19",
+    "genres": [
+      "冒險",
+      "機甲"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b109871-Yt2NUxDmKQmg.jpg",
+    "sourceUrl": "https://anilist.co/anime/109871"
+  },
+  {
+    "id": "2016-spring-079",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "與貓同住的恩田家",
+    "titleJp": "猫も、オンダケ",
+    "titleEn": "Neko mo, Onda-ke",
+    "weekday": "星期五",
+    "weekdayNote": "4/1",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21761-LRRFv77vqtr7.jpg",
+    "sourceUrl": "https://anilist.co/anime/21761"
+  },
+  {
+    "id": "2016-spring-080",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "秘密結社鷹之爪GT",
+    "titleJp": "秘密結社 鷹の爪 GT",
+    "titleEn": "Himitsukessha Taka no Tsume GT",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b117286-cnLuGfQAACQa.jpg",
+    "sourceUrl": "https://anilist.co/anime/117286"
+  },
+  {
+    "id": "2016-spring-081",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "太乙仙魔錄之靈飛紀 第二季",
+    "titleJp": "太乙仙魔录之灵飞纪",
+    "titleEn": "Tai Yi Xian Mo Lu: Ling Fei Ji",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129219-MQPtM9GOd2ji.jpg",
+    "sourceUrl": "https://anilist.co/anime/129219"
+  },
+  {
+    "id": "2016-spring-082",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "禮物",
+    "titleJp": "THE GIFT",
+    "titleEn": "THE GIFT",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102578-Uwg8xAtiicKE.jpg",
+    "sourceUrl": "https://anilist.co/anime/102578"
+  },
+  {
+    "id": "2016-spring-083",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "滑子菇～世界的朋友～",
+    "titleJp": "なめこ～せかいのともだち～",
+    "titleEn": "Nameko: Sekai no Tomodachi",
+    "weekday": "星期日",
+    "weekdayNote": "4/10",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21680-p6lQLNVrnBFm.jpg",
+    "sourceUrl": "https://anilist.co/anime/21680"
+  },
+  {
+    "id": "2016-spring-084",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "雙月之城",
+    "titleJp": "双月之城",
+    "titleEn": "Shuang Yue Zhi Cheng",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102645-BsSVqKyOLXhp.png",
+    "sourceUrl": "https://anilist.co/anime/102645"
+  },
+  {
+    "id": "2016-spring-085",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "歐西里斯的天秤 第二季",
+    "titleJp": "オシリスの天秤 2",
+    "titleEn": "Osiris no Tenbin 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21768-62zDea1p6SkP.png",
+    "sourceUrl": "https://anilist.co/anime/21768"
+  },
+  {
+    "id": "2016-spring-086",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "奈米核心 抉擇篇",
+    "titleJp": "纳米核心 抉择篇",
+    "titleEn": "Nami Hexin: Jueze Pian",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102776-qBJmKYBSyjD7.jpg",
+    "sourceUrl": "https://anilist.co/anime/102776"
+  },
+  {
+    "id": "2016-spring-087",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "早上了!貝社員",
+    "titleJp": "朝だよ！貝社員",
+    "titleEn": "Asa da yo! Kaishain",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121718-2447JzaMeBN5.jpg",
+    "sourceUrl": "https://anilist.co/anime/121718"
+  },
+  {
+    "id": "2016-spring-088",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "胖胖褲豬 W-O-NEW",
+    "titleJp": "パンパカパンツ WおNEW！",
+    "titleEn": "Panpaka Pants W-O New!",
+    "weekday": "星期六",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21725-xEL6cJXQ8ZXX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21725"
+  },
+  {
+    "id": "2016-spring-089",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "鬼壽司",
+    "titleJp": "オニズシ",
+    "titleEn": "Onizushi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97953-rAfzEoqyqk1X.jpg",
+    "sourceUrl": "https://anilist.co/anime/97953"
+  },
+  {
+    "id": "2016-spring-090",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "뽀롱뽀롱 뽀로로 6",
+    "titleJp": "뽀롱뽀롱 뽀로로 6",
+    "titleEn": "Bborongbborong Bbororo",
+    "weekday": "星期三",
+    "weekdayNote": "3/2",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102370-bLmSLsRhGP1F.jpg",
+    "sourceUrl": "https://anilist.co/anime/102370"
+  },
+  {
+    "id": "2016-spring-091",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "WASIMO 第四季",
+    "titleJp": "わしも-wasimo-(第4シリーズ)",
+    "titleEn": "wasimo 4",
+    "weekday": "星期一",
+    "weekdayNote": "4/4",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98764-cX1oPnbpC3kU.jpg",
+    "sourceUrl": "https://anilist.co/anime/98764"
+  },
+  {
+    "id": "2016-spring-092",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "麵包超人：螺旋與夢拉浮雲城的秘密",
+    "titleJp": "それいけ! サブイボマスク",
+    "titleEn": "Sore Ike! Sabuibo Mask",
+    "weekday": "星期五",
+    "weekdayNote": "5/6",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21781-gn0dbfkH97ga.jpg",
+    "sourceUrl": "https://anilist.co/anime/21781"
+  },
+  {
+    "id": "2016-spring-093",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "超神學院 第四季 黑甲",
+    "titleJp": "超神学院之黑甲",
+    "titleEn": "Chao Shen Xueyuan: Zhi Hei Jia",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130762-i6r26zT3iyFx.png",
+    "sourceUrl": "https://anilist.co/anime/130762"
+  },
+  {
+    "id": "2016-spring-094",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "캡슐보이",
+    "titleJp": "캡슐보이",
+    "titleEn": "Capsule Boy",
+    "weekday": "星期日",
+    "weekdayNote": "5/15",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108996-R9mPYSL4TZWe.jpg",
+    "sourceUrl": "https://anilist.co/anime/108996"
+  },
+  {
+    "id": "2016-spring-095",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "勇者大冒險 第二季",
+    "titleJp": "勇者大冒险 第二季",
+    "titleEn": "Yong Zhe Da Maoxian 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103351-4PnDtU3Z7LmM.jpg",
+    "sourceUrl": "https://anilist.co/anime/103351"
+  },
+  {
+    "id": "2016-spring-096",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "以柔克剛",
+    "titleJp": "いっぽう日本昔ばなし",
+    "titleEn": "Ippou Nippon Mukashibanash",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b126179-pQnN4n90pPyw.jpg",
+    "sourceUrl": "https://anilist.co/anime/126179"
+  },
+  {
+    "id": "2016-spring-097",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "三劍豪之半面人",
+    "titleJp": "三剑豪之半面人",
+    "titleEn": "San Jian Hao: Banmian Ren",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121475-13w27MZMQWWf.png",
+    "sourceUrl": "https://anilist.co/anime/121475"
+  },
+  {
+    "id": "2016-spring-098",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "猪猪侠 光明守卫者",
+    "titleJp": "猪猪侠 光明守卫者",
+    "titleEn": "Zhuzhu Xia: Guangming Shouweizhe",
+    "weekday": "星期五",
+    "weekdayNote": "4/29",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx103959-xdpYQxfwYVph.jpg",
+    "sourceUrl": "https://anilist.co/anime/103959"
+  },
+  {
+    "id": "2016-spring-099",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "파워배틀 와치카",
+    "titleJp": "파워배틀 와치카",
+    "titleEn": "Power Battle Watch Car",
+    "weekday": "星期四",
+    "weekdayNote": "4/7",
+    "genres": [
+      "戰鬥"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b188808-tpdXnVaI7b0X.png",
+    "sourceUrl": "https://anilist.co/anime/188808"
+  },
+  {
+    "id": "2016-spring-100",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "阿拉蕾 哦呦呦！宇宙大冒險",
+    "titleJp": "宇宙ネコ マードックの冒険",
+    "titleEn": "Uchuu Neko: Mardock no Bouken",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b176877-I23VElBpyK4j.jpg",
+    "sourceUrl": "https://anilist.co/anime/176877"
+  },
+  {
+    "id": "2016-spring-101",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "金光御九界之東皇戰影",
+    "titleJp": "金光御九界之東皇戰影",
+    "titleEn": "Jin Guang Yu Jiu Jie: Dong Huang Zhan Ying",
+    "weekday": "星期三",
+    "weekdayNote": "5/25",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131883-URFuCEVKCCkd.jpg",
+    "sourceUrl": "https://anilist.co/anime/131883"
+  },
+  {
+    "id": "2016-spring-102",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "熊貓和小鼴鼠",
+    "titleJp": "熊猫和小鼹鼠",
+    "titleEn": "Xiongmao He Xiao Yanshu",
+    "weekday": "星期一",
+    "weekdayNote": "3/28",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx123144-A1Xvi50eP4G4.jpg",
+    "sourceUrl": "https://anilist.co/anime/123144"
+  },
+  {
+    "id": "2016-spring-103",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "聰明的順溜之雄鷹小子 第2季",
+    "titleJp": "聪明的顺溜",
+    "titleEn": "Congming De Shunliu",
+    "weekday": "星期一",
+    "weekdayNote": "3/7",
+    "genres": [
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx139727-96nmXsNXf8aE.png",
+    "sourceUrl": "https://anilist.co/anime/139727"
+  },
+  {
+    "id": "2016-spring-104",
+    "year": 2016,
+    "season": "2016-spring",
+    "titleZh": "相撲力士松太郎",
+    "titleJp": "ありんこヘポーふたりのひみつきちー",
+    "titleEn": "Arinko Hepo: Futari no Himitsu Kichi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "奇幻",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183800-ZyQskvNFo9zH.jpg",
+    "sourceUrl": "https://anilist.co/anime/183800"
+  },
+  {
+    "id": "2016-summer-001",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "靈能百分百 REIGEN ～不為人知的奇蹟的靈能力者～",
+    "titleJp": "モブサイコ100",
+    "titleEn": "Mob Psycho 100",
+    "weekday": "星期二",
+    "weekdayNote": "7/12",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情",
+      "心理",
+      "日常",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21507-6YUSbh2m0N1p.jpg",
+    "sourceUrl": "https://anilist.co/anime/21507"
+  },
+  {
+    "id": "2016-summer-002",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "齊木楠雄的災難",
+    "titleJp": "斉木楠雄のΨ難",
+    "titleEn": "The Disastrous Life of Saiki K.",
+    "weekday": "星期一",
+    "weekdayNote": "7/4",
+    "genres": [
+      "喜劇",
+      "日常",
+      "超自然",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21804-As6tDLAvEvNY.jpg",
+    "sourceUrl": "https://anilist.co/anime/21804"
+  },
+  {
+    "id": "2016-summer-003",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ReLIFE 完結篇",
+    "titleJp": "ReLIFE",
+    "titleEn": "ReLIFE",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "戀愛",
+      "日常",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21049-4AHSLeiDE9eg.png",
+    "sourceUrl": "https://anilist.co/anime/21049"
+  },
+  {
+    "id": "2016-summer-004",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "食戟之靈 貳之皿",
+    "titleJp": "食戟のソーマ 弍ノ皿",
+    "titleEn": "Food Wars! The Second Plate",
+    "weekday": "星期六",
+    "weekdayNote": "7/2",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21518-uBqzDGIuSxJ5.jpg",
+    "sourceUrl": "https://anilist.co/anime/21518"
+  },
+  {
+    "id": "2016-summer-005",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "橘色奇蹟",
+    "titleJp": "orange",
+    "titleEn": "Orange",
+    "weekday": "星期一",
+    "weekdayNote": "7/4",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21647-zMUXNhcVyRyv.png",
+    "sourceUrl": "https://anilist.co/anime/21647"
+  },
+  {
+    "id": "2016-summer-006",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "91天",
+    "titleJp": "91Days",
+    "titleEn": "91 Days",
+    "weekday": "星期六",
+    "weekdayNote": "7/9",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "心理",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21711-EQN4sCIXRhKf.png",
+    "sourceUrl": "https://anilist.co/anime/21711"
+  },
+  {
+    "id": "2016-summer-007",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "七大罪 聖戰的預兆",
+    "titleJp": "七つの大罪 聖戦の予兆",
+    "titleEn": "The Seven Deadly Sins: Signs of A Holy War",
+    "weekday": "星期日",
+    "weekdayNote": "8/28",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21385-0rOBu6r4C4b9.jpg",
+    "sourceUrl": "https://anilist.co/anime/21385"
+  },
+  {
+    "id": "2016-summer-008",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "NEW GAME!",
+    "titleJp": "NEW GAME!",
+    "titleEn": "NEW GAME!",
+    "weekday": "星期一",
+    "weekdayNote": "7/4",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21455-hTd6T0s9fvYj.jpg",
+    "sourceUrl": "https://anilist.co/anime/21455"
+  },
+  {
+    "id": "2016-summer-009",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "彈丸論破3 -The End of 希望之峰學園- 未來篇",
+    "titleJp": "ダンガンロンパ３ –The End of 希望ヶ峰学園– 未来編",
+    "titleEn": "Danganronpa 3: The End of Hope’s Peak High School - Future Arc",
+    "weekday": "星期一",
+    "weekdayNote": "7/11",
+    "genres": [
+      "戰鬥",
+      "恐怖",
+      "懸疑",
+      "心理",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21509-3Ih7TTU0Romm.jpg",
+    "sourceUrl": "https://anilist.co/anime/21509"
+  },
+  {
+    "id": "2016-summer-010",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ダンガンロンパ3 -The End of 希望ヶ峰学園-　絶望編",
+    "titleJp": "ダンガンロンパ3 -The End of 希望ヶ峰学園-　絶望編",
+    "titleEn": "Danganronpa 3: The End of Hope’s Peak High School - Despair Arc",
+    "weekday": "星期四",
+    "weekdayNote": "7/14",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "恐怖",
+      "懸疑",
+      "心理",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21825-OjVRUQwM8bTz.png",
+    "sourceUrl": "https://anilist.co/anime/21825"
+  },
+  {
+    "id": "2016-summer-011",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "天真與閃電",
+    "titleJp": "甘々と稲妻",
+    "titleEn": "Sweetness & Lightning",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21659-r1nnqXPIcl9D.png",
+    "sourceUrl": "https://anilist.co/anime/21659"
+  },
+  {
+    "id": "2016-summer-012",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "半田君",
+    "titleJp": "はんだくん",
+    "titleEn": "Handa-kun",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21626-5jbbIK9DsmY8.jpg",
+    "sourceUrl": "https://anilist.co/anime/21626"
+  },
+  {
+    "id": "2016-summer-013",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "この美術部には問題がある!",
+    "titleJp": "この美術部には問題がある!",
+    "titleEn": "This Art Club Has a Problem!",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21457-MzWktnoD67PO.png",
+    "sourceUrl": "https://anilist.co/anime/21457"
+  },
+  {
+    "id": "2016-summer-014",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "發條精靈戰記 天鏡的極北之星",
+    "titleJp": "ねじ巻き精霊戦記 天鏡のアルデラミン",
+    "titleEn": "Alderamin on the Sky",
+    "weekday": "星期六",
+    "weekdayNote": "7/9",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21410-ZGPqM634gFlX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21410"
+  },
+  {
+    "id": "2016-summer-015",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "劍風傳奇",
+    "titleJp": "ベルセルク",
+    "titleEn": "Berserk (2016)",
+    "weekday": "星期五",
+    "weekdayNote": "7/1",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情",
+      "奇幻",
+      "恐怖",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21560-6iifjdssfebJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21560"
+  },
+  {
+    "id": "2016-summer-016",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "情熱傳說 the X",
+    "titleJp": "テイルズ オブ ゼスティリア ザ クロス",
+    "titleEn": "Tales of Zestiria the X",
+    "weekday": "星期日",
+    "weekdayNote": "7/3",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21221-exaYgjct2K2c.jpg",
+    "sourceUrl": "https://anilist.co/anime/21221"
+  },
+  {
+    "id": "2016-summer-017",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "魔裝學園H×H",
+    "titleJp": "魔装学園H×H",
+    "titleEn": "Hybrid x Heart Magias Academy Ataraxia",
+    "weekday": "星期三",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "戀愛",
+      "科幻",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21378-83u2Jo9aACxx.jpg",
+    "sourceUrl": "https://anilist.co/anime/21378"
+  },
+  {
+    "id": "2016-summer-018",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "吸血鬼僕人",
+    "titleJp": "SERVAMP",
+    "titleEn": "SERVAMP",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戰鬥",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21269-NU0MR6HcefqO.jpg",
+    "sourceUrl": "https://anilist.co/anime/21269"
+  },
+  {
+    "id": "2016-summer-019",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "禁忌咒紋",
+    "titleJp": "タブー・タトゥー",
+    "titleEn": "Taboo Tattoo",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21031-9UQTsZfReeP6.jpg",
+    "sourceUrl": "https://anilist.co/anime/21031"
+  },
+  {
+    "id": "2016-summer-020",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ラブライブ！サンシャイン!!",
+    "titleJp": "ラブライブ！サンシャイン!!",
+    "titleEn": "Love Live! Sunshine!!",
+    "weekday": "星期六",
+    "weekdayNote": "7/2",
+    "genres": [
+      "音樂",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21584-AhHXXC6jvtTX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21584"
+  },
+  {
+    "id": "2016-summer-021",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "一人之下 第七季",
+    "titleJp": "一人之下",
+    "titleEn": "Hitori no Shita - The Outcast",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21840-e2qT7G7TYaCX.png",
+    "sourceUrl": "https://anilist.co/anime/21840"
+  },
+  {
+    "id": "2016-summer-022",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "心靈程式碼",
+    "titleJp": "クオリディア・コード",
+    "titleEn": "Qualidea Code",
+    "weekday": "星期日",
+    "weekdayNote": "7/10",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21557-Z5r4cvbl9R6R.jpg",
+    "sourceUrl": "https://anilist.co/anime/21557"
+  },
+  {
+    "id": "2016-summer-023",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "Rewrite 第二季",
+    "titleJp": "Rewrite",
+    "titleEn": "Rewrite",
+    "weekday": "星期六",
+    "weekdayNote": "7/2",
+    "genres": [
+      "劇情",
+      "懸疑",
+      "戀愛",
+      "日常",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21382-bBJghvjTP8Dr.jpg",
+    "sourceUrl": "https://anilist.co/anime/21382"
+  },
+  {
+    "id": "2016-summer-024",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "驅魔少年 HALLOW",
+    "titleJp": "ディー・グレイマン ハロー",
+    "titleEn": "D.Gray-man HALLOW",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21558-K9iLPLz1gDGY.png",
+    "sourceUrl": "https://anilist.co/anime/21558"
+  },
+  {
+    "id": "2016-summer-025",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "Fate/kaleid liner プリズマ☆イリヤ ドライ!!",
+    "titleJp": "Fate/kaleid liner プリズマ☆イリヤ ドライ!!",
+    "titleEn": "Fate/kaleid liner Prisma☆Illya 3rei!!",
+    "weekday": "星期三",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "魔法少女",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21379-RDJgELNOIGDS.png",
+    "sourceUrl": "https://anilist.co/anime/21379"
+  },
+  {
+    "id": "2016-summer-026",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "DAYS 東院學園戰",
+    "titleJp": "DAYS",
+    "titleEn": "DAYS",
+    "weekday": "星期日",
+    "weekdayNote": "7/3",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21578-XXfNNVseCg2G.jpg",
+    "sourceUrl": "https://anilist.co/anime/21578"
+  },
+  {
+    "id": "2016-summer-027",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "憂鬱的物怪庵",
+    "titleJp": "不機嫌なモノノケ庵",
+    "titleEn": "The Morose Mononokean",
+    "weekday": "星期二",
+    "weekdayNote": "6/28",
+    "genres": [
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21643-1zrEKuiV3ASs.png",
+    "sourceUrl": "https://anilist.co/anime/21643"
+  },
+  {
+    "id": "2016-summer-028",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "星之夢",
+    "titleJp": "planetarian～ちいさなほしのゆめ～",
+    "titleEn": "Planetarian",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21732-uOgNB5Y4FH5h.jpg",
+    "sourceUrl": "https://anilist.co/anime/21732"
+  },
+  {
+    "id": "2016-summer-029",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "亞爾斯蘭戰記 風塵亂舞",
+    "titleJp": "アルスラーン戦記 風塵乱舞",
+    "titleEn": "The Heroic Legend of Arslan: Dust Storm Dance",
+    "weekday": "星期日",
+    "weekdayNote": "7/3",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21424-B87p1XofzerH.jpg",
+    "sourceUrl": "https://anilist.co/anime/21424"
+  },
+  {
+    "id": "2016-summer-030",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "藍海少女",
+    "titleJp": "あまんちゅ！",
+    "titleEn": "Amanchu!",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21406-WRfuVlpbpvlY.png",
+    "sourceUrl": "https://anilist.co/anime/21406"
+  },
+  {
+    "id": "2016-summer-031",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "初戀怪獸",
+    "titleJp": "初恋モンスター",
+    "titleEn": "First Love Monster",
+    "weekday": "星期六",
+    "weekdayNote": "7/2",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21242-5lHHNLFBsVB3.jpg",
+    "sourceUrl": "https://anilist.co/anime/21242"
+  },
+  {
+    "id": "2016-summer-032",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "靈契",
+    "titleJp": "灵契",
+    "titleEn": "Spiritpact",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b98031-daSmrvb3DQw8.png",
+    "sourceUrl": "https://anilist.co/anime/98031"
+  },
+  {
+    "id": "2016-summer-033",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "香蕉喵遊世界",
+    "titleJp": "ばなにゃ",
+    "titleEn": "Bananya",
+    "weekday": "星期一",
+    "weekdayNote": "7/4",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21704-He11JaJgPPiQ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21704"
+  },
+  {
+    "id": "2016-summer-034",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "腐男子高校生活",
+    "titleJp": "腐男子高校生活",
+    "titleEn": "The Highschool Life of a Fudanshi",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21782-i8wLBjK9ccfY.jpg",
+    "sourceUrl": "https://anilist.co/anime/21782"
+  },
+  {
+    "id": "2016-summer-035",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "Re：從迷你開始的異世界生活",
+    "titleJp": "Re:プチから始める異世界生活",
+    "titleEn": "Re:PETIT ~Re: Starting Life in Another World From PETIT~",
+    "weekday": "星期五",
+    "weekdayNote": "6/24",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "異世界",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21891-Zr4CPYnZzljl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21891"
+  },
+  {
+    "id": "2016-summer-036",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "聖潔天使",
+    "titleJp": "アンジュ・ヴィエルジュ",
+    "titleEn": "Ange Vierge",
+    "weekday": "星期日",
+    "weekdayNote": "7/10",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21439-f9V9DCXof1zt.png",
+    "sourceUrl": "https://anilist.co/anime/21439"
+  },
+  {
+    "id": "2016-summer-037",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "チア男子!!",
+    "titleJp": "チア男子!!",
+    "titleEn": "Cheer Boys!!",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "日常",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21713-iIdNBkcihMMx.png",
+    "sourceUrl": "https://anilist.co/anime/21713"
+  },
+  {
+    "id": "2016-summer-038",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "野球少年",
+    "titleJp": "バッテリー",
+    "titleEn": "BATTERY the animation",
+    "weekday": "星期五",
+    "weekdayNote": "7/15",
+    "genres": [
+      "劇情",
+      "日常",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21702-Mkc5Hf39Drlp.png",
+    "sourceUrl": "https://anilist.co/anime/21702"
+  },
+  {
+    "id": "2016-summer-039",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "B-PROJECT～鼓動＊Ambitious～",
+    "titleJp": "B-PROJECT～鼓動＊アンビシャス～",
+    "titleEn": "B-PROJECT",
+    "weekday": "星期日",
+    "weekdayNote": "7/3",
+    "genres": [
+      "劇情",
+      "音樂",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21751-rbblLzKJqEMY.jpg",
+    "sourceUrl": "https://anilist.co/anime/21751"
+  },
+  {
+    "id": "2016-summer-040",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "雷加利亞三聖星",
+    "titleJp": "レガリア The Three Sacred Stars",
+    "titleEn": "Regalia: The Three Sacred Stars",
+    "weekday": "星期四",
+    "weekdayNote": "7/7",
+    "genres": [
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21707-2j3DygPJrJs4.jpg",
+    "sourceUrl": "https://anilist.co/anime/21707"
+  },
+  {
+    "id": "2016-summer-041",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "劇場版 美男高校地球防衛部ETERNAL LOVE！",
+    "titleJp": "美男高校地球防衛部LOVE！LOVE！",
+    "titleEn": "Cute High Earth Defense Club LOVE! LOVE!",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "喜劇",
+      "魔法少女",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21293-oW3CwgLAO6LC.png",
+    "sourceUrl": "https://anilist.co/anime/21293"
+  },
+  {
+    "id": "2016-summer-042",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "月歌2",
+    "titleJp": "ツキウタ。 THE ANIMATION",
+    "titleEn": "TSUKIUTA. The Animation",
+    "weekday": "星期三",
+    "weekdayNote": "7/6",
+    "genres": [
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20950-ZzshBLIPvQ3a.jpg",
+    "sourceUrl": "https://anilist.co/anime/20950"
+  },
+  {
+    "id": "2016-summer-043",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "Thunderbolt Fantasy -東離劍遊紀-",
+    "titleJp": "Thunderbolt Fantasy -東離劍遊紀-",
+    "titleEn": "Thunderbolt Fantasy: Sword Travels in the East",
+    "weekday": "星期五",
+    "weekdayNote": "7/8",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98143-PW8iwqFlNS4M.jpg",
+    "sourceUrl": "https://anilist.co/anime/98143"
+  },
+  {
+    "id": "2016-summer-044",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "アクティヴレイド -機動強襲室第八係- 2nd",
+    "titleJp": "アクティヴレイド -機動強襲室第八係- 2nd",
+    "titleEn": "Active Raid 2nd Season",
+    "weekday": "星期日",
+    "weekdayNote": "7/10",
+    "genres": [
+      "機甲",
+      "科幻",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21534-eAZQLprJKlBt.jpg",
+    "sourceUrl": "https://anilist.co/anime/21534"
+  },
+  {
+    "id": "2016-summer-045",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "時間旅行少女～真理、和花與8名科學家～",
+    "titleJp": "タイムトラベル少女～マリ・ワカと8人の科学者たち～",
+    "titleEn": "Time Travel Girl",
+    "weekday": "星期六",
+    "weekdayNote": "7/9",
+    "genres": [
+      "冒險",
+      "科幻",
+      "校園",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21824-HpGRQlvbgLNW.png",
+    "sourceUrl": "https://anilist.co/anime/21824"
+  },
+  {
+    "id": "2016-summer-046",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "小千開發日記",
+    "titleJp": "トリガーちゃん",
+    "titleEn": "Trigger-chan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99002-mNadpMbwsnL8.jpg",
+    "sourceUrl": "https://anilist.co/anime/99002"
+  },
+  {
+    "id": "2016-summer-047",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "OZMAFIA!!",
+    "titleJp": "OZMAFIA!!",
+    "titleEn": "OZMAFIA!!",
+    "weekday": "星期四",
+    "weekdayNote": "7/7",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "校園",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21641-JKjCmSFmImOy.jpg",
+    "sourceUrl": "https://anilist.co/anime/21641"
+  },
+  {
+    "id": "2016-summer-048",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "紅傷騎士X",
+    "titleJp": "スカーレッドライダーゼクス",
+    "titleEn": "Sca-red Rider XechS",
+    "weekday": "星期三",
+    "weekdayNote": "7/6",
+    "genres": [
+      "冒險",
+      "戀愛",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21747-ZlYSDrBDgsgO.jpg",
+    "sourceUrl": "https://anilist.co/anime/21747"
+  },
+  {
+    "id": "2016-summer-049",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "SHOW BY ROCK!! しょ～と!!",
+    "titleJp": "SHOW BY ROCK!! しょ～と!!",
+    "titleEn": "Show By Rock!! Short!!",
+    "weekday": "星期二",
+    "weekdayNote": "7/5",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21477-3CwBdhskKU4a.jpg",
+    "sourceUrl": "https://anilist.co/anime/21477"
+  },
+  {
+    "id": "2016-summer-050",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "屁吾郎",
+    "titleJp": "おなら吾郎",
+    "titleEn": "Onara Goro",
+    "weekday": "星期六",
+    "weekdayNote": "7/2",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21812-9HuoxVuTw2mi.jpg",
+    "sourceUrl": "https://anilist.co/anime/21812"
+  },
+  {
+    "id": "2016-summer-051",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "雙生靈探",
+    "titleJp": "双生灵探",
+    "titleEn": "Shuangsheng Lingtan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "懸疑",
+      "心理",
+      "超自然",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98863-ggwv79Ey6Wob.jpg",
+    "sourceUrl": "https://anilist.co/anime/98863"
+  },
+  {
+    "id": "2016-summer-052",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "魔法少女？Naria☆Girls",
+    "titleJp": "魔法少女? なりあ☆がーるず",
+    "titleEn": "Mahou Shoujo? Naria☆Girls",
+    "weekday": "星期四",
+    "weekdayNote": "7/7",
+    "genres": [
+      "喜劇",
+      "魔法少女",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21835-2KmHgjbKFluM.jpg",
+    "sourceUrl": "https://anilist.co/anime/21835"
+  },
+  {
+    "id": "2016-summer-053",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "狐妖小紅娘·月紅2",
+    "titleJp": "狐妖小红娘 月红",
+    "titleEn": "Huyao Xiao Hongniang: Yue Hong",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "戀愛",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102600-uhlpfcD19r6u.jpg",
+    "sourceUrl": "https://anilist.co/anime/102600"
+  },
+  {
+    "id": "2016-summer-054",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "智龍迷城X",
+    "titleJp": "パズドラＸ",
+    "titleEn": "Puzzle & Dragons X",
+    "weekday": "星期一",
+    "weekdayNote": "7/4",
+    "genres": [
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21644-2MLiUF0PHlAj.jpg",
+    "sourceUrl": "https://anilist.co/anime/21644"
+  },
+  {
+    "id": "2016-summer-055",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "武庚紀之三界",
+    "titleJp": "武庚纪",
+    "titleEn": "Wu Geng Ji",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102153-4defD5vVKcNP.png",
+    "sourceUrl": "https://anilist.co/anime/102153"
+  },
+  {
+    "id": "2016-summer-056",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ちばペダル ～弱虫ペダルと学ぶ自転車交通安全～",
+    "titleJp": "ちばペダル ～弱虫ペダルと学ぶ自転車交通安全～",
+    "titleEn": "Chiba Pedal: Yowamushi Pedal to Manabu Jitensha Koutsuu Anzen",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116015-o1R7j2I2AIAi.png",
+    "sourceUrl": "https://anilist.co/anime/116015"
+  },
+  {
+    "id": "2016-summer-057",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "蠟筆小新外傳 異形 VS 新之助",
+    "titleJp": "クレヨンしんちゃん外伝 エイリアン vs. しんのすけ",
+    "titleEn": "Shin chan Spin-off: Aliens vs. Shinnosuke",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98092-O3b1CNKixFut.jpg",
+    "sourceUrl": "https://anilist.co/anime/98092"
+  },
+  {
+    "id": "2016-summer-058",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "モンスターストライク『マーメイド・ラプソディ』",
+    "titleJp": "モンスターストライク『マーメイド・ラプソディ』",
+    "titleEn": "Monster Strike the Animation: Summer Special - Mermaid Rhapsody",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98094-gg1IiLJTrhJ6.jpg",
+    "sourceUrl": "https://anilist.co/anime/98094"
+  },
+  {
+    "id": "2016-summer-059",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "神秘公寓：幽靈球的秘密",
+    "titleJp": "신비아파트 : 고스트볼의 비밀",
+    "titleEn": "The Haunted House: The Secret of the Ghost Ball",
+    "weekday": "星期三",
+    "weekdayNote": "7/20",
+    "genres": [
+      "戰鬥",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130226-8YUCCuPWAEHt.jpg",
+    "sourceUrl": "https://anilist.co/anime/130226"
+  },
+  {
+    "id": "2016-summer-060",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "擇天記 第二季",
+    "titleJp": "择天记 第二季",
+    "titleEn": "Fighter of the Destiny SS2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102165-Pwi7f6ZQtjxD.jpg",
+    "sourceUrl": "https://anilist.co/anime/102165"
+  },
+  {
+    "id": "2016-summer-061",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "電影 為美好的世界獻上祝福！紅傳說",
+    "titleJp": "私たち, らくろじ部! 2",
+    "titleEn": "Watashitachi, Luck Logic-bu! 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21739-X2jXIFudheRf.jpg",
+    "sourceUrl": "https://anilist.co/anime/21739"
+  },
+  {
+    "id": "2016-summer-062",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "SAMURAI NOODLES \"THE ORIGINATOR\"",
+    "titleJp": "SAMURAI NOODLES \"THE ORIGINATOR\"",
+    "titleEn": "SAMURAI NOODLES: THE ORIGINATOR",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102646-a5ZAqzOJ1NyU.jpg",
+    "sourceUrl": "https://anilist.co/anime/102646"
+  },
+  {
+    "id": "2016-summer-063",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "麻神",
+    "titleJp": "麻神",
+    "titleEn": "Ma Shen",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102035-l4almhYR9FEd.png",
+    "sourceUrl": "https://anilist.co/anime/102035"
+  },
+  {
+    "id": "2016-summer-064",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "靈域 第三季",
+    "titleJp": "灵域 第三季",
+    "titleEn": "Ling Yu 3",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101878-HLtGhiDlXxMB.jpg",
+    "sourceUrl": "https://anilist.co/anime/101878"
+  },
+  {
+    "id": "2016-summer-065",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "凹凸世界",
+    "titleJp": "凹凸世界",
+    "titleEn": "AOTU Shijie",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103161-e9Vi53SlqbaH.jpg",
+    "sourceUrl": "https://anilist.co/anime/103161"
+  },
+  {
+    "id": "2016-summer-066",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "墓王之王 麒麟决",
+    "titleJp": "墓王之王 麒麟决",
+    "titleEn": "Mu Wang Zhi Wang: Qi Lin Jue",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "戀愛",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b102054-7zzlLKsiMyGR.jpg",
+    "sourceUrl": "https://anilist.co/anime/102054"
+  },
+  {
+    "id": "2016-summer-067",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "畫江湖之不良人 第二季",
+    "titleJp": "画江湖之不良人 第2季",
+    "titleEn": "Hua Jianghu: Buliang Ren 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "劇情",
+      "戀愛",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102562-ARYmvv22cT1o.png",
+    "sourceUrl": "https://anilist.co/anime/102562"
+  },
+  {
+    "id": "2016-summer-068",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "PJベリーのもぐもぐむにゃむにゃ",
+    "titleJp": "PJベリーのもぐもぐむにゃむにゃ",
+    "titleEn": "PJ Berri no Mogumogu Munyamunya",
+    "weekday": "星期五",
+    "weekdayNote": "8/19",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87479-0kqgTjA8PuzV.jpg",
+    "sourceUrl": "https://anilist.co/anime/87479"
+  },
+  {
+    "id": "2016-summer-069",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "戰國FAN",
+    "titleJp": "战国FAN",
+    "titleEn": "Zhanguo FAN",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx101907-rzi3narcqec2.jpg",
+    "sourceUrl": "https://anilist.co/anime/101907"
+  },
+  {
+    "id": "2016-summer-070",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "被吊銷冒險者執照的大叔，與愛女一起歌頌悠閒人生",
+    "titleJp": "お父さんは愛の人",
+    "titleEn": "Otousan wa Ai no Hito",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102786-GfxydxDYTx4j.png",
+    "sourceUrl": "https://anilist.co/anime/102786"
+  },
+  {
+    "id": "2016-summer-071",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "狠西遊",
+    "titleJp": "狠西游",
+    "titleEn": "Hen Xi You",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102556-Wa20GKorGqwD.jpg",
+    "sourceUrl": "https://anilist.co/anime/102556"
+  },
+  {
+    "id": "2016-summer-072",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ROBBER'S COMPANY",
+    "titleJp": "ROBBER'S COMPANY",
+    "titleEn": "ROBBER'S COMPANY",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx102380-jNpNFUdBesb6.jpg",
+    "sourceUrl": "https://anilist.co/anime/102380"
+  },
+  {
+    "id": "2016-summer-073",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "哆啦A夢：大雄的新恐龍",
+    "titleJp": "ちょびっとづかん",
+    "titleEn": "Chobitto Zukan",
+    "weekday": "星期日",
+    "weekdayNote": "7/3",
+    "genres": [
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx115188-7t5ax0K83xQ3.png",
+    "sourceUrl": "https://anilist.co/anime/115188"
+  },
+  {
+    "id": "2016-summer-074",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "爆裂飛車之獸神合體",
+    "titleJp": "机甲兽神之爆裂飞车",
+    "titleEn": "Jijia Shou Shen: Baolie Feiche",
+    "weekday": "星期一",
+    "weekdayNote": "3/14",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "機甲"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129175-dgPX4emQWmnm.jpg",
+    "sourceUrl": "https://anilist.co/anime/129175"
+  },
+  {
+    "id": "2016-summer-075",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "獸王武神丹帝拜恩",
+    "titleJp": "ミカンせいじん現わる",
+    "titleEn": "Mikan Seijin Arawaru",
+    "weekday": "星期六",
+    "weekdayNote": "8/6",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87516-v6h7b5UoCyIY.jpg",
+    "sourceUrl": "https://anilist.co/anime/87516"
+  },
+  {
+    "id": "2016-summer-076",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ぐらＰ＆ろで夫 第２Season",
+    "titleJp": "ぐらＰ＆ろで夫 第２Season",
+    "titleEn": "Gra-P & Rodeo 2nd Season",
+    "weekday": "星期五",
+    "weekdayNote": "7/1",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21810-43OQRZ6VK7FD.jpg",
+    "sourceUrl": "https://anilist.co/anime/21810"
+  },
+  {
+    "id": "2016-summer-077",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "雷霆三人行",
+    "titleJp": "メガトン級ムサシ パイロット版",
+    "titleEn": "Megaton-kyuu Musashi Pilot",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b177443-hq6YikguZfka.jpg",
+    "sourceUrl": "https://anilist.co/anime/177443"
+  },
+  {
+    "id": "2016-summer-078",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "秦時明月之諸子百家",
+    "titleJp": "我的三体之罗辑传",
+    "titleEn": "Wo de San Ti: Luo Ji Zhuan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx123027-KD1ON5HNZGHc.png",
+    "sourceUrl": "https://anilist.co/anime/123027"
+  },
+  {
+    "id": "2016-summer-079",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "熊出没之秋日团团转",
+    "titleJp": "熊出没之秋日团团转",
+    "titleEn": "Xiong Chumo: Qiu Ri Tuantuanzhuan",
+    "weekday": "星期四",
+    "weekdayNote": "6/9",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b148979-8vFm4dgn0E1h.jpg",
+    "sourceUrl": "https://anilist.co/anime/148979"
+  },
+  {
+    "id": "2016-summer-080",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "心靈的聲音",
+    "titleJp": "마음의 소리",
+    "titleEn": "Maeumuisori",
+    "weekday": "星期二",
+    "weekdayNote": "7/19",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx132347-VYFMckqIm6BW.jpg",
+    "sourceUrl": "https://anilist.co/anime/132347"
+  },
+  {
+    "id": "2016-summer-081",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "喜羊羊与灰太狼之羊羊小侦探",
+    "titleJp": "喜羊羊与灰太狼之羊羊小侦探",
+    "titleEn": "Pleasant Goat and Big Big Wolf: The Little Detective",
+    "weekday": "星期六",
+    "weekdayNote": "7/9",
+    "genres": [
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131721-rPlMuFRRYoN1.jpg",
+    "sourceUrl": "https://anilist.co/anime/131721"
+  },
+  {
+    "id": "2016-summer-082",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "智趣羊学堂之运动篇",
+    "titleJp": "智趣羊学堂之运动篇",
+    "titleEn": "Pleasant Goat Fun Class: Sports are Fun",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131754-6vEyVJxSfY7E.jpg",
+    "sourceUrl": "https://anilist.co/anime/131754"
+  },
+  {
+    "id": "2016-summer-083",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "智趣羊学堂之动植物篇",
+    "titleJp": "智趣羊学堂之动植物篇",
+    "titleEn": "Pleasant Goat Fun Class: Animals & Plants",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131753-EqQo9BNTxbjF.png",
+    "sourceUrl": "https://anilist.co/anime/131753"
+  },
+  {
+    "id": "2016-summer-084",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "赛尔号 第七季",
+    "titleJp": "赛尔号 第七季",
+    "titleEn": "Sai Er Hao 7",
+    "weekday": "星期五",
+    "weekdayNote": "6/3",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "科幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b129596-L3mvbOamXaEb.jpg",
+    "sourceUrl": "https://anilist.co/anime/129596"
+  },
+  {
+    "id": "2016-summer-085",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "파워배틀 와치카 시즌 2",
+    "titleJp": "파워배틀 와치카 시즌 2",
+    "titleEn": "Power Battle Watch Car Season 2",
+    "weekday": "星期二",
+    "weekdayNote": "8/23",
+    "genres": [
+      "戰鬥"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b188809-3gJg2wzrsaWe.png",
+    "sourceUrl": "https://anilist.co/anime/188809"
+  },
+  {
+    "id": "2016-summer-086",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "小公交車太友 第四季",
+    "titleJp": "꼬마버스 타요 4",
+    "titleEn": "Tayo the Little Bus Season 4",
+    "weekday": "星期三",
+    "weekdayNote": "8/31",
+    "genres": [
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b188058-e8N53Yj4ljEF.png",
+    "sourceUrl": "https://anilist.co/anime/188058"
+  },
+  {
+    "id": "2016-summer-087",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "ネコこのゴロ",
+    "titleJp": "ネコこのゴロ",
+    "titleEn": "Neko Konogoro",
+    "weekday": "星期三",
+    "weekdayNote": "6/8",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b199485-vN5FetMflPqg.png",
+    "sourceUrl": "https://anilist.co/anime/199485"
+  },
+  {
+    "id": "2016-summer-088",
+    "year": 2016,
+    "season": "2016-summer",
+    "titleZh": "夢幻西遊之雷怒危機",
+    "titleJp": "梦幻西游之雷怒危机",
+    "titleEn": "Menghuan Xiyou: Lei Nu Weiji",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx215789-CeneIdHQX3iA.jpg",
+    "sourceUrl": "https://anilist.co/anime/215789"
+  },
+  {
+    "id": "2016-fall-001",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
+    "titleJp": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
+    "titleEn": "HAIKYU!! 3rd Season",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21698-RL71mr1YU5Io.png",
+    "sourceUrl": "https://anilist.co/anime/21698"
+  },
+  {
+    "id": "2016-fall-002",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "文豪野犬 第二季",
+    "titleJp": "文豪ストレイドッグス 第2シーズン",
+    "titleEn": "Bungo Stray Dogs 2",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21679-9MKdz1A7YLV7.jpg",
+    "sourceUrl": "https://anilist.co/anime/21679"
+  },
+  {
+    "id": "2016-fall-003",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ユーリ!!! on ICE",
+    "titleJp": "ユーリ!!! on ICE",
+    "titleEn": "Yuri!!! on ICE",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21709-aqPBDxJPruYR.png",
+    "sourceUrl": "https://anilist.co/anime/21709"
+  },
+  {
+    "id": "2016-fall-004",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "3月的獅子",
+    "titleJp": "３月のライオン",
+    "titleEn": "March comes in like a lion",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "劇情",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21366-0wrYK0kjKeFn.jpg",
+    "sourceUrl": "https://anilist.co/anime/21366"
+  },
+  {
+    "id": "2016-fall-005",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "漂流武士",
+    "titleJp": "DRIFTERS",
+    "titleEn": "DRIFTERS",
+    "weekday": "星期五",
+    "weekdayNote": "10/7",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "異世界",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21123-bCuqm8wLDqOw.png",
+    "sourceUrl": "https://anilist.co/anime/21123"
+  },
+  {
+    "id": "2016-fall-006",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "競女!!!!!!!!",
+    "titleJp": "競女!!!!!!!!",
+    "titleEn": "Keijo!!!!!!!!",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "喜劇",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21639-tdDGBK68CQk0.jpg",
+    "sourceUrl": "https://anilist.co/anime/21639"
+  },
+  {
+    "id": "2016-fall-007",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "我太受歡迎了該怎麼辦",
+    "titleJp": "私がモテてどうすんだ",
+    "titleEn": "Kiss Him, Not Me",
+    "weekday": "星期五",
+    "weekdayNote": "10/7",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21686-N3dWHyKnzoKk.jpg",
+    "sourceUrl": "https://anilist.co/anime/21686"
+  },
+  {
+    "id": "2016-fall-008",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "黑白來看守所",
+    "titleJp": "ナンバカ",
+    "titleEn": "NANBAKA",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21051-V4IlRBFhlaOs.jpg",
+    "sourceUrl": "https://anilist.co/anime/21051"
+  },
+  {
+    "id": "2016-fall-009",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "吹響吧！上低音號 第二季",
+    "titleJp": "響け！ユーフォニアム 2",
+    "titleEn": "Sound! Euphonium 2",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "劇情",
+      "音樂",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21460-B52Z2pICE11i.png",
+    "sourceUrl": "https://anilist.co/anime/21460"
+  },
+  {
+    "id": "2016-fall-010",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "輕拍翻轉小魔女",
+    "titleJp": "フリップフラッパーズ",
+    "titleEn": "FLIP FLAPPERS",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "魔法少女",
+      "心理",
+      "科幻",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21714-wfvIxPvc2wo4.jpg",
+    "sourceUrl": "https://anilist.co/anime/21714"
+  },
+  {
+    "id": "2016-fall-011",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "亞人 第2部分",
+    "titleJp": "亜人 2",
+    "titleEn": "AJIN: Demi-Human 2",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "戰鬥",
+      "恐怖",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21799-0WB0vWJJ7mFX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21799"
+  },
+  {
+    "id": "2016-fall-012",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "星期一的豐滿",
+    "titleJp": "月曜日のたわわ",
+    "titleEn": "Tawawa on Monday",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97716-KEnqtszrv2vw.jpg",
+    "sourceUrl": "https://anilist.co/anime/97716"
+  },
+  {
+    "id": "2016-fall-013",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "魔法少女育成計劃 restart",
+    "titleJp": "魔法少女育成計画",
+    "titleEn": "Magical Girl Raising Project",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "恐怖",
+      "魔法少女",
+      "心理",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21340-0fOhJK8Qynmy.jpg",
+    "sourceUrl": "https://anilist.co/anime/21340"
+  },
+  {
+    "id": "2016-fall-014",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "終末的伊澤塔",
+    "titleJp": "終末のイゼッタ",
+    "titleEn": "Izetta: The Last Witch",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21838-v7GiILDrph5t.jpg",
+    "sourceUrl": "https://anilist.co/anime/21838"
+  },
+  {
+    "id": "2016-fall-015",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "Occultic;Nine -オカルティック・ナイン-",
+    "titleJp": "Occultic;Nine -オカルティック・ナイン-",
+    "titleEn": "Occultic;Nine",
+    "weekday": "星期日",
+    "weekdayNote": "10/9",
+    "genres": [
+      "懸疑",
+      "科幻",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21708-al2koHBxr8du.jpg",
+    "sourceUrl": "https://anilist.co/anime/21708"
+  },
+  {
+    "id": "2016-fall-016",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "夏目友人帳 伍",
+    "titleJp": "夏目友人帳 伍",
+    "titleEn": "Natsume's Book of Friends Season 5",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "劇情",
+      "奇幻",
+      "日常",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21710-Y20fKQviC3hL.jpg",
+    "sourceUrl": "https://anilist.co/anime/21710"
+  },
+  {
+    "id": "2016-fall-017",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "全職法師",
+    "titleJp": "全职法师",
+    "titleEn": "Full-Time Magister",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99200-DuLcVrpoGq8w.png",
+    "sourceUrl": "https://anilist.co/anime/99200"
+  },
+  {
+    "id": "2016-fall-018",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "編舟記",
+    "titleJp": "舟を編む",
+    "titleEn": "The Great Passage",
+    "weekday": "星期五",
+    "weekdayNote": "10/14",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21703-rXiXsRgiIO12.jpg",
+    "sourceUrl": "https://anilist.co/anime/21703"
+  },
+  {
+    "id": "2016-fall-019",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "寶可夢 太陽&amp;月亮",
+    "titleJp": "ポケットモンスター サン＆ムーン",
+    "titleEn": "Pokémon the Series: Sun & Moon",
+    "weekday": "星期四",
+    "weekdayNote": "11/17",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97634-P3p6KJiZFajv.png",
+    "sourceUrl": "https://anilist.co/anime/97634"
+  },
+  {
+    "id": "2016-fall-020",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "機動戰士高達 鐵血的奧爾芬斯 第二季",
+    "titleJp": "機動戦士ガンダム 鉄血のオルフェンズ 2",
+    "titleEn": "Mobile Suit GUNDAM Iron Blooded Orphans 2",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21749-tO6zfDKFesgl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21749"
+  },
+  {
+    "id": "2016-fall-021",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "おくさまが生徒会長!+!",
+    "titleJp": "おくさまが生徒会長!+!",
+    "titleEn": "My Wife is the Student Council President+!",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21610-fXJmOc3wQQoX.jpg",
+    "sourceUrl": "https://anilist.co/anime/21610"
+  },
+  {
+    "id": "2016-fall-022",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "WWW.WORKING!!",
+    "titleJp": "WWW.WORKING!!",
+    "titleEn": "WWW.WAGNARIA!!",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21764-tItSTDi0QB31.jpg",
+    "sourceUrl": "https://anilist.co/anime/21764"
+  },
+  {
+    "id": "2016-fall-023",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "烏冬麵之國的金色毛毬",
+    "titleJp": "うどんの国の金色毛鞠",
+    "titleEn": "Poco's Udon World",
+    "weekday": "星期日",
+    "weekdayNote": "10/9",
+    "genres": [
+      "奇幻",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21631-k0SsKyeorkyl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21631"
+  },
+  {
+    "id": "2016-fall-024",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "少女編號",
+    "titleJp": "ガーリッシュ ナンバー",
+    "titleEn": "Girlish Number",
+    "weekday": "星期五",
+    "weekdayNote": "10/7",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21627-MygS5XrfmSkx.jpg",
+    "sourceUrl": "https://anilist.co/anime/21627"
+  },
+  {
+    "id": "2016-fall-025",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ALL OUT!!",
+    "titleJp": "ALL OUT!!",
+    "titleEn": "All Out!!",
+    "weekday": "星期五",
+    "weekdayNote": "10/7",
+    "genres": [
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21349-J2C50KiPF5Rv.png",
+    "sourceUrl": "https://anilist.co/anime/21349"
+  },
+  {
+    "id": "2016-fall-026",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "TRICKSTER -江戸川乱歩「少年探偵団」より-",
+    "titleJp": "TRICKSTER -江戸川乱歩「少年探偵団」より-",
+    "titleEn": "Trickster",
+    "weekday": "星期二",
+    "weekdayNote": "10/4",
+    "genres": [
+      "冒險",
+      "劇情",
+      "懸疑",
+      "心理",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21832-2p2k6zjjeVv7.jpg",
+    "sourceUrl": "https://anilist.co/anime/21832"
+  },
+  {
+    "id": "2016-fall-027",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ViVid Strike!",
+    "titleJp": "ViVid Strike!",
+    "titleEn": "ViVid Strike!",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "魔法少女",
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21871-HHE1QjwHA6Op.png",
+    "sourceUrl": "https://anilist.co/anime/21871"
+  },
+  {
+    "id": "2016-fall-028",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "凸变英雄BABA",
+    "titleJp": "凸变英雄BABA",
+    "titleEn": "TO BE HERO",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97616-JgCHJDKyMGo1.jpg",
+    "sourceUrl": "https://anilist.co/anime/97616"
+  },
+  {
+    "id": "2016-fall-029",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "時空囚徒",
+    "titleJp": "时空使徒",
+    "titleEn": "Bloodivores",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97591-sw6OKNV8zkM3.png",
+    "sourceUrl": "https://anilist.co/anime/97591"
+  },
+  {
+    "id": "2016-fall-030",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "刀劍亂舞-花丸-",
+    "titleJp": "刀剣乱舞-花丸-",
+    "titleEn": "Touken Ranbu - Hanamaru",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情",
+      "奇幻",
+      "日常",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21741-OM5WXyhhwzPL.jpg",
+    "sourceUrl": "https://anilist.co/anime/21741"
+  },
+  {
+    "id": "2016-fall-031",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "寶可夢世代",
+    "titleJp": "ポケモンジェネレーションズ",
+    "titleEn": "Pokémon Generations",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97635-I7aIU84ABBs8.jpg",
+    "sourceUrl": "https://anilist.co/anime/97635"
+  },
+  {
+    "id": "2016-fall-032",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "一課一練",
+    "titleJp": "チーティングクラフト",
+    "titleEn": "Cheating Craft",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97609-qSAaN9XbRQjj.jpg",
+    "sourceUrl": "https://anilist.co/anime/97609"
+  },
+  {
+    "id": "2016-fall-033",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "灼熱乒乓妹",
+    "titleJp": "灼熱の卓球娘",
+    "titleEn": "Scorching Ping Pong Girls",
+    "weekday": "星期二",
+    "weekdayNote": "10/4",
+    "genres": [
+      "運動",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21715-lruOD46Lr3jT.jpg",
+    "sourceUrl": "https://anilist.co/anime/21715"
+  },
+  {
+    "id": "2016-fall-034",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "無畏魔女",
+    "titleJp": "ブレイブウィッチーズ",
+    "titleEn": "Brave Witches",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20454-PxmrIsbGwSlQ.png",
+    "sourceUrl": "https://anilist.co/anime/20454"
+  },
+  {
+    "id": "2016-fall-035",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "學園帥哥",
+    "titleJp": "学園ハンサム",
+    "titleEn": "Gakuen Handsome",
+    "weekday": "星期二",
+    "weekdayNote": "10/4",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21837-BFJKaWxs5I0w.png",
+    "sourceUrl": "https://anilist.co/anime/21837"
+  },
+  {
+    "id": "2016-fall-036",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "失憶煽動WIXOSS",
+    "titleJp": "Lostorage incited WIXOSS",
+    "titleEn": "Lostorage incited WIXOSS",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "劇情",
+      "心理",
+      "懸疑",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21772-RcnRl1bsqg2U.png",
+    "sourceUrl": "https://anilist.co/anime/21772"
+  },
+  {
+    "id": "2016-fall-037",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "超心動！藝術之星",
+    "titleJp": "マジきゅんっ！ルネッサンス",
+    "titleEn": "Magic-Kyun! Renaissance",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "音樂",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21850-PHPVOTzbQcrQ.png",
+    "sourceUrl": "https://anilist.co/anime/21850"
+  },
+  {
+    "id": "2016-fall-038",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "斯特拉的魔法",
+    "titleJp": "ステラのまほう",
+    "titleEn": "Magic of Stella",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21597-iq3QienfwebA.png",
+    "sourceUrl": "https://anilist.co/anime/21597"
+  },
+  {
+    "id": "2016-fall-039",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "SHOW BY ROCK!!#",
+    "titleJp": "SHOW BY ROCK!!#",
+    "titleEn": "Show By Rock!!#",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "奇幻",
+      "音樂",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21476-nLwZ0ilkBEex.png",
+    "sourceUrl": "https://anilist.co/anime/21476"
+  },
+  {
+    "id": "2016-fall-040",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "裝神少女小纏",
+    "titleJp": "装神少女まとい",
+    "titleEn": "Matoi the Sacred Slayer",
+    "weekday": "星期二",
+    "weekdayNote": "10/4",
+    "genres": [
+      "魔法少女"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21873-oIbHpgBRuNa6.jpg",
+    "sourceUrl": "https://anilist.co/anime/21873"
+  },
+  {
+    "id": "2016-fall-041",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "長騎美眉",
+    "titleJp": "ろんぐらいだぁす！",
+    "titleEn": "Long Riders!",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "運動",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21171-jOKKgO8jFnmT.jpg",
+    "sourceUrl": "https://anilist.co/anime/21171"
+  },
+  {
+    "id": "2016-fall-042",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "信長的忍者",
+    "titleJp": "信長の忍び",
+    "titleEn": "Ninja Girl & Samurai Master",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21666-baW0VO0JDg3n.jpg",
+    "sourceUrl": "https://anilist.co/anime/21666"
+  },
+  {
+    "id": "2016-fall-043",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "奇異太郎少年的妖怪繪日記",
+    "titleJp": "奇異太郎少年の妖怪絵日記",
+    "titleEn": "Kiitaro's yokai picture diary",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21802-WOoEXWTENKUb.jpg",
+    "sourceUrl": "https://anilist.co/anime/21802"
+  },
+  {
+    "id": "2016-fall-044",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "克拉斯卡勞埃德",
+    "titleJp": "クラシカロイド",
+    "titleEn": "ClassicaLoid",
+    "weekday": "星期六",
+    "weekdayNote": "10/8",
+    "genres": [
+      "喜劇",
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21250-2xDUOlMSBAUJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21250"
+  },
+  {
+    "id": "2016-fall-045",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "歌之王子殿下 真愛LEGEND STAR",
+    "titleJp": "うたの☆プリンスさまっ♪マジLOVE レジェンドスター",
+    "titleEn": "Utano☆Princesama Legend Star",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "音樂",
+      "戀愛",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21260-POufYGtQclH3.png",
+    "sourceUrl": "https://anilist.co/anime/21260"
+  },
+  {
+    "id": "2016-fall-046",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "伯納德小姐說。",
+    "titleJp": "バーナード嬢曰く。",
+    "titleEn": "Miss Bernard said.",
+    "weekday": "星期五",
+    "weekdayNote": "10/7",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21854-M2GdOhNIcHWj.jpg",
+    "sourceUrl": "https://anilist.co/anime/21854"
+  },
+  {
+    "id": "2016-fall-047",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "網球並不可笑嘛 8期",
+    "titleJp": "てーきゅう8",
+    "titleEn": "Teekyuu 8",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "運動",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21896-EupleZruvjt4.jpg",
+    "sourceUrl": "https://anilist.co/anime/21896"
+  },
+  {
+    "id": "2016-fall-048",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "虎麵人W",
+    "titleJp": "タイガーマスクW",
+    "titleEn": "Tiger Mask W",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21682-7Sb3Ly2fPIxp.jpg",
+    "sourceUrl": "https://anilist.co/anime/21682"
+  },
+  {
+    "id": "2016-fall-049",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "舞兵器舞亂伎 星之巨人",
+    "titleJp": "ブブキ・ブランキ 星の巨人",
+    "titleEn": "BBK/BRNK The Gentle Giants of the Galaxy",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21740-5EDdxaQZGznt.png",
+    "sourceUrl": "https://anilist.co/anime/21740"
+  },
+  {
+    "id": "2016-fall-050",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "青鬼",
+    "titleJp": "あおおに ～じ・あにめぇしょん～",
+    "titleEn": "Aooni The Blue Monster",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "喜劇",
+      "恐怖",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21897-6HCHc3qyAJtw.jpg",
+    "sourceUrl": "https://anilist.co/anime/21897"
+  },
+  {
+    "id": "2016-fall-051",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "霧山五行",
+    "titleJp": "雾山五行",
+    "titleEn": "Wu Shan Wu Xing",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127099-15z6aQLNkzV2.png",
+    "sourceUrl": "https://anilist.co/anime/127099"
+  },
+  {
+    "id": "2016-fall-052",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "人狼暗號1951",
+    "titleJp": "ルガーコード 1951",
+    "titleEn": "Luger Code 1951",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21674-TKQWST2Be5aZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21674"
+  },
+  {
+    "id": "2016-fall-053",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "魔法少女艾麗娜",
+    "titleJp": "魔法少女なんてもういいですから。 2",
+    "titleEn": "Mahou Shoujo Nante Mouiidesukara Second Season",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "魔法少女",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21892-5gLPCtpOSqRp.jpg",
+    "sourceUrl": "https://anilist.co/anime/21892"
+  },
+  {
+    "id": "2016-fall-054",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "數碼寶貝宇宙 應用怪獸",
+    "titleJp": "デジモンユニバース アプリモンスターズ",
+    "titleEn": "Digimon Universe App Monsters",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "劇情",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21820-IfERHl3aYZgq.jpg",
+    "sourceUrl": "https://anilist.co/anime/21820"
+  },
+  {
+    "id": "2016-fall-055",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "國民老公帶回家",
+    "titleJp": "国民老公带回家",
+    "titleEn": "National Husband Bring Home SS1",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx99548-FOMotH0dTHJX.jpg",
+    "sourceUrl": "https://anilist.co/anime/99548"
+  },
+  {
+    "id": "2016-fall-056",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "あにトレ!!XX ~ひとつ屋根の下で~",
+    "titleJp": "あにトレ!!XX ~ひとつ屋根の下で~",
+    "titleEn": "Anime de Training! XX",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "運動",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21886-ORLugeoBhN10.jpg",
+    "sourceUrl": "https://anilist.co/anime/21886"
+  },
+  {
+    "id": "2016-fall-057",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "侍靈演武 SOUL BUSTER PV",
+    "titleJp": "侍灵演武",
+    "titleEn": "Soul Buster",
+    "weekday": "星期二",
+    "weekdayNote": "10/4",
+    "genres": [
+      "戰鬥",
+      "校園",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21661-0rjhoN3Up4Ii.jpg",
+    "sourceUrl": "https://anilist.co/anime/21661"
+  },
+  {
+    "id": "2016-fall-058",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "12歲。小小的胸口心跳加速 第二季",
+    "titleJp": "12歳。～ちっちゃなムネのトキメキ～ 2",
+    "titleEn": "12-sai.: Chiccha na Mune no Tokimeki 2",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21839-dP9nAlyNtoPh.jpg",
+    "sourceUrl": "https://anilist.co/anime/21839"
+  },
+  {
+    "id": "2016-fall-059",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "解謎之音",
+    "titleJp": "ナゾトキネ",
+    "titleEn": "Nazotokine",
+    "weekday": "星期四",
+    "weekdayNote": "10/6",
+    "genres": [
+      "懸疑",
+      "異世界",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21876-YF5wkNyx757z.jpg",
+    "sourceUrl": "https://anilist.co/anime/21876"
+  },
+  {
+    "id": "2016-fall-060",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "怪物獵人物語 RIDE ON",
+    "titleJp": "モンスターハンター ストーリーズ RIDE ON",
+    "titleEn": "Monster Hunter Stories: Ride On",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21363-JJf3bXjPtd4g.jpg",
+    "sourceUrl": "https://anilist.co/anime/21363"
+  },
+  {
+    "id": "2016-fall-061",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "夢之祭",
+    "titleJp": "ドリフェス！",
+    "titleEn": "Dream Festival!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "音樂"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx87530-X4NjL9OgLlfG.png",
+    "sourceUrl": "https://anilist.co/anime/87530"
+  },
+  {
+    "id": "2016-fall-062",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "カードファイト!! ヴァンガードG NEXT",
+    "titleJp": "カードファイト!! ヴァンガードG NEXT",
+    "titleEn": "Cardfight!! Vanguard G Next",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx87476-Z7buTLMII4O5.png",
+    "sourceUrl": "https://anilist.co/anime/87476"
+  },
+  {
+    "id": "2016-fall-063",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "怪獣娘[かいじゅうがーるず] ~ウルトラ怪獣擬人化計画~",
+    "titleJp": "怪獣娘[かいじゅうがーるず] ~ウルトラ怪獣擬人化計画~",
+    "titleEn": "Kaijuu Girls: Ultra Kaijuu Gijinka Keikaku",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21760-MuVMschAYRIm.jpg",
+    "sourceUrl": "https://anilist.co/anime/21760"
+  },
+  {
+    "id": "2016-fall-064",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "交響詩篇 Hi-Evolution 1",
+    "titleJp": "イナズマイレブン アウターコード",
+    "titleEn": "Inazuma Eleven: Outer Code",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99059-kA7alh9r8L9Y.jpg",
+    "sourceUrl": "https://anilist.co/anime/99059"
+  },
+  {
+    "id": "2016-fall-065",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "星夢手記",
+    "titleJp": "アイドルメモリーズ",
+    "titleEn": "Idol Memories",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "音樂",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21872-oEUFHVqF6oQO.png",
+    "sourceUrl": "https://anilist.co/anime/21872"
+  },
+  {
+    "id": "2016-fall-066",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "にゃんぼー!",
+    "titleJp": "にゃんぼー!",
+    "titleEn": "Nyanbo!",
+    "weekday": "星期二",
+    "weekdayNote": "9/27",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21655-yvHxPvZogNzp.png",
+    "sourceUrl": "https://anilist.co/anime/21655"
+  },
+  {
+    "id": "2016-fall-067",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "甜甜私房貓 吃飽啦大冒險",
+    "titleJp": "こねこのチー ポンポンらー大冒険",
+    "titleEn": "Chi's Sweet Adventure",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21796-cwyH8pphj3gU.jpg",
+    "sourceUrl": "https://anilist.co/anime/21796"
+  },
+  {
+    "id": "2016-fall-068",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "企業戰士亞爾斯蘭",
+    "titleJp": "企業戦士アルスラーン",
+    "titleEn": "Corporate Warrior Arslan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/n107141-kgVAZpH38Mhf.jpg",
+    "sourceUrl": "https://anilist.co/anime/107141"
+  },
+  {
+    "id": "2016-fall-069",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "時間飛船24",
+    "titleJp": "タイムボカン24",
+    "titleEn": "Time Bokan 24",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "機甲",
+      "科幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21755-hyLxPlkyM6E7.png",
+    "sourceUrl": "https://anilist.co/anime/21755"
+  },
+  {
+    "id": "2016-fall-070",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "戰國鳥獸戲畫～甲～",
+    "titleJp": "戦国鳥獣戯画～甲～",
+    "titleEn": "SENGOKUCHOJYUGIGA",
+    "weekday": "星期日",
+    "weekdayNote": "10/9",
+    "genres": [
+      "喜劇",
+      "超自然",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21895-vdjzqygp9XKZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/21895"
+  },
+  {
+    "id": "2016-fall-071",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "狐妖小紅娘13 黃風嶺篇",
+    "titleJp": "狐妖小红娘 北山妖帝",
+    "titleEn": "Huyao Xiao Hongniang: Beishan Yaodi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "戀愛",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102601-KPwS4jW9G50q.png",
+    "sourceUrl": "https://anilist.co/anime/102601"
+  },
+  {
+    "id": "2016-fall-072",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "鋼之管絃樂",
+    "titleJp": "はがねオーケストラ",
+    "titleEn": "Hagane Orchestra",
+    "weekday": "星期一",
+    "weekdayNote": "10/10",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b97608-VXDflnPvjcz7.jpg",
+    "sourceUrl": "https://anilist.co/anime/97608"
+  },
+  {
+    "id": "2016-fall-073",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "雨色可可 in Hawaii",
+    "titleJp": "雨色ココア in Hawaii",
+    "titleEn": "Rainy Cocoa in Hawaii",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b21797-Uyzr7GQeUaup.jpg",
+    "sourceUrl": "https://anilist.co/anime/21797"
+  },
+  {
+    "id": "2016-fall-074",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "怪盜Joker3",
+    "titleJp": "怪盗ジョーカー 4",
+    "titleEn": "Mysterious Joker Season 4",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21859-AbrSRa5LnmJS.jpg",
+    "sourceUrl": "https://anilist.co/anime/21859"
+  },
+  {
+    "id": "2016-fall-075",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "臨時女友",
+    "titleJp": "ガールフレンド（♪）",
+    "titleEn": "Girlfriend (♪)",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "音樂",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87484-9N9Q4jEKVKPI.jpg",
+    "sourceUrl": "https://anilist.co/anime/87484"
+  },
+  {
+    "id": "2016-fall-076",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ヘボット!",
+    "titleJp": "ヘボット!",
+    "titleEn": "Heybot!",
+    "weekday": "星期日",
+    "weekdayNote": "9/18",
+    "genres": [
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21848-sDB60uBwY4Zl.jpg",
+    "sourceUrl": "https://anilist.co/anime/21848"
+  },
+  {
+    "id": "2016-fall-077",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "王子碰碰球",
+    "titleJp": "CMFU学院：王子碰碰球",
+    "titleEn": "CMFU College - Prince Touch Ball",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戀愛",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103334-1ciOecq6ywRw.jpg",
+    "sourceUrl": "https://anilist.co/anime/103334"
+  },
+  {
+    "id": "2016-fall-078",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "Crane Game Girls 第二季",
+    "titleJp": "美少女遊戯ユニットクレーンゲール ギャラクシー",
+    "titleEn": "Crane Game Girls Galaxy",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/21890-ORKvB5CCVAsP.jpg",
+    "sourceUrl": "https://anilist.co/anime/21890"
+  },
+  {
+    "id": "2016-fall-079",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "モンスターストライク 続・最終話「パンドラの箱」",
+    "titleJp": "モンスターストライク 続・最終話「パンドラの箱」",
+    "titleEn": "Monster Strike the Animation: An Encore and Continuance - Pandora's Box",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx98096-diiWMQPGcnii.jpg",
+    "sourceUrl": "https://anilist.co/anime/98096"
+  },
+  {
+    "id": "2016-fall-080",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "映画公開スペシャル「レイン・オブ・メモリーズ」",
+    "titleJp": "映画公開スペシャル「レイン・オブ・メモリーズ」",
+    "titleEn": "Monster Strike: Winter Special - Rain of Memories",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98095-yQuFpzD2lMol.jpg",
+    "sourceUrl": "https://anilist.co/anime/98095"
+  },
+  {
+    "id": "2016-fall-081",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "3年D班玻璃假面",
+    "titleJp": "３ねんＤぐみガラスの仮面",
+    "titleEn": "The Glass Mask Year 3 Class D",
+    "weekday": "星期一",
+    "weekdayNote": "10/3",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97589-REUlrPFEJIvn.jpg",
+    "sourceUrl": "https://anilist.co/anime/97589"
+  },
+  {
+    "id": "2016-fall-082",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "蠟筆小新外傳 玩具大戰",
+    "titleJp": "クレヨンしんちゃん外伝 おもちゃウォーズ",
+    "titleEn": "Shin chan Spin-off: Toy Wars",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98093-hEKKQXTjMeQ8.jpg",
+    "sourceUrl": "https://anilist.co/anime/98093"
+  },
+  {
+    "id": "2016-fall-083",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "六子與賽馬物語",
+    "titleJp": "6つ子とおうまの物語",
+    "titleEn": "Mutsugo to Ouma no Monogatari",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97916-lVjajMKdTQSu.jpg",
+    "sourceUrl": "https://anilist.co/anime/97916"
+  },
+  {
+    "id": "2016-fall-084",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "知力丸",
+    "titleJp": "知力丸",
+    "titleEn": "Chiryokumaru",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97967-Iw02ocsJMWAJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/97967"
+  },
+  {
+    "id": "2016-fall-085",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "水星領航員 The CREPUSCOLO",
+    "titleJp": "シンデレラガールズ劇場 5周年記念ショートアニメ",
+    "titleEn": "Cinderella Girls Gekijou: 5 Shuunen Kinen Short Anime",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102723-iAvFNnfrznqJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/102723"
+  },
+  {
+    "id": "2016-fall-086",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "擬人化でまなぼ!",
+    "titleJp": "擬人化でまなぼ!",
+    "titleEn": "Gijinka de Manabo!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/98105-kNCkcJliyhRR.jpg",
+    "sourceUrl": "https://anilist.co/anime/98105"
+  },
+  {
+    "id": "2016-fall-087",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "君臨臣下",
+    "titleJp": "君临臣下",
+    "titleEn": "Jun Lin Chengxia",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx102376-LoZH7I8kIPB0.jpg",
+    "sourceUrl": "https://anilist.co/anime/102376"
+  },
+  {
+    "id": "2016-fall-088",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "阿莉塔的試煉",
+    "titleJp": "阿莉塔的试炼",
+    "titleEn": "Alita de Shi Lian",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121989-ph8fpgbOOnEI.png",
+    "sourceUrl": "https://anilist.co/anime/121989"
+  },
+  {
+    "id": "2016-fall-089",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "UCHITAMA?!～貓狗寵物街～",
+    "titleJp": "タマ&フレンズ うちのタマ知りませんか?",
+    "titleEn": "Tama & Friends: Uchi no Tama Shirimasen ka?",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx87478-drsuBrGB8Zhi.jpg",
+    "sourceUrl": "https://anilist.co/anime/87478"
+  },
+  {
+    "id": "2016-fall-090",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "神明之記",
+    "titleJp": "神々の記",
+    "titleEn": "Kamigami no Ki",
+    "weekday": "星期四",
+    "weekdayNote": "11/24",
+    "genres": [
+      "喜劇",
+      "超自然",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b117876-fDli7IKqiw9X.jpg",
+    "sourceUrl": "https://anilist.co/anime/117876"
+  },
+  {
+    "id": "2016-fall-091",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "七色星露",
+    "titleJp": "アイドロップス",
+    "titleEn": "Eyedrops",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105859-gWqD3r3HlWxB.jpg",
+    "sourceUrl": "https://anilist.co/anime/105859"
+  },
+  {
+    "id": "2016-fall-092",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "中古碟店的女店員X",
+    "titleJp": "中古ビデオ屋の女店員 Ｘ",
+    "titleEn": "Chuuko Video-ya no Onna Tenin X",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/99112-uoetivSvLxWS.jpg",
+    "sourceUrl": "https://anilist.co/anime/99112"
+  },
+  {
+    "id": "2016-fall-093",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "巴啦啦小魔仙之飞越彩灵堡",
+    "titleJp": "巴啦啦小魔仙之飞越彩灵堡",
+    "titleEn": "Balala Xiao Moxian: Feiyue Cai Ling Bao",
+    "weekday": "星期日",
+    "weekdayNote": "11/13",
+    "genres": [
+      "喜劇",
+      "魔法少女"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104509-5zwbVacDfjWm.jpg",
+    "sourceUrl": "https://anilist.co/anime/104509"
+  },
+  {
+    "id": "2016-fall-094",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "彼岸島X",
+    "titleJp": "彼岸島 X",
+    "titleEn": "Higanjima X",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "奇幻",
+      "恐怖"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/97715-tU3uy6vdWKUL.jpg",
+    "sourceUrl": "https://anilist.co/anime/97715"
+  },
+  {
+    "id": "2016-fall-095",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "扭矩大師 終章",
+    "titleJp": "マスター・オブ・トルク Epilogue",
+    "titleEn": "Master of Torque Epilogue",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102102-YR5VqqKZUvfR.jpg",
+    "sourceUrl": "https://anilist.co/anime/102102"
+  },
+  {
+    "id": "2016-fall-096",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "戀愛遊戲世界對路人角色很不友好 第二季",
+    "titleJp": "やさ村やさしのやさしい世界",
+    "titleEn": "Yasamura Yasashi no Yasashii Seikai",
+    "weekday": "星期五",
+    "weekdayNote": "9/2",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87518-xdBJEngIU6xi.png",
+    "sourceUrl": "https://anilist.co/anime/87518"
+  },
+  {
+    "id": "2016-fall-097",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "宇宙航母諾蘭號",
+    "titleJp": "母のサポーター",
+    "titleEn": "Mother's Supporter",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102787-UmdYbOv5jjNw.jpg",
+    "sourceUrl": "https://anilist.co/anime/102787"
+  },
+  {
+    "id": "2016-fall-098",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "企鵝公路",
+    "titleJp": "ペペペペン議員",
+    "titleEn": "PePePePengiin",
+    "weekday": "星期日",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b113330-u2rA3G7DhWSh.jpg",
+    "sourceUrl": "https://anilist.co/anime/113330"
+  },
+  {
+    "id": "2016-fall-099",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "和女兒的日常",
+    "titleJp": "和女儿的日常",
+    "titleEn": "Grow Up with my Daughter",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121478-KLuYuB6IApuN.jpg",
+    "sourceUrl": "https://anilist.co/anime/121478"
+  },
+  {
+    "id": "2016-fall-100",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "阿卡君的ACCA講座",
+    "titleJp": "アッカァくんのACCA講座",
+    "titleEn": "Acca-kun no ACCA Kouza",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "懸疑",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b170629-5CvyG2RpovEo.jpg",
+    "sourceUrl": "https://anilist.co/anime/170629"
+  },
+  {
+    "id": "2016-fall-101",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "猫のダヤン ふしぎ劇場",
+    "titleJp": "猫のダヤン ふしぎ劇場",
+    "titleEn": "Neko no Dayan: Fushigi Gekijou",
+    "weekday": "星期六",
+    "weekdayNote": "10/1",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/87477-yHMa2jsYNzYz.jpg",
+    "sourceUrl": "https://anilist.co/anime/87477"
+  },
+  {
+    "id": "2016-fall-102",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "女生宿舍日常",
+    "titleJp": "女生宿舍日常",
+    "titleEn": "Nüsheng Sushe Richang",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104364-DhK4NH7BNIl7.jpg",
+    "sourceUrl": "https://anilist.co/anime/104364"
+  },
+  {
+    "id": "2016-fall-103",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "GJ8マン",
+    "titleJp": "GJ8マン",
+    "titleEn": "GJ8man",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/102800-Ar2DeggKK9yT.jpg",
+    "sourceUrl": "https://anilist.co/anime/102800"
+  },
+  {
+    "id": "2016-fall-104",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "生死回放",
+    "titleJp": "生死回放",
+    "titleEn": "Shengsi Huifang",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "恐怖",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108576-jZQH8Gngz4na.jpg",
+    "sourceUrl": "https://anilist.co/anime/108576"
+  },
+  {
+    "id": "2016-fall-105",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "猪猪侠 梦想守卫者",
+    "titleJp": "猪猪侠 梦想守卫者",
+    "titleEn": "Zhuzhu Xia: Mengxiang Shouweizhe",
+    "weekday": "星期五",
+    "weekdayNote": "10/28",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx103992-gcDvpJfHvgoR.jpg",
+    "sourceUrl": "https://anilist.co/anime/103992"
+  },
+  {
+    "id": "2016-fall-106",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "小怪獸成長日記 二期",
+    "titleJp": "どちゃもん じゅにあ 2",
+    "titleEn": "Dochamon Junior 2",
+    "weekday": "星期一",
+    "weekdayNote": "10/10",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b120074-wUumiMo17CpW.jpg",
+    "sourceUrl": "https://anilist.co/anime/120074"
+  },
+  {
+    "id": "2016-fall-107",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "相思相愛筆記本",
+    "titleJp": "相思",
+    "titleEn": "Xiangsi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "戀愛",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129730-vlUI5QubypYb.png",
+    "sourceUrl": "https://anilist.co/anime/129730"
+  },
+  {
+    "id": "2016-fall-108",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "100%帕斯卡老師",
+    "titleJp": "100%パスカル先生",
+    "titleEn": "100% Pascal-sensei",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b188038-ielGBZZxAhI9.png",
+    "sourceUrl": "https://anilist.co/anime/188038"
+  },
+  {
+    "id": "2016-fall-109",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "聰明的一休之刁蠻公主",
+    "titleJp": "オトナの一休さん",
+    "titleEn": "Otona no Ikkyuu-san",
+    "weekday": "星期三",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145745-3PMetOd4XEqs.png",
+    "sourceUrl": "https://anilist.co/anime/145745"
+  },
+  {
+    "id": "2016-fall-110",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "聰明的一休",
+    "titleJp": "一禅小和尚",
+    "titleEn": "Yichan Xiao Heshang",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx150580-JNRJsRni5pNZ.jpg",
+    "sourceUrl": "https://anilist.co/anime/150580"
+  },
+  {
+    "id": "2016-fall-111",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "那年那兔那些事儿 第3季",
+    "titleJp": "那年那兔那些事儿 第3季",
+    "titleEn": "Na Nian Na Tu Naxie Shir 3",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx119401-Ym3JRmYBuZjj.png",
+    "sourceUrl": "https://anilist.co/anime/119401"
+  },
+  {
+    "id": "2016-fall-112",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "喜羊羊與灰太狼之漫鏡頭",
+    "titleJp": "喜羊羊与灰太狼之漫镜头",
+    "titleEn": "Xi Yangyang Yu Hui Tailang: Man Jing Tou",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131765-OKMPY3Onv7uj.jpg",
+    "sourceUrl": "https://anilist.co/anime/131765"
+  },
+  {
+    "id": "2016-fall-113",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "京劇貓之信念的冒險",
+    "titleJp": "京剧猫 下部",
+    "titleEn": "Jing-Ju Cats Part 2",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx121198-FRcaiKH1IHZ2.jpg",
+    "sourceUrl": "https://anilist.co/anime/121198"
+  },
+  {
+    "id": "2016-fall-114",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "ラララ ララちゃん~パタパタだいせんそう~",
+    "titleJp": "ラララ ララちゃん~パタパタだいせんそう~",
+    "titleEn": "Lalala Lala-chan: Patapata Daisensou",
+    "weekday": "星期五",
+    "weekdayNote": "10/21",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189722-ZdJ3NnvuKaUb.png",
+    "sourceUrl": "https://anilist.co/anime/189722"
+  },
+  {
+    "id": "2016-fall-115",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "豬迪克之古怪島大冒險 第2季",
+    "titleJp": "猪迪克之古怪岛大冒险Ⅰ",
+    "titleEn": "Zhu Dick: Guguai Dao Da Maoxian Ⅰ",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx141311-oUCJFIAYuUCw.png",
+    "sourceUrl": "https://anilist.co/anime/141311"
+  },
+  {
+    "id": "2016-fall-116",
+    "year": 2016,
+    "season": "2016-fall",
+    "titleZh": "夢幻西遊之天命之戰",
+    "titleJp": "梦幻西游之天命之战",
+    "titleEn": "Menghuan Xiyou: Tianming Zhi Zhan",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx215790-7Cv8ONPaUBEe.jpg",
+    "sourceUrl": "https://anilist.co/anime/215790"
+  }
+]
