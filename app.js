@@ -59,10 +59,11 @@
       btnBack: "返回", btnUndo: "復原", btnCancel: "取消", btnConfirm: "確定",
       tourSkip: "略過導覽 Skip", tourPrev: "上一步", tourNext: "下一步", tourDone: "開始使用",
       tourSteps: [
-        { title: "1. 快速檢核與手機「一頁一部」模式", body: "為每部新番標記「沒看過、看過、喜歡、不喜歡」。手機開啟會自動進入一頁一部滑動卡片模式，右上角也能隨時切換成列表。" },
-        { title: "2. 多維篩選與 Google 快速搜圖", body: "可依年份、季度、狀態與動畫類型（含 R18）篩選；不確定有沒有看過時，點標題旁的放大鏡按鈕即可複製片名並另開 Google 搜尋。" },
-        { title: "3. AI 找片提示包與 R18 隱藏", body: "切到「AI 推薦包」可一鍵打包你喜歡／避雷的作品與未看片單，貼給任何 AI 幫你挖出遺珠；預設可勾選隱藏 R18 作品。" },
-        { title: "4. 每日一推、推坑互動與雲端分享", body: "首頁每天會依喜好為你推薦一部未看動畫，卡片支援 +1 推坑互動；登入雲端後還能跨裝置同步與產生專屬公開分享連結。" }
+        { title: "1. 今日為你推薦（每日一推）", body: "每天依你標記「喜歡／不喜歡」的類型權重，自動從還沒看過的片庫中精選一部動畫，也能隨時點「換一部看看」。" },
+        { title: "2. 多年度切換與類型篩選", body: "支援 2008–2026 多年度按需切換，下方可依季度、狀態與類型（含 R18）快速篩選；右上角可隨時切換手機「一頁一部」或「列表模式」。" },
+        { title: "3. 快速檢核、Google 搜尋與推坑", body: "點四種狀態按鈕即時存檔；不確定有沒有看過可點標題旁放大鏡直接複製並用 Google 搜尋，還能按「🔥 推坑 +1」推薦給同好。" },
+        { title: "4. AI 找片提示包與公開分享", body: "一鍵打包你喜歡／避雷的口味與未看片單貼給 AI 挖遺珠，並內建「隱藏 R18 作品」開關與個人公開分享網址。" },
+        { title: "5. 雲端同步、語言與主題設定", body: "這裡可查看雲端同步狀態並綁定 Email 跨裝置同步，右側也能切換繁中／日文／英文與淺色／深色模式。" }
       ],
       pushLabel: "推坑",
       googleSearchTitle: "複製片名並用 Google 搜尋", googleKeyword: "動畫",
@@ -127,10 +128,11 @@
       btnBack: "戻る", btnUndo: "元に戻す", btnCancel: "キャンセル", btnConfirm: "確定",
       tourSkip: "スキップ Skip", tourPrev: "前へ", tourNext: "次へ", tourDone: "はじめる",
       tourSteps: [
-        { title: "1. かんたん記録＆スマホ「1件ずつ」モード", body: "「未視聴・視聴済・好き・苦手」をワンタップで記録。スマホでは1件ずつスワイプできるカード表示になり、リスト表示にも切替可能です。" },
-        { title: "2. 絞り込み＆Google検索ボタン", body: "年度・クール・ジャンル（R18含む）で絞り込み可能。見たか迷ったらタイトル横の虫眼鏡ボタンでコピー＆Google検索ができます。" },
-        { title: "3. AIおすすめ用プロンプト出力", body: "「AIおすすめ」タブから好みの傾向と未視聴リストをまとめてコピー。そのままAIに貼るだけで隠れた名作を提案してもらえます。" },
-        { title: "4. 今日のおすすめ＆推し投票・クラウド同期", body: "ホーム画面で毎日1本おすすめを表示。推しボタン（+1）や公開シェアURL、クラウド同期にも対応しています。" }
+        { title: "1. 今日のおすすめ", body: "「好き・苦手」のジャンル傾向から、未視聴リストより毎日1本おすすめします。「別の作品を見る」で引き直しも可能です。" },
+        { title: "2. 年度切替＆ジャンル絞り込み", body: "複数年度・クール・ジャンル（R18含む）で絞り込み可能。右上から「1件ずつ」と「リスト表示」をいつでも切り替えられます。" },
+        { title: "3. かんたん記録・Google検索・推し投票", body: "ボタン1つで自動保存。迷ったらタイトル横の虫眼鏡でGoogle検索、「🔥 推し +1」でおすすめ投票もできます。" },
+        { title: "4. AIおすすめプロンプト＆公開シェア", body: "好みの傾向と未視聴候補をまとめてコピーしてAIに相談可能。R18非表示や公開シェアURLにも対応しています。" },
+        { title: "5. クラウド同期・言語・テーマ設定", body: "ここからクラウド同期やメール連携ができます。隣で言語（繁中/日本語/EN）やライト・ダークモードも切替可能です。" }
       ],
       pushLabel: "推し",
       googleSearchTitle: "タイトルをコピーしてGoogle検索", googleKeyword: "アニメ",
@@ -195,10 +197,11 @@
       btnBack: "Back", btnUndo: "Undo", btnCancel: "Cancel", btnConfirm: "Confirm",
       tourSkip: "Skip Tour", tourPrev: "Prev", tourNext: "Next", tourDone: "Get Started",
       tourSteps: [
-        { title: "1. Fast Watchlist & Mobile 1-by-1 Mode", body: "Mark titles as Unwatched, Watched, Liked, or Disliked. On mobile, you automatically get a swipeable 1-by-1 card mode (switchable to List anytime)." },
-        { title: "2. Multi-Filters & Quick Google Search", body: "Filter by year, season, status, and genres (including R18). Click the search icon next to any title to copy it and open Google Search." },
-        { title: "3. AI Recommendation Prompt Builder", body: "Export your Liked/Disliked tastes and Unwatched pool as a structured prompt for any AI to uncover hidden gems, with an option to hide R18 titles." },
-        { title: "4. Daily Pick, Reactions & Cloud Sync", body: "Get a tailored Daily Pick on Home, +1 recommend titles to others, share your public list URL, and sync across devices via Supabase." }
+        { title: "1. Daily Pick for You", body: "Gets one unwatched anime picked daily based on your liked genre weights. Click 'Pick Another' anytime to reroll." },
+        { title: "2. Multi-Year & Genre Filters", body: "Switch across years, seasons, statuses, and genres (including R18), or toggle between 1-by-1 Card and List View." },
+        { title: "3. Rate, Google Search & Recommend", body: "Tap any status to auto-save, use the search icon to copy & Google a title, or tap 🔥 Rec +1 to recommend it." },
+        { title: "4. AI Prompt Builder & Public Share", body: "Export your tastes and unwatched pool for any AI to find hidden gems, with a Hide R18 toggle and public share URL." },
+        { title: "5. Cloud Sync, Language & Theme", body: "Check cloud sync status or bind your Email here, and switch language or Light/Dark theme right beside it." }
       ],
       pushLabel: "Rec",
       googleSearchTitle: "Copy title & search on Google", googleKeyword: "anime",
@@ -1006,31 +1009,119 @@
     okBtn.onclick = () => { close(); onConfirm(); };
   }
 
-  function renderTourModal() {
-    const modal = document.getElementById("tour-modal");
+  const TOUR_TARGETS = [
+    { view: "home", selector: "#home-daily-card", isHeader: false },
+    { view: "catalog", selector: "#catalog-year-tabs", isHeader: false },
+    { view: "catalog", selector: () => state.catalogDisplayMode === "card" ? "#single-card-stage" : "#catalog-list article", isHeader: false },
+    { view: "ai", selector: "#view-ai .surface-ai-hero", isHeader: false },
+    { view: "home", selector: "#btn-auth-open", isHeader: true }
+  ];
+
+  function getActiveTourElement() {
+    const spec = TOUR_TARGETS[state.tourStep];
+    if (!spec) return null;
+    const sel = typeof spec.selector === "function" ? spec.selector() : spec.selector;
+    return sel ? document.querySelector(sel) : null;
+  }
+
+  function positionSpotlight(el) {
+    const spot = document.getElementById("tour-spotlight");
+    const tip = document.getElementById("tour-tooltip");
+    if (!spot || !tip) return;
+
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const tipW = Math.min(360, vw - 24);
+
+    if (!el) {
+      spot.style.top = "50%";
+      spot.style.left = "50%";
+      spot.style.width = "0px";
+      spot.style.height = "0px";
+      tip.style.left = `${Math.max(12, (vw - tipW) / 2)}px`;
+      tip.style.top = `${Math.max(24, vh * 0.35)}px`;
+      return;
+    }
+
+    const r = el.getBoundingClientRect();
+    const pad = 6;
+    const top = Math.max(6, r.top - pad);
+    const left = Math.max(6, r.left - pad);
+    const width = Math.max(36, Math.min(vw - 12, r.width + pad * 2));
+    const height = Math.max(32, Math.min(vh - 12, r.height + pad * 2));
+
+    spot.style.top = `${top}px`;
+    spot.style.left = `${left}px`;
+    spot.style.width = `${width}px`;
+    spot.style.height = `${height}px`;
+
+    const tipH = tip.offsetHeight || 185;
+    let tipTop = top + height + 14;
+    if (tipTop + tipH > vh - 14) {
+      tipTop = Math.max(14, top - tipH - 14);
+    }
+    if (tipTop + tipH > vh - 14) {
+      tipTop = Math.max(14, vh - tipH - 18);
+    }
+    let tipLeft = left + width / 2 - tipW / 2;
+    tipLeft = Math.max(12, Math.min(vw - tipW - 12, tipLeft));
+
+    tip.style.top = `${tipTop}px`;
+    tip.style.left = `${tipLeft}px`;
+  }
+
+  async function renderTourModal() {
+    const backdrop = document.getElementById("tour-backdrop");
     const steps = t("tourSteps");
-    if (!modal || !Array.isArray(steps)) return;
+    if (!backdrop || !Array.isArray(steps)) return;
     const idx = Math.max(0, Math.min(state.tourStep, steps.length - 1));
     state.tourStep = idx;
+
+    const targetSpec = TOUR_TARGETS[idx] || TOUR_TARGETS[0];
+    if (targetSpec && targetSpec.view && state.view !== targetSpec.view) {
+      await switchView(targetSpec.view, true);
+    }
+
     document.getElementById("tour-step-badge").textContent = `${idx + 1} / ${steps.length}`;
     document.getElementById("tour-title").textContent = steps[idx].title;
     document.getElementById("tour-body").textContent = steps[idx].body;
     document.getElementById("tour-prev").disabled = idx === 0;
     document.getElementById("tour-next").textContent = idx === steps.length - 1 ? t("tourDone") : t("tourNext");
+
+    const targetEl = getActiveTourElement();
+    if (targetEl && !targetSpec.isHeader) {
+      targetEl.scrollIntoView({ behavior: "auto", block: "center" });
+    } else {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
+
+    requestAnimationFrame(() => {
+      positionSpotlight(getActiveTourElement());
+      setTimeout(() => positionSpotlight(getActiveTourElement()), 80);
+    });
   }
 
   function openTour() {
     state.tourStep = 0;
+    const backdrop = document.getElementById("tour-backdrop");
+    if (backdrop) backdrop.classList.remove("hidden");
     renderTourModal();
-    const modal = document.getElementById("tour-modal");
-    if (modal) { modal.classList.remove("hidden"); modal.classList.add("flex"); }
   }
 
   function closeTour() {
-    const modal = document.getElementById("tour-modal");
-    if (modal) { modal.classList.add("hidden"); modal.classList.remove("flex"); }
+    const backdrop = document.getElementById("tour-backdrop");
+    if (backdrop) backdrop.classList.add("hidden");
     try { window.localStorage.setItem(TOUR_KEY, "1"); } catch (e) {}
   }
+
+  function syncSpotlightPosition() {
+    const backdrop = document.getElementById("tour-backdrop");
+    if (backdrop && !backdrop.classList.contains("hidden")) {
+      positionSpotlight(getActiveTourElement());
+    }
+  }
+  window.addEventListener("resize", syncSpotlightPosition);
+  window.addEventListener("scroll", syncSpotlightPosition, { passive: true });
 
   function escapeHtml(str) {
     return String(str || "")
@@ -1095,7 +1186,7 @@
   }
 
   // ==================== 檢視切換 ====================
-  async function switchView(nextView) {
+  async function switchView(nextView, skipScroll) {
     if (state.view !== "about" && nextView === "about") state.prevView = state.view;
     state.view = nextView;
 
@@ -1131,7 +1222,7 @@
     if (nextView === "mylist") await ensureAllYearsLoaded();
     else if (nextView === "ai" && state.aiYearScope !== "all") await ensureYearLoaded(state.aiYearScope);
 
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (!skipScroll) window.scrollTo({ top: 0, behavior: "smooth" });
     renderAll();
   }
 
