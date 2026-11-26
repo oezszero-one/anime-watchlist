@@ -1,0 +1,2598 @@
+[
+  {
+    "id": "2010-winter-001",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "デュラララ!!",
+    "titleJp": "デュラララ!!",
+    "titleEn": "Durarara!!",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "懸疑",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6746-3LTwM95Uqeoa.png",
+    "sourceUrl": "https://anilist.co/anime/6746"
+  },
+  {
+    "id": "2010-winter-002",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "刀語",
+    "titleJp": "刀語",
+    "titleEn": "Katanagatari",
+    "weekday": "星期二",
+    "weekdayNote": "1/26",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "戀愛",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6594-xrrFyCacxUle.png",
+    "sourceUrl": "https://anilist.co/anime/6594"
+  },
+  {
+    "id": "2010-winter-003",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "笨蛋，測驗，召喚獸",
+    "titleJp": "バカとテストと召喚獣",
+    "titleEn": "Baka and Test - Summon the Beasts",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6347-DCSHLkCY7UT3.jpg",
+    "sourceUrl": "https://anilist.co/anime/6347"
+  },
+  {
+    "id": "2010-winter-004",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "聖痕鍊金士II",
+    "titleJp": "聖痕のクェイサー",
+    "titleEn": "The Qwaser of Stigmata",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6500-RQxUgnApAqqn.png",
+    "sourceUrl": "https://anilist.co/anime/6500"
+  },
+  {
+    "id": "2010-winter-005",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "れでぃ×ばと!",
+    "titleJp": "れでぃ×ばと!",
+    "titleEn": "Ladies Versus Butlers",
+    "weekday": "星期二",
+    "weekdayNote": "1/5",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7148-nLJGo6aO9FQX.jpg",
+    "sourceUrl": "https://anilist.co/anime/7148"
+  },
+  {
+    "id": "2010-winter-006",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "空之音",
+    "titleJp": "ソ・ラ・ノ・ヲ・ト",
+    "titleEn": "Sound of the Sky",
+    "weekday": "星期二",
+    "weekdayNote": "1/5",
+    "genres": [
+      "音樂",
+      "科幻",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6802-MmsfM8KAgZuR.jpg",
+    "sourceUrl": "https://anilist.co/anime/6802"
+  },
+  {
+    "id": "2010-winter-007",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "守護貓娘緋鞠",
+    "titleJp": "おまもりひまり",
+    "titleEn": "Omamori Himari",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6324.jpg",
+    "sourceUrl": "https://anilist.co/anime/6324"
+  },
+  {
+    "id": "2010-winter-008",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "吸血鬼同盟",
+    "titleJp": "ダンスインザヴァンパイアバンド",
+    "titleEn": "Dance in the Vampire Bund",
+    "weekday": "星期四",
+    "weekdayNote": "1/7",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6747-GEGb8Pwg8X7a.png",
+    "sourceUrl": "https://anilist.co/anime/6747"
+  },
+  {
+    "id": "2010-winter-009",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "花丸幼稚園",
+    "titleJp": "はなまる幼稚園",
+    "titleEn": "Hanamaru Kindergarten",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6574-rCLnJXp3NK0J.png",
+    "sourceUrl": "https://anilist.co/anime/6574"
+  },
+  {
+    "id": "2010-winter-010",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "交響情人夢Finale",
+    "titleJp": "のだめカンタービレ フィナーレ",
+    "titleEn": "Nodame Cantabile Finale",
+    "weekday": "星期五",
+    "weekdayNote": "1/15",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "戀愛",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx5690-FEBLLRnlMvlx.jpg",
+    "sourceUrl": "https://anilist.co/anime/5690"
+  },
+  {
+    "id": "2010-winter-011",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "ハートキャッチプリキュア!",
+    "titleJp": "ハートキャッチプリキュア!",
+    "titleEn": "Heartcatch Precure!",
+    "weekday": "星期日",
+    "weekdayNote": "2/7",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情",
+      "奇幻",
+      "魔法少女",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7645-edk6l2U5ms7z.png",
+    "sourceUrl": "https://anilist.co/anime/7645"
+  },
+  {
+    "id": "2010-winter-012",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "神隱之狼",
+    "titleJp": "おおかみかくし",
+    "titleEn": "Okamikakushi ~ Masque of the Wolf",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "戰鬥",
+      "恐怖",
+      "懸疑",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7079.jpg",
+    "sourceUrl": "https://anilist.co/anime/7079"
+  },
+  {
+    "id": "2010-winter-013",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "ちゅーぶら!!",
+    "titleJp": "ちゅーぶら!!",
+    "titleEn": "Chu-Bra!: Panty Appreciation Society",
+    "weekday": "星期一",
+    "weekdayNote": "1/4",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6645-FunUYc7XMZGi.jpg",
+    "sourceUrl": "https://anilist.co/anime/6645"
+  },
+  {
+    "id": "2010-winter-014",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "向陽素描",
+    "titleJp": "ひだまりスケッチ × ☆☆☆",
+    "titleEn": "Hidamari Sketch x Hoshimittsu",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7062-YPlTCLD2yCl2.png",
+    "sourceUrl": "https://anilist.co/anime/7062"
+  },
+  {
+    "id": "2010-winter-015",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "思密錄音室",
+    "titleJp": "スタ☆スカ",
+    "titleEn": "Starry☆Sky",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7705.jpg",
+    "sourceUrl": "https://anilist.co/anime/7705"
+  },
+  {
+    "id": "2010-winter-016",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "哥普拉 六人勇士",
+    "titleJp": "COBRA THE ANIMATION",
+    "titleEn": "COBRA THE ANIMATION",
+    "weekday": "星期六",
+    "weekdayNote": "1/2",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/5032.jpg",
+    "sourceUrl": "https://anilist.co/anime/5032"
+  },
+  {
+    "id": "2010-winter-017",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "怪盜麗奈",
+    "titleJp": "怪盗レーニャ",
+    "titleEn": "Phantom Thief Reinya",
+    "weekday": "星期六",
+    "weekdayNote": "1/9",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b7561-VVYrzeix8Zdm.jpg",
+    "sourceUrl": "https://anilist.co/anime/7561"
+  },
+  {
+    "id": "2010-winter-018",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "搞笑漫畫日和2",
+    "titleJp": "増田こうすけ劇場 ギャグマンガ日和+",
+    "titleEn": "Gag Manga Biyori Plus (S4)",
+    "weekday": "星期二",
+    "weekdayNote": "1/5",
+    "genres": [
+      "喜劇",
+      "歷史",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7761.jpg",
+    "sourceUrl": "https://anilist.co/anime/7761"
+  },
+  {
+    "id": "2010-winter-019",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "超智慧足球",
+    "titleJp": "超智能足球",
+    "titleEn": "GGO Football",
+    "weekday": "星期六",
+    "weekdayNote": "2/6",
+    "genres": [
+      "科幻",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx103426-RcuyNMyFF33Q.jpg",
+    "sourceUrl": "https://anilist.co/anime/103426"
+  },
+  {
+    "id": "2010-winter-020",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "吸血丸",
+    "titleJp": "ちーすい丸",
+    "titleEn": "Chi-Sui Maru",
+    "weekday": "星期六",
+    "weekdayNote": "2/6",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8025.jpg",
+    "sourceUrl": "https://anilist.co/anime/8025"
+  },
+  {
+    "id": "2010-winter-021",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "角君咖啡",
+    "titleJp": "ケシカスくん",
+    "titleEn": "Keshikasu-kun",
+    "weekday": "星期二",
+    "weekdayNote": "1/12",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8244-a5Pbd8Mzu7HV.png",
+    "sourceUrl": "https://anilist.co/anime/8244"
+  },
+  {
+    "id": "2010-winter-022",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "幽靈音樂會",
+    "titleJp": "アゴなしゲンとオレ物語",
+    "titleEn": "Agonashi Gen to Ore Monogatari",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10004.jpg",
+    "sourceUrl": "https://anilist.co/anime/10004"
+  },
+  {
+    "id": "2010-winter-023",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "魯邦三世 樣片",
+    "titleJp": "ネットミラクルショッピング 2",
+    "titleEn": "Net Miracle Shopping 2nd Season",
+    "weekday": "星期五",
+    "weekdayNote": "1/8",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b124439-6Pb1tDNE3aAE.jpg",
+    "sourceUrl": "https://anilist.co/anime/124439"
+  },
+  {
+    "id": "2010-winter-024",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "美猴王",
+    "titleJp": "美猴王",
+    "titleEn": "Monkey King",
+    "weekday": "星期一",
+    "weekdayNote": "1/25",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b187061-stzUqOO8Psws.jpg",
+    "sourceUrl": "https://anilist.co/anime/187061"
+  },
+  {
+    "id": "2010-winter-025",
+    "year": 2010,
+    "season": "2010-winter",
+    "titleZh": "うんこさん ツイてる人にしか見えない妖精 純情派",
+    "titleJp": "うんこさん ツイてる人にしか見えない妖精 純情派",
+    "titleEn": "Unko-san: Tsuiteru Hito ni Shika Mienai Yousei Junjou Ha",
+    "weekday": "星期日",
+    "weekdayNote": "1/10",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b213096-XWYx3EfhaZJa.png",
+    "sourceUrl": "https://anilist.co/anime/213096"
+  },
+  {
+    "id": "2010-spring-001",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "Angel Beats!",
+    "titleJp": "Angel Beats!",
+    "titleEn": "Angel Beats!",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "劇情",
+      "超自然",
+      "異世界",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6547-SYexAn5aFyss.png",
+    "sourceUrl": "https://anilist.co/anime/6547"
+  },
+  {
+    "id": "2010-spring-002",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "会長はメイド様!",
+    "titleJp": "会長はメイド様!",
+    "titleEn": "Maid-Sama!",
+    "weekday": "星期五",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "戀愛",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7054-GW4D7VAZG19W.png",
+    "sourceUrl": "https://anilist.co/anime/7054"
+  },
+  {
+    "id": "2010-spring-003",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "けいおん!!",
+    "titleJp": "けいおん!!",
+    "titleEn": "K-ON! Season 2",
+    "weekday": "星期三",
+    "weekdayNote": "4/7",
+    "genres": [
+      "喜劇",
+      "音樂",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7791-4tnomla2mMDp.png",
+    "sourceUrl": "https://anilist.co/anime/7791"
+  },
+  {
+    "id": "2010-spring-004",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "四疊半神話大系",
+    "titleJp": "四畳半神話大系",
+    "titleEn": "The Tatami Galaxy",
+    "weekday": "星期五",
+    "weekdayNote": "4/23",
+    "genres": [
+      "喜劇",
+      "懸疑",
+      "心理",
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7785-aTjIhsYva8cJ.jpg",
+    "sourceUrl": "https://anilist.co/anime/7785"
+  },
+  {
+    "id": "2010-spring-005",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "kiss×sis (TV)",
+    "titleJp": "kiss×sis (TV)",
+    "titleEn": "kiss×sis (TV)",
+    "weekday": "星期一",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b7593-6a0TvcDmgjP9.jpg",
+    "sourceUrl": "https://anilist.co/anime/7593"
+  },
+  {
+    "id": "2010-spring-006",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "最後大魔王",
+    "titleJp": "いちばんうしろの大魔王",
+    "titleEn": "Demon King Daimao",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7088-Y38q7jaBwlTZ.png",
+    "sourceUrl": "https://anilist.co/anime/7088"
+  },
+  {
+    "id": "2010-spring-007",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "WORKING!!",
+    "titleJp": "WORKING!!",
+    "titleEn": "Wagnaria!!",
+    "weekday": "星期日",
+    "weekdayNote": "4/4",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6956-Nxs7H25yHLNS.jpg",
+    "sourceUrl": "https://anilist.co/anime/6956"
+  },
+  {
+    "id": "2010-spring-008",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "RAINBOW -二舎六房の七人-",
+    "titleJp": "RAINBOW -二舎六房の七人-",
+    "titleEn": "Rainbow",
+    "weekday": "星期五",
+    "weekdayNote": "4/2",
+    "genres": [
+      "劇情",
+      "心理",
+      "懸疑",
+      "校園",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6114-pLPszMA7AxbD.jpg",
+    "sourceUrl": "https://anilist.co/anime/6114"
+  },
+  {
+    "id": "2010-spring-009",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "荒川爆笑團",
+    "titleJp": "荒川アンダー ザ ブリッジ",
+    "titleEn": "Arakawa Under the Bridge",
+    "weekday": "星期一",
+    "weekdayNote": "4/5",
+    "genres": [
+      "喜劇",
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7647-NQEKHruZT5ch.jpg",
+    "sourceUrl": "https://anilist.co/anime/7647"
+  },
+  {
+    "id": "2010-spring-010",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "B型H系",
+    "titleJp": "B型H系",
+    "titleEn": "Yamada's First Time: B Gata H Kei",
+    "weekday": "星期五",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx7817-6kYE5LRNoL97.jpg",
+    "sourceUrl": "https://anilist.co/anime/7817"
+  },
+  {
+    "id": "2010-spring-011",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "迷い猫オーバーラン!",
+    "titleJp": "迷い猫オーバーラン!",
+    "titleEn": "Mayoi Neko Overrun!",
+    "weekday": "星期二",
+    "weekdayNote": "4/6",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7590.jpg",
+    "sourceUrl": "https://anilist.co/anime/7590"
+  },
+  {
+    "id": "2010-spring-012",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "江戶盜賊團五葉",
+    "titleJp": "さらい屋 五葉",
+    "titleEn": "House of Five Leaves",
+    "weekday": "星期五",
+    "weekdayNote": "4/16",
+    "genres": [
+      "劇情",
+      "懸疑",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7588-iXCwrmgHGJbd.jpg",
+    "sourceUrl": "https://anilist.co/anime/7588"
+  },
+  {
+    "id": "2010-spring-013",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "薄櫻鬼",
+    "titleJp": "薄桜鬼",
+    "titleEn": "Hakuoki ~Demon of the Fleeting Blossom~",
+    "weekday": "星期日",
+    "weekdayNote": "4/4",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6895-S4QTn9uPlVrL.png",
+    "sourceUrl": "https://anilist.co/anime/6895"
+  },
+  {
+    "id": "2010-spring-014",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "戰鬥陀螺 金屬對決 爆",
+    "titleJp": "メタルファイト ベイブレード～爆～",
+    "titleEn": "Beyblade: Metal Masters",
+    "weekday": "星期日",
+    "weekdayNote": "4/4",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8410-fXa60HqVggen.png",
+    "sourceUrl": "https://anilist.co/anime/8410"
+  },
+  {
+    "id": "2010-spring-015",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "黑塔利亞 第3期",
+    "titleJp": "ヘタリア Ｗorld Ｓeries",
+    "titleEn": "Hetalia World Series",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8479-dwf4MppZB8Do.png",
+    "sourceUrl": "https://anilist.co/anime/8479"
+  },
+  {
+    "id": "2010-spring-016",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "無法逃離的背叛",
+    "titleJp": "裏切りは僕の名前を知っている",
+    "titleEn": "The Betrayal Knows My Name",
+    "weekday": "星期一",
+    "weekdayNote": "4/12",
+    "genres": [
+      "冒險",
+      "劇情",
+      "奇幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7058-nIFGNo4AjAPB.png",
+    "sourceUrl": "https://anilist.co/anime/7058"
+  },
+  {
+    "id": "2010-spring-017",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "逆轉監督",
+    "titleJp": "GIANT KILLING",
+    "titleEn": "Giant Killing",
+    "weekday": "星期日",
+    "weekdayNote": "4/4",
+    "genres": [
+      "劇情",
+      "運動",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7661.jpg",
+    "sourceUrl": "https://anilist.co/anime/7661"
+  },
+  {
+    "id": "2010-spring-018",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "メジャー（第6シリーズ)",
+    "titleJp": "メジャー（第6シリーズ)",
+    "titleEn": "Major S6",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7655-HRR4NF39Vo3W.png",
+    "sourceUrl": "https://anilist.co/anime/7655"
+  },
+  {
+    "id": "2010-spring-019",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "爆丸バトルブローラーズ Gundalian Invaders",
+    "titleJp": "爆丸バトルブローラーズ Gundalian Invaders",
+    "titleEn": "Bakugan: Gundalian Invaders",
+    "weekday": "星期日",
+    "weekdayNote": "5/23",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7334-k24kihvZ8Hm3.jpg",
+    "sourceUrl": "https://anilist.co/anime/7334"
+  },
+  {
+    "id": "2010-spring-020",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "一騎當千 XTREME XECUTOR",
+    "titleJp": "一騎当千 XTREME XECUTOR",
+    "titleEn": "Ikki Tousen: Xtreme Xecutor",
+    "weekday": "星期五",
+    "weekdayNote": "3/26",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7580-dt2waY2ZK8SN.jpg",
+    "sourceUrl": "https://anilist.co/anime/7580"
+  },
+  {
+    "id": "2010-spring-021",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "我家的英雄",
+    "titleJp": "ヒーローマン",
+    "titleEn": "HEROMAN",
+    "weekday": "星期四",
+    "weekdayNote": "4/1",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4334-gO2l5LRyfpBb.png",
+    "sourceUrl": "https://anilist.co/anime/4334"
+  },
+  {
+    "id": "2010-spring-022",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "王牌投手 振臂高揮～夏日大會篇～",
+    "titleJp": "おおきく振りかぶって　〜夏の大会編〜",
+    "titleEn": "Big Windup! 2",
+    "weekday": "星期五",
+    "weekdayNote": "4/2",
+    "genres": [
+      "喜劇",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7720-C0Y3tuXIbCAL.jpg",
+    "sourceUrl": "https://anilist.co/anime/7720"
+  },
+  {
+    "id": "2010-spring-023",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "閃光的夜襲",
+    "titleJp": "閃光のナイトレイド",
+    "titleEn": "Night Raid 1931",
+    "weekday": "星期二",
+    "weekdayNote": "4/6",
+    "genres": [
+      "戰鬥",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6973-hf8eRNjN4xf4.png",
+    "sourceUrl": "https://anilist.co/anime/6973"
+  },
+  {
+    "id": "2010-spring-024",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "真恋姫†無双 ~乙女大乱~",
+    "titleJp": "真恋姫†無双 ~乙女大乱~",
+    "titleEn": "Shin Koihime Musou: Otome Tairan",
+    "weekday": "星期五",
+    "weekdayNote": "3/26",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8057-C3YcDrZMJFfz.jpg",
+    "sourceUrl": "https://anilist.co/anime/8057"
+  },
+  {
+    "id": "2010-spring-025",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "家庭教師ヒットマンREBORN! ボンゴレファミリー総登場! ボンゴレ式修学旅行、来る!!",
+    "titleJp": "家庭教師ヒットマンREBORN! ボンゴレファミリー総登場! ボンゴレ式修学旅行、来る!!",
+    "titleEn": "REBORN!: Here Comes a Vongola Family-Style School Trip!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8532.jpg",
+    "sourceUrl": "https://anilist.co/anime/8532"
+  },
+  {
+    "id": "2010-spring-026",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "寶石寵物 Tinkle☆ 特別篇",
+    "titleJp": "ジュエルペット てぃんくる☆",
+    "titleEn": "Jewelpet Twinkle☆",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "奇幻",
+      "魔法少女"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8217-0AdC5k7zWMwu.png",
+    "sourceUrl": "https://anilist.co/anime/8217"
+  },
+  {
+    "id": "2010-spring-027",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "ひめチェン! おとぎちっくアイドル リルぷりっ",
+    "titleJp": "ひめチェン! おとぎちっくアイドル リルぷりっ",
+    "titleEn": "Spellbound! Magical Princess Lilpri",
+    "weekday": "星期日",
+    "weekdayNote": "4/4",
+    "genres": [
+      "魔法少女"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8206.jpg",
+    "sourceUrl": "https://anilist.co/anime/8206"
+  },
+  {
+    "id": "2010-spring-028",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "SD高達三國傳",
+    "titleJp": "SDガンダム三国伝 Brave Battle Warriors",
+    "titleEn": "SD Gundam Sangokuden Brave Battle Warriors",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8287.jpg",
+    "sourceUrl": "https://anilist.co/anime/8287"
+  },
+  {
+    "id": "2010-spring-029",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "極上!!めちゃモテ委員長 セカンドコレクション",
+    "titleJp": "極上!!めちゃモテ委員長 セカンドコレクション",
+    "titleEn": "The Best!! Extremely Cool Student Council President Second Collection",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8538.jpg",
+    "sourceUrl": "https://anilist.co/anime/8538"
+  },
+  {
+    "id": "2010-spring-030",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "SOS TV ワルプルギスナイトフィーバー",
+    "titleJp": "SOS TV ワルプルギスナイトフィーバー",
+    "titleEn": "SOS TV Walpurgis Night Fever",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "科幻",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8706.jpg",
+    "sourceUrl": "https://anilist.co/anime/8706"
+  },
+  {
+    "id": "2010-spring-031",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "拳王創世紀1 影道篇",
+    "titleJp": "リングにかけろ1 影道編",
+    "titleEn": "Ring ni Kakero 1: Shadow-hen",
+    "weekday": "星期五",
+    "weekdayNote": "4/2",
+    "genres": [
+      "戰鬥",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7793-SAQGtbF8s0ts.jpg",
+    "sourceUrl": "https://anilist.co/anime/7793"
+  },
+  {
+    "id": "2010-spring-032",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "東京教父",
+    "titleJp": "ハニー東京",
+    "titleEn": "Honey Tokyo",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8526.jpg",
+    "sourceUrl": "https://anilist.co/anime/8526"
+  },
+  {
+    "id": "2010-spring-033",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "瑪麗與伽利 ver 2.0",
+    "titleJp": "マリー＆ガリー ver.2.0",
+    "titleEn": "Marie & Gali ver. 2.0",
+    "weekday": "星期二",
+    "weekdayNote": "3/30",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8409-WDd8pdl83WZM.jpg",
+    "sourceUrl": "https://anilist.co/anime/8409"
+  },
+  {
+    "id": "2010-spring-034",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "決鬥大師Cross Shock",
+    "titleJp": "デュエル・マスターズ クロスショック",
+    "titleEn": "Duel Masters Cross Shock",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "戰鬥",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10528-edfmhJvvBhyw.jpg",
+    "sourceUrl": "https://anilist.co/anime/10528"
+  },
+  {
+    "id": "2010-spring-035",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "神戶與我",
+    "titleJp": "神戸と私",
+    "titleEn": "Kobe to Watashi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8925.jpg",
+    "sourceUrl": "https://anilist.co/anime/8925"
+  },
+  {
+    "id": "2010-spring-036",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "秦時明月之諸子百家",
+    "titleJp": "秦时明月之诸子百家",
+    "titleEn": "Qin Shi Mingyue: Zhuzi Baijia",
+    "weekday": "星期四",
+    "weekdayNote": "6/10",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11835-GNBzPXdhn5dT.jpg",
+    "sourceUrl": "https://anilist.co/anime/11835"
+  },
+  {
+    "id": "2010-spring-037",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "花樣河童",
+    "titleJp": "はなかっぱ",
+    "titleEn": "Hanakappa",
+    "weekday": "星期一",
+    "weekdayNote": "3/29",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8336-BJzIHFC49RWb.jpg",
+    "sourceUrl": "https://anilist.co/anime/8336"
+  },
+  {
+    "id": "2010-spring-038",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "森林裡的快樂小精靈們 Belfy與Lillibit",
+    "titleJp": "森のレシオ",
+    "titleEn": "Ratio of Forest",
+    "weekday": "星期五",
+    "weekdayNote": "3/26",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101906-wNhuSdTewGUw.jpg",
+    "sourceUrl": "https://anilist.co/anime/101906"
+  },
+  {
+    "id": "2010-spring-039",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "小魔女學園",
+    "titleJp": "リトル・チャロ2",
+    "titleEn": "Little Charo 2: Adventure in the Middle World",
+    "weekday": "星期日",
+    "weekdayNote": "3/28",
+    "genres": [
+      "日常",
+      "異世界",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/13179.jpg",
+    "sourceUrl": "https://anilist.co/anime/13179"
+  },
+  {
+    "id": "2010-spring-040",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "磁星騎士",
+    "titleJp": "최강 합체 믹스마스터",
+    "titleEn": "Choegang Habche: Mix Master",
+    "weekday": "星期三",
+    "weekdayNote": "5/26",
+    "genres": [
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/104106-suUKSnIVf6m1.jpg",
+    "sourceUrl": "https://anilist.co/anime/104106"
+  },
+  {
+    "id": "2010-spring-041",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "寶可夢 超級願望 第2季 德科羅拉大冒險",
+    "titleJp": "ポテッコベイビーズ",
+    "titleEn": "Potekko Babies",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8958.jpg",
+    "sourceUrl": "https://anilist.co/anime/8958"
+  },
+  {
+    "id": "2010-spring-042",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "巧虎 HE SO KA",
+    "titleJp": "しまじろう ヘソカ",
+    "titleEn": "Shimajirou Hesoka",
+    "weekday": "星期一",
+    "weekdayNote": "4/5",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18939.jpg",
+    "sourceUrl": "https://anilist.co/anime/18939"
+  },
+  {
+    "id": "2010-spring-043",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "學生會的一己之見",
+    "titleJp": "動物かんきょう会議",
+    "titleEn": "Doubutsu Kankyou Kaigi",
+    "weekday": "星期六",
+    "weekdayNote": "3/20",
+    "genres": [
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8478.jpg",
+    "sourceUrl": "https://anilist.co/anime/8478"
+  },
+  {
+    "id": "2010-spring-044",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "臀犬",
+    "titleJp": "ケツ犬",
+    "titleEn": "Ketsuinu",
+    "weekday": "星期四",
+    "weekdayNote": "4/1",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8353.jpg",
+    "sourceUrl": "https://anilist.co/anime/8353"
+  },
+  {
+    "id": "2010-spring-045",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "だめんずうぉ～か～ THE アニメ",
+    "titleJp": "だめんずうぉ～か～ THE アニメ",
+    "titleEn": "Damen's Walker: THE Anime",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8258.jpg",
+    "sourceUrl": "https://anilist.co/anime/8258"
+  },
+  {
+    "id": "2010-spring-046",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "企鵝的問題 Max",
+    "titleJp": "ペンギンの問題 Max",
+    "titleEn": "Penguin no Mondai Max",
+    "weekday": "星期六",
+    "weekdayNote": "4/3",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10855.jpg",
+    "sourceUrl": "https://anilist.co/anime/10855"
+  },
+  {
+    "id": "2010-spring-047",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "なんちゃって!",
+    "titleJp": "なんちゃって!",
+    "titleEn": "Nanchatte!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8959.jpg",
+    "sourceUrl": "https://anilist.co/anime/8959"
+  },
+  {
+    "id": "2010-spring-048",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "果寶特攻第二部",
+    "titleJp": "果宝特攻",
+    "titleEn": "Guobao Te Gong",
+    "weekday": "星期四",
+    "weekdayNote": "4/1",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129480-L0UgRjAgS49H.png",
+    "sourceUrl": "https://anilist.co/anime/129480"
+  },
+  {
+    "id": "2010-spring-049",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "喜羊羊與灰太狼之給快樂加油",
+    "titleJp": "喜羊羊与灰太狼之羊羊快乐的一年",
+    "titleEn": "Pleasant Goat and Big Big Wolf: Joys of Seasons",
+    "weekday": "星期六",
+    "weekdayNote": "5/1",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131569-kEuMm1WJEpAv.png",
+    "sourceUrl": "https://anilist.co/anime/131569"
+  },
+  {
+    "id": "2010-spring-050",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "快樂小東西",
+    "titleJp": "快乐小东西",
+    "titleEn": "Kuaile Xiao Dongxi",
+    "weekday": "星期四",
+    "weekdayNote": "4/8",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b129361-0sHOFhEBohAU.jpg",
+    "sourceUrl": "https://anilist.co/anime/129361"
+  },
+  {
+    "id": "2010-spring-051",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "哈皮父子之超能泡蛋",
+    "titleJp": "哈皮父子之超能泡蛋",
+    "titleEn": "Hapi Fa Zi: Chao Neng Pao Dan",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx129478-Ode2taemN1g3.jpg",
+    "sourceUrl": "https://anilist.co/anime/129478"
+  },
+  {
+    "id": "2010-spring-052",
+    "year": 2010,
+    "season": "2010-spring",
+    "titleZh": "新西遊歷險記",
+    "titleJp": "西游新传",
+    "titleEn": "Xi You Xin Zhuan",
+    "weekday": "星期一",
+    "weekdayNote": "",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b199416-F5mZKhgHXEAD.jpg",
+    "sourceUrl": "https://anilist.co/anime/199416"
+  },
+  {
+    "id": "2010-summer-001",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "學園默示錄 HIGHSCHOOL OF THE DEAD",
+    "titleJp": "学園黙示録HIGHSCHOOL OF THE DEAD",
+    "titleEn": "High School of the Dead",
+    "weekday": "星期一",
+    "weekdayNote": "7/5",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "喜劇",
+      "恐怖",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8074-YB63Ik96fjPj.png",
+    "sourceUrl": "https://anilist.co/anime/8074"
+  },
+  {
+    "id": "2010-summer-002",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "屍鬼",
+    "titleJp": "屍鬼",
+    "titleEn": "Shiki",
+    "weekday": "星期五",
+    "weekdayNote": "7/9",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7724-NwNnRsI34eDa.jpg",
+    "sourceUrl": "https://anilist.co/anime/7724"
+  },
+  {
+    "id": "2010-summer-003",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "妄想學生會＊",
+    "titleJp": "生徒会役員共",
+    "titleEn": "Seitokai Yakuindomo",
+    "weekday": "星期日",
+    "weekdayNote": "7/4",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8675-5H2QSLvXA7bH.jpg",
+    "sourceUrl": "https://anilist.co/anime/8675"
+  },
+  {
+    "id": "2010-summer-004",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "黑執事Ⅱ",
+    "titleJp": "黒執事II",
+    "titleEn": "Black Butler II",
+    "weekday": "星期五",
+    "weekdayNote": "7/2",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "奇幻",
+      "懸疑",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx6707-eZvzqWlu51DD.png",
+    "sourceUrl": "https://anilist.co/anime/6707"
+  },
+  {
+    "id": "2010-summer-005",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "聖誕之吻SS",
+    "titleJp": "アマガミSS",
+    "titleEn": "Amagami SS",
+    "weekday": "星期五",
+    "weekdayNote": "7/2",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx8676-rpRpE8lD4tbw.png",
+    "sourceUrl": "https://anilist.co/anime/8676"
+  },
+  {
+    "id": "2010-summer-006",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "傳說中勇者的傳說",
+    "titleJp": "伝説の勇者の伝説",
+    "titleEn": "The Legend of the Legendary Heroes",
+    "weekday": "星期五",
+    "weekdayNote": "7/2",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8086-xmkheTESFMRs.jpg",
+    "sourceUrl": "https://anilist.co/anime/8086"
+  },
+  {
+    "id": "2010-summer-007",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "大神與七位夥伴",
+    "titleJp": "オオカミさんと七人の仲間たち",
+    "titleEn": "Okami-san and Her Seven Companions",
+    "weekday": "星期四",
+    "weekdayNote": "7/1",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7769-4SPih8uS2E4j.jpg",
+    "sourceUrl": "https://anilist.co/anime/7769"
+  },
+  {
+    "id": "2010-summer-008",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "滑頭鬼之孫 零·淚·雪",
+    "titleJp": "ぬらりひょんの孫",
+    "titleEn": "Nura: Rise of the Yokai Clan",
+    "weekday": "星期二",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戰鬥",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7592-28Qy7SBbSquT.jpg",
+    "sourceUrl": "https://anilist.co/anime/7592"
+  },
+  {
+    "id": "2010-summer-009",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "あそびにいくヨ!",
+    "titleJp": "あそびにいくヨ!",
+    "titleEn": "Cat Planet Cuties",
+    "weekday": "星期日",
+    "weekdayNote": "7/11",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6166-TzYLyxIl3a6i.png",
+    "sourceUrl": "https://anilist.co/anime/6166"
+  },
+  {
+    "id": "2010-summer-010",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "鶺鴒女神～Pure Engagement～",
+    "titleJp": "セキレイ～Pure Engagement～",
+    "titleEn": "Sekirei: Pure Engagement",
+    "weekday": "星期日",
+    "weekdayNote": "6/13",
+    "genres": [
+      "戰鬥",
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5277-FVXhVU8xoY6z.png",
+    "sourceUrl": "https://anilist.co/anime/5277"
+  },
+  {
+    "id": "2010-summer-011",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "超元氣三姐妹",
+    "titleJp": "みつどもえ",
+    "titleEn": "Mitsudomoe",
+    "weekday": "星期六",
+    "weekdayNote": "7/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7627-cSjDaGpufSgP.jpg",
+    "sourceUrl": "https://anilist.co/anime/7627"
+  },
+  {
+    "id": "2010-summer-012",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "世紀末超自然學院",
+    "titleJp": "世紀末オカルト学院",
+    "titleEn": "Occult Academy",
+    "weekday": "星期二",
+    "weekdayNote": "7/6",
+    "genres": [
+      "喜劇",
+      "懸疑",
+      "科幻",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6974-s0FIJwdvyXj9.jpg",
+    "sourceUrl": "https://anilist.co/anime/6974"
+  },
+  {
+    "id": "2010-summer-013",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "強襲魔女2",
+    "titleJp": "ストライクウィッチーズ 2",
+    "titleEn": "Strike Witches 2",
+    "weekday": "星期四",
+    "weekdayNote": "7/8",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6381-57sST6qDyFPD.jpg",
+    "sourceUrl": "https://anilist.co/anime/6381"
+  },
+  {
+    "id": "2010-summer-014",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "數碼寶貝合體戰爭",
+    "titleJp": "デジモンクロスウォーズ",
+    "titleEn": "Digimon Fusion",
+    "weekday": "星期二",
+    "weekdayNote": "7/6",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻",
+      "科幻",
+      "異世界"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8624.jpg",
+    "sourceUrl": "https://anilist.co/anime/8624"
+  },
+  {
+    "id": "2010-summer-015",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "戰國BASARA 貳",
+    "titleJp": "戦国BASARA弐",
+    "titleEn": "Sengoku Basara: Samurai Kings 2",
+    "weekday": "星期日",
+    "weekdayNote": "7/11",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "奇幻",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6634-vIE3Zufsz2bP.png",
+    "sourceUrl": "https://anilist.co/anime/6634"
+  },
+  {
+    "id": "2010-summer-016",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "CAT SHIT ONE -THE ANIMATED SERIES-",
+    "titleJp": "CAT SHIT ONE -THE ANIMATED SERIES-",
+    "titleEn": "CAT SHIT ONE: THE ANIMATED SERIES",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "奇幻",
+      "異世界",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6280-UvqTloxpu1D2.jpg",
+    "sourceUrl": "https://anilist.co/anime/6280"
+  },
+  {
+    "id": "2010-summer-017",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "祝福的鐘聲",
+    "titleJp": "祝福のカンパネラ",
+    "titleEn": "Blessing of the Campanella",
+    "weekday": "星期六",
+    "weekdayNote": "7/3",
+    "genres": [
+      "冒險",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6979-Nuro0bEpt0g2.png",
+    "sourceUrl": "https://anilist.co/anime/6979"
+  },
+  {
+    "id": "2010-summer-018",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "カイチュー!",
+    "titleJp": "カイチュー!",
+    "titleEn": "Kaichuu!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9205.jpg",
+    "sourceUrl": "https://anilist.co/anime/9205"
+  },
+  {
+    "id": "2010-summer-019",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "旋風四驅王",
+    "titleJp": "스캔2고",
+    "titleEn": "Scan2Go",
+    "weekday": "星期一",
+    "weekdayNote": "8/9",
+    "genres": [
+      "運動"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10869-NAjGwURRxOX7.jpg",
+    "sourceUrl": "https://anilist.co/anime/10869"
+  },
+  {
+    "id": "2010-summer-020",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "星際寶貝！～一直最高的朋友～",
+    "titleJp": "スティッチ! ～ずっと最高のトモダチ～",
+    "titleEn": "Stitch! ~Best Friends Forever~",
+    "weekday": "星期二",
+    "weekdayNote": "7/6",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8964.jpg",
+    "sourceUrl": "https://anilist.co/anime/8964"
+  },
+  {
+    "id": "2010-summer-021",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "ロボと少女（仮）",
+    "titleJp": "ロボと少女（仮）",
+    "titleEn": "BOMAHEAD",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/11661.jpg",
+    "sourceUrl": "https://anilist.co/anime/11661"
+  },
+  {
+    "id": "2010-summer-022",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "和殿下一起 1分鐘劇場",
+    "titleJp": "殿といっしょ 1分間劇場",
+    "titleEn": "My Lord and Me",
+    "weekday": "星期二",
+    "weekdayNote": "7/6",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8961.jpg",
+    "sourceUrl": "https://anilist.co/anime/8961"
+  },
+  {
+    "id": "2010-summer-023",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "女子高生信長ちゃん!!",
+    "titleJp": "女子高生信長ちゃん!!",
+    "titleEn": "Joshikousei Nobunaga-chan!!",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20493-y6UJR8Pq1Yo0.png",
+    "sourceUrl": "https://anilist.co/anime/20493"
+  },
+  {
+    "id": "2010-summer-024",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "聲優刑警",
+    "titleJp": "声優刑事",
+    "titleEn": "Seiyuu Deka",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/18047.jpg",
+    "sourceUrl": "https://anilist.co/anime/18047"
+  },
+  {
+    "id": "2010-summer-025",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "怪物獵人日記 岌岌可危的貓貓村 ☆貓貓千鈞一髮☆",
+    "titleJp": "モンハン日記 ぎりぎりアイルー村☆アイルー危機一髪☆",
+    "titleEn": "MonHun Nikki Girigiri Airuu Mura: ☆Airuu Kiki Ippatsu☆",
+    "weekday": "星期四",
+    "weekdayNote": "8/5",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8960-0BMZzkmX0pZC.png",
+    "sourceUrl": "https://anilist.co/anime/8960"
+  },
+  {
+    "id": "2010-summer-026",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "來來貓",
+    "titleJp": "くるねこ",
+    "titleEn": "Kuruneko Season 2",
+    "weekday": "星期六",
+    "weekdayNote": "7/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9013.jpg",
+    "sourceUrl": "https://anilist.co/anime/9013"
+  },
+  {
+    "id": "2010-summer-027",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "学校のｺﾜｲうわさ 新・花子さんがきた!!",
+    "titleJp": "学校のｺﾜｲうわさ 新・花子さんがきた!!",
+    "titleEn": "School's Scary Stories: Hanako-san ga kita!!",
+    "weekday": "星期五",
+    "weekdayNote": "8/13",
+    "genres": [
+      "喜劇",
+      "恐怖",
+      "超自然",
+      "校園",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9345-A4sBD0dNg3nZ.png",
+    "sourceUrl": "https://anilist.co/anime/9345"
+  },
+  {
+    "id": "2010-summer-028",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "銀河鐵道999 超越時空的能量之旅 第2季",
+    "titleJp": "銀河鉄道999～時空を超えたエネルギーの旅～",
+    "titleEn": "Galaxy Express 999: Jikuu wo Koeta Energy no Tabi",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "冒險",
+      "劇情",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/10118.jpg",
+    "sourceUrl": "https://anilist.co/anime/10118"
+  },
+  {
+    "id": "2010-summer-029",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "進め！ガチムチ３兄弟",
+    "titleJp": "進め！ガチムチ３兄弟",
+    "titleEn": "Susume! Gachimuchi 3-Kyoudai",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8957.jpg",
+    "sourceUrl": "https://anilist.co/anime/8957"
+  },
+  {
+    "id": "2010-summer-030",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "小公交車太友 第五季",
+    "titleJp": "꼬마버스 타요 1",
+    "titleEn": "Tayo the Little Bus Season 1",
+    "weekday": "星期一",
+    "weekdayNote": "8/23",
+    "genres": [
+      "冒險",
+      "職場",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b163828-WtlMh5icVtBf.jpg",
+    "sourceUrl": "https://anilist.co/anime/163828"
+  },
+  {
+    "id": "2010-summer-031",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "哪吒之魔童降世",
+    "titleJp": "喜羊羊游世博",
+    "titleEn": "Pleasant Goat Touring the Expo",
+    "weekday": "星期日",
+    "weekdayNote": "8/1",
+    "genres": [
+      "冒險",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131570-X8Zsbax7Q9uu.jpg",
+    "sourceUrl": "https://anilist.co/anime/131570"
+  },
+  {
+    "id": "2010-summer-032",
+    "year": 2010,
+    "season": "2010-summer",
+    "titleZh": "小濟公",
+    "titleJp": "侠义小青天",
+    "titleEn": "Xiayi Xiao Qingtian",
+    "weekday": "星期五",
+    "weekdayNote": "7/2",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b199415-M6Db7nR0PSmo.jpg",
+    "sourceUrl": "https://anilist.co/anime/199415"
+  },
+  {
+    "id": "2010-fall-001",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "我的妹妹哪有這麼可愛！",
+    "titleJp": "俺の妹がこんなに可愛いわけがない",
+    "titleEn": "Oreimo",
+    "weekday": "星期日",
+    "weekdayNote": "10/3",
+    "genres": [
+      "喜劇",
+      "日常",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8769-Lat76qlOwdBN.jpg",
+    "sourceUrl": "https://anilist.co/anime/8769"
+  },
+  {
+    "id": "2010-fall-002",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "只有神知道的世界 第二季",
+    "titleJp": "神のみぞ知るセカイ",
+    "titleEn": "The World God Only Knows",
+    "weekday": "星期四",
+    "weekdayNote": "10/7",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8525-chaE9kM2x0w4.png",
+    "sourceUrl": "https://anilist.co/anime/8525"
+  },
+  {
+    "id": "2010-fall-003",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "爆漫王。",
+    "titleJp": "バクマン。",
+    "titleEn": "Bakuman.",
+    "weekday": "星期六",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "劇情",
+      "戀愛",
+      "日常",
+      "校園",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7674-J0QHrtN50kzj.png",
+    "sourceUrl": "https://anilist.co/anime/7674"
+  },
+  {
+    "id": "2010-fall-004",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "吊帶襪天使",
+    "titleJp": "パンティ＆ストッキングwithガーターベルト",
+    "titleEn": "Panty & Stocking with Garterbelt",
+    "weekday": "星期六",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8795-485Q8MOYeMZx.png",
+    "sourceUrl": "https://anilist.co/anime/8795"
+  },
+  {
+    "id": "2010-fall-005",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "緣之空",
+    "titleJp": "ヨスガノソラ",
+    "titleEn": "Yosuga no Sora: In Solitude Where We are Least Alone",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "劇情",
+      "喜劇",
+      "戀愛",
+      "校園",
+      "R18"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8861-DZKseZpdtBwp.jpg",
+    "sourceUrl": "https://anilist.co/anime/8861"
+  },
+  {
+    "id": "2010-fall-006",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "魔法禁書目錄 第二季",
+    "titleJp": "とある魔術の禁書目録II",
+    "titleEn": "A Certain Magical Index II",
+    "weekday": "星期五",
+    "weekdayNote": "10/8",
+    "genres": [
+      "戰鬥",
+      "科幻",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8937-i3AW4QZxQHMy.jpg",
+    "sourceUrl": "https://anilist.co/anime/8937"
+  },
+  {
+    "id": "2010-fall-007",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "もっと To LOVEる -とらぶる-",
+    "titleJp": "もっと To LOVEる -とらぶる-",
+    "titleEn": "Motto To Love Ru",
+    "weekday": "星期三",
+    "weekdayNote": "10/6",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "科幻",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9181.jpg",
+    "sourceUrl": "https://anilist.co/anime/9181"
+  },
+  {
+    "id": "2010-fall-008",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "海月姬",
+    "titleJp": "海月姫",
+    "titleEn": "Princess Jellyfish",
+    "weekday": "星期五",
+    "weekdayNote": "10/15",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8129-VasAsXbiixR1.jpg",
+    "sourceUrl": "https://anilist.co/anime/8129"
+  },
+  {
+    "id": "2010-fall-009",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "天降之物f",
+    "titleJp": "そらのおとしものf（フォルテ）",
+    "titleEn": "Heaven's Lost Property: Forte",
+    "weekday": "星期六",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "科幻",
+      "日常",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8407-lgUv2tUNTONy.png",
+    "sourceUrl": "https://anilist.co/anime/8407"
+  },
+  {
+    "id": "2010-fall-010",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "女子落語",
+    "titleJp": "侵略!イカ娘",
+    "titleEn": "Squid Girl",
+    "weekday": "星期二",
+    "weekdayNote": "10/5",
+    "genres": [
+      "喜劇",
+      "日常",
+      "職場"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8557-S9DplekRj7mo.png",
+    "sourceUrl": "https://anilist.co/anime/8557"
+  },
+  {
+    "id": "2010-fall-011",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "えむえむっ!",
+    "titleJp": "えむえむっ!",
+    "titleEn": "MM!",
+    "weekday": "星期六",
+    "weekdayNote": "10/2",
+    "genres": [
+      "喜劇",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8424-W5WfkJ55rPAx.jpg",
+    "sourceUrl": "https://anilist.co/anime/8424"
+  },
+  {
+    "id": "2010-fall-012",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "百花繚亂 SAMURAI GIRLS",
+    "titleJp": "百花繚乱 サムライガールズ",
+    "titleEn": "Samurai Girls",
+    "weekday": "星期六",
+    "weekdayNote": "9/4",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "戀愛",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8277.jpg",
+    "sourceUrl": "https://anilist.co/anime/8277"
+  },
+  {
+    "id": "2010-fall-013",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "寶可夢 超級願望 第2季 德科羅拉大冒險",
+    "titleJp": "ポケットモンスターベストウイッシュ",
+    "titleEn": "Pokémon: Black & White",
+    "weekday": "星期四",
+    "weekdayNote": "9/23",
+    "genres": [
+      "戰鬥",
+      "冒險",
+      "喜劇",
+      "奇幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9107.jpg",
+    "sourceUrl": "https://anilist.co/anime/9107"
+  },
+  {
+    "id": "2010-fall-014",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "荒川爆笑團2",
+    "titleJp": "荒川アンダー ザ ブリッジ×ブリッジ",
+    "titleEn": "Arakawa Under the Bridge x Bridge",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "喜劇",
+      "戀愛"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9074-5T2wyJAGyQXw.png",
+    "sourceUrl": "https://anilist.co/anime/9074"
+  },
+  {
+    "id": "2010-fall-015",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "馭星者 閃亮的拓人",
+    "titleJp": "STAR DRIVER 輝きのタクト",
+    "titleEn": "Star Driver",
+    "weekday": "星期日",
+    "weekdayNote": "10/3",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8934-mfuWBKMTWeJK.jpg",
+    "sourceUrl": "https://anilist.co/anime/8934"
+  },
+  {
+    "id": "2010-fall-016",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "即使如此小鎮依然轉動",
+    "titleJp": "それでも町は廻っている",
+    "titleEn": "And Yet The Town Moves",
+    "weekday": "星期五",
+    "weekdayNote": "10/8",
+    "genres": [
+      "喜劇",
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8726-PX1AiBJxOzyo.png",
+    "sourceUrl": "https://anilist.co/anime/8726"
+  },
+  {
+    "id": "2010-fall-017",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "心靈偵探八雲",
+    "titleJp": "心霊探偵 八雲",
+    "titleEn": "Psychic Detective Yakumo",
+    "weekday": "星期日",
+    "weekdayNote": "10/3",
+    "genres": [
+      "恐怖",
+      "懸疑",
+      "戀愛",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7662-uW1oWpFeENgf.png",
+    "sourceUrl": "https://anilist.co/anime/7662"
+  },
+  {
+    "id": "2010-fall-018",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "半妖少女綺麗譚",
+    "titleJp": "おとめ妖怪 ざくろ",
+    "titleEn": "Zakuro",
+    "weekday": "星期二",
+    "weekdayNote": "10/5",
+    "genres": [
+      "戀愛",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8476-zqkDcM6hrqNy.jpg",
+    "sourceUrl": "https://anilist.co/anime/8476"
+  },
+  {
+    "id": "2010-fall-019",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "FORTUNE ARTERIAL -赤之約束-",
+    "titleJp": "FORTUNE ARTERIAL 赤い約束",
+    "titleEn": "FORTUNE ARTERIAL: Akai Yakusoku",
+    "weekday": "星期六",
+    "weekdayNote": "10/9",
+    "genres": [
+      "喜劇",
+      "戀愛",
+      "超自然",
+      "校園"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8536-sPCBVLhTiuVV.png",
+    "sourceUrl": "https://anilist.co/anime/8536"
+  },
+  {
+    "id": "2010-fall-020",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "咎狗之血",
+    "titleJp": "咎狗の血",
+    "titleEn": "Togainu no Chi",
+    "weekday": "星期五",
+    "weekdayNote": "10/8",
+    "genres": [
+      "戰鬥",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8449-N9gItjO6pnIY.jpg",
+    "sourceUrl": "https://anilist.co/anime/8449"
+  },
+  {
+    "id": "2010-fall-021",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "偵探歌劇 少女福爾摩斯",
+    "titleJp": "探偵オペラ ミルキィホームズ",
+    "titleEn": "Detective Opera Milky Holmes",
+    "weekday": "星期四",
+    "weekdayNote": "10/7",
+    "genres": [
+      "喜劇",
+      "懸疑"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/7768.jpg",
+    "sourceUrl": "https://anilist.co/anime/7768"
+  },
+  {
+    "id": "2010-fall-022",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "薄櫻鬼 碧血錄",
+    "titleJp": "薄桜鬼 碧血録",
+    "titleEn": "Hakuoki ~Demon of the Fleeting Blossom~ Record of the Jade Blood",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "超自然",
+      "歷史"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9065-LKMdqEOGvMr7.png",
+    "sourceUrl": "https://anilist.co/anime/9065"
+  },
+  {
+    "id": "2010-fall-023",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "信蜂 REVERSE",
+    "titleJp": "テガミバチ REVERSE",
+    "titleEn": "Letter Bee Reverse",
+    "weekday": "星期日",
+    "weekdayNote": "10/3",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/8311.jpg",
+    "sourceUrl": "https://anilist.co/anime/8311"
+  },
+  {
+    "id": "2010-fall-024",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "夢色パティシエールSP（スペシャル）プロフェッショナル",
+    "titleJp": "夢色パティシエールSP（スペシャル）プロフェッショナル",
+    "titleEn": "Yumeiro Patissiere SP Professional",
+    "weekday": "星期日",
+    "weekdayNote": "10/3",
+    "genres": [
+      "日常"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b9441-aDGCs1ZD4rbG.jpg",
+    "sourceUrl": "https://anilist.co/anime/9441"
+  },
+  {
+    "id": "2010-fall-025",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "鋼鐵俠",
+    "titleJp": "アイアンマン",
+    "titleEn": "Iron Man",
+    "weekday": "星期五",
+    "weekdayNote": "10/1",
+    "genres": [
+      "戰鬥",
+      "劇情",
+      "機甲"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6875.jpg",
+    "sourceUrl": "https://anilist.co/anime/6875"
+  },
+  {
+    "id": "2010-fall-026",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "スーパーロボット大戦OG -ジ・インスペクター-",
+    "titleJp": "スーパーロボット大戦OG -ジ・インスペクター-",
+    "titleEn": "Super Robot Wars OG: The Inspector",
+    "weekday": "星期六",
+    "weekdayNote": "10/2",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9241.jpg",
+    "sourceUrl": "https://anilist.co/anime/9241"
+  },
+  {
+    "id": "2010-fall-027",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "戰鬥之魂Brave",
+    "titleJp": "バトルスピリッツ ブレイヴ",
+    "titleEn": "Battle Spirits: Brave",
+    "weekday": "星期日",
+    "weekdayNote": "9/12",
+    "genres": [
+      "戰鬥",
+      "冒險"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9346-JM5x2yIXjqtM.png",
+    "sourceUrl": "https://anilist.co/anime/9346"
+  },
+  {
+    "id": "2010-fall-028",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "魅力",
+    "titleJp": "魅力",
+    "titleEn": "Attraction",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "懸疑",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9846.jpg",
+    "sourceUrl": "https://anilist.co/anime/9846"
+  },
+  {
+    "id": "2010-fall-029",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "小新超人",
+    "titleJp": "SHIN-MEN",
+    "titleEn": "SHIN-MEN",
+    "weekday": "星期五",
+    "weekdayNote": "11/26",
+    "genres": [
+      "戰鬥",
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9799.jpg",
+    "sourceUrl": "https://anilist.co/anime/9799"
+  },
+  {
+    "id": "2010-fall-030",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "一輪者 ICHIRIN-SHA",
+    "titleJp": "一輪者 ICHIRIN-SHA",
+    "titleEn": "ICHIRIN-SHA",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "戰鬥",
+      "機甲",
+      "科幻"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17887.jpg",
+    "sourceUrl": "https://anilist.co/anime/17887"
+  },
+  {
+    "id": "2010-fall-031",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "鹹麵包咪咪",
+    "titleJp": "食パンミミー",
+    "titleEn": "Shokupan Mimi",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b9561-8TAwJYnit9tf.jpg",
+    "sourceUrl": "https://anilist.co/anime/9561"
+  },
+  {
+    "id": "2010-fall-032",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "農業天使茨城醬",
+    "titleJp": "あぐかる",
+    "titleEn": "Agukaru",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "日常",
+      "超自然"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9689.jpg",
+    "sourceUrl": "https://anilist.co/anime/9689"
+  },
+  {
+    "id": "2010-fall-033",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "宮西達也劇場 你看起來很好吃",
+    "titleJp": "宮西達也劇場 おまえうまそうだな",
+    "titleEn": "Miyanishi Tatsuya Gekijou: Omae Umasou da na",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "冒險",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9395-KLyG4csLDNOU.jpg",
+    "sourceUrl": "https://anilist.co/anime/9395"
+  },
+  {
+    "id": "2010-fall-034",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "好帥好可愛宣言!",
+    "titleJp": "カッコカワイイ宣言！",
+    "titleEn": "Kakko Kawaii Sengen!",
+    "weekday": "星期五",
+    "weekdayNote": "11/5",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9627-KTotJIx3XCTp.png",
+    "sourceUrl": "https://anilist.co/anime/9627"
+  },
+  {
+    "id": "2010-fall-035",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "破刃之劍 第一章 覺醒之刻",
+    "titleJp": "コズミックブレイク",
+    "titleEn": "CosmicBreak: Sacrifice",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/17295.jpg",
+    "sourceUrl": "https://anilist.co/anime/17295"
+  },
+  {
+    "id": "2010-fall-036",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "卡魯魯與不可思議之塔",
+    "titleJp": "カルルとふしぎな塔",
+    "titleEn": "Karl to Fushigi na Tou",
+    "weekday": "星期五",
+    "weekdayNote": "10/8",
+    "genres": [
+      "冒險",
+      "奇幻",
+      "懸疑",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9371.jpg",
+    "sourceUrl": "https://anilist.co/anime/9371"
+  },
+  {
+    "id": "2010-fall-037",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "一期一會 你的話語",
+    "titleJp": "一期一会～キミノコトバ～",
+    "titleEn": "Ichigo Ichie: Kimi no Kotoba",
+    "weekday": "星期日",
+    "weekdayNote": "10/24",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b9518-yWQu0gPGSChY.jpg",
+    "sourceUrl": "https://anilist.co/anime/9518"
+  },
+  {
+    "id": "2010-fall-038",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "小小男子漢 劇場版",
+    "titleJp": "りタエマシャン",
+    "titleEn": "Rita et Machin",
+    "weekday": "星期一",
+    "weekdayNote": "11/1",
+    "genres": [
+      "日常",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b6195-9DX2AMO4rw21.jpg",
+    "sourceUrl": "https://anilist.co/anime/6195"
+  },
+  {
+    "id": "2010-fall-039",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "動物小戰士劇場",
+    "titleJp": "たちゅまる劇場",
+    "titleEn": "Tachumaru Gekijou",
+    "weekday": "星期一",
+    "weekdayNote": "10/4",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9562.jpg",
+    "sourceUrl": "https://anilist.co/anime/9562"
+  },
+  {
+    "id": "2010-fall-040",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "羅賓與他的100個朋友",
+    "titleJp": "ロビンくんと100人のお友達",
+    "titleEn": "Robin with his 100 Friends",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/9536.jpg",
+    "sourceUrl": "https://anilist.co/anime/9536"
+  },
+  {
+    "id": "2010-fall-041",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "中間戦士 Mr.中",
+    "titleJp": "中間戦士 Mr.中",
+    "titleEn": "Chuukan Senshi Mr. Chun",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "喜劇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b181178-qNZTLbJPtphO.png",
+    "sourceUrl": "https://anilist.co/anime/181178"
+  },
+  {
+    "id": "2010-fall-042",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "破刃之劍 第一章 覺醒之刻",
+    "titleJp": "コズミックブレイク",
+    "titleEn": "Cosmic Break",
+    "weekday": "一次上架",
+    "weekdayNote": "串流",
+    "genres": [
+      "劇情",
+      "機甲"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx206843-39SpUqQWfx7R.png",
+    "sourceUrl": "https://anilist.co/anime/206843"
+  },
+  {
+    "id": "2010-fall-043",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "哈皮父子之超能泡蛋2",
+    "titleJp": "哈皮父子之超能泡蛋2",
+    "titleEn": "Hapi Fa Zi: Chao Neng Pao Dan 2",
+    "weekday": "星期一",
+    "weekdayNote": "9/20",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b129479-SMARDL9IagXf.jpg",
+    "sourceUrl": "https://anilist.co/anime/129479"
+  },
+  {
+    "id": "2010-fall-044",
+    "year": 2010,
+    "season": "2010-fall",
+    "titleZh": "ユメミル, アニメ onちゃん シーズン2",
+    "titleJp": "ユメミル, アニメ onちゃん シーズン2",
+    "titleEn": "Yume Miru, Anime on-chan Season 2",
+    "weekday": "星期二",
+    "weekdayNote": "11/9",
+    "genres": [
+      "喜劇",
+      "短篇"
+    ],
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b178147-u2NZc6lNCBWg.jpg",
+    "sourceUrl": "https://anilist.co/anime/178147"
+  }
+]
