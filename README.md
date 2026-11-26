@@ -1,16 +1,18 @@
-# ANIME LOG. (v1.2 · Multi-Year & Tri-Lingual)
+# ANIME LOG. (v2.0 · Cloud Sync & Community)
 
-> Watch. Rate. Discover. — 多年度新番動漫手機版檢核平台（繁體中文／日本語／English）
+> Watch. Rate. Discover. — 新番動漫手機版檢核平台（第二階段）
 
-## v1.2 亮點功能
-- **繁中／日文／英文三語自動偵測與切換**：依瀏覽器語言自動切換介面、類型標籤、Google 搜尋關鍵字與 AI 推薦提示包，頂部可隨時切換 `繁／日／EN`。
-- **任意年份按需載入架構（`years-manifest.json`）**：預設內建 2025（291 部）與 2026（319 部），並附帶一鍵擴充 **2008–2024 歷史年份**的 GitHub Actions 工作流，新增年份後網站自動出現該年份選單且按需載入不卡頓。
-- **作品快速 Google 搜尋按鈕**：每部作品標題旁附帶搜尋按鈕，點擊即複製片名並另開 Google 搜尋視窗。
-- **電腦版橫向篩選優化**：年份、季度、狀態與動畫類型篩選列均支援左右箭頭按鈕點擊捲動與滑鼠滾輪橫向滑動。
-- **R18 分類與隱藏開關**：支援 `R18` 標籤篩選，AI 推薦包與純文字分享預設勾選「隱藏 R18 作品」。
-- **隱藏本機偵錯面板（`?debug=1`）**：網址後方加上 `?debug=1` 即可開啟破圖／缺圖掃描與資料異常健檢工具。
-- **淺色／深色雙主題切換**與**關於頁（含返回按鈕）**：由 OEZS STUDIO 製作及維護。
+## v2.0 新增功能
+- **初次訪問功能導覽**：首次開站自動彈出 4 步功能介紹，並提供「略過導覽 Skip」按鈕。
+- **每日一推**：首頁依你的「喜歡／不喜歡」類型權重，每天從「沒看過」的作品中精選推薦一部。
+- **推坑互動（🔥 +1）**：在每部作品卡片上點擊推坑，並讀取靜態統計快取 `stats.json`。
+- **公開分享網址（`?share=...`）**：一鍵產生個人唯讀追番分享頁，並遵循「隱藏 R18」設定。
+- **關於頁升級**：新增網站累計訪問人次與「回報問題（缺番／許願／異常）」彈窗。
+- **Supabase 雲端同步與管理員面板**：支援匿名登入與 Email 免密碼登入跨裝置同步；設定 `adminUserIds` 後於選單開啟偵錯與使用者回報管理面板。
 
-## GitHub Actions 自動化操作指南
-1. **補齊 2025–2026 封面網址與英文片名**：前往 **Actions → 自動補齊封面與英文片名 → Run workflow**。
-2. **一鍵擴充 2008–2024 歷史片單**：前往 **Actions → 自動擴充歷史年份片單 → Run workflow**，輸入起始與結束年份（建議每次跑 3～5 年，例如 `2020`～`2024`、`2015`～`2019`、`2008`～`2014`），完成後會自動建立 `data-YYYY.json` 並更新 `years-manifest.json`。
+## 啟用第二階段 Supabase 雲端步驟
+1. 前往 [Supabase](https://supabase.com/) 建立免費專案。
+2. 打開 **SQL Editor**，貼上並執行本專案 `supabase/schema.sql` 內的全部 SQL。
+3. 到 **Authentication → Providers** 確認啟用 **Anonymous Sign-Ins** 與 **Email**。
+4. 打開本專案的 `config.js`，填入你的 `supabaseUrl`、`supabaseAnonKey` 與管理員 `adminUserIds`。
+5. （省流量社群統計）在 GitHub 儲存庫的 **Settings → Secrets and variables → Actions** 新增 `SUPABASE_URL` 與 `SUPABASE_SERVICE_ROLE_KEY`，即可每天自動更新 `stats.json`。
