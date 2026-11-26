@@ -1,28 +1,36 @@
 #!/usr/bin/env python3
 """
-ANIME LOG. v2.0 社群統計靜態快取產生器
-每天由 GitHub Actions 定期從 Supabase 彙整每部作品的看過／喜歡／不喜歡／推坑數，
-輸出為靜態 stats.json 放在 GitHub Pages，大幅節省 Supabase 出站流量。
+ANIME LOG. v2.0.1 社群統計靜態快取產生器
+支援新版 Supabase Secret Key (sb_secret_...) 與舊版 Legacy JWT (eyJ...)。
 """
 
 import datetime
 import json
 import os
+import sys
+import urllib.error
 import urllib.request
 
 
 def fetch_table(base_url: str, service_key: str, table: str, select_cols: str) -> list:
     url = f"{base_url.rstrip('/')}/rest/v1/{table}?select={select_cols}"
-    req = urllib.request.Request(
-        url,
-        headers={
-            "apikey": service_key,
-            "Authorization": f"Bearer {service_key}",
-            "Accept": "application/json",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    headers = {
+        "apikey": service_key,
+        "Accept": "application/json",
+        "User-Agent": "AnimeLogStatsBuilder/2.0",
+    }
+    # 舊版 JWT (eyJ...) 需要 Authorization Bearer；新版 sb_secret_ 僅需 apikey 標頭
+    if service_key.startswith("eyJ"):
+        headers["Authorization"] = f"Bearer {service_key}"
+
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print(f"[HTTP {e.code}] 讀取資料表 {table} 失敗：{body}", file=sys.stderr)
+        raise
 
 
 def main():
@@ -31,6 +39,10 @@ def main():
     if not base_url or not service_key:
         print("尚未設定 SUPABASE_URL 或 SUPABASE_SERVICE_ROLE_KEY，略過統計更新。")
         return
+
+    if not base_url.startswith("http"):
+        print(f"[設定錯誤] SUPABASE_URL 格式不正確（應為 https://xxxx.supabase.co）：{base_url}", file=sys.stderr)
+        sys.exit(1)
 
     watchlist_rows = fetch_table(base_url, service_key, "user_watchlist", "anime_id,status")
     rec_rows = fetch_table(base_url, service_key, "anime_recommendations", "anime_id")
@@ -58,7 +70,7 @@ def main():
     }
     with open("stats.json", "w", encoding="utf-8") as fp:
         json.dump(output, fp, ensure_ascii=False)
-    print(f"已更新 stats.json（涵蓋 {len(stats)} 部作品）")
+    print(f"已成功更新 stats.json（涵蓋 {len(stats)} 部作品）")
 
 
 if __name__ == "__main__":
