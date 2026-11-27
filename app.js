@@ -1944,18 +1944,16 @@
       box.innerHTML = `已連線至 Supabase 雲端同步。<br>帳號類型：<strong>${currentUser.is_anonymous ? "匿名訪客" : escapeHtml(currentUser.email || "已綁定帳號")}</strong><br>User ID：<code>${escapeHtml(currentUser.id)}</code>`;
       form?.classList.toggle("hidden", !currentUser.is_anonymous);
       logoutBtn?.classList.toggle("hidden", currentUser.is_anonymous);
+    } else {
+      box.innerHTML = `已連線至 Supabase 雲端服務。<br>請點擊下方使用 Google 帳號登入以同步跨裝置紀錄。`;
+      form?.classList.remove("hidden");
+      logoutBtn?.classList.add("hidden");
     }
     authModal.classList.remove("hidden");
     authModal.classList.add("flex");
   });
   document.getElementById("auth-close")?.addEventListener("click", closeAuthModal);
   document.getElementById("auth-done")?.addEventListener("click", closeAuthModal);
-  document.getElementById("btn-auth-magic")?.addEventListener("click", async () => {
-    const email = (document.getElementById("auth-email-input")?.value || "").trim();
-    if (!email || !sbClient) return;
-    const { error } = await sbClient.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.origin + window.location.pathname } });
-    showToast(error ? "寄送失敗：" + error.message : "已寄出登入連結，請至信箱點擊完成綁定！", false);
-  });
   document.getElementById("btn-auth-logout")?.addEventListener("click", async () => {
     if (sbClient) await sbClient.auth.signOut();
     currentUser = null;
