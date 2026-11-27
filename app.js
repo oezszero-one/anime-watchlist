@@ -15,24 +15,24 @@
   // ==================== 三語字典 ====================
   const I18N = {
     zh: {
-      navHome: "首頁總覽", navCatalog: "新番檢核", navMyList: "我的清單", navAi: "AI 推薦包", navAbout: "關於",
-      mobHome: "首頁", mobCatalog: "新番", mobMyList: "我的", mobAi: "AI 找片",
+      navHome: "首頁總覽", navCatalog: "動漫檢核", navMyList: "我的清單", navAi: "AI 推薦包", navAbout: "關於",
+      mobHome: "首頁", mobCatalog: "動漫", mobMyList: "我的", mobAi: "AI 找片",
       heroBadge: "v2.1 · Google 登入 · 分享海報卡 · 每日一推",
       btnGenPoster: "產生社群分享圖", posterModalTitle: "社群分享海報卡 (1080×1350)", btnDownloadPoster: "下載 PNG 圖片",
       btnGoogleLogin: "使用 Google 帳號一鍵登入", linkPrivacy: "隱私權政策", linkTerms: "使用條款",
-      heroTitle: "新番動漫追番儀表板",
+      heroTitle: "個人動漫檢核儀表板",
       heroSubtitle: "標記看過與喜好，一鍵打包給 AI 幫你從未看清單挖掘遺珠。",
-      btnStartCheck: "開始檢核新番", btnGotoAi: "打包給 AI 找片",
+      btnStartCheck: "開始檢核動漫", btnGotoAi: "打包給 AI 找片",
       statRated: "已標記進度", statLikeRate: "評價喜歡率",
       dailyPickTitle: "✨ 今日為你推薦",
       dailyPickDesc: "每天依你的偏好類型權重，從「沒看過」的作品中精選一部。",
       dailyPickRefresh: "換一部看看",
-      dailyPickReason: (g) => g ? `符合你偏好的類型：${g}` : "精選未看新番，標記喜好後推薦會更準確",
+      dailyPickReason: (g) => g ? `符合你偏好的類型：${g}` : "精選未看動漫，標記喜好後推薦會更準確",
       dailyPickEmpty: "這個範圍內的作品你都標記過囉！",
       homeSeasonHeading: "各年度與季度片單進度",
       homeGenreHeading: "你的偏好類型分布（依「喜歡」作品統計）",
       homeGenreDesc: "標記越多喜歡的作品，這份類型口味分析與 AI 推薦包會越精準。",
-      homeGenreEmpty: "你尚未標記任何「喜歡」的作品。前往「新番檢核」標記幾部喜歡的作品，這裡就會自動分析你的偏好類型！",
+      homeGenreEmpty: "你尚未標記任何「喜歡」的作品。前往「動漫檢核」標記幾部喜歡的作品，這裡就會自動分析你的偏好類型！",
       modeSingle: "一頁一部", modeList: "列表模式",
       yearAll: "全部年份", yearSuffix: " 年",
       seasonAll: "全部季度", seasonWinter: "冬季 1月", seasonSpring: "春季 4月", seasonSummer: "夏季 7月", seasonFall: "秋季 10月",
@@ -47,7 +47,7 @@
       singleSwipeHint: "提示：可左右滑動卡片或使用下方按鈕切換作品",
       noMatch: "找不到符合目前條件的作品，試著清除部分篩選條件吧。",
       myListTitle: "我的追番紀錄清單", myListSubtitle: "管理所有已標記作品，支援匯出 CSV 與 JSON 備份。",
-      myListEmptyTitle: "目前沒有符合條件的追番紀錄", myListEmptySub: "你可以前往「新番檢核」頁，將看過或喜歡的作品標記起來。",
+      myListEmptyTitle: "目前沒有符合條件的追番紀錄", myListEmptySub: "你可以前往「動漫檢核」頁，將看過或喜歡的作品標記起來。",
       btnExportCsv: "匯出 CSV", btnExportJson: "備份 JSON", btnImportJson: "還原 JSON", btnClearAll: "重設全部",
       sortUpdated: "最新標記優先", sortId: "依年份與季度順序", sortWeekday: "依開播星期",
       aiTitle: "打包喜好清單給 AI 找「沒看過的遺珠」與分享",
@@ -1657,7 +1657,7 @@
       shareText = `📺 My ANIME LOG. Watchlist${r18Note}\nTop Genres: ${topGenresText}\n\n❤️ Liked (${likedList.length}):\n${likedLines}\n\n👀 Watched (${watchedList.length}):\n${watchedList.length ? watchedList.map((a) => `- ${fmtTitle(a)}`).join("\n") : "(None)"}`;
     } else {
       const r18Note = hideR18 ? "（已隱藏 R18 作品）" : "（含 R18 作品）";
-      promptText = `請擔任我的專屬動漫推薦顧問！以下是我從「ANIME LOG. 新番檢核表」匯出的個人觀影偏好與未看片單${r18Note}：\n\n【1. 我的偏好類型統計】\n最常喜歡的類型：${topGenresText}\n\n【2. 我標記「喜歡」的作品（共 ${likedList.length} 部）】\n${likedLines}\n\n【3. 我標記「不喜歡」的避雷作品（共 ${dislikedList.length} 部）】\n${dislikedLines}\n\n【4. 我還沒看過的候選清單（範圍：${scopeText}，共 ${unwatchedCandidates.length} 部）】\n${candidateLines}\n\n【任務需求】\n請根據我「喜歡」與「不喜歡」的作品調性，**只從上面「第 4 點沒看過的候選清單」中**，幫我挑選 5～8 部最可能合我胃口的遺珠動畫，並說明推薦理由與可能踩雷點。`;
+      promptText = `請擔任我的專屬動漫推薦顧問！以下是我從「ANIME LOG. 歷年動漫檢核表」匯出的個人觀影偏好與未看片單${r18Note}：\n\n【1. 我的偏好類型統計】\n最常喜歡的類型：${topGenresText}\n\n【2. 我標記「喜歡」的作品（共 ${likedList.length} 部）】\n${likedLines}\n\n【3. 我標記「不喜歡」的避雷作品（共 ${dislikedList.length} 部）】\n${dislikedLines}\n\n【4. 我還沒看過的候選清單（範圍：${scopeText}，共 ${unwatchedCandidates.length} 部）】\n${candidateLines}\n\n【任務需求】\n請根據我「喜歡」與「不喜歡」的作品調性，**只從上面「第 4 點沒看過的候選清單」中**，幫我挑選 5～8 部最可能合我胃口的遺珠動畫，並說明推薦理由與可能踩雷點。`;
       shareText = `📺 我的 ANIME LOG. 追番片單分享${r18Note}\n偏好類型：${topGenresText}\n\n❤️ 喜歡（${likedList.length} 部）：\n${likedLines}\n\n👀 看過（${watchedList.length} 部）：\n${watchedList.length ? watchedList.map((a) => `- ${fmtTitle(a)}`).join("\n") : "（無）"}`;
     }
 
