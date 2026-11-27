@@ -17,7 +17,9 @@
     zh: {
       navHome: "首頁總覽", navCatalog: "新番檢核", navMyList: "我的清單", navAi: "AI 推薦包", navAbout: "關於",
       mobHome: "首頁", mobCatalog: "新番", mobMyList: "我的", mobAi: "AI 找片",
-      heroBadge: "v2.0 · 雲端同步 · 每日一推 · 推坑互動",
+      heroBadge: "v2.1 · Google 登入 · 分享海報卡 · 每日一推",
+      btnGenPoster: "產生社群分享圖", posterModalTitle: "社群分享海報卡 (1080×1350)", btnDownloadPoster: "下載 PNG 圖片",
+      btnGoogleLogin: "使用 Google 帳號一鍵登入", linkPrivacy: "隱私權政策", linkTerms: "使用條款",
       heroTitle: "新番動漫追番儀表板",
       heroSubtitle: "標記看過與喜好，一鍵打包給 AI 幫你從未看清單挖掘遺珠。",
       btnStartCheck: "開始檢核新番", btnGotoAi: "打包給 AI 找片",
@@ -86,7 +88,9 @@
     ja: {
       navHome: "ホーム", navCatalog: "アニメ一覧", navMyList: "マイリスト", navAi: "AIおすすめ", navAbout: "About",
       mobHome: "ホーム", mobCatalog: "一覧", mobMyList: "記録", mobAi: "AI検索",
-      heroBadge: "v2.0 · クラウド同期 · 毎日おすすめ · 推し投票",
+      heroBadge: "v2.1 · Googleログイン · シェア画像 · 毎日おすすめ",
+      btnGenPoster: "シェア画像を作成", posterModalTitle: "SNSシェア用カード (1080×1350)", btnDownloadPoster: "PNG画像を保存",
+      btnGoogleLogin: "Googleアカウントでログイン", linkPrivacy: "プライバシーポリシー", linkTerms: "利用規約",
       heroTitle: "アニメ視聴記録ダッシュボード",
       heroSubtitle: "視聴済みや好みを記録して、未視聴リストからAIに隠れた名作を探してもらおう。",
       btnStartCheck: "アニメを記録する", btnGotoAi: "AI用プロンプト作成",
@@ -155,7 +159,9 @@
     en: {
       navHome: "Home", navCatalog: "Catalog", navMyList: "My List", navAi: "AI Prompt", navAbout: "About",
       mobHome: "Home", mobCatalog: "Catalog", mobMyList: "My List", mobAi: "AI Pick",
-      heroBadge: "v2.0 · Cloud Sync · Daily Pick · Reactions",
+      heroBadge: "v2.1 · Google Login · Share Poster · Daily Pick",
+      btnGenPoster: "Create Share Poster", posterModalTitle: "Social Share Card (1080×1350)", btnDownloadPoster: "Download PNG",
+      btnGoogleLogin: "Continue with Google", linkPrivacy: "Privacy Policy", linkTerms: "Terms of Use",
       heroTitle: "Anime Watchlist Dashboard",
       heroSubtitle: "Rate what you've watched and export a ready-to-paste prompt so AI can find hidden gems you missed.",
       btnStartCheck: "Browse Catalog", btnGotoAi: "Build AI Prompt",
@@ -281,15 +287,17 @@
     const dbgDesk = document.getElementById("nav-debug-desktop");
     const dbgMob = document.getElementById("nav-debug-mobile");
 
+    const loginText = state.lang === "ja" ? "ログイン" : state.lang === "en" ? "Sign In" : "登入";
+    const signedText = state.lang === "ja" ? "ログイン済" : state.lang === "en" ? "Signed In" : "已登入";
     if (currentUser && sbClient) {
-      if (dot) dot.className = "w-2 h-2 rounded-full bg-emerald-400";
-      if (label) label.textContent = currentUser.is_anonymous ? "雲端(匿名)" : "已登入";
+      if (dot) dot.className = "w-2 h-2 rounded-full bg-emerald-400 shrink-0";
+      if (label) label.textContent = currentUser.is_anonymous ? loginText : signedText;
     } else if (isSupabaseConfigured()) {
-      if (dot) dot.className = "w-2 h-2 rounded-full bg-amber-400";
-      if (label) label.textContent = "未連線";
+      if (dot) dot.className = "w-2 h-2 rounded-full bg-amber-400 shrink-0";
+      if (label) label.textContent = loginText;
     } else {
-      if (dot) dot.className = "w-2 h-2 rounded-full bg-slate-400";
-      if (label) label.textContent = "本機";
+      if (dot) dot.className = "w-2 h-2 rounded-full bg-slate-400 shrink-0";
+      if (label) label.textContent = loginText;
     }
 
     const admin = isAdminUser();
@@ -1676,12 +1684,15 @@
           .select("anime_id,status")
           .eq("user_id", shareTarget)
           .in("status", ["liked", "watched"]);
-        if (Array.isArray(rows)) {
+        if (Array.isArray(rows) && rows.length > 0) {
           itemsToShow = rows
             .map((r) => animeMap.get(r.anime_id))
             .filter((a) => a && !(hideR18 && isR18Anime(a)));
         }
       } catch (e) {}
+      if (itemsToShow.length === 0 && currentUser && shareTarget === currentUser.id) {
+        itemsToShow = animeList.filter((a) => (getStatus(a.id) === "liked" || getStatus(a.id) === "watched") && !(hideR18 && isR18Anime(a)));
+      }
     } else {
       itemsToShow = animeList.filter((a) => (getStatus(a.id) === "liked" || getStatus(a.id) === "watched") && !(hideR18 && isR18Anime(a)));
     }
@@ -1873,6 +1884,7 @@
       state.lang = e.target.value;
       try { window.localStorage.setItem(LANG_KEY, state.lang); } catch (err) {}
       applyStaticI18n();
+      updateAuthUI();
       renderAll();
     });
   }
@@ -2046,9 +2058,20 @@
   document.getElementById("ai-hide-r18")?.addEventListener("change", (e) => { state.aiHideR18 = e.target.checked; renderAiView(); });
   document.getElementById("btn-copy-ai-prompt")?.addEventListener("click", () => copyText(buildAiAndShareData().promptText, t("copiedAi")));
   document.getElementById("btn-copy-share-list")?.addEventListener("click", () => copyText(buildAiAndShareData().shareText, t("copiedShare")));
-  document.getElementById("btn-copy-share-url")?.addEventListener("click", () => {
+  document.getElementById("btn-copy-share-url")?.addEventListener("click", async () => {
     const uid = currentUser ? currentUser.id : "local";
     const r18Flag = state.aiHideR18 ? "1" : "0";
+    if (sbClient && currentUser) {
+      try {
+        await sbClient.from("user_profiles").upsert({
+          user_id: currentUser.id,
+          is_public: true,
+          hide_r18_public: state.aiHideR18,
+          updated_at: new Date().toISOString()
+        });
+        await syncWatchlistWithCloud();
+      } catch (e) {}
+    }
     const shareUrl = `${window.location.origin}${window.location.pathname}?share=${encodeURIComponent(uid)}&hideR18=${r18Flag}`;
     copyText(shareUrl, t("copiedShareUrl"));
   });
@@ -2058,6 +2081,383 @@
   document.getElementById("btn-debug-scan")?.addEventListener("click", runDebugScan);
   document.getElementById("btn-debug-copy")?.addEventListener("click", () => copyText(JSON.stringify(debugLastIssues, null, 2), "已複製異常清單 JSON"));
   document.getElementById("btn-load-reports")?.addEventListener("click", loadReportsForDebug);
+
+  // ==================== v2.1 Google 一鍵登入 ====================
+  document.getElementById("btn-auth-google")?.addEventListener("click", async () => {
+    if (!sbClient) { showToast("尚未設定 Supabase 連線", false); return; }
+    const { error } = await sbClient.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: window.location.origin + window.location.pathname }
+    });
+    if (error) showToast("Google 登入失敗：" + error.message, false);
+  });
+
+  // ==================== v2.1 手機版「☰ 更多」選單 ====================
+  const mobileMenuModal = document.getElementById("mobile-menu-modal");
+  const closeMobileMenu = () => { if (mobileMenuModal) { mobileMenuModal.classList.add("hidden"); mobileMenuModal.classList.remove("flex"); } };
+  document.getElementById("btn-mobile-menu")?.addEventListener("click", () => {
+    const mLang = document.getElementById("mobile-lang-select");
+    if (mLang) mLang.value = state.lang;
+    const mThemeLbl = document.getElementById("mobile-theme-label");
+    if (mThemeLbl) mThemeLbl.textContent = ThemeManager.current === "dark" ? "目前深色 → 切淺色" : "目前淺色 → 切深色";
+    if (mobileMenuModal) { mobileMenuModal.classList.remove("hidden"); mobileMenuModal.classList.add("flex"); }
+  });
+  document.getElementById("mobile-menu-close")?.addEventListener("click", closeMobileMenu);
+  mobileMenuModal?.addEventListener("click", (e) => { if (e.target === mobileMenuModal) closeMobileMenu(); });
+
+  document.getElementById("mobile-lang-select")?.addEventListener("change", (e) => {
+    state.lang = e.target.value;
+    try { window.localStorage.setItem(LANG_KEY, state.lang); } catch (err) {}
+    const dLang = document.getElementById("lang-select");
+    if (dLang) dLang.value = state.lang;
+    applyStaticI18n();
+    updateAuthUI();
+    renderAll();
+  });
+
+  document.getElementById("mobile-theme-toggle")?.addEventListener("click", () => {
+    ThemeManager.toggle();
+    const mThemeLbl = document.getElementById("mobile-theme-label");
+    if (mThemeLbl) mThemeLbl.textContent = ThemeManager.current === "dark" ? "目前深色 → 切淺色" : "目前淺色 → 切深色";
+  });
+
+  document.getElementById("mobile-menu-about")?.addEventListener("click", () => { closeMobileMenu(); switchView("about"); });
+  document.getElementById("mobile-menu-tour")?.addEventListener("click", () => { closeMobileMenu(); openTour(); });
+  document.getElementById("nav-debug-mobile")?.addEventListener("click", () => { closeMobileMenu(); switchView("debug"); });
+
+  // ==================== v2.1 隱私權政策與使用條款彈窗 ====================
+  const LEGAL_CONTENT = {
+    privacy: {
+      zh: {
+        title: "隱私權政策 (Privacy Policy)",
+        paragraphs: [
+          "1. 資料蒐集範圍：當你使用 Google 或 Email 登入 ANIME LOG. 時，本網站僅透過 Supabase 儲存你的帳號識別碼（User ID）、電子郵件地址，以及你主動標記的動漫觀看狀態與推坑紀錄。",
+          "2. 資料用途：上述資料僅用於提供跨裝置雲端同步、個人公開片單分享（由你主動開啟）及匿名化的全站統計排行，絕不向第三方販售或作為廣告追蹤用途。",
+          "3. 資料控制與刪除：你可隨時於「我的清單」重設所有追番紀錄，或於帳號視窗登出；若需完全刪除雲端帳號資料，可透過「關於 → 回報問題」聯繫 OEZS STUDIO 協助處理。"
+        ]
+      },
+      ja: {
+        title: "プライバシーポリシー (Privacy Policy)",
+        paragraphs: [
+          "1. 収集する情報：Googleまたはメールでログインした場合、同期機能のためにユーザーID、メールアドレス、視聴記録・推し投票データのみをSupabase上に保存します。",
+          "2. 利用目的：デバイス間同期、公開シェア機能、および匿名化された統計集計のみに使用し、第三者への販売や広告追跡は一切行いません。",
+          "3. データの管理：記録のリセットやログアウトはいつでも可能です。アカウント削除をご希望の場合は「About → 不具合・要望報告」よりご連絡ください。"
+        ]
+      },
+      en: {
+        title: "Privacy Policy",
+        paragraphs: [
+          "1. Data Collected: When signing in via Google or Email, ANIME LOG. stores only your User ID, email address, and your anime ratings/recommendations via Supabase.",
+          "2. Purpose: Used strictly for cross-device sync, optional public list sharing, and anonymized community statistics. We never sell your data or use it for ad tracking.",
+          "3. Control & Deletion: You can reset your watchlist or sign out anytime. To request full account deletion, contact OEZS STUDIO via About -> Report Issue."
+        ]
+      }
+    },
+    terms: {
+      zh: {
+        title: "使用條款 (Terms of Use)",
+        paragraphs: [
+          "1. 服務性質：ANIME LOG. 由 OEZS STUDIO 製作及維護，為非商業性質之個人追番檢核與口味分析工具。",
+          "2. 著作權聲明：本站顯示之動畫名稱、分類與封面縮圖皆來自公開動漫資料庫（如 AniList、MyAnimeList、Bangumi），版權均歸原製作委員會與權利人所有。",
+          "3. 分級與免責：本站收錄之成人向（R18）作品預設於分享與 AI 打包中隱藏，請依當地法規合理使用；網站不對任何第三方服務中斷或資料遺失負擔賠償責任，建議定期下載 JSON 備份。"
+        ]
+      },
+      ja: {
+        title: "利用規約 (Terms of Use)",
+        paragraphs: [
+          "1. サービス内容：ANIME LOG.はOEZS STUDIOが制作・運営する非商用の個人向けアニメ視聴管理ツールです。",
+          "2. 著作権：作品タイトルおよびサムネイル画像は公開データベース（AniList等）より取得しており、権利は各製作委員会・著作権者に帰属します。",
+          "3. 免責事項：R18作品はシェア時にデフォルトで非表示となります。定期的なJSONバックアップを推奨します。"
+        ]
+      },
+      en: {
+        title: "Terms of Use",
+        paragraphs: [
+          "1. Service: ANIME LOG. is a non-commercial anime tracking and discovery tool maintained by OEZS STUDIO.",
+          "2. Copyright: All anime titles and cover thumbnails are sourced from public anime databases and belong to their respective copyright holders.",
+          "3. Disclaimer: R18 titles are hidden by default in sharing/AI exports. Regular JSON backups are recommended."
+        ]
+      }
+    }
+  };
+
+  const legalModal = document.getElementById("legal-modal");
+  const closeLegalModal = () => { if (legalModal) { legalModal.classList.add("hidden"); legalModal.classList.remove("flex"); } };
+  function openLegalModal(type) {
+    const doc = (LEGAL_CONTENT[type] && LEGAL_CONTENT[type][state.lang]) || LEGAL_CONTENT[type].zh;
+    document.getElementById("legal-title").textContent = doc.title;
+    document.getElementById("legal-body").innerHTML = doc.paragraphs.map((p) => `<p>${escapeHtml(p)}</p>`).join("");
+    if (legalModal) { legalModal.classList.remove("hidden"); legalModal.classList.add("flex"); }
+  }
+  document.getElementById("btn-open-privacy")?.addEventListener("click", () => openLegalModal("privacy"));
+  document.getElementById("btn-open-terms")?.addEventListener("click", () => openLegalModal("terms"));
+  document.getElementById("legal-close")?.addEventListener("click", closeLegalModal);
+  document.getElementById("legal-done")?.addEventListener("click", closeLegalModal);
+
+  // ==================== v2.1 社群分享海報卡 (1080x1350 PNG) ====================
+  function drawRoundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function loadCorsImage(url) {
+    return new Promise((resolve) => {
+      if (!url) { resolve(null); return; }
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      const timer = setTimeout(() => resolve(null), 4000);
+      img.onload = () => { clearTimeout(timer); resolve(img); };
+      img.onerror = () => { clearTimeout(timer); resolve(null); };
+      img.src = url;
+    });
+  }
+
+  function truncateCanvasText(ctx, text, maxW) {
+    let s = String(text || "");
+    if (ctx.measureText(s).width <= maxW) return s;
+    while (s.length > 1 && ctx.measureText(s + "…").width > maxW) s = s.slice(0, -1);
+    return s + "…";
+  }
+
+  async function renderSharePoster() {
+    await ensureAllYearsLoaded();
+    const canvas = document.getElementById("share-poster-canvas");
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    const W = 1080, H = 1350;
+    const hideR18 = state.aiHideR18;
+    const r18Pass = (a) => !(hideR18 && isR18Anime(a));
+
+    const ratedItems = animeList.filter((a) => getStatus(a.id) !== "unwatched" && r18Pass(a));
+    const likedItems = animeList.filter((a) => getStatus(a.id) === "liked" && r18Pass(a));
+    const dislikedCount = animeList.filter((a) => getStatus(a.id) === "disliked" && r18Pass(a)).length;
+    const likeRate = likedItems.length + dislikedCount > 0 ? Math.round((likedItems.length / (likedItems.length + dislikedCount)) * 100) + "%" : "—";
+
+    const genreMap = {};
+    likedItems.forEach((a) => (a.genres || []).forEach((g) => {
+      if (hideR18 && g === "R18") return;
+      genreMap[g] = (genreMap[g] || 0) + 1;
+    }));
+    const topGenres = Object.entries(genreMap).sort((a, b) => b[1] - a[1]).slice(0, 5);
+    const featured = likedItems.slice(0, 6);
+
+    // 1. 深色霓虹漸層背景
+    const bg = ctx.createLinearGradient(0, 0, W, H);
+    bg.addColorStop(0, "#0b1021");
+    bg.addColorStop(0.5, "#141332");
+    bg.addColorStop(1, "#090d18");
+    ctx.fillStyle = bg;
+    ctx.fillRect(0, 0, W, H);
+
+    // 裝飾光暈
+    const glow1 = ctx.createRadialGradient(180, 180, 20, 180, 180, 420);
+    glow1.addColorStop(0, "rgba(139, 92, 246, 0.28)");
+    glow1.addColorStop(1, "rgba(139, 92, 246, 0)");
+    ctx.fillStyle = glow1;
+    ctx.fillRect(0, 0, W, H);
+
+    const glow2 = ctx.createRadialGradient(920, 1120, 20, 920, 1120, 440);
+    glow2.addColorStop(0, "rgba(244, 63, 94, 0.22)");
+    glow2.addColorStop(1, "rgba(244, 63, 94, 0)");
+    ctx.fillStyle = glow2;
+    ctx.fillRect(0, 0, W, H);
+
+    // 邊框
+    drawRoundRect(ctx, 36, 36, W - 72, H - 72, 36);
+    ctx.strokeStyle = "rgba(167, 139, 250, 0.28)";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // 2. 頂部品牌與標題
+    drawRoundRect(ctx, 76, 78, 205, 46, 23);
+    ctx.fillStyle = "rgba(139, 92, 246, 0.25)";
+    ctx.fill();
+    ctx.fillStyle = "#ddd6fe";
+    ctx.font = "700 22px Inter, 'Noto Sans TC', sans-serif";
+    ctx.fillText("ANIME LOG.", 112, 109);
+
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "500 22px Inter, 'Noto Sans TC', sans-serif";
+    ctx.textAlign = "right";
+    ctx.fillText(new Date().toISOString().slice(0, 10), W - 76, 109);
+    ctx.textAlign = "left";
+
+    const posterHeading = state.lang === "ja" ? "マイアニメ嗜好カード" : state.lang === "en" ? "MY ANIME TASTE CARD" : "我的追番口味圖鑑";
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "800 54px Inter, 'Noto Sans TC', sans-serif";
+    ctx.fillText(posterHeading, 76, 196);
+
+    // 3. 三格數據膠囊
+    const statBoxes = [
+      { label: state.lang === "en" ? "RATED" : "已標記", val: `${ratedItems.length}`, color: "#e2e8f0" },
+      { label: state.lang === "en" ? "LIKED" : "❤️ 喜歡", val: `${likedItems.length}`, color: "#fb7185" },
+      { label: state.lang === "en" ? "LIKE RATIO" : "評價喜歡率", val: likeRate, color: "#fbbf24" }
+    ];
+    statBoxes.forEach((sb, idx) => {
+      const bx = 76 + idx * 316;
+      drawRoundRect(ctx, bx, 234, 296, 112, 22);
+      ctx.fillStyle = "rgba(15, 23, 42, 0.72)";
+      ctx.fill();
+      ctx.strokeStyle = "rgba(148, 163, 184, 0.2)";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      ctx.fillStyle = "#94a3b8";
+      ctx.font = "600 20px Inter, 'Noto Sans TC', sans-serif";
+      ctx.fillText(sb.label, bx + 24, 272);
+
+      ctx.fillStyle = sb.color;
+      ctx.font = "800 42px Inter, 'Noto Sans TC', sans-serif";
+      ctx.fillText(sb.val, bx + 24, 324);
+    });
+
+    // 4. Top 5 偏好類型橫條
+    ctx.fillStyle = "#cbd5e1";
+    ctx.font = "700 26px Inter, 'Noto Sans TC', sans-serif";
+    ctx.fillText(state.lang === "en" ? "TOP FAVORITE GENRES" : "偏好類型 TOP 5", 76, 404);
+
+    if (topGenres.length === 0) {
+      ctx.fillStyle = "#64748b";
+      ctx.font = "500 22px Inter, 'Noto Sans TC', sans-serif";
+      ctx.fillText(state.lang === "en" ? "Mark liked anime to unlock your genre DNA!" : "標記幾部「喜歡」的動畫，就會自動生成你的類型 DNA！", 76, 456);
+    } else {
+      const maxG = topGenres[0][1] || 1;
+      topGenres.forEach(([g, c], i) => {
+        const gy = 434 + i * 48;
+        ctx.fillStyle = "#f1f5f9";
+        ctx.font = "600 22px Inter, 'Noto Sans TC', sans-serif";
+        ctx.fillText(genreLabel(g), 76, gy + 24);
+
+        const barX = 230, barW = 680;
+        drawRoundRect(ctx, barX, gy + 6, barW, 22, 11);
+        ctx.fillStyle = "rgba(148, 163, 184, 0.16)";
+        ctx.fill();
+
+        const fillW = Math.max(24, Math.round((c / maxG) * barW));
+        const barGrad = ctx.createLinearGradient(barX, 0, barX + fillW, 0);
+        barGrad.addColorStop(0, "#f43f5e");
+        barGrad.addColorStop(1, "#8b5cf6");
+        drawRoundRect(ctx, barX, gy + 6, fillW, 22, 11);
+        ctx.fillStyle = barGrad;
+        ctx.fill();
+
+        ctx.fillStyle = "#cbd5e1";
+        ctx.font = "700 22px Inter, 'Noto Sans TC', sans-serif";
+        ctx.textAlign = "right";
+        ctx.fillText(`${c}`, W - 76, gy + 24);
+        ctx.textAlign = "left";
+      });
+    }
+
+    // 5. 精選喜歡代表作（最多 6 部，2x3 卡片）
+    ctx.fillStyle = "#cbd5e1";
+    ctx.font = "700 26px Inter, 'Noto Sans TC', sans-serif";
+    ctx.fillText(state.lang === "en" ? "FEATURED LIKED ANIME" : "私心推薦代表作", 76, 722);
+
+    const coverImgs = await Promise.all(featured.map((a) => loadCorsImage(CoverArtManager.getUrl(a))));
+
+    if (featured.length === 0) {
+      drawRoundRect(ctx, 76, 752, W - 152, 420, 24);
+      ctx.fillStyle = "rgba(15, 23, 42, 0.55)";
+      ctx.fill();
+      ctx.fillStyle = "#64748b";
+      ctx.font = "500 26px Inter, 'Noto Sans TC', sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(state.lang === "en" ? "No liked anime selected yet" : "尚未標記喜歡的作品", W / 2, 970);
+      ctx.textAlign = "left";
+    } else {
+      featured.forEach((a, idx) => {
+        const col = idx % 2;
+        const row = Math.floor(idx / 2);
+        const cx = 76 + col * 476;
+        const cy = 752 + row * 150;
+        const cw = 452, ch = 132;
+
+        drawRoundRect(ctx, cx, cy, cw, ch, 20);
+        ctx.fillStyle = "rgba(18, 24, 38, 0.88)";
+        ctx.fill();
+        ctx.strokeStyle = "rgba(139, 92, 246, 0.28)";
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
+        // 封面縮圖或漸層替代圖
+        const px = cx + 14, py = cy + 14, pw = 74, ph = 104;
+        ctx.save();
+        drawRoundRect(ctx, px, py, pw, ph, 12);
+        ctx.clip();
+        if (coverImgs[idx]) {
+          ctx.drawImage(coverImgs[idx], px, py, pw, ph);
+        } else {
+          const fb = ctx.createLinearGradient(px, py, px + pw, py + ph);
+          fb.addColorStop(0, "#4c1d95");
+          fb.addColorStop(1, "#1e293b");
+          ctx.fillStyle = fb;
+          ctx.fillRect(px, py, pw, ph);
+          ctx.fillStyle = "#ddd6fe";
+          ctx.font = "700 18px Inter, 'Noto Sans TC', sans-serif";
+          ctx.fillText("★", px + 28, py + 58);
+        }
+        ctx.restore();
+
+        const title = getDisplayTitles(a).primary;
+        ctx.fillStyle = "#a78bfa";
+        ctx.font = "600 18px Inter, 'Noto Sans TC', sans-serif";
+        ctx.fillText(seasonLabel(a.season, true), cx + 104, cy + 40);
+
+        ctx.fillStyle = "#ffffff";
+        ctx.font = "700 22px Inter, 'Noto Sans TC', sans-serif";
+        ctx.fillText(truncateCanvasText(ctx, title, cw - 122), cx + 104, cy + 74);
+
+        const gText = (a.genres || []).slice(0, 3).map(genreLabel).join(" · ");
+        ctx.fillStyle = "#94a3b8";
+        ctx.font = "500 17px Inter, 'Noto Sans TC', sans-serif";
+        ctx.fillText(truncateCanvasText(ctx, gText, cw - 122), cx + 104, cy + 106);
+      });
+    }
+
+    // 6. 底部品牌浮水印
+    ctx.fillStyle = "rgba(148, 163, 184, 0.2)";
+    ctx.fillRect(76, 1224, W - 152, 1.5);
+
+    ctx.fillStyle = "#e2e8f0";
+    ctx.font = "700 22px Inter, 'Noto Sans TC', sans-serif";
+    ctx.fillText("ANIME LOG.  ·  OEZS STUDIO", 76, 1272);
+
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "500 20px Inter, 'Noto Sans TC', sans-serif";
+    ctx.textAlign = "right";
+    ctx.fillText(hideR18 ? "R18 Hidden" : "Full Catalog", W - 76, 1272);
+    ctx.textAlign = "left";
+
+    const noteEl = document.getElementById("poster-status-note");
+    if (noteEl) noteEl.textContent = hideR18 ? "已自動隱藏 R18 作品" : "包含全部已標記作品";
+  }
+
+  const posterModal = document.getElementById("poster-modal");
+  const closePosterModal = () => { if (posterModal) { posterModal.classList.add("hidden"); posterModal.classList.remove("flex"); } };
+  document.getElementById("btn-generate-poster")?.addEventListener("click", async () => {
+    if (posterModal) { posterModal.classList.remove("hidden"); posterModal.classList.add("flex"); }
+    await renderSharePoster();
+  });
+  document.getElementById("poster-close")?.addEventListener("click", closePosterModal);
+  document.getElementById("btn-download-poster")?.addEventListener("click", () => {
+    const canvas = document.getElementById("share-poster-canvas");
+    if (!canvas) return;
+    try {
+      const a = document.createElement("a");
+      a.download = `anime-log-card-${new Date().toISOString().slice(0, 10)}.png`;
+      a.href = canvas.toDataURL("image/png");
+      a.click();
+      showToast("已下載社群分享海報 (.png)！", false);
+    } catch (e) {
+      showToast("圖片匯出受瀏覽器限制，請長按海報直接另存圖片", false);
+    }
+  });
 
   // ==================== 啟動流程 ====================
   ThemeManager.init();

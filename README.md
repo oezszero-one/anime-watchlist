@@ -1,18 +1,10 @@
-# ANIME LOG. (v2.0 · Cloud Sync & Community)
+# ANIME LOG. (v2.1 · Google Login & Share Poster)
 
-> Watch. Rate. Discover. — 新番動漫手機版檢核平台（第二階段）
+> Watch. Rate. Discover. — 新番動漫手機版檢核平台（第二階段 v2.1）
 
-## v2.0 新增功能
-- **初次訪問功能導覽**：首次開站自動彈出 4 步功能介紹，並提供「略過導覽 Skip」按鈕。
-- **每日一推**：首頁依你的「喜歡／不喜歡」類型權重，每天從「沒看過」的作品中精選推薦一部。
-- **推坑互動（🔥 +1）**：在每部作品卡片上點擊推坑，並讀取靜態統計快取 `stats.json`。
-- **公開分享網址（`?share=...`）**：一鍵產生個人唯讀追番分享頁，並遵循「隱藏 R18」設定。
-- **關於頁升級**：新增網站累計訪問人次與「回報問題（缺番／許願／異常）」彈窗。
-- **Supabase 雲端同步與管理員面板**：支援匿名登入與 Email 免密碼登入跨裝置同步；設定 `adminUserIds` 後於選單開啟偵錯與使用者回報管理面板。
-
-## 啟用第二階段 Supabase 雲端步驟
-1. 前往 [Supabase](https://supabase.com/) 建立免費專案。
-2. 打開 **SQL Editor**，貼上並執行本專案 `supabase/schema.sql` 內的全部 SQL。
-3. 到 **Authentication → Providers** 確認啟用 **Anonymous Sign-Ins** 與 **Email**。
-4. 打開本專案的 `config.js`，填入你的 `supabaseUrl`、`supabaseAnonKey` 與管理員 `adminUserIds`。
-5. （省流量社群統計）在 GitHub 儲存庫的 **Settings → Secrets and variables → Actions** 新增 `SUPABASE_URL` 與 `SUPABASE_SERVICE_ROLE_KEY`，即可每天自動更新 `stats.json`。
+## v2.1 新增功能與修正
+- **Google 帳號一鍵登入**：除匿名與 Email 登入外，新增 Google OAuth 一鍵登入，解決免費版 Email 寄信次數上限。
+- **一鍵產生社群分享圖（PNG 海報卡）**：純前端 Canvas 繪製 1080×1350 雜誌風「追番口味圖鑑卡」（含數據總覽、Top 5 偏好類型、精選喜歡作品與 OEZS STUDIO 浮水印，支援隱藏 R18）。
+- **修復公開分享連結（`?share=`）**：點「複製公開分享網址」時自動同步雲端並寫入 `user_profiles.is_public = true`，開啟分享連結可正確顯示片單。
+- **手機頂部清爽改版**：手機上方僅保留清楚的「● 登入」按鈕與「☰」選單，將語言、深淺色主題與關於整齊收納。
+- **隱私權政策與使用條款**：於「關於」頁底部新增三語隱私權政策與使用條款彈窗，符合 Google OAuth 申請規範。

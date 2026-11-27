@@ -33,8 +33,8 @@
         </div>
       </div>
 
-      <!-- 右側：桌面導覽 + 帳號雲端狀態 + 關於 + 語言 + 主題 -->
-      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+      <!-- 右側：桌面展開；手機清爽收納為「● 登入」＋「☰」 -->
+      <div class="flex items-center gap-2 shrink-0">
         <nav class="hidden md:flex items-center gap-1 surface-pill p-1 rounded-xl" aria-label="主導覽">
           <button type="button" data-nav="home" data-i18n="navHome" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">首頁總覽</button>
           <button type="button" data-nav="catalog" data-i18n="navCatalog" class="nav-btn px-3 py-1.5 rounded-lg text-sm font-medium transition">新番檢核</button>
@@ -44,36 +44,33 @@
           <button type="button" id="nav-debug-desktop" data-nav="debug" class="nav-btn hidden px-2.5 py-1.5 rounded-lg text-xs font-semibold text-amber-400">🔧 Debug</button>
         </nav>
 
-        <!-- 雲端同步／帳號狀態按鈕 -->
-        <button type="button" id="btn-auth-open" class="px-2.5 py-1.5 rounded-xl surface-pill text-xs font-semibold flex items-center gap-1.5 hover:border-violet-500/50 transition">
-          <span id="auth-dot" class="w-2 h-2 rounded-full bg-slate-400"></span>
-          <span id="auth-btn-label" class="hidden sm:inline">本機</span>
+        <!-- 雲端登入／帳號狀態按鈕（手機與桌面皆清楚顯示文字） -->
+        <button type="button" id="btn-auth-open" class="px-3 py-1.5 rounded-xl surface-pill text-xs font-semibold flex items-center gap-1.5 hover:border-violet-500/50 transition">
+          <span id="auth-dot" class="w-2 h-2 rounded-full bg-slate-400 shrink-0"></span>
+          <span id="auth-btn-label">登入</span>
         </button>
 
-        <!-- 手機版上方「關於」連結 -->
-        <button type="button" data-nav="about" data-i18n="navAbout" class="mobile-top-about md:hidden px-2.5 py-1.5 rounded-xl surface-pill text-xs font-semibold transition">
-          關於
-        </button>
-
-        <!-- 手機版管理員偵錯按鈕 -->
-        <button type="button" id="nav-debug-mobile" data-nav="debug" class="hidden md:hidden px-2 py-1.5 rounded-xl surface-pill text-xs font-semibold text-amber-400" title="偵錯工具">
-          🔧
-        </button>
-
-        <!-- 三語切換 -->
-        <select id="lang-select" aria-label="Language" class="px-2 py-1.5 rounded-xl surface-pill text-xs font-semibold focus:outline-none focus:border-violet-500 cursor-pointer">
+        <!-- 桌面版三語切換 -->
+        <select id="lang-select" aria-label="Language" class="hidden md:block px-2 py-1.5 rounded-xl surface-pill text-xs font-semibold focus:outline-none focus:border-violet-500 cursor-pointer">
           <option value="zh">繁中</option>
           <option value="ja">日本語</option>
           <option value="en">EN</option>
         </select>
 
-        <!-- 淺色／深色模式切換 -->
-        <button type="button" id="btn-theme-toggle" aria-label="切換淺色或深色模式" class="p-2 rounded-xl surface-pill hover:border-violet-500/50 transition flex items-center justify-center">
+        <!-- 桌面版淺色／深色模式切換 -->
+        <button type="button" id="btn-theme-toggle" aria-label="切換淺色或深色模式" class="hidden md:flex p-2 rounded-xl surface-pill hover:border-violet-500/50 transition items-center justify-center">
           <svg id="icon-sun" class="w-4 h-4 text-amber-400 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
           <svg id="icon-moon" class="w-4 h-4 text-violet-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <!-- 手機版「☰ 更多」選單按鈕 -->
+        <button type="button" id="btn-mobile-menu" aria-label="開啟更多選單" class="md:hidden p-2 rounded-xl surface-pill hover:border-violet-500/50 transition flex items-center justify-center">
+          <svg class="w-4 h-4 text-main" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
       </div>
@@ -351,6 +348,7 @@
         <div class="flex flex-wrap items-center justify-between gap-2">
           <span data-i18n="aiPreviewLabel" class="text-xs font-semibold text-sub">產生的 AI 推薦提示詞預覽</span>
           <div class="flex flex-wrap items-center gap-2">
+            <button type="button" id="btn-generate-poster" data-i18n="btnGenPoster" class="px-3 py-2 rounded-xl bg-pink-500/15 hover:bg-pink-500/25 text-pink-600 dark:text-pink-300 border border-pink-500/35 text-xs font-semibold transition">產生社群分享圖</button>
             <button type="button" id="btn-copy-share-url" data-i18n="btnCopyShareUrl" class="px-3 py-2 rounded-xl bg-sky-500/15 hover:bg-sky-500/25 text-sky-600 dark:text-sky-300 border border-sky-500/30 text-xs font-semibold transition">複製公開分享網址</button>
             <button type="button" id="btn-copy-share-list" data-i18n="btnCopyShare" class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition">複製純文字分享</button>
             <button type="button" id="btn-download-ai-txt" data-i18n="btnDownloadTxt" class="px-3 py-2 rounded-xl surface-pill text-xs font-semibold transition">下載 .txt</button>
@@ -400,6 +398,12 @@
             <span>←</span>
             <span data-i18n="btnBack">返回</span>
           </button>
+        </div>
+
+        <div class="pt-3 border-t border-slate-500/15 flex items-center justify-center gap-3 text-xs text-dim">
+          <button type="button" id="btn-open-privacy" data-i18n="linkPrivacy" class="hover:text-violet-400 underline underline-offset-2">隱私權政策</button>
+          <span>｜</span>
+          <button type="button" id="btn-open-terms" data-i18n="linkTerms" class="hover:text-violet-400 underline underline-offset-2">使用條款</button>
         </div>
       </div>
     </section>
@@ -511,13 +515,86 @@
         <button type="button" id="auth-close" class="text-dim hover:text-main text-lg leading-none">✕</button>
       </div>
       <div id="auth-status-box" class="rounded-xl surface-stat p-3.5 text-xs text-sub space-y-1"></div>
-      <div id="auth-login-form" class="space-y-2.5 hidden">
+      <div id="auth-login-form" class="space-y-3 hidden">
+        <button type="button" id="btn-auth-google" class="w-full py-2.5 px-4 rounded-xl bg-white hover:bg-slate-100 text-slate-900 border border-slate-300 text-sm font-bold transition flex items-center justify-center gap-2 shadow-sm">
+          <svg class="w-4 h-4" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.11-6.72-4.96H1.29v3.14C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.28 14.24c-.24-.72-.38-1.49-.38-2.24s.14-1.52.38-2.24V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.99-3.14z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.62l3.99 3.14c.95-2.85 3.6-4.96 6.72-4.96z"/></svg>
+          <span data-i18n="btnGoogleLogin">使用 Google 帳號一鍵登入</span>
+        </button>
+        <div class="flex items-center gap-2 text-[11px] text-dim">
+          <div class="flex-1 h-px bg-slate-500/25"></div>
+          <span>或使用 Email 免密碼登入</span>
+          <div class="flex-1 h-px bg-slate-500/25"></div>
+        </div>
         <input id="auth-email-input" type="email" placeholder="輸入 Email 接收免密碼登入連結..." class="w-full px-3 py-2 rounded-xl surface-input text-sm" />
-        <button type="button" id="btn-auth-magic" class="w-full py-2.5 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold transition">寄送 Email 登入連結</button>
+        <button type="button" id="btn-auth-magic" class="w-full py-2 rounded-xl surface-pill hover:border-violet-500/50 text-xs font-semibold transition">寄送 Email 登入連結</button>
       </div>
       <div class="flex justify-between items-center pt-1">
         <button type="button" id="btn-auth-logout" class="hidden px-3 py-2 rounded-xl bg-rose-500/15 text-rose-400 text-xs font-semibold">登出帳號</button>
         <button type="button" id="auth-done" class="ml-auto px-4 py-2 rounded-xl surface-pill text-xs font-semibold">關閉</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手機版「☰ 更多」選單彈窗 -->
+  <div id="mobile-menu-modal" class="fixed inset-0 z-50 hidden items-end sm:items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+    <div class="w-full max-w-sm rounded-3xl surface-card p-5 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-base font-bold text-main">設定與更多</h3>
+        <button type="button" id="mobile-menu-close" class="text-dim hover:text-main text-lg leading-none">✕</button>
+      </div>
+      <div class="space-y-3">
+        <div class="flex items-center justify-between rounded-xl surface-stat px-3.5 py-2.5">
+          <span class="text-xs font-semibold text-sub">語言 / Language</span>
+          <select id="mobile-lang-select" aria-label="Mobile Language" class="px-2.5 py-1 rounded-lg surface-input text-xs font-semibold">
+            <option value="zh">繁體中文</option>
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <button type="button" id="mobile-theme-toggle" class="w-full flex items-center justify-between rounded-xl surface-stat px-3.5 py-2.5 text-xs font-semibold text-sub hover:border-violet-500/40 transition">
+          <span>外觀主題（深色／淺色）</span>
+          <span id="mobile-theme-label" class="text-violet-500 font-bold">切換</span>
+        </button>
+        <button type="button" id="mobile-menu-about" class="w-full text-left rounded-xl surface-stat px-3.5 py-2.5 text-xs font-semibold text-main hover:border-violet-500/40 transition">
+          關於 ANIME LOG.（訪問人次／回報／條款）
+        </button>
+        <button type="button" id="mobile-menu-tour" class="w-full text-left rounded-xl surface-stat px-3.5 py-2.5 text-xs font-semibold text-main hover:border-violet-500/40 transition">
+          重播功能導覽
+        </button>
+        <button type="button" id="nav-debug-mobile" data-nav="debug" class="hidden w-full text-left rounded-xl surface-stat border-amber-500/35 px-3.5 py-2.5 text-xs font-bold text-amber-400">
+          🔧 管理員偵錯與回報面板
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 社群分享圖 (PNG 海報卡) 預覽彈窗 -->
+  <div id="poster-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+    <div class="w-full max-w-md rounded-3xl surface-card p-5 shadow-2xl space-y-3.5 max-h-[92vh] flex flex-col">
+      <div class="flex items-center justify-between">
+        <h3 data-i18n="posterModalTitle" class="text-base font-bold text-main">社群分享海報卡 (1080×1350)</h3>
+        <button type="button" id="poster-close" class="text-dim hover:text-main text-lg leading-none">✕</button>
+      </div>
+      <div class="flex-1 overflow-y-auto flex justify-center bg-slate-950/60 rounded-2xl p-2">
+        <canvas id="share-poster-canvas" width="1080" height="1350" class="w-full max-w-[340px] h-auto rounded-xl shadow-xl"></canvas>
+      </div>
+      <div class="flex items-center justify-between gap-2 pt-1">
+        <span id="poster-status-note" class="text-[11px] text-dim">已套用目前隱藏 R18 設定</span>
+        <button type="button" id="btn-download-poster" data-i18n="btnDownloadPoster" class="px-4 py-2 rounded-xl bg-violet-600 hover:bg-violet-500 text-white text-xs sm:text-sm font-semibold shadow-lg shadow-violet-600/20">下載 PNG 圖片</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 隱私權政策與使用條款彈窗 -->
+  <div id="legal-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="w-full max-w-lg rounded-2xl surface-card p-5 shadow-2xl space-y-3.5 max-h-[85vh] flex flex-col">
+      <div class="flex items-center justify-between">
+        <h3 id="legal-title" class="text-base font-bold text-main"></h3>
+        <button type="button" id="legal-close" class="text-dim hover:text-main text-lg leading-none">✕</button>
+      </div>
+      <div id="legal-body" class="text-xs sm:text-sm text-sub leading-relaxed space-y-2.5 overflow-y-auto pr-1"></div>
+      <div class="flex justify-end pt-1">
+        <button type="button" id="legal-done" class="px-4 py-2 rounded-xl surface-pill text-xs font-semibold">關閉</button>
       </div>
     </div>
   </div>
